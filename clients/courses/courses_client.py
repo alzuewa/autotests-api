@@ -7,7 +7,7 @@ from clients.api_client import APIClient
 
 class GetCoursesQueryDict(TypedDict):
     """
-    Request structure to get a course list.
+    Request structure to get a courses list.
     """
     userId: str
 
@@ -43,8 +43,8 @@ class CoursesClient(APIClient):
 
     def get_courses_api(self, query: GetCoursesQueryDict) -> Response:
         """
-        Method to get all courses for user with id `user_id`.
-        :param query: a dict with `user_id`.
+        Method to get all courses for user with id `userId`.
+        :param query: a dict with `userId`.
         :return: Response object of type httpx.Response.
         """
         return self.get('/api/v1/courses', params=query)
@@ -69,7 +69,7 @@ class CoursesClient(APIClient):
     def update_course_api(self, course_id: str, request: UpdateCourseRequestDict) -> Response:
         """
         Method to update course by its id.
-        :param course_id: d of the course.
+        :param course_id: id of the course.
         :param request: a dict with `title`, `maxScore`, `minScore`, `description`, `estimatedTime`.
         :return: Response object of type httpx.Response.
         """
@@ -78,7 +78,7 @@ class CoursesClient(APIClient):
     def delete_course_api(self, course_id: str) -> Response:
         """
         Method to delete course by its id.
-        :param course_id:
-        :return:
+        :param course_id: id of the course.
+        :return: Response object of type httpx.Response.
         """
         return self.delete(f'/api/v1/courses/{course_id}')
