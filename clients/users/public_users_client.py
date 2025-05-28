@@ -24,6 +24,6 @@ class PublicUsersClient(APIClient):
         """
         Creates a new user.
         :param request: a dict with `email`, `password`, `lastName`, `firstName`, `middleName`.
-        :return: Response object with response data.
+        :return: Response object of type httpx.Response.
         """
         return self.post('/api/v1/users', json=request)

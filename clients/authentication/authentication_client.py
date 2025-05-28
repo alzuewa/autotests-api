@@ -29,7 +29,7 @@ class AuthenticationClient(APIClient):
         """
         Performs user authentication.
         :param request: a dict with `email` and `password`.
-        :return: Response object with response data.
+        :return: Response object of type httpx.Response.
         """
         return self.post('/api/v1/authentication/login', json=request)
 
@@ -37,6 +37,6 @@ class AuthenticationClient(APIClient):
         """
         Renews accessToken.
         :param request: a dict with `refreshToken`.
-        :return: Response object with response data.
+        :return: Response object of type httpx.Response.
         """
         return self.post('/api/v1/authentication/refresh', json=request)
