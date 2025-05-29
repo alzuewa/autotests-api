@@ -71,7 +71,7 @@ class CoursesClient(APIClient):
         :param query: a dict with `userId`.
         :return: Response object of type httpx.Response.
         """
-        return self.get('/api/v1/courses', params=query)
+        return self.get('/api/v1/courses', params=query)  # noqa
 
     def create_course_api(self, request: CreateCourseRequestDict) -> Response:
         """
