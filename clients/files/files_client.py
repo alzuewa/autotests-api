@@ -50,7 +50,7 @@ class FilesClient(APIClient):
         return self.delete(f'/api/v1/files/{file_id}')
 
 
-def get_private_files_client(user: AuthenticationUserDict) -> FilesClient:
+def get_files_client(user: AuthenticationUserDict) -> FilesClient:
     """
     Function which creates FilesClient instance as HTTP-client with full setup.
     :param user: AuthenticationUserSchema object with user email and password.

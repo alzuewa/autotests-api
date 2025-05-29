@@ -85,7 +85,7 @@ class CoursesClient(APIClient):
         return self.delete(f'/api/v1/courses/{course_id}')
 
 
-def get_private_course_client(user: AuthenticationUserDict) -> CoursesClient:
+def get_courses_client(user: AuthenticationUserDict) -> CoursesClient:
     """
     Function which creates CoursesClient instance as HTTP-client with full setup.
     :param user: AuthenticationUserSchema object with user email and password.
