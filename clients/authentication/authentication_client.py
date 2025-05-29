@@ -7,6 +7,9 @@ from clients.public_http_builder import get_public_http_client
 
 
 class Token(TypedDict):
+    """
+    Auth token structure
+    """
     tokenType: str
     accessToken: str
     refreshToken: str
@@ -21,6 +24,9 @@ class LoginRequestDict(TypedDict):
 
 
 class LoginResponseDict(TypedDict):
+    """
+    Auth response structure
+    """
     token: Token
 
 
@@ -45,11 +51,6 @@ class AuthenticationClient(APIClient):
         return self.post('/api/v1/authentication/login', json=request)
 
     def login(self, request: LoginRequestDict) -> LoginResponseDict:
-        """
-        Performs user authentication.
-        :param request: a dict with `email` and `password`.
-        :return: Response object of type LoginResponseDict, i.e. response in the form of JSON.
-        """
         response = self.login_api(request)
         return response.json()
 
