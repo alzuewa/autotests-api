@@ -6,6 +6,17 @@ from clients.api_client import APIClient
 from clients.public_http_builder import get_public_http_client
 
 
+class User(TypedDict):
+    """
+    User structure
+    """
+    id: str
+    email: str
+    lastName: str
+    firstName: str
+    middleName: str
+
+
 class CreateUserRequestDict(TypedDict):
     """
     Request structure to create user.
@@ -15,6 +26,13 @@ class CreateUserRequestDict(TypedDict):
     lastName: str
     firstName: str
     middleName: str
+
+
+class CreateUserResponseDict(TypedDict):
+    """"
+    Creation user response structure
+    """
+    user: User
 
 
 class PublicUsersClient(APIClient):
@@ -28,6 +46,10 @@ class PublicUsersClient(APIClient):
         :return: Response object of type httpx.Response.
         """
         return self.post('/api/v1/users', json=request)
+
+    def create_user(self, request: CreateUserRequestDict) -> CreateUserResponseDict:
+        response = self.create_user_api(request)
+        return response.json()
 
 
 def get_public_users_client() -> PublicUsersClient:

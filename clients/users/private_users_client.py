@@ -6,6 +6,17 @@ from clients.api_client import APIClient
 from clients.private_http_builder import AuthenticationUserDict, get_private_http_client
 
 
+class User(TypedDict):
+    """
+    User structure
+    """
+    id: str
+    email: str
+    lastName: str
+    firstName: str
+    middleName: str
+
+
 class UpdateUserRequestDict(TypedDict):
     """
     Request structure to update user.
@@ -14,6 +25,13 @@ class UpdateUserRequestDict(TypedDict):
     lastName: str | None
     firstName: str | None
     middleName: str | None
+
+
+class GetUserResponseDict(TypedDict):
+    """"
+    Getting user response structure
+    """
+    user: User
 
 
 class PrivateUsersClient(APIClient):
@@ -35,6 +53,10 @@ class PrivateUsersClient(APIClient):
         :return: Response object of type httpx.Response.
         """
         return self.get(f'/api/v1/users/{user_id}')
+
+    def get_user(self, user_id: str) -> GetUserResponseDict:
+        response = self.get_user_api(user_id)
+        return response.json()
 
     def update_user_api(self, user_id: str, request: UpdateUserRequestDict) -> Response:
         """
