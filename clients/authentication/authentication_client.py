@@ -44,14 +44,6 @@ class AuthenticationClient(APIClient):
         """
         return self.post('/api/v1/authentication/login', json=request)
 
-    def refresh_api(self, request: RefreshRequestDict):
-        """
-        Renews accessToken.
-        :param request: a dict with `refreshToken`.
-        :return: Response object of type httpx.Response.
-        """
-        return self.post('/api/v1/authentication/refresh', json=request)
-
     def login(self, request: LoginRequestDict) -> LoginResponseDict:
         """
         Performs user authentication.
@@ -60,6 +52,14 @@ class AuthenticationClient(APIClient):
         """
         response = self.login_api(request)
         return response.json()
+
+    def refresh_api(self, request: RefreshRequestDict):
+        """
+        Renews accessToken.
+        :param request: a dict with `refreshToken`.
+        :return: Response object of type httpx.Response.
+        """
+        return self.post('/api/v1/authentication/refresh', json=request)
 
 
 def get_authentication_client() -> AuthenticationClient:
