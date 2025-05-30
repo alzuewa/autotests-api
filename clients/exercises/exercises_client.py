@@ -3,7 +3,7 @@ from typing import TypedDict
 from httpx import Response
 
 from clients.api_client import APIClient
-from clients.private_http_builder import get_private_http_client, AuthenticationUserDict
+from clients.private_http_builder import AuthenticationUserSchema, get_private_http_client
 
 
 class Exercise(TypedDict):
@@ -144,7 +144,7 @@ class ExercisesClient(APIClient):
         return self.delete(f'/api/v1/exercises/{exercise_id}')
 
 
-def get_exercises_client(user: AuthenticationUserDict) -> ExercisesClient:
+def get_exercises_client(user: AuthenticationUserSchema) -> ExercisesClient:
     """
     Function which creates ExercisesClient instance as HTTP-client with full setup.
     :param user: AuthenticationUserSchema object with user email and password.

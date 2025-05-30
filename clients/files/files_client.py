@@ -1,36 +1,8 @@
-from pathlib import Path
-from typing import TypedDict
-
-from httpx import Response, URL
+from httpx import Response
 
 from clients.api_client import APIClient
-from clients.private_http_builder import AuthenticationUserDict, get_private_http_client
-
-
-class File(TypedDict):
-    """
-    File structure
-    """
-    id: str
-    filename: str | Path
-    directory: str | Path
-    url: URL
-
-
-class CreateFileRequestDict(TypedDict):
-    """
-    Request structure to create file.
-    """
-    filename: str
-    directory: str
-    upload_file: str | Path
-
-
-class CreateFileResponseDict(TypedDict):
-    """
-    Creation file response structure.
-    """
-    file: File
+from clients.files.files_schema import CreateFileRequestSchema, CreateFileResponseSchema
+from clients.private_http_builder import AuthenticationUserSchema, get_private_http_client
 
 
 class FilesClient(APIClient):
@@ -46,7 +18,7 @@ class FilesClient(APIClient):
         """
         return self.get(f'/api/v1/files/{file_id}')
 
-    def create_file_api(self, request: CreateFileRequestDict) -> Response:
+    def create_file_api(self, request: CreateFileRequestSchema) -> Response:
         """
         Method to upload file.
         :param request: a dict with `filename`, `directory`, `upload_file`.
@@ -54,13 +26,14 @@ class FilesClient(APIClient):
         """
         return self.post(
             '/api/v1/files',
-            data=request,  # It's OK that `upload_file` will also be passed here (as unused field)
-            files={'upload_file': open(f'{request["upload_file"]}', 'rb')}
+            data=request.model_dump(by_alias=True, exclude={'upload_file'}),
+            # It's OK that `upload_file` will also be passed here (as unused field)
+            files={'upload_file': open(f'{request.upload_file}', 'rb')}
         )
 
-    def create_file(self, request: CreateFileRequestDict) -> CreateFileResponseDict:
+    def create_file(self, request: CreateFileRequestSchema) -> CreateFileResponseSchema:
         response = self.create_file_api(request)
-        return response.json()
+        return CreateFileResponseSchema.model_validate_json(response.text)
 
     def delete_file_api(self, file_id: str) -> Response:
         """
@@ -71,7 +44,7 @@ class FilesClient(APIClient):
         return self.delete(f'/api/v1/files/{file_id}')
 
 
-def get_files_client(user: AuthenticationUserDict) -> FilesClient:
+def get_files_client(user: AuthenticationUserSchema) -> FilesClient:
     """
     Function which creates FilesClient instance as HTTP-client with full setup.
     :param user: AuthenticationUserSchema object with user email and password.

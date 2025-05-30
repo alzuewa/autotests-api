@@ -1,55 +1,26 @@
-from typing import TypedDict
-
 from httpx import Response
 
 from clients.api_client import APIClient
 from clients.public_http_builder import get_public_http_client
-
-
-class User(TypedDict):
-    """
-    User structure
-    """
-    id: str
-    email: str
-    lastName: str
-    firstName: str
-    middleName: str
-
-
-class CreateUserRequestDict(TypedDict):
-    """
-    Request structure to create user.
-    """
-    email: str
-    password: str
-    lastName: str
-    firstName: str
-    middleName: str
-
-
-class CreateUserResponseDict(TypedDict):
-    """"
-    Creation user response structure
-    """
-    user: User
+from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema
 
 
 class PublicUsersClient(APIClient):
     """
     A client to work with /api/v1/users without auth.
     """
-    def create_user_api(self, request: CreateUserRequestDict) -> Response:
+
+    def create_user_api(self, request: CreateUserRequestSchema) -> Response:
         """
         Creates a new user.
         :param request: a dict with `email`, `password`, `lastName`, `firstName`, `middleName`.
         :return: Response object of type httpx.Response.
         """
-        return self.post('/api/v1/users', json=request)
+        return self.post('/api/v1/users', json=request.model_dump(by_alias=True))
 
-    def create_user(self, request: CreateUserRequestDict) -> CreateUserResponseDict:
+    def create_user(self, request: CreateUserRequestSchema) -> CreateUserResponseSchema:
         response = self.create_user_api(request)
-        return response.json()
+        return CreateUserResponseSchema.model_validate_json(response.text)
 
 
 def get_public_users_client() -> PublicUsersClient:

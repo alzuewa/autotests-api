@@ -1,40 +1,8 @@
-from typing import TypedDict
-
 from httpx import Response
 
 from clients.api_client import APIClient
+from clients.authentication.authentication_schema import LoginRequestSchema, LoginResponseSchema, RefreshRequestSchema
 from clients.public_http_builder import get_public_http_client
-
-
-class Token(TypedDict):
-    """
-    Auth token structure
-    """
-    tokenType: str
-    accessToken: str
-    refreshToken: str
-
-
-class LoginRequestDict(TypedDict):
-    """
-    Request structure for authentication.
-    """
-    email: str
-    password: str
-
-
-class LoginResponseDict(TypedDict):
-    """
-    Auth response structure
-    """
-    token: Token
-
-
-class RefreshRequestDict(TypedDict):
-    """
-    Request structure for accessToken renew.
-    """
-    refreshToken: str
 
 
 class AuthenticationClient(APIClient):
@@ -42,25 +10,25 @@ class AuthenticationClient(APIClient):
     A client to work with /api/v1/authentication.
     """
 
-    def login_api(self, request: LoginRequestDict) -> Response:
+    def login_api(self, request: LoginRequestSchema) -> Response:
         """
         Performs user authentication.
         :param request: a dict with `email` and `password`.
         :return: Response object of type httpx.Response.
         """
-        return self.post('/api/v1/authentication/login', json=request)
+        return self.post('/api/v1/authentication/login', json=request.model_dump(by_alias=True))
 
-    def login(self, request: LoginRequestDict) -> LoginResponseDict:
+    def login(self, request: LoginRequestSchema) -> LoginResponseSchema:
         response = self.login_api(request)
-        return response.json()
+        return LoginResponseSchema.model_validate_json(response.text)
 
-    def refresh_api(self, request: RefreshRequestDict):
+    def refresh_api(self, request: RefreshRequestSchema) -> Response:
         """
         Renews accessToken.
         :param request: a dict with `refreshToken`.
         :return: Response object of type httpx.Response.
         """
-        return self.post('/api/v1/authentication/refresh', json=request)
+        return self.post('/api/v1/authentication/refresh', json=request.model_dump(by_alias=True))
 
 
 def get_authentication_client() -> AuthenticationClient:
