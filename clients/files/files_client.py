@@ -27,7 +27,6 @@ class FilesClient(APIClient):
         return self.post(
             '/api/v1/files',
             data=request.model_dump(by_alias=True, exclude={'upload_file'}),
-            # It's OK that `upload_file` will also be passed here (as unused field)
             files={'upload_file': open(f'{request.upload_file}', 'rb')}
         )
 

@@ -1,4 +1,4 @@
-from pydantic import BaseModel, ConfigDict, EmailStr, Field
+from pydantic import BaseModel, ConfigDict, EmailStr, Field, UUID4
 
 
 class UserSchema(BaseModel):
@@ -7,7 +7,7 @@ class UserSchema(BaseModel):
     """
     model_config = ConfigDict(populate_by_name=True)
 
-    id: str
+    id: UUID4
     email: EmailStr
     last_name: str = Field(alias='lastName')
     first_name: str = Field(alias='firstName')
