@@ -1,4 +1,5 @@
-from clients.courses.courses_client import get_courses_client, CreateCourseRequestDict
+from clients.courses.courses_client import get_courses_client
+from clients.courses.courses_schema import CreateCourseRequestSchema
 from clients.files.files_client import get_files_client
 from clients.files.files_schema import CreateFileRequestSchema
 from clients.private_http_builder import AuthenticationUserSchema
@@ -31,14 +32,14 @@ create_file_request = CreateFileRequestSchema(
 create_file_response = files_client.create_file(create_file_request)
 print(f'Create file data: {create_file_response}')
 
-create_course_request = CreateCourseRequestDict(
+create_course_request = CreateCourseRequestSchema(
     title='My first course',
-    maxScore=20,
-    minScore=2,
+    max_score=20,
+    min_score=2,
     description='Simple description',
-    estimatedTime='1 week',
-    previewFileId=create_file_response.file.id,
-    createdByUserId=create_user_response.user.id
+    estimated_time='1 week',
+    preview_file_id=str(create_file_response.file.id),
+    created_by_user_id=str(create_user_response.user.id)
 )
 create_course_response = courses_client.create_course(create_course_request)
 print(f'Create course data: {create_course_response}')
