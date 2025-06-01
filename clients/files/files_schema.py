@@ -1,4 +1,6 @@
-from pydantic import BaseModel, FilePath, HttpUrl, UUID4
+from pydantic import BaseModel, Field, FilePath, HttpUrl, UUID4
+
+from tools.fakers import fake
 
 
 class FileSchema(BaseModel):
@@ -15,8 +17,8 @@ class CreateFileRequestSchema(BaseModel):
     """
     Request structure to create file.
     """
-    filename: str
-    directory: str
+    filename: str = Field(default_factory=lambda: f'{fake.uuid4()}.png')
+    directory: str = Field(default='test_files')
     upload_file: str
 
 
