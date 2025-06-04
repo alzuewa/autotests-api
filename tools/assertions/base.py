@@ -29,3 +29,16 @@ def assert_equal(actual: Any, expected: Any, name: str) -> None | AssertionError
         f'Actual value: {actual}. '
     )
 
+
+def assert_is_true(actual: Any, name: str) -> None | AssertionError:
+    """
+    Checks that actual param has truthy value
+    :param actual: Actual value
+    :param name: Checked value name
+    :return: None
+    :raises: AssertionError if actual value isn't truthy
+    """
+    assert actual, (
+        f'Incorrect value: "{name}". '
+        f'Expected truthy value but got "{actual}" instead.'
+    )
