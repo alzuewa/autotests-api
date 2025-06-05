@@ -13,7 +13,7 @@ from tools.assertions.schema import validate_json_schema
 
 @pytest.mark.regression
 @pytest.mark.authentication
-def test_user_login__valid_data():
+def test_login():
     public_users_client = get_public_users_client()
     authentication_client = get_authentication_client()
 
