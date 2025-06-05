@@ -18,7 +18,7 @@ def get_private_http_client(user: AuthenticationUserSchema) -> Client:
     """
     authentication_client = get_authentication_client()
 
-    login_request = LoginRequestSchema(email=str(user.email), password=user.password)
+    login_request = LoginRequestSchema(email=user.email, password=user.password)
     response = authentication_client.login(login_request)
     access_token = response.token.access_token
 
