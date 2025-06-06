@@ -25,7 +25,14 @@ def assert_create_user_response(
     assert_equal(response.user.middle_name, request.middle_name, 'middle_name')
 
 
-def assert_user(actual: UserSchema, expected: UserSchema):
+def assert_user(actual: UserSchema, expected: UserSchema) -> None | AssertionError:
+    """
+    Checks that actual user data matches expected
+    :param actual: actual user data
+    :param expected: expected user data
+    :return: None
+    :raises: AssertionError if actual and expected data don't match
+    """
     assert_equal(actual.id, expected.id, name='id')
     assert_equal(actual.email, expected.email, name='email')
     assert_equal(actual.last_name, expected.last_name, name='last_name')
@@ -36,5 +43,12 @@ def assert_user(actual: UserSchema, expected: UserSchema):
 def assert_get_user_response(
         get_user_response: GetUserResponseSchema,
         create_user_response: CreateUserResponseSchema
-):
+) -> None | AssertionError:
+    """
+    Checks that response for getting user matches response for its creating
+    :param get_user_response: API response for getting user data
+    :param create_user_response: API response for creating user data
+    :return: None
+    :raises: AssertionError if getting and creating user data don't match
+    """
     return assert_user(actual=get_user_response.user, expected=create_user_response.user)
