@@ -13,7 +13,7 @@ def assert_create_user_response(
         request: CreateUserRequestSchema
 ) -> None | AssertionError:
     """
-    Checks that CreateUserRequest matches CreateUserResponse
+    Checks that CreateUserResponse matches CreateUserRequest
     :param response: API response with user data
     :param request: Initial request to create user
     :return: None
@@ -45,9 +45,9 @@ def assert_get_user_response(
         create_user_response: CreateUserResponseSchema
 ) -> None | AssertionError:
     """
-    Checks that response for getting user matches response for its creating
-    :param get_user_response: API response for getting user data
-    :param create_user_response: API response for creating user data
+    Checks that GetUserResponse matches CreateUserResponse
+    :param get_user_response: API response to get user data
+    :param create_user_response: API response to create user
     :return: None
     :raises: AssertionError if getting and creating user data don't match
     """
