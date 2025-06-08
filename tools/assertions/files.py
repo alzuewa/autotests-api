@@ -54,7 +54,13 @@ def assert_get_file_response(
     """
     assert_file(get_file_response.file, create_file_response.file)
 
-def assert_create_file_with_empty_filename_response(actual: ValidationErrorResponseSchema):
+def assert_create_file_with_empty_filename_response(actual: ValidationErrorResponseSchema) -> None | AssertionError:
+    """
+    Checks that API response to creating file with empty filename matches expected Validation error
+    :param actual: API response with Validation error which needs to be checked
+    :return: None
+    :raises: AssertionError if actual response doesn't match expected one
+    """
     expected = ValidationErrorResponseSchema(
         details=[
             ValidationErrorSchema(
@@ -68,7 +74,13 @@ def assert_create_file_with_empty_filename_response(actual: ValidationErrorRespo
     )
     assert_validation_error_response(actual, expected)
 
-def assert_create_file_with_empty_directory_response(actual: ValidationErrorResponseSchema):
+def assert_create_file_with_empty_directory_response(actual: ValidationErrorResponseSchema) -> None | AssertionError:
+    """
+    Checks that API response to creating file with empty directory matches expected Validation error
+    :param actual: API response with Validation error which needs to be checked
+    :return: None
+    :raises: AssertionError if actual response doesn't match expected one
+    """
     expected = ValidationErrorResponseSchema(
         details=[
             ValidationErrorSchema(

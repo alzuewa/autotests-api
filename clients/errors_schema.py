@@ -4,6 +4,9 @@ from pydantic import BaseModel, ConfigDict, Field
 
 
 class ValidationErrorSchema(BaseModel):
+    """
+    Validation error structure
+    """
     model_config = ConfigDict(populate_by_name=True)
 
     type: str
@@ -14,6 +17,9 @@ class ValidationErrorSchema(BaseModel):
 
 
 class ValidationErrorResponseSchema(BaseModel):
+    """
+    Structure describing Validation error API response
+    """
     model_config = ConfigDict(populate_by_name=True)
 
     details: list[ValidationErrorSchema] = Field(alias='detail')
