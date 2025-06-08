@@ -1,4 +1,4 @@
-from clients.errors_schema import ValidationErrorSchema, ValidationErrorResponseSchema
+from clients.errors_schema import ClientErrorResponseSchema, ValidationErrorSchema, ValidationErrorResponseSchema
 from tools.assertions.base import assert_equal, assert_length
 
 
@@ -16,6 +16,7 @@ def assert_validation_error(actual: ValidationErrorSchema, expected: ValidationE
     assert_equal(actual.message, expected.message, name='message')
     assert_equal(actual.location, expected.location, name='location')
 
+
 def assert_validation_error_response(
         actual: ValidationErrorResponseSchema,
         expected: ValidationErrorResponseSchema
@@ -32,3 +33,16 @@ def assert_validation_error_response(
     for index, detail in enumerate(expected.details):
         assert_validation_error(actual.details[index], detail)
 
+
+def assert_client_error_response(
+        actual: ClientErrorResponseSchema,
+        expected: ClientErrorResponseSchema
+) -> None | AssertionError:
+    """
+    Checks that actual ClientErrorResponse matches expected one
+    :param actual: Actual ClientErrorResponseSchema
+    :param expected: Expected ClientErrorResponseSchema
+    :return: None
+    :raises: AssertionError if actual response doesn't match expected one
+    """
+    assert_equal(actual.details, expected.details, name='details')

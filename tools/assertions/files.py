@@ -1,4 +1,4 @@
-from clients.errors_schema import ValidationErrorResponseSchema, ValidationErrorSchema
+from clients.errors_schema import ClientErrorResponseSchema, ValidationErrorResponseSchema, ValidationErrorSchema
 from clients.files.files_schema import (
     CreateFileRequestSchema,
     CreateFileResponseSchema,
@@ -6,7 +6,7 @@ from clients.files.files_schema import (
     GetFileResponseSchema,
 )
 from tools.assertions.base import assert_equal
-from tools.assertions.errors import assert_validation_error_response
+from tools.assertions.errors import assert_client_error_response, assert_validation_error_response
 
 
 def assert_create_file_response(
@@ -54,6 +54,7 @@ def assert_get_file_response(
     """
     assert_file(get_file_response.file, create_file_response.file)
 
+
 def assert_create_file_with_empty_filename_response(actual: ValidationErrorResponseSchema) -> None | AssertionError:
     """
     Checks that API response to creating file with empty filename matches expected Validation error
@@ -74,6 +75,7 @@ def assert_create_file_with_empty_filename_response(actual: ValidationErrorRespo
     )
     assert_validation_error_response(actual, expected)
 
+
 def assert_create_file_with_empty_directory_response(actual: ValidationErrorResponseSchema) -> None | AssertionError:
     """
     Checks that API response to creating file with empty directory matches expected Validation error
@@ -93,3 +95,14 @@ def assert_create_file_with_empty_directory_response(actual: ValidationErrorResp
         ]
     )
     assert_validation_error_response(actual, expected)
+
+
+def assert_file_not_found_response(actual: ClientErrorResponseSchema) -> None | AssertionError:
+    """
+    Checks that actual error response matches expected
+    :param actual: actual response
+    :return: None
+    :raises: AssertionError if actual and expected data don't match
+    """
+    expected = ClientErrorResponseSchema(details='File not found')
+    assert_client_error_response(actual, expected)
