@@ -1,0 +1,40 @@
+from clients.exercises.exercises_schema import CreateExerciseRequestSchema, CreateExerciseResponseSchema, ExerciseSchema
+from tools.assertions.base import assert_equal
+
+
+def assert_exercise(actual: ExerciseSchema, expected: ExerciseSchema) -> None | AssertionError:
+    """
+    Checks that actual exercise data matches expected one
+    :param actual: Actual exercise data
+    :param expected: Expected exercise data
+    :return: None
+    :raises: AssertionError if actual and expected exercise data don't match
+    """
+    assert_equal(actual.id, expected.id, name='id')
+    assert_equal(actual.title, expected.title, name='title')
+    assert_equal(actual.course_id, expected.course_id, name='course_id')
+    assert_equal(actual.max_score, expected.max_score, name='max_score')
+    assert_equal(actual.min_score, expected.min_score, name='min_score')
+    assert_equal(actual.order_index, expected.order_index, name='order_index')
+    assert_equal(actual.description, expected.description, name='description')
+    assert_equal(actual.estimated_time, expected.estimated_time, name='estimated_time')
+
+
+def assert_create_exercise_response(
+        response: CreateExerciseResponseSchema,
+        request: CreateExerciseRequestSchema
+) -> None | AssertionError:
+    """
+    Checks that CreateExerciseResponse matches CreateExerciseRequest
+    :param response: API response with exercise data
+    :param request: Initial request to create exercise
+    :return: None
+    :raises: AssertionError if request and response don't match
+    """
+    assert_equal(response.exercise.title, request.title, name='title')
+    assert_equal(response.exercise.course_id, request.course_id, name='course_id')
+    assert_equal(response.exercise.max_score, request.max_score, name='max_score')
+    assert_equal(response.exercise.min_score, request.min_score, name='min_score')
+    assert_equal(response.exercise.order_index, request.order_index, name='order_index')
+    assert_equal(response.exercise.description, request.description, name='description')
+    assert_equal(response.exercise.estimated_time, request.estimated_time, name='estimated_time')
