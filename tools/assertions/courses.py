@@ -29,6 +29,7 @@ def assert_course(actual: CourseSchema, expected: CourseSchema) -> None | Assert
     assert_file(actual.preview_file, expected.preview_file)
     assert_user(actual.created_by_user, expected.created_by_user)
 
+
 def assert_get_courses_response(
         get_courses_response: GetCoursesResponseSchema,
         create_course_responses: list[CreateCourseResponseSchema]
@@ -44,6 +45,7 @@ def assert_get_courses_response(
 
     for index, create_course_response in enumerate(create_course_responses):
         assert_course(get_courses_response.courses[index], create_course_response.course)
+
 
 def assert_create_course_response(
         response: CreateCourseResponseSchema,
@@ -64,6 +66,7 @@ def assert_create_course_response(
     assert_equal(response.course.estimated_time, request.estimated_time, name='estimated_time')
     assert_equal(response.course.preview_file.id, request.preview_file_id, name='preview_file')
     assert_equal(response.course.created_by_user.id, request.created_by_user_id, name='created_by_user')
+
 
 def assert_update_course_response(
         response: UpdateCourseResponseSchema,

@@ -15,6 +15,7 @@ def assert_status_code(actual: int, expected: int) -> None | AssertionError:
         f'Actual status code: {actual}. '
     )
 
+
 def assert_equal(actual: Any, expected: Any, name: str) -> None | AssertionError:
     """
     Checks that actual value matches expected one.
@@ -43,6 +44,7 @@ def assert_is_true(actual: Any, name: str) -> None | AssertionError:
         f'Incorrect value: "{name}". '
         f'Expected truthy value but got "{actual}" instead.'
     )
+
 
 def assert_length(actual: Sized, expected: Sized, name: str) -> None | AssertionError:
     """
