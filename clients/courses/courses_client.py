@@ -51,7 +51,7 @@ class CoursesClient(APIClient):
         :param request: a dict with `title`, `maxScore`, `minScore`, `description`, `estimatedTime`.
         :return: Response object of type httpx.Response.
         """
-        return self.patch(f'/api/v1/courses/{course_id}', json=request.model_dump(by_alias=True))
+        return self.patch(f'/api/v1/courses/{course_id}', json=request.model_dump(by_alias=True, exclude_none=True))
 
     def delete_course_api(self, course_id: str) -> Response:
         """
