@@ -1,4 +1,4 @@
-from pydantic import BaseModel, Field, FilePath, HttpUrl, UUID4
+from pydantic import BaseModel, Field, FilePath, HttpUrl
 
 from tools.fakers import fake
 
@@ -7,7 +7,7 @@ class FileSchema(BaseModel):
     """
     File structure
     """
-    id: UUID4
+    id: str
     filename: str | FilePath
     directory: str | FilePath
     url: HttpUrl
