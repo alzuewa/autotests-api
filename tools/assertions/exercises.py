@@ -1,4 +1,9 @@
-from clients.exercises.exercises_schema import CreateExerciseRequestSchema, CreateExerciseResponseSchema, ExerciseSchema
+from clients.exercises.exercises_schema import (
+    CreateExerciseRequestSchema,
+    CreateExerciseResponseSchema,
+    ExerciseSchema,
+    GetExerciseResponseSchema,
+)
 from tools.assertions.base import assert_equal
 
 
@@ -38,3 +43,17 @@ def assert_create_exercise_response(
     assert_equal(response.exercise.order_index, request.order_index, name='order_index')
     assert_equal(response.exercise.description, request.description, name='description')
     assert_equal(response.exercise.estimated_time, request.estimated_time, name='estimated_time')
+
+
+def assert_get_exercise_response(
+        get_exercise_response: GetExerciseResponseSchema,
+        create_exercise_response: CreateExerciseResponseSchema
+) -> None | AssertionError:
+    """
+    Checks that GetExerciseResponse matches CreateExerciseResponse
+    :param get_exercise_response: API response to get exercise data
+    :param create_exercise_response: API response to create exercise
+    :return: None
+    :raises: AssertionError if getting and creating exercise response data don't match
+    """
+    assert_exercise(get_exercise_response.exercise, create_exercise_response.exercise)
