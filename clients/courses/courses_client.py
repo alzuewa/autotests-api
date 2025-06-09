@@ -21,7 +21,7 @@ class CoursesClient(APIClient):
         :param query: a dict with `userId`.
         :return: Response object of type httpx.Response.
         """
-        return self.get('/api/v1/courses', params=query)  # noqa
+        return self.get('/api/v1/courses', params=query.model_dump(by_alias=True))
 
     def create_course_api(self, request: CreateCourseRequestSchema) -> Response:
         """
