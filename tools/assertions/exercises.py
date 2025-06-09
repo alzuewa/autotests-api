@@ -3,6 +3,8 @@ from clients.exercises.exercises_schema import (
     CreateExerciseResponseSchema,
     ExerciseSchema,
     GetExerciseResponseSchema,
+    UpdateExerciseRequestSchema,
+    UpdateExerciseResponseSchema,
 )
 from tools.assertions.base import assert_equal
 
@@ -57,3 +59,22 @@ def assert_get_exercise_response(
     :raises: AssertionError if getting and creating exercise response data don't match
     """
     assert_exercise(get_exercise_response.exercise, create_exercise_response.exercise)
+
+
+def assert_update_exercise_response(
+        response: UpdateExerciseResponseSchema,
+        request: UpdateExerciseRequestSchema
+) -> None | AssertionError:
+    """
+    Checks that UpdateExerciseResponse matches UpdateExerciseRequest
+    :param response: API response to update exercise data
+    :param request: Request to update exercise data
+    :return: None
+    :raises: AssertionError if request and response to update exercise don't match
+    """
+    assert_equal(response.exercise.title, request.title, name='title')
+    assert_equal(response.exercise.max_score, request.max_score, name='max_score')
+    assert_equal(response.exercise.min_score, request.min_score, name='min_score')
+    assert_equal(response.exercise.order_index, request.order_index, name='order_index')
+    assert_equal(response.exercise.description, request.description, name='description')
+    assert_equal(response.exercise.estimated_time, request.estimated_time, name='estimated_time')
