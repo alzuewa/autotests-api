@@ -1,5 +1,13 @@
-from clients.courses.courses_schema import UpdateCourseRequestSchema, UpdateCourseResponseSchema
-from tools.assertions.base import assert_equal
+from clients.courses.courses_schema import (
+    CourseSchema,
+    CreateCourseResponseSchema,
+    GetCoursesResponseSchema,
+    UpdateCourseRequestSchema,
+    UpdateCourseResponseSchema
+)
+from tools.assertions.base import assert_equal, assert_length
+from tools.assertions.files import assert_file
+from tools.assertions.users import assert_user
 
 
 def assert_update_course_response(
@@ -18,3 +26,38 @@ def assert_update_course_response(
     assert_equal(response.course.min_score, request.min_score, name='min_score')
     assert_equal(response.course.description, request.description, name='description')
     assert_equal(response.course.estimated_time, request.estimated_time, name='estimated_time')
+
+
+def assert_course(actual: CourseSchema, expected: CourseSchema) -> None | AssertionError:
+    """
+    Checks that actual course data matches expected one
+    :param actual: Actual course data
+    :param expected: Expected course data
+    :return: None
+    :raises: AssertionError if actual and expected course data don't match
+    """
+    assert_equal(actual.id, expected.id, name='id')
+    assert_equal(actual.title, expected.title, name='title')
+    assert_equal(actual.max_score, expected.max_score, name='max_score')
+    assert_equal(actual.min_score, expected.min_score, name='min_score')
+    assert_equal(actual.description, expected.description, name='description')
+    assert_equal(actual.estimated_time, expected.estimated_time, name='estimated_time')
+
+    assert_file(actual.preview_file, expected.preview_file)
+    assert_user(actual.created_by_user, expected.created_by_user)
+
+def assert_get_courses_response(
+        get_courses_response: GetCoursesResponseSchema,
+        create_course_responses: list[CreateCourseResponseSchema]
+) -> None | AssertionError:
+    """
+    Checks that GetCoursesResponse matches a list of created courses
+    :param get_courses_response: API response to get a courses list
+    :param create_course_responses: A list of API responses to create courses
+    :return: None
+    :raises: AssertionError response to get courses and responses to create courses don't match
+    """
+    assert_length(get_courses_response.courses, create_course_responses, name='courses')
+
+    for index, create_course_response in enumerate(create_course_responses):
+        assert_course(get_courses_response.courses[index], create_course_response.course)
