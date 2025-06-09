@@ -1,4 +1,4 @@
-from pydantic import BaseModel, ConfigDict, Field, UUID4
+from pydantic import BaseModel, ConfigDict, Field
 
 from clients.files.files_schema import FileSchema
 from clients.users.users_schema import UserSchema
@@ -9,7 +9,7 @@ class CourseSchema(BaseModel):
     """
     Course structure
     """
-    id: UUID4
+    id: str
     title: str
     max_score: int = Field(alias='maxScore')
     min_score: int = Field(alias='minScore')
