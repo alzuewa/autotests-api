@@ -11,7 +11,7 @@ from tools.assertions.files import assert_file
 from tools.assertions.users import assert_user
 
 
-def assert_course(actual: CourseSchema, expected: CourseSchema) -> None | AssertionError:
+def assert_course(actual: CourseSchema, expected: CourseSchema) -> None:
     """
     Checks that actual course data matches expected one
     :param actual: Actual course data
@@ -33,7 +33,7 @@ def assert_course(actual: CourseSchema, expected: CourseSchema) -> None | Assert
 def assert_get_courses_response(
         get_courses_response: GetCoursesResponseSchema,
         create_course_responses: list[CreateCourseResponseSchema]
-) -> None | AssertionError:
+) -> None:
     """
     Checks that GetCoursesResponse matches a list of created courses
     :param get_courses_response: API response to get a courses list
@@ -50,7 +50,7 @@ def assert_get_courses_response(
 def assert_create_course_response(
         response: CreateCourseResponseSchema,
         request: CreateCourseRequestSchema
-) -> None | AssertionError:
+) -> None:
     """
     Checks that CreateCourseResponse matches CreateCourseRequest
     :param response: API response with course data
@@ -71,7 +71,7 @@ def assert_create_course_response(
 def assert_update_course_response(
         response: UpdateCourseResponseSchema,
         request: UpdateCourseRequestSchema
-) -> None | AssertionError:
+) -> None:
     """
     Checks that UpdateCourseResponse matches UpdateCourseRequest
     :param response: API response to update course data

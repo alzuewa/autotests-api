@@ -11,7 +11,7 @@ from tools.assertions.base import assert_equal
 def assert_create_user_response(
         response: CreateUserResponseSchema,
         request: CreateUserRequestSchema
-) -> None | AssertionError:
+) -> None :
     """
     Checks that CreateUserResponse matches CreateUserRequest
     :param response: API response with user data
@@ -25,7 +25,7 @@ def assert_create_user_response(
     assert_equal(response.user.middle_name, request.middle_name, 'middle_name')
 
 
-def assert_user(actual: UserSchema, expected: UserSchema) -> None | AssertionError:
+def assert_user(actual: UserSchema, expected: UserSchema) -> None :
     """
     Checks that actual user data matches expected
     :param actual: actual user data
@@ -43,7 +43,7 @@ def assert_user(actual: UserSchema, expected: UserSchema) -> None | AssertionErr
 def assert_get_user_response(
         get_user_response: GetUserResponseSchema,
         create_user_response: CreateUserResponseSchema
-) -> None | AssertionError:
+) -> None :
     """
     Checks that GetUserResponse matches CreateUserResponse
     :param get_user_response: API response to get user data

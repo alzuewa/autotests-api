@@ -1,7 +1,7 @@
 from typing import Any, Sized
 
 
-def assert_status_code(actual: int, expected: int) -> None | AssertionError:
+def assert_status_code(actual: int, expected: int) -> None :
     """
     Checks that actual status code matches expected one.
     :param actual: Actual status-code
@@ -16,7 +16,7 @@ def assert_status_code(actual: int, expected: int) -> None | AssertionError:
     )
 
 
-def assert_equal(actual: Any, expected: Any, name: str) -> None | AssertionError:
+def assert_equal(actual: Any, expected: Any, name: str) -> None :
     """
     Checks that actual value matches expected one.
     :param actual: Actual value
@@ -32,7 +32,7 @@ def assert_equal(actual: Any, expected: Any, name: str) -> None | AssertionError
     )
 
 
-def assert_is_true(actual: Any, name: str) -> None | AssertionError:
+def assert_is_true(actual: Any, name: str) -> None :
     """
     Checks that actual param has truthy value
     :param actual: Actual value
@@ -46,7 +46,7 @@ def assert_is_true(actual: Any, name: str) -> None | AssertionError:
     )
 
 
-def assert_length(actual: Sized, expected: Sized, name: str) -> None | AssertionError:
+def assert_length(actual: Sized, expected: Sized, name: str) -> None :
     """
     Checks that an actual value length equals the length of expected value
     :param actual: Actual object length

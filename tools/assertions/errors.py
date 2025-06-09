@@ -2,7 +2,7 @@ from clients.errors_schema import ClientErrorResponseSchema, ValidationErrorSche
 from tools.assertions.base import assert_equal, assert_length
 
 
-def assert_validation_error(actual: ValidationErrorSchema, expected: ValidationErrorSchema) -> None | AssertionError:
+def assert_validation_error(actual: ValidationErrorSchema, expected: ValidationErrorSchema) -> None:
     """
     Checks that actual ValidationErrorSchema matches expected one
     :param actual: Actual ValidationErrorSchema
@@ -20,7 +20,7 @@ def assert_validation_error(actual: ValidationErrorSchema, expected: ValidationE
 def assert_validation_error_response(
         actual: ValidationErrorResponseSchema,
         expected: ValidationErrorResponseSchema
-) -> None | AssertionError:
+) -> None:
     """
     Checks that actual ValidationErrorResponse matches expected one
     :param actual: Actual ValidationErrorResponseSchema
@@ -37,7 +37,7 @@ def assert_validation_error_response(
 def assert_client_error_response(
         actual: ClientErrorResponseSchema,
         expected: ClientErrorResponseSchema
-) -> None | AssertionError:
+) -> None:
     """
     Checks that actual ClientErrorResponse matches expected one
     :param actual: Actual ClientErrorResponseSchema
