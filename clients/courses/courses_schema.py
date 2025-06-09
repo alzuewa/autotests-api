@@ -28,6 +28,13 @@ class GetCoursesQuerySchema(BaseModel):
     user_id: str = Field(alias='userId')
 
 
+class GetCoursesResponseSchema(BaseModel):
+    """
+    Getting courses list response schema.
+    """
+    courses: list[CourseSchema]
+
+
 class CreateCourseRequestSchema(BaseModel):
     """
     Request structure to create course.
@@ -68,4 +75,3 @@ class UpdateCourseResponseSchema(BaseModel):
     Updating course response structure.
     """
     course: CourseSchema
-    
