@@ -39,7 +39,7 @@ def assert_get_courses_response(
     :param get_courses_response: API response to get a courses list
     :param create_course_responses: A list of API responses to create courses
     :return: None
-    :raises: AssertionError response to get courses and responses to create courses don't match
+    :raises: AssertionError if response to get courses and response to create courses don't match
     """
     assert_length(get_courses_response.courses, create_course_responses, name='courses')
 
