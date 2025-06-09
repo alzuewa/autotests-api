@@ -4,10 +4,11 @@ from clients.exercises.exercises_schema import (
     CreateExerciseResponseSchema,
     ExerciseSchema,
     GetExerciseResponseSchema,
+    GetExercisesListResponseSchema,
     UpdateExerciseRequestSchema,
     UpdateExerciseResponseSchema,
 )
-from tools.assertions.base import assert_equal
+from tools.assertions.base import assert_equal, assert_length
 from tools.assertions.errors import assert_client_error_response
 
 
@@ -91,3 +92,20 @@ def assert_exercise_not_found_response(actual: ClientErrorResponseSchema) -> Non
     """
     expected = ClientErrorResponseSchema(details='Exercise not found')
     assert_client_error_response(actual, expected)
+
+
+def assert_get_exercises_response(
+        get_exercises_response: GetExercisesListResponseSchema,
+        create_exercise_responses: list[CreateExerciseResponseSchema]
+) -> None:
+    """
+    Checks that GetExercisesListResponse matches a list of created exercises
+    :param get_exercises_response: API response to get an exercises list
+    :param create_exercise_responses: A list of API responses to create exercise
+    :return: None
+    :raises: AssertionError if response to get exercises and response to create exercises don't match
+    """
+    assert_length(get_exercises_response.exercises, create_exercise_responses, name='exercises')
+
+    for index, create_exercise_response in enumerate(create_exercise_responses):
+        assert_exercise(get_exercises_response.exercises[index], create_exercise_response.exercise)
