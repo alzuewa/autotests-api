@@ -1,3 +1,4 @@
+from clients.errors_schema import ClientErrorResponseSchema
 from clients.exercises.exercises_schema import (
     CreateExerciseRequestSchema,
     CreateExerciseResponseSchema,
@@ -7,9 +8,10 @@ from clients.exercises.exercises_schema import (
     UpdateExerciseResponseSchema,
 )
 from tools.assertions.base import assert_equal
+from tools.assertions.errors import assert_client_error_response
 
 
-def assert_exercise(actual: ExerciseSchema, expected: ExerciseSchema) -> None | AssertionError:
+def assert_exercise(actual: ExerciseSchema, expected: ExerciseSchema) -> None:
     """
     Checks that actual exercise data matches expected one
     :param actual: Actual exercise data
@@ -30,7 +32,7 @@ def assert_exercise(actual: ExerciseSchema, expected: ExerciseSchema) -> None | 
 def assert_create_exercise_response(
         response: CreateExerciseResponseSchema,
         request: CreateExerciseRequestSchema
-) -> None | AssertionError:
+) -> None:
     """
     Checks that CreateExerciseResponse matches CreateExerciseRequest
     :param response: API response with exercise data
@@ -50,7 +52,7 @@ def assert_create_exercise_response(
 def assert_get_exercise_response(
         get_exercise_response: GetExerciseResponseSchema,
         create_exercise_response: CreateExerciseResponseSchema
-) -> None | AssertionError:
+) -> None:
     """
     Checks that GetExerciseResponse matches CreateExerciseResponse
     :param get_exercise_response: API response to get exercise data
@@ -64,7 +66,7 @@ def assert_get_exercise_response(
 def assert_update_exercise_response(
         response: UpdateExerciseResponseSchema,
         request: UpdateExerciseRequestSchema
-) -> None | AssertionError:
+) -> None:
     """
     Checks that UpdateExerciseResponse matches UpdateExerciseRequest
     :param response: API response to update exercise data
@@ -78,3 +80,14 @@ def assert_update_exercise_response(
     assert_equal(response.exercise.order_index, request.order_index, name='order_index')
     assert_equal(response.exercise.description, request.description, name='description')
     assert_equal(response.exercise.estimated_time, request.estimated_time, name='estimated_time')
+
+
+def assert_exercise_not_found_response(actual: ClientErrorResponseSchema) -> None:
+    """
+    Checks that actual error response matches expected
+    :param actual: actual response
+    :return: None
+    :raises: AssertionError if actual and expected data don't match
+    """
+    expected = ClientErrorResponseSchema(details='Exercise not found')
+    assert_client_error_response(actual, expected)
