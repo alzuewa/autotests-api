@@ -1,5 +1,6 @@
 from http import HTTPStatus
 
+import allure
 import pytest
 
 from clients.errors_schema import ClientErrorResponseSchema
@@ -27,6 +28,7 @@ from tools.assertions.schema import validate_json_schema
 @pytest.mark.regression
 class TestExercises:
 
+    @allure.title('Create exercise')
     def test_create_exercise(self, exercises_client, function_course):
         request = CreateExerciseRequestSchema(course_id=function_course.response.course.id)
         response = exercises_client.create_exercise_api(request=request)
@@ -37,6 +39,7 @@ class TestExercises:
 
         validate_json_schema(instance=response.json(), schema=response_data.model_json_schema())
 
+    @allure.title('Get exercise')
     def test_get_exercise(self, exercises_client, function_exercise):
         exercise_id = function_exercise.response.exercise.id
 
@@ -48,6 +51,7 @@ class TestExercises:
 
         validate_json_schema(instance=response.json(), schema=response_data.model_json_schema())
 
+    @allure.title('Update exercise')
     def test_update_exercise(self, exercises_client, function_exercise):
         exercise_id = function_exercise.response.exercise.id
 
@@ -60,6 +64,7 @@ class TestExercises:
 
         validate_json_schema(instance=response.json(), schema=response_data.model_json_schema())
 
+    @allure.title('Delete exercise')
     def test_delete_exercise(self, exercises_client, function_exercise):
         exercise_id = function_exercise.response.exercise.id
 
@@ -74,6 +79,7 @@ class TestExercises:
 
         validate_json_schema(instance=get_response.json(), schema=get_response_data.model_json_schema())
 
+    @allure.title('Get exercises')
     def test_get_exercises(self, exercises_client, function_exercise):
         query = GetExercisesQuerySchema(course_id=function_exercise.request.course_id)
 
