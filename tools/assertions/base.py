@@ -1,6 +1,9 @@
 from typing import Any, Sized
 
+import allure
 
+
+@allure.step('Check that response status code equals {expected}')
 def assert_status_code(actual: int, expected: int) -> None :
     """
     Checks that actual status code matches expected one.
@@ -16,6 +19,7 @@ def assert_status_code(actual: int, expected: int) -> None :
     )
 
 
+@allure.step('Check that {name} equals {expected}')
 def assert_equal(actual: Any, expected: Any, name: str) -> None :
     """
     Checks that actual value matches expected one.
@@ -32,6 +36,7 @@ def assert_equal(actual: Any, expected: Any, name: str) -> None :
     )
 
 
+@allure.step('Check that {name} is true')
 def assert_is_true(actual: Any, name: str) -> None :
     """
     Checks that actual param has truthy value
@@ -55,8 +60,9 @@ def assert_length(actual: Sized, expected: Sized, name: str) -> None :
     :return: None
     :raises: AssertionError if objects' lengths don't match
     """
-    assert len(actual) == len(expected), (
-        f'Incorrect object length: "{name}". '
-        f'Expected length: {len(expected)}. '
-        f'Actual length: {len(actual)}. '
-    )
+    with allure.step(f"Check that {name}'s length equals {len(expected)}"):
+        assert len(actual) == len(expected), (
+            f'Incorrect object length: "{name}". '
+            f'Expected length: {len(expected)}. '
+            f'Actual length: {len(actual)}. '
+        )

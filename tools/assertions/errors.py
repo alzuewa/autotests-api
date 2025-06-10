@@ -1,7 +1,10 @@
+import allure
+
 from clients.errors_schema import ClientErrorResponseSchema, ValidationErrorSchema, ValidationErrorResponseSchema
 from tools.assertions.base import assert_equal, assert_length
 
 
+@allure.step('Check validation error')
 def assert_validation_error(actual: ValidationErrorSchema, expected: ValidationErrorSchema) -> None:
     """
     Checks that actual ValidationErrorSchema matches expected one
@@ -17,6 +20,7 @@ def assert_validation_error(actual: ValidationErrorSchema, expected: ValidationE
     assert_equal(actual.location, expected.location, name='location')
 
 
+@allure.step('Check validation error response')
 def assert_validation_error_response(
         actual: ValidationErrorResponseSchema,
         expected: ValidationErrorResponseSchema
@@ -34,6 +38,7 @@ def assert_validation_error_response(
         assert_validation_error(actual.details[index], detail)
 
 
+@allure.step('Check client error response')
 def assert_client_error_response(
         actual: ClientErrorResponseSchema,
         expected: ClientErrorResponseSchema
