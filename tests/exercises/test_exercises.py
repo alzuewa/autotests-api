@@ -13,6 +13,7 @@ from clients.exercises.exercises_schema import (
     UpdateExerciseRequestSchema,
     UpdateExerciseResponseSchema,
 )
+from tools.allure.tags import AllureTag
 from tools.assertions.base import assert_status_code
 from tools.assertions.exercises import (
     assert_create_exercise_response,
@@ -26,9 +27,11 @@ from tools.assertions.schema import validate_json_schema
 
 @pytest.mark.exercises
 @pytest.mark.regression
+@allure.tag(AllureTag.EXERCISES, AllureTag.REGRESSION)
 class TestExercises:
 
     @allure.title('Create exercise')
+    @allure.tag(AllureTag.CREATE_ENTITY)
     def test_create_exercise(self, exercises_client, function_course):
         request = CreateExerciseRequestSchema(course_id=function_course.response.course.id)
         response = exercises_client.create_exercise_api(request=request)
@@ -40,6 +43,7 @@ class TestExercises:
         validate_json_schema(instance=response.json(), schema=response_data.model_json_schema())
 
     @allure.title('Get exercise')
+    @allure.tag(AllureTag.GET_ENTITY)
     def test_get_exercise(self, exercises_client, function_exercise):
         exercise_id = function_exercise.response.exercise.id
 
@@ -52,6 +56,7 @@ class TestExercises:
         validate_json_schema(instance=response.json(), schema=response_data.model_json_schema())
 
     @allure.title('Update exercise')
+    @allure.tag(AllureTag.UPDATE_ENTITY)
     def test_update_exercise(self, exercises_client, function_exercise):
         exercise_id = function_exercise.response.exercise.id
 
@@ -65,6 +70,7 @@ class TestExercises:
         validate_json_schema(instance=response.json(), schema=response_data.model_json_schema())
 
     @allure.title('Delete exercise')
+    @allure.tag(AllureTag.DELETE_ENTITY)
     def test_delete_exercise(self, exercises_client, function_exercise):
         exercise_id = function_exercise.response.exercise.id
 
@@ -80,6 +86,7 @@ class TestExercises:
         validate_json_schema(instance=get_response.json(), schema=get_response_data.model_json_schema())
 
     @allure.title('Get exercises')
+    @allure.tag(AllureTag.GET_ENTITIES)
     def test_get_exercises(self, exercises_client, function_exercise):
         query = GetExercisesQuerySchema(course_id=function_exercise.request.course_id)
 

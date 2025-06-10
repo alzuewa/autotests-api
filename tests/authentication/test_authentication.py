@@ -6,6 +6,7 @@ import pytest
 from clients.authentication.authentication_client import AuthenticationClient
 from clients.authentication.authentication_schema import LoginRequestSchema, LoginResponseSchema
 from fixtures.users import UserFixture
+from tools.allure.tags import AllureTag
 from tools.assertions.authentication import assert_login_response
 from tools.assertions.base import assert_status_code
 from tools.assertions.schema import validate_json_schema
@@ -16,6 +17,7 @@ from tools.assertions.schema import validate_json_schema
 class TestAuthentication:
 
     @allure.title('Login with correct email and password')
+    @allure.tag(AllureTag.AUTHENTICATION, AllureTag.REGRESSION)
     def test_login(
             self,
             function_user: UserFixture,
