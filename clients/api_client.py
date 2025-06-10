@@ -1,5 +1,6 @@
 from typing import Any
 
+import allure
 from httpx import Client, QueryParams, Response, URL
 from httpx._types import RequestData, RequestFiles
 
@@ -12,6 +13,7 @@ class APIClient:
         """
         self.client = client
 
+    @allure.step('Send GET request to {url}')
     def get(self, url: URL | str, *, params: QueryParams | None = None) -> Response:
         """
         Performs GET-request.
@@ -22,6 +24,7 @@ class APIClient:
         """
         return self.client.get(url, params=params)
 
+    @allure.step('Send POST request to {url}')
     def post(
             self,
             url: URL | str,
@@ -40,6 +43,7 @@ class APIClient:
         """
         return self.client.post(url, data=data, files=files, json=json)
 
+    @allure.step('Send PATCH request to {url}')
     def patch(self, url: URL | str, *, json: Any | None = None) -> Response:
         """
         Performs PATCH-request
@@ -49,6 +53,7 @@ class APIClient:
         """
         return self.client.patch(url, json=json)
 
+    @allure.step('Send DELETE request to {url}')
     def delete(self, url: URL | str) -> Response:
         """
         Performs DELETE-request

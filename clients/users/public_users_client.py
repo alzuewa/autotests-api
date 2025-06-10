@@ -1,3 +1,4 @@
+import allure
 from httpx import Response
 
 from clients.api_client import APIClient
@@ -10,6 +11,7 @@ class PublicUsersClient(APIClient):
     A client to work with /api/v1/users without auth.
     """
 
+    @allure.step('Create user')
     def create_user_api(self, request: CreateUserRequestSchema) -> Response:
         """
         Creates a new user.
