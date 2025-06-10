@@ -2,6 +2,7 @@ from http import HTTPStatus
 
 import allure
 import pytest
+from allure_commons.types import Severity
 
 from clients.users.private_users_client import PrivateUsersClient
 from clients.users.public_users_client import PublicUsersClient
@@ -27,6 +28,7 @@ class TestUsers:
     @allure.title('Create user')
     @allure.tag(AllureTag.CREATE_ENTITY)
     @allure.story(AllureStory.CREATE_ENTITY)
+    @allure.severity(Severity.BLOCKER)
     @pytest.mark.parametrize('email', ['mail.ru', 'gmail.com', 'example.com'])
     def test_create_user(
             self,
@@ -45,6 +47,7 @@ class TestUsers:
     @allure.title('Get user me')
     @allure.tag(AllureTag.GET_ENTITY)
     @allure.story(AllureStory.GET_ENTITY)
+    @allure.severity(Severity.CRITICAL)
     def test_get_user_me(
             self,
             function_user: UserFixture,
