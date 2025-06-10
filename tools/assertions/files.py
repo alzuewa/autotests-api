@@ -104,7 +104,7 @@ def assert_create_file_with_empty_directory_response(actual: ValidationErrorResp
     assert_validation_error_response(actual, expected)
 
 
-@allure.step('Check create file not found response')
+@allure.step('Check file not found response')
 def assert_file_not_found_response(actual: ClientErrorResponseSchema) -> None :
     """
     Checks that actual error response matches expected
