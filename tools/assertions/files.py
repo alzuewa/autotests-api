@@ -7,6 +7,7 @@ from clients.files.files_schema import (
     FileSchema,
     GetFileResponseSchema,
 )
+from config import settings
 from tools.assertions.base import assert_equal
 from tools.assertions.errors import assert_client_error_response, assert_validation_error_response
 
@@ -23,7 +24,9 @@ def assert_create_file_response(
    :return: None
    :raises: AssertionError if actual and expected data don't match
    """
-    expected_url = f'http://localhost:8000/static/{request.directory}/{request.filename}'
+
+    # No slash before `static`: pydantic.HttpUrl automatically adds trailing slash if it's absent
+    expected_url = f'{settings.http_client.client_url}static/{request.directory}/{request.filename}'
 
     assert_equal(response.file.filename, request.filename, name='filename')
     assert_equal(response.file.directory, request.directory, name='directory')
