@@ -4,6 +4,7 @@ from httpx import Response
 from clients.api_client import APIClient
 from clients.files.files_schema import CreateFileRequestSchema, CreateFileResponseSchema
 from clients.private_http_builder import AuthenticationUserSchema, get_private_http_client
+from tools.routes import APIRoutes
 
 
 class FilesClient(APIClient):
@@ -18,7 +19,7 @@ class FilesClient(APIClient):
         :param file_id: id of the file.
         :return: Response object of type httpx.Response.
         """
-        return self.get(f'/api/v1/files/{file_id}')
+        return self.get(f'{APIRoutes.FILES}/{file_id}')
 
     @allure.step('Create file')
     def create_file_api(self, request: CreateFileRequestSchema) -> Response:
@@ -30,7 +31,7 @@ class FilesClient(APIClient):
         # `files` param is passed not as `files={'upload_file': open(f'{request.upload_file}', 'rb')}`
         # due to changing `upload_file` type to pydantic.FilePath. It requires read_bytes()
         return self.post(
-            '/api/v1/files',
+            APIRoutes.FILES,
             data=request.model_dump(by_alias=True, exclude={'upload_file'}),
             files={'upload_file': request.upload_file.read_bytes()}
         )
@@ -46,7 +47,7 @@ class FilesClient(APIClient):
         :param file_id: id of the file.
         :return: Response object of type httpx.Response.
         """
-        return self.delete(f'/api/v1/files/{file_id}')
+        return self.delete(f'{APIRoutes.FILES}/{file_id}')
 
 
 def get_files_client(user: AuthenticationUserSchema) -> FilesClient:

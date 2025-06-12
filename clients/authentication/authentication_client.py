@@ -4,6 +4,7 @@ from httpx import Response
 from clients.api_client import APIClient
 from clients.authentication.authentication_schema import LoginRequestSchema, LoginResponseSchema, RefreshRequestSchema
 from clients.public_http_builder import get_public_http_client
+from tools.routes import APIRoutes
 
 
 class AuthenticationClient(APIClient):
@@ -18,7 +19,7 @@ class AuthenticationClient(APIClient):
         :param request: a dict with `email` and `password`.
         :return: Response object of type httpx.Response.
         """
-        return self.post('/api/v1/authentication/login', json=request.model_dump(by_alias=True))
+        return self.post(f'{APIRoutes.AUTHENTICATION}/login', json=request.model_dump(by_alias=True))
 
     def login(self, request: LoginRequestSchema) -> LoginResponseSchema:
         response = self.login_api(request)
@@ -31,7 +32,7 @@ class AuthenticationClient(APIClient):
         :param request: a dict with `refreshToken`.
         :return: Response object of type httpx.Response.
         """
-        return self.post('/api/v1/authentication/refresh', json=request.model_dump(by_alias=True))
+        return self.post(f'{APIRoutes.AUTHENTICATION}/refresh', json=request.model_dump(by_alias=True))
 
 
 def get_authentication_client() -> AuthenticationClient:
