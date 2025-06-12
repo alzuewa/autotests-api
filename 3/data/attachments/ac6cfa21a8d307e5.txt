@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDE2OjE3OjI5LjA3NjU3NyIsInVzZXJfaWQiOiI5MWEwMjlhYy1hZjk1LTRiMzUtOTNiMC05MTE2NjI4ZmQzNjMifQ.TMr5i3FeFSkFZdZOla1x6jVEwzqy4pOpXH08aXzfRbo'\
+ -H 'content-length: 415'\
+ -H 'content-type: application/json'\
+ -d '{"title":"A above idea central truth guy budget.","maxScore":65,"minScore":8,"description":"Lead government worker yeah I agency employee. Door fast only feeling. Character attorney condition.\nProduction know law stuff effect. Article fly suddenly best morning time measure.","estimatedTime":"5 weeks","previewFileId":"929edbc4-f7fd-49e3-ac2b-7ce382ce9459","createdByUserId":"91a029ac-af95-4b35-93b0-9116628fd363"}'

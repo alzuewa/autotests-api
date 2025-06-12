@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDE2OjE3OjMxLjU1ODI2NCIsInVzZXJfaWQiOiJiNGRhNThjOC05MDIxLTRjNWItYThhZC1jOTNmNTA1ODY5NmYifQ.YqoHCx_GpXZIkblURgYG_A1sWkBlxUadWnnXFZx2cKw'\
+ -H 'content-length: 359'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Performance fish want usually above trial environmental.","maxScore":67,"minScore":20,"description":"Yard she pull role room loss painting. Down black political truth community. East boy sister party indicate.","estimatedTime":"7 weeks","previewFileId":"85185dec-def4-43e7-b09c-8195d2aa289a","createdByUserId":"b4da58c8-9021-4c5b-a8ad-c93f5058696f"}'

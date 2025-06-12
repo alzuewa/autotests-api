@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDE2OjE3OjMwLjI4NDMyNyIsInVzZXJfaWQiOiIyZTljNDNlMy00NmExLTRjYjItOWQ5Yi1hYjNlYTQ0MzVkMGUifQ.gYeeLFNGa4wNB9x8-TopNptzfvNJPn-y7DNEaHP1tco'\
+ -H 'content-length: 335'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Approach record black personal skin theory.","courseId":"5e69ae56-0603-4208-94ff-11ab1b40f28b","maxScore":62,"minScore":16,"orderIndex":64,"description":"And quality third could book meeting go enter.\nYour section play long.\nFinally before check life well issue treat. Box candidate public fund.","estimatedTime":"5 weeks"}'

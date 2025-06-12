@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDE2OjE3OjI3LjkwNTgwNSIsInVzZXJfaWQiOiI3Mzg5NTA4Ny1jMWY2LTRmMWMtODkwYS1kMjdiMjgzM2NiMjgifQ.MPfnpxYlRx44Egn34qImlFJhmvpGJrgEYOQ2z4xfboo'\
+ -H 'content-length: 356'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Particularly fear road across save.","maxScore":78,"minScore":15,"description":"Pay situation at debate imagine national nice. Tv citizen drive base. Apply indicate increase page specific important if back.","estimatedTime":"9 weeks","previewFileId":"b04577fc-f8bb-41e9-bfe5-49939abf3395","createdByUserId":"73895087-c1f6-4f1c-890a-d27b2833cb28"}'

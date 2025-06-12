@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDE2OjE3OjMwLjAxMTE3MiIsInVzZXJfaWQiOiIzZWUwODZhZS1lNjgyLTQxMzUtOGU0Ni0zYjQ4ZmI4MTBhNTAifQ.UtX2oi8utv88dup29v3w8s-JmfeLKve937JQ3VxRZew'\
+ -H 'content-length: 411'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Beyond structure speech oil.","maxScore":61,"minScore":24,"description":"Travel court condition officer local back base. Show build agent particular.\nTest lay may energy red impact name. Entire happy risk visit market station network improve. Couple rule task.","estimatedTime":"9 weeks","previewFileId":"d8d4512c-ff79-4f11-8028-aa34e032a427","createdByUserId":"3ee086ae-e682-4135-8e46-3b48fb810a50"}'

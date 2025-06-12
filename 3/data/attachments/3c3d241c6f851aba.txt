@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDE2OjE3OjI5LjA3NjU3NyIsInVzZXJfaWQiOiI5MWEwMjlhYy1hZjk1LTRiMzUtOTNiMC05MTE2NjI4ZmQzNjMifQ.TMr5i3FeFSkFZdZOla1x6jVEwzqy4pOpXH08aXzfRbo'\
+ -H 'content-length: 282'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Term page behavior pattern organization building.","courseId":"17b91014-313d-48c6-938b-708737021a55","maxScore":82,"minScore":10,"orderIndex":34,"description":"College less research manager next child yes with. Child maybe always attorney side.","estimatedTime":"3 weeks"}'
