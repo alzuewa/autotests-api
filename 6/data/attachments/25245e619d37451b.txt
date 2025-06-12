@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDE2OjM0OjEwLjM5NzYwMCIsInVzZXJfaWQiOiJmYTU5MzYxNS0xNGVmLTRiZWYtOTdkZC04Nzc1ZmVjMDQ0MjkifQ.z-X0iuNfi_s_KnnMXi6y8l_2ySemO0kJObEMYUlNXAs'\
+ -H 'content-length: 427'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Lay simply bill action lead herself.","maxScore":65,"minScore":11,"description":"None member manage throughout. Gun above interesting.\nOut necessary paper the again experience right. Official indicate no be discussion above actually. Language answer film yourself shake maybe.","estimatedTime":"9 weeks","previewFileId":"9a55d99a-9959-4316-afe0-e03714d289cd","createdByUserId":"fa593615-14ef-4bef-97dd-8775fec04429"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDE2OjM0OjEyLjc3MDk1MSIsInVzZXJfaWQiOiJjZmRkY2YxYy1jNDVkLTRhNTktODcyYy0xZTc5Y2FlZThiMGEifQ.YIUF2wwDXAozUPHT9auUzF0DLCJPfChmRmHvuYNEHcQ'\
+ -H 'content-length: 268'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Feel view itself those while.","courseId":"65708b0a-c1a5-47fe-87aa-ce43ab7c5ff6","maxScore":82,"minScore":5,"orderIndex":32,"description":"Fill majority pay owner still. Everything arm land according. Assume brother citizen heart.","estimatedTime":"4 weeks"}'

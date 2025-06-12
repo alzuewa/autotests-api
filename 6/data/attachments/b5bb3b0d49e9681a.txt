@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDE2OjM0OjEyLjQ5OTI0MyIsInVzZXJfaWQiOiI5MGRlMTY5ZS1jNWJkLTQxZmMtYmY0OC1iYWFhM2NlZWQzZjMifQ._N_71dN8uF_BBK3R6cVmXAu7CBS03fU6KNZkATKR-y0'\
+ -H 'content-length: 313'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Include none late none per billion.","maxScore":68,"minScore":21,"description":"Able thought involve finish suffer have pay. Thousand indicate once goal guy heart.","estimatedTime":"9 weeks","previewFileId":"e22e74c2-0592-45cd-ba7e-df702ee1aaaa","createdByUserId":"90de169e-c5bd-41fc-bf48-baaa3ceed3f3"}'

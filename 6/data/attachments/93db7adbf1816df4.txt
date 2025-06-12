@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDE2OjM0OjE0LjAzNTUwNiIsInVzZXJfaWQiOiI3MDA1Zjg0Ni0xZGNmLTRjMTAtODNkYi1hMTg2ZGFjMWQ3OGIifQ.K9wZve8lsaie8IozOsOCQUfvbusPidb2QwLeA-Kkpt0'\
+ -H 'content-length: 377'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Street student apply really break.","maxScore":100,"minScore":22,"description":"Prove adult be different floor assume Mrs. No discussion film two fund. Plan start wear write crime much. Audience pretty property product compare.","estimatedTime":"4 weeks","previewFileId":"6f8a7a1d-9712-4ac9-a6bb-b27356fa7886","createdByUserId":"7005f846-1dcf-4c10-83db-a186dac1d78b"}'

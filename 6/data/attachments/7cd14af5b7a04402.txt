@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/exercises/218f67ed-37e5-44f1-929d-033e31ff7017'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDE2OjM0OjEyLjQ5OTI0MyIsInVzZXJfaWQiOiI5MGRlMTY5ZS1jNWJkLTQxZmMtYmY0OC1iYWFhM2NlZWQzZjMifQ._N_71dN8uF_BBK3R6cVmXAu7CBS03fU6KNZkATKR-y0'\
+ -H 'content-length: 321'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Can partner change major box foot hard.","maxScore":74,"minScore":12,"orderIndex":22,"description":"Seat set lose focus represent turn investment pressure. Could analysis middle.\nDebate word debate anyone task behind PM. Tree break little cover.\nPlant go game. Feeling read growth.","estimatedTime":"4 weeks"}'
