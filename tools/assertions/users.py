@@ -6,15 +6,17 @@ from clients.users.users_schema import (
     GetUserResponseSchema,
     UserSchema
 )
-
 from tools.assertions.base import assert_equal
+from tools.logger import get_logger
+
+logger = get_logger('USERS_ASSERTIONS')
 
 
 @allure.step('Check create user response')
 def assert_create_user_response(
         response: CreateUserResponseSchema,
         request: CreateUserRequestSchema
-) -> None :
+) -> None:
     """
     Checks that CreateUserResponse matches CreateUserRequest
     :param response: API response with user data
@@ -22,6 +24,8 @@ def assert_create_user_response(
     :return: None
     :raises: AssertionError if request and response don't match
     """
+    logger.info('Check create user response')
+
     assert_equal(response.user.email, request.email, 'email')
     assert_equal(response.user.last_name, request.last_name, 'last_name')
     assert_equal(response.user.first_name, request.first_name, 'first_name')
@@ -29,7 +33,7 @@ def assert_create_user_response(
 
 
 @allure.step('Check user')
-def assert_user(actual: UserSchema, expected: UserSchema) -> None :
+def assert_user(actual: UserSchema, expected: UserSchema) -> None:
     """
     Checks that actual user data matches expected
     :param actual: actual user data
@@ -37,6 +41,8 @@ def assert_user(actual: UserSchema, expected: UserSchema) -> None :
     :return: None
     :raises: AssertionError if actual and expected data don't match
     """
+    logger.info('Check user')
+
     assert_equal(actual.id, expected.id, name='id')
     assert_equal(actual.email, expected.email, name='email')
     assert_equal(actual.last_name, expected.last_name, name='last_name')
@@ -48,7 +54,7 @@ def assert_user(actual: UserSchema, expected: UserSchema) -> None :
 def assert_get_user_response(
         get_user_response: GetUserResponseSchema,
         create_user_response: CreateUserResponseSchema
-) -> None :
+) -> None:
     """
     Checks that GetUserResponse matches CreateUserResponse
     :param get_user_response: API response to get user data
@@ -56,4 +62,6 @@ def assert_get_user_response(
     :return: None
     :raises: AssertionError if getting and creating user data don't match
     """
+    logger.info('Check get user response')
+
     return assert_user(actual=get_user_response.user, expected=create_user_response.user)

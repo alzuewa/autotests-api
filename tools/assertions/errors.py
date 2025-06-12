@@ -2,6 +2,9 @@ import allure
 
 from clients.errors_schema import ClientErrorResponseSchema, ValidationErrorSchema, ValidationErrorResponseSchema
 from tools.assertions.base import assert_equal, assert_length
+from tools.logger import get_logger
+
+logger = get_logger('ERRORS_ASSERTIONS')
 
 
 @allure.step('Check validation error')
@@ -13,6 +16,8 @@ def assert_validation_error(actual: ValidationErrorSchema, expected: ValidationE
     :return: None
     :raises: AssertionError if actual response doesn't match expected one
     """
+    logger.info('Check validation error')
+
     assert_equal(actual.type, expected.type, name='type')
     assert_equal(actual.input, expected.input, name='input')
     assert_equal(actual.context, expected.context, name='context')
@@ -32,6 +37,8 @@ def assert_validation_error_response(
     :return: None
     :raises: AssertionError if actual response doesn't match expected one
     """
+    logger.info('Check validation error response')
+
     assert_length(actual.details, expected.details, name='details')
 
     for index, detail in enumerate(expected.details):
@@ -50,4 +57,6 @@ def assert_client_error_response(
     :return: None
     :raises: AssertionError if actual response doesn't match expected one
     """
+    logger.info('Check client error response')
+
     assert_equal(actual.details, expected.details, name='details')

@@ -11,6 +11,9 @@ from clients.courses.courses_schema import (
 from tools.assertions.base import assert_equal, assert_length
 from tools.assertions.files import assert_file
 from tools.assertions.users import assert_user
+from tools.logger import get_logger
+
+logger = get_logger('COURSES_ASSERTIONS')
 
 
 @allure.step('Check course')
@@ -22,6 +25,8 @@ def assert_course(actual: CourseSchema, expected: CourseSchema) -> None:
     :return: None
     :raises: AssertionError if actual and expected course data don't match
     """
+    logger.info('Check course')
+
     assert_equal(actual.id, expected.id, name='id')
     assert_equal(actual.title, expected.title, name='title')
     assert_equal(actual.max_score, expected.max_score, name='max_score')
@@ -45,6 +50,8 @@ def assert_get_courses_response(
     :return: None
     :raises: AssertionError if response to get courses and response to create courses don't match
     """
+    logger.info('Check get courses response')
+
     assert_length(get_courses_response.courses, create_course_responses, name='courses')
 
     for index, create_course_response in enumerate(create_course_responses):
@@ -63,6 +70,8 @@ def assert_create_course_response(
     :return: None
     :raises: AssertionError if request and response don't match
     """
+    logger.info('Check create course response')
+
     assert_equal(response.course.title, request.title, name='title')
     assert_equal(response.course.max_score, request.max_score, name='max_score')
     assert_equal(response.course.min_score, request.min_score, name='min_score')
@@ -85,6 +94,8 @@ def assert_update_course_response(
     :return: None
     :raises: AssertionError if request and response to update course don't match
     """
+    logger.info('Check update course response')
+
     # Only all course fields update is currently applicable, so conditional checks aren't mandatory
     if request.title is not None:
         assert_equal(response.course.title, request.title, name='title')
