@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDE1OjUyOjU3LjUzNDc1NSIsInVzZXJfaWQiOiI2Yjk5ZjkyZS02NDE2LTRkNDQtOTZhMi1iMDg3ZTg3N2ExMTkifQ.KVKZZInzuTAKdUQBzvXlYN-6F2ZzfzwuN64ykjDw68M'\
+ -H 'content-length: 378'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Only yard identify key majority nor relationship.","courseId":"e93d4192-35e9-45bc-96ba-5f95ba5fab85","maxScore":69,"minScore":8,"orderIndex":40,"description":"Pm they full question why. Close job wear entire financial go fund speak.\nAs send rule imagine old care west surface. Education say action example determine new significant toward.","estimatedTime":"7 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDE1OjUyOjU1Ljk5MzY0OCIsInVzZXJfaWQiOiJjZmE1YmIzZi04YTg1LTQ3ZjAtYjExNi0zNmYzN2Y5YjYyYWUifQ.0gnGy5ye6AsubQHLagtOLSatrNb8fDlJgPceAUs6pi4'\
+ -H 'content-length: 383'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Bit article bank marriage interesting dog hand.","maxScore":99,"minScore":23,"description":"Cause describe clear trouble affect improve.\nTo there next change discussion hospital fish information. Minute against know beyond fact top.","estimatedTime":"8 weeks","previewFileId":"dd7aae45-2d37-445a-a255-165e4edc8622","createdByUserId":"cfa5bb3f-8a85-47f0-b116-36f37f9b62ae"}'

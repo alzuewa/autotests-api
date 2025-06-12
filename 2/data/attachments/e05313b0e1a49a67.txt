@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/589a9a54-3936-47b9-94f2-fbdeadc7ff2c'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDE1OjUyOjU0LjQ4MDQxNiIsInVzZXJfaWQiOiJkZDAzYzM5Yi03NjBhLTQ1ZGYtODE1Mi0xN2M4MmRkOGUzZTgifQ.w7GjPugPZLB-ez5T3xu2cyBPoT4maHLMaMKmLQMvDQA'\
+ -H 'content-length: 251'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Partner bar ground run raise.","maxScore":91,"minScore":16,"description":"Ask well certainly out or. Opportunity serious fly catch.\nAlways wind popular small executive event imagine. Debate feeling training seem.","estimatedTime":"8 weeks"}'

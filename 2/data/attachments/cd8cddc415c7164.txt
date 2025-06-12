@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDE1OjUyOjU1LjA1NzI0MSIsInVzZXJfaWQiOiJhMzlhYzFjMC1kN2M1LTQxNWItYmU3MC1lZTliNTYxZGQ4OTIifQ.u2y1fWJ1iVqmhXATSkyOOtugdNYwWr5fsnkrwQtBQeY'\
+ -H 'content-length: 405'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Example decision affect throw evening organization create.","maxScore":83,"minScore":18,"description":"Last want try enter sure different check. Information agency whom building us about professional certain. No ten owner many kind arrive hit information.","estimatedTime":"9 weeks","previewFileId":"98e30127-5e77-4556-b568-87e585473b28","createdByUserId":"a39ac1c0-d7c5-415b-be70-ee9b561dd892"}'

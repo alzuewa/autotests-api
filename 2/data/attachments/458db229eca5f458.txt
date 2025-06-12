@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDE1OjUyOjU2LjI2NTcxMSIsInVzZXJfaWQiOiJhMDVlNzg4ZC1jMDg2LTQyZDAtODE3Yy0wMWUxYTMyYWFlNGMifQ.PDuBcERwgD_1uxutdZoqQOzGgLccrLxU36gBXIQmKPM'\
+ -H 'content-length: 433'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Blue guy ask material either government scientist.","maxScore":84,"minScore":29,"description":"Expect draw great stand investment deep company. Source leader amount.\nCrime those month society contain.\nAir experience animal expert to someone radio. Exist according better painting.","estimatedTime":"10 weeks","previewFileId":"5e5fcf77-cb12-48e9-b419-2564bf1b96d5","createdByUserId":"a05e788d-c086-42d0-817c-01e1a32aae4c"}'
