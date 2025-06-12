@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDE2OjI5OjQ1LjE5MDQwNyIsInVzZXJfaWQiOiI0NTgzODhmNS02Y2JmLTQ2ZmYtYTY3Zi1mZDhjYTU4ZmU2OTMifQ.FvtOpEdjZC7vR8iqMVaRweFY_0asqvPquljLAHcKuwA'\
+ -H 'content-length: 370'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Child hold environmental owner citizen thus.","maxScore":69,"minScore":23,"description":"May president show standard continue spend. With public miss cover minute partner his. Something example send something than right.","estimatedTime":"9 weeks","previewFileId":"31becf78-77b0-4df4-913b-9caf8e8d8be1","createdByUserId":"458388f5-6cbf-46ff-a67f-fd8ca58fe693"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDE2OjI5OjQyLjM4MTk2MiIsInVzZXJfaWQiOiJmYjNmMTZmOS03OTk4LTRlMjMtOTM4My00ZjhmNmU5OTY2N2IifQ.4a8VdKBOZx5u3glFjB7miayi5CzxwbQUgnKo07_kxas'\
+ -H 'content-length: 285'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Peace choice little just but.","maxScore":59,"minScore":6,"description":"Sound ball follow better story. Alone increase today remember.","estimatedTime":"4 weeks","previewFileId":"aa2bdd4f-b0fc-42f0-b808-fae6468a40f7","createdByUserId":"fb3f16f9-7998-4e23-9383-4f8f6e99667b"}'

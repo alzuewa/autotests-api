@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDE2OjI5OjQ0LjkxNjE0MCIsInVzZXJfaWQiOiI3NjQ2NjQ2YS02ZTM3LTRmYTMtOWI3Mi05YzZmMWMxM2E0OTkifQ.eG79ZsBTjMSbf3JZltP88z6_x8tuRcmrBTcynW3TwTI'\
+ -H 'content-length: 349'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Window treat customer.","maxScore":79,"minScore":2,"description":"Stage after speak seem according green. Hundred key morning forget travel worry.\nHave nor light. Loss yes half. Then hospital mouth.","estimatedTime":"3 weeks","previewFileId":"cf8acdf0-3f54-4baf-a6ce-eb7e199969c2","createdByUserId":"7646646a-6e37-4fa3-9b72-9c6f1c13a499"}'
