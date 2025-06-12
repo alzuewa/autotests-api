@@ -2,7 +2,6 @@ import allure
 from httpx import Response
 
 from clients.api_client import APIClient
-from clients.private_http_builder import AuthenticationUserSchema, get_private_http_client
 from clients.exercises.exercises_schema import (
     CreateExerciseRequestSchema,
     CreateExerciseResponseSchema,
@@ -12,6 +11,8 @@ from clients.exercises.exercises_schema import (
     UpdateExerciseRequestSchema,
     UpdateExerciseResponseSchema,
 )
+from clients.private_http_builder import AuthenticationUserSchema, get_private_http_client
+from tools.routes import APIRoutes
 
 
 class ExercisesClient(APIClient):
@@ -26,7 +27,7 @@ class ExercisesClient(APIClient):
         :param query: a dict with `courseId`.
         :return: Response object of type httpx.Response.
         """
-        return self.get('/api/v1/exercises', params=query.model_dump(by_alias=True))  # noqa
+        return self.get(APIRoutes.EXERCISES, params=query.model_dump(by_alias=True))  # noqa
 
     def get_exercises(self, query: GetExercisesQuerySchema) -> GetExercisesListResponseSchema:
         response = self.get_exercises_api(query)
@@ -39,7 +40,7 @@ class ExercisesClient(APIClient):
         :param exercise_id: id of the exercise.
         :return: Response object of type httpx.Response.
         """
-        return self.get(f'/api/v1/exercises/{exercise_id}')
+        return self.get(f'{APIRoutes.EXERCISES}/{exercise_id}')
 
     def get_exercise(self, exercise_id: str) -> GetExerciseResponseSchema:
         response = self.get_exercise_api(exercise_id)
@@ -53,7 +54,7 @@ class ExercisesClient(APIClient):
         `description`, `estimatedTime`.
         :return: Response object of type httpx.Response.
         """
-        return self.post('/api/v1/exercises', json=request.model_dump(by_alias=True))
+        return self.post(APIRoutes.EXERCISES, json=request.model_dump(by_alias=True))
 
     def create_exercise(self, request: CreateExerciseRequestSchema) -> CreateExerciseResponseSchema:
         response = self.create_exercise_api(request)
@@ -67,7 +68,7 @@ class ExercisesClient(APIClient):
         :param request: a dict with `title`, `maxScore`, `minScore`, `orderIndex`, `description`, `estimatedTime`.
         :return: Response object of type httpx.Response.
         """
-        return self.patch(f'/api/v1/exercises/{exercise_id}', json=request.model_dump(by_alias=True))
+        return self.patch(f'{APIRoutes.EXERCISES}/{exercise_id}', json=request.model_dump(by_alias=True))
 
     def update_exercise(self, exercise_id: str, request: UpdateExerciseRequestSchema) -> UpdateExerciseResponseSchema:
         response = self.update_exercise_api(exercise_id, request)
@@ -80,7 +81,7 @@ class ExercisesClient(APIClient):
         :param exercise_id: id of the exercise.
         :return: Response object of type httpx.Response.
         """
-        return self.delete(f'/api/v1/exercises/{exercise_id}')
+        return self.delete(f'{APIRoutes.EXERCISES}/{exercise_id}')
 
 
 def get_exercises_client(user: AuthenticationUserSchema) -> ExercisesClient:
