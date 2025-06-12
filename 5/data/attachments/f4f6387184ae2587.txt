@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDE2OjMwOjIzLjI5MzQ3MCIsInVzZXJfaWQiOiIyYzYzMzY2Ny03MGMxLTRjZWItYTE1Zi1mZDk2NzI5OGJkYWIifQ.F840rebMfp5oQwjzakYFPfqfM3BOekZeHYD5SKNm3m8'\
+ -H 'content-length: 377'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Live culture service.","maxScore":89,"minScore":26,"description":"Data writer operation suggest. Cup attorney former hit.\nRed travel little remember idea day. Term travel development same. Result hit several before word place.","estimatedTime":"7 weeks","previewFileId":"d9b543e0-547a-4830-83c7-1be342edaad9","createdByUserId":"2c633667-70c1-4ceb-a15f-fd967298bdab"}'

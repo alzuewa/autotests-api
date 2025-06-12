@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDE2OjMwOjIxLjUwNTM0OSIsInVzZXJfaWQiOiI3ZTUzMjZhMC03N2U1LTQxOTMtOTA4MS1mODhkYjcxNGIyMzIifQ._lZDSxUwC_hSeeTaujZ9TYYlJ76XxMJVy-4h-x7R8PM'\
+ -H 'content-length: 403'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Sport understand probably reveal contain can.","maxScore":88,"minScore":5,"description":"Any not success son. Despite red air base. Clear poor now.\nWait open lay turn vote hear term charge. Part member science go. Benefit television instead government.","estimatedTime":"8 weeks","previewFileId":"a65fea60-bfa2-41a8-8b55-4f0661166d19","createdByUserId":"7e5326a0-77e5-4193-9081-f88db714b232"}'

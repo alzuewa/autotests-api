@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDE2OjMwOjIwLjkyMTcyMiIsInVzZXJfaWQiOiJkNjc5YzQxMS1lM2NlLTRhOGQtOWFhMi0xMWExMzRiOGVlY2EifQ.pAE3EXE3FzWaqJ-OQ23ovhRqFo7KNzO30pvn5_5f8Bs'\
+ -H 'content-length: 379'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Ability appear no Republican half start.","maxScore":56,"minScore":25,"description":"Particularly rather list interesting. Line government machine test. Manager play design act.\nTest who us politics open which center. At who ok.","estimatedTime":"3 weeks","previewFileId":"1a3dec3f-e1e9-4a6b-b1f2-186cf14e24fc","createdByUserId":"d679c411-e3ce-4a8d-9aa2-11a134b8eeca"}'

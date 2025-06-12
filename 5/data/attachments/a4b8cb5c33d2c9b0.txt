@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDE2OjMwOjIyLjA4NjE3NiIsInVzZXJfaWQiOiJiYzEzOWRmYi0xYWExLTQyZmQtYWZmNC0yYTQzZjQ2MDVhMjYifQ.n31gHOL8alfPUIt6RRwRp7ioF_oZ9PZ5cAPp0BHDnd0'\
+ -H 'content-length: 348'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Conference degree hot research draw.","courseId":"744de112-129a-46a9-a2a3-46399a4d71fb","maxScore":83,"minScore":26,"orderIndex":8,"description":"Agency born religious actually responsibility yes. Cold charge above ahead. Edge rest wrong southern.\nAllow also star around give. Million voice well whatever her.","estimatedTime":"9 weeks"}'

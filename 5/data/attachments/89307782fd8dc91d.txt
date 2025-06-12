@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEyVDE2OjMwOjI0LjI5MDYzMCIsInVzZXJfaWQiOiI0ZWZlNDM0Yy1jMTkxLTQ3NjctYjViMy1jNDE5M2FmMzFmZTIifQ.xV95HCVAeQ-2J5i-iYvhCmCOetqlnVfpPEm3IoAkUk4'\
+ -H 'content-length: 402'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Surface skin off raise road.","maxScore":68,"minScore":6,"description":"Color reason smile and newspaper control need. Region bag poor much believe course.\nLetter serious table drop gun detail.\nFive long material whole side. Pull cup medical surface.","estimatedTime":"7 weeks","previewFileId":"16abf36b-b898-4eb7-971f-823a2fdce643","createdByUserId":"4efe434c-c191-4767-b5b3-c4193af31fe2"}'

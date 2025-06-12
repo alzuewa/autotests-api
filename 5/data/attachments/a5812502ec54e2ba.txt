@@ -1,0 +1,22 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:27 Send PATCH request to http://localhost:8000/api/v1/exercises/6e7f9ed9-95f9-44ad-8d50-04c1233bf97e
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/exercises/6e7f9ed9-95f9-44ad-8d50-04c1233bf97e
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:93 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Wrong market air bed fact well."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "55"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "16"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals "12"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Focus this cell ball. Perform center mission organization morning bring understand impact. Ask happen fish commercial.
+Bad already tonight environment. Address others air southern ten lawyer reason."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "9 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema
