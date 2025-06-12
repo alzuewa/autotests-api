@@ -27,10 +27,12 @@ class FilesClient(APIClient):
         :param request: a dict with `filename`, `directory`, `upload_file`.
         :return: Response object of type httpx.Response.
         """
+        # `files` param is passed not as `files={'upload_file': open(f'{request.upload_file}', 'rb')}`
+        # due to changing `upload_file` type to pydantic.FilePath. It requires read_bytes()
         return self.post(
             '/api/v1/files',
             data=request.model_dump(by_alias=True, exclude={'upload_file'}),
-            files={'upload_file': open(f'{request.upload_file}', 'rb')}
+            files={'upload_file': request.upload_file.read_bytes()}
         )
 
     def create_file(self, request: CreateFileRequestSchema) -> CreateFileResponseSchema:
