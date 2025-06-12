@@ -21,7 +21,7 @@ files_client = get_files_client(authentication_user)
 courses_client = get_courses_client(authentication_user)
 exercises_client = get_exercises_client(authentication_user)
 
-create_file_request = CreateFileRequestSchema(upload_file=settings.test_data.image_png_file)
+create_file_request = CreateFileRequestSchema(upload_file=settings.test_data.image_jpg_file)
 create_file_response = files_client.create_file(create_file_request)
 print(f'Create file data: {create_file_response}')
 
