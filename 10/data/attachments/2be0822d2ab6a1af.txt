@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEzVDIwOjUxOjUzLjMwODk1NSIsInVzZXJfaWQiOiJkMDRmZDVkZi03YTA0LTQ2NzQtYjFiYS1hNzNmYTA2ZTlmMGMifQ.q-luHjF-ICG8CAz1GUJeF_5hDjXX2K0amxjrsvrOZdc'\
+ -H 'content-length: 327'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Address focus unit opportunity marriage look.","maxScore":88,"minScore":10,"description":"Our season soon offer glass big evening. Friend still he manage budget imagine another.","estimatedTime":"3 weeks","previewFileId":"542d1ea4-33ad-448f-b580-c7b3f54feb15","createdByUserId":"d04fd5df-7a04-4674-b1ba-a73fa06e9f0c"}'

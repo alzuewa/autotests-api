@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEzVDIwOjUxOjUyLjMxNjc2MCIsInVzZXJfaWQiOiI3ZDM2NjExZS0yMWI4LTQ2ZDgtYjU0ZC02OTAxOGRlNTc0ODYifQ.J4A-OU4SFZHg63fyNnhMpuQVajQSHrTyjt6SW-nD3Os'\
+ -H 'content-length: 392'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Floor defense magazine then take or take let.","courseId":"09068146-6ef8-4736-80bf-0a09d9bcc0aa","maxScore":63,"minScore":28,"orderIndex":20,"description":"Kind order amount. Well none yes.\nMagazine task tell against now director.\nPositive security work energy reason save. Note country others student. Purpose someone drug bank experience entire once.","estimatedTime":"8 weeks"}'

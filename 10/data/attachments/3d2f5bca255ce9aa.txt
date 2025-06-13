@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEzVDIwOjUxOjUyLjMxNjc2MCIsInVzZXJfaWQiOiI3ZDM2NjExZS0yMWI4LTQ2ZDgtYjU0ZC02OTAxOGRlNTc0ODYifQ.J4A-OU4SFZHg63fyNnhMpuQVajQSHrTyjt6SW-nD3Os'\
+ -H 'content-length: 363'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Sister design police goal three pick.","maxScore":53,"minScore":20,"description":"Everyone mean tax office party. Very performance member important full relationship structure. Sport little several international.","estimatedTime":"10 weeks","previewFileId":"2953213f-8e44-4c78-b8c0-153c294c4d84","createdByUserId":"7d36611e-21b8-46d8-b54d-69018de57486"}'
