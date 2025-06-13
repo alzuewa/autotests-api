@@ -1,0 +1,21 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:53 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Near president remember author."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals "123dd887-541f-4554-a09b-07d56a468951"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "74"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "16"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals "10"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Available trial break teacher. Appear either send red. Road gun worry increase rise future authority.
+Hard wife nation imagine guess picture."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "5 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

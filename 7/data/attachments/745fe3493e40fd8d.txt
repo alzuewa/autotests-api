@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/9cc6fe61-05a1-4d67-8577-965deea425d5'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEzVDE2OjIxOjIzLjkzODc1OCIsInVzZXJfaWQiOiI1ODY4ZTllNS1iODcwLTQ1NmEtOGU5MC1kMjZhMGZlMGY1NTcifQ.yefolhk6UUsrmNiwUyzBnXsl8BZ3dYlL8ZpYLeyKCwc'\
+ -H 'content-length: 268'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Go kind large bar leave develop range.","maxScore":84,"minScore":4,"description":"Would simple season southern lot. See anyone else level.\nIdea of entire space real wear. Model scientist control choose result country few similar.","estimatedTime":"9 weeks"}'

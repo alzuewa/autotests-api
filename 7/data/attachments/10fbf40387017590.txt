@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEzVDE2OjIxOjI2LjcwODMzMiIsInVzZXJfaWQiOiIzZDAxODExOC04OWM0LTQ1OWQtYmZmMy02OTllMGNkYzZiOTgifQ.Ug_8MljAa1Y5zHBwEAG8_KHt0nEd6QowySKF8J1JbXI'\
+ -H 'content-length: 353'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Trip station product present.","maxScore":73,"minScore":29,"description":"Range decide move member certain. Up husband school would partner suffer many.\nFinish again whose eight trip government success.","estimatedTime":"5 weeks","previewFileId":"0d4dacd2-9c56-4bc6-a6dd-17b9e3015052","createdByUserId":"3d018118-89c4-459d-bff3-699e0cdc6b98"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEzVDE2OjIxOjI1LjQ1NjU4NyIsInVzZXJfaWQiOiJiOGY3YmM2MS05ODEwLTRmNmMtODA5OC1hZjgxNzhkOTkxODcifQ.hVSQhj-EcIOuHavGxITQHpCCWoXEDADHpFfTWS75rWs'\
+ -H 'content-length: 330'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Positive fact beyond represent face cost.","maxScore":54,"minScore":11,"description":"My risk show what. Realize picture right discussion task.\nBefore about partner rich position.","estimatedTime":"3 weeks","previewFileId":"d176edb4-2b17-49d3-9042-ceba38916d05","createdByUserId":"b8f7bc61-9810-4f6c-8098-af8178d99187"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEzVDE2OjIxOjI2Ljk4NTE2NCIsInVzZXJfaWQiOiI0MmFmNTQ1NC1kYzdiLTRhMzAtYjRhNC03MmJkNDUzOWJmMjMifQ.C3jcljPSlll_nfT9kTnw0NQYw6kDQZCmspHr6S9phHM'\
+ -H 'content-length: 333'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Charge adult growth season.","maxScore":78,"minScore":23,"description":"Check Republican imagine election keep myself. We guess resource everybody he. Already five significant finish.","estimatedTime":"7 weeks","previewFileId":"370bb51f-2339-4b98-ba31-916456ad4421","createdByUserId":"42af5454-dc7b-4a30-b4a4-72bd4539bf23"}'

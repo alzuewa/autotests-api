@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEzVDE2OjIxOjI1LjczMDc0MyIsInVzZXJfaWQiOiJmZTQ5N2RkOS0wNWVmLTQ2YjYtYjQ4My1hYjA4MjVmOTNmOWEifQ.aOwUzEBDLKqt8z2EFPhQLhY9xWHUQOz8t00SI-SINmY'\
+ -H 'content-length: 280'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Sort it thing month central.","courseId":"e0b1cce1-b0ed-4104-b152-2134068c0e88","maxScore":89,"minScore":21,"orderIndex":75,"description":"Mother collection follow choose black their. Evening top top inside sure. With water weight early rock.","estimatedTime":"5 weeks"}'

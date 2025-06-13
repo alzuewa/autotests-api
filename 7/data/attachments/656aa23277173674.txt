@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEzVDE2OjIxOjI1LjczMDc0MyIsInVzZXJfaWQiOiJmZTQ5N2RkOS0wNWVmLTQ2YjYtYjQ4My1hYjA4MjVmOTNmOWEifQ.aOwUzEBDLKqt8z2EFPhQLhY9xWHUQOz8t00SI-SINmY'\
+ -H 'content-length: 400'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Anything entire light economy a.","maxScore":65,"minScore":17,"description":"Whatever example thank mouth inside worry. Significant attention necessary plant store notice model Mrs.\nAbility top figure accept. Institution that occur discuss together.","estimatedTime":"5 weeks","previewFileId":"17acea63-9160-4922-b10c-1eb56debf09f","createdByUserId":"fe497dd9-05ef-46b6-b483-ab0825f93f9a"}'
