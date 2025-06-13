@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/cb14d98d-ef85-4a2a-a21e-e5cf262548af'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEzVDIwOjQ3OjIwLjc3NjA5NSIsInVzZXJfaWQiOiI1ZTc1MDhjNC04YjEzLTQ4YjUtYTliMC1mMzJjYmMzM2RiNWEifQ.peijBTxRvogVJVATRHNIvrtYVQFmwdhsxho-0LVD_-E'\
+ -H 'content-length: 283'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Use leader reason grow community.","maxScore":59,"minScore":16,"description":"Room boy six hair. Foot condition word lose themselves financial. Subject two suffer region billion party.\nLoss include person sing surface either. Edge section task.","estimatedTime":"4 weeks"}'

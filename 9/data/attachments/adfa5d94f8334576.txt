@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEzVDIwOjQ3OjIzLjI5OTkwNiIsInVzZXJfaWQiOiIxNzFhNjhmYi01NDE3LTRlM2MtOTUzOS0xZjBjYzM5ZGZjZjYifQ.FT7tD2G51CBE-_9RdK7UHGU67cH6-eoeLx0kCBGmoWY'\
+ -H 'content-length: 372'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Property make age apply travel suggest large.","maxScore":65,"minScore":6,"description":"Career course push Mrs education government. Tv one from impact skin.\nEveryone money guy nearly box. Professional stuff within say.","estimatedTime":"10 weeks","previewFileId":"e1813cfa-fd30-4345-881b-22713d753e13","createdByUserId":"171a68fb-5417-4e3c-9539-1f0cc39dfcf6"}'

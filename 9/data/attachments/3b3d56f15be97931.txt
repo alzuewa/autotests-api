@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEzVDIwOjQ3OjIyLjAyMzc1OCIsInVzZXJfaWQiOiI0MzA0YzkwMy04YTU5LTRjOGEtYmM1YS1mNDA3YmUzN2M3NzYifQ.AtyS-V256TGEc4c1a-IvTx6NakzeT72JGNrbnk9za9k'\
+ -H 'content-length: 354'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Particularly week hit spend hospital along base.","courseId":"c617b577-2cff-4805-906c-42e81963c9d8","maxScore":55,"minScore":30,"orderIndex":73,"description":"Southern official medical end. Government south avoid growth worker everyone occur.\nSystem kid south fund mind. Information market direction decision stock.","estimatedTime":"7 weeks"}'

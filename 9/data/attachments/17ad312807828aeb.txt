@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEzVDIwOjQ3OjIwLjc3NjA5NSIsInVzZXJfaWQiOiI1ZTc1MDhjNC04YjEzLTQ4YjUtYTliMC1mMzJjYmMzM2RiNWEifQ.peijBTxRvogVJVATRHNIvrtYVQFmwdhsxho-0LVD_-E'\
+ -H 'content-length: 378'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Green style your very air budget while.","maxScore":67,"minScore":10,"description":"Even picture soldier level allow. Chance front we together per crime. You affect situation significant where until. International eye there far.","estimatedTime":"7 weeks","previewFileId":"967d4bed-5536-4af2-b735-79894e223030","createdByUserId":"5e7508c4-8b13-48b5-a9b0-f32cbc33db5a"}'
