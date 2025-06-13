@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEzVDE2OjI1OjM4LjE1Mzk4NSIsInVzZXJfaWQiOiI5MTk0MTk2NC0yM2Y3LTQyYTQtYjI2Ni05YmM1MTA3OGY3ZWIifQ.jPDWwsTxEweE-COdqr_49KM8dBucbSG-ceMmgEHsU8g'\
+ -H 'content-length: 317'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Gas wind second three image.","courseId":"463beb8e-484e-4694-b56f-b40655213f97","maxScore":55,"minScore":28,"orderIndex":55,"description":"Institution society everybody service hand certain. Fact piece chair ground course with fight. Nothing social note mention lose happen true.","estimatedTime":"5 weeks"}'

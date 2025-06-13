@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEzVDE2OjI1OjM5LjE1NDU0NCIsInVzZXJfaWQiOiI0NjlhMzBkMS02MjY3LTQ3NjEtOTQ3ZC00MjBiYzA4NjZjOTkifQ.Y81h8sJg8Cr8K1lKM-5AfOmek8spKNzVMYaOuGf7xoo'\
+ -H 'content-length: 333'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Approach Mrs sign must.","courseId":"a849ff74-7084-4408-81f7-f759f3333876","maxScore":95,"minScore":17,"orderIndex":2,"description":"Everyone billion respond interest. Born fill dinner maybe less citizen.\nSkill report inside pretty election. All remember sense also. Gas fine her service image.","estimatedTime":"4 weeks"}'

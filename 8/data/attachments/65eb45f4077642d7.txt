@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEzVDE2OjI1OjM3Ljg3OTY1OCIsInVzZXJfaWQiOiIwOTdmYTlkNC05YTNmLTQ3YmEtOTJjOS00MjUxNGRmOTkzNzIifQ.9JZ_fjNXxBiI3BK6NJ0ca1BsZ13UtjMDrVmCvhNqffI'\
+ -H 'content-length: 307'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Property particular little.","maxScore":90,"minScore":10,"description":"Impact within these reach. Young step early training. National must itself according.","estimatedTime":"9 weeks","previewFileId":"2405b77e-e690-43dc-ba6c-8baa8f44afa6","createdByUserId":"097fa9d4-9a3f-47ba-92c9-42514df99372"}'

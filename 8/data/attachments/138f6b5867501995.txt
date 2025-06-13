@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTEzVDE2OjI1OjM4LjE1Mzk4NSIsInVzZXJfaWQiOiI5MTk0MTk2NC0yM2Y3LTQyYTQtYjI2Ni05YmM1MTA3OGY3ZWIifQ.jPDWwsTxEweE-COdqr_49KM8dBucbSG-ceMmgEHsU8g'\
+ -H 'content-length: 363'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Set may bag.","maxScore":94,"minScore":14,"description":"Move if tonight involve drop. Give defense election writer body without air.\nNature girl record city.\nSave like ever. Which soon vote measure many cause.","estimatedTime":"10 weeks","previewFileId":"8438aed2-e37a-4bed-8a4b-37090b100c0d","createdByUserId":"91941964-23f7-42a4-b266-9bc51078f7eb"}'
