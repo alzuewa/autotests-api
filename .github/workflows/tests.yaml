@@ -49,6 +49,16 @@ jobs:
       - name: Run API tests with pytest and generate Allure results
         run: pytest -m regression --alluredir allure-results --numprocesses 2
 
+      - name: Upload Allure results
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results
+          path: allure-results/
+
+  publish-report:
+    needs: run-tests
+    runs-on: ubuntu-latest
+    steps:
       - name: Get Allure history
         uses: actions/checkout@v4
         if: always()
@@ -56,6 +66,12 @@ jobs:
         with:
           ref: gh-pages
           path: gh-pages
+
+      - name: Download Allure results
+        uses: actions/download-artifact@v4
+        with:
+          name: allure-results
+          path: allure-results
 
       - name: Generate Allure report with history
         uses: simple-elf/allure-report-action@v1.12
