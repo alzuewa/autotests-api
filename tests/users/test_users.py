@@ -57,7 +57,7 @@ class TestUsers:
             function_user: UserFixture,
             private_users_client: PrivateUsersClient
     ):
-        response = private_users_client.get_user_api(user_id=function_user.response.user.id)
+        response = private_users_client.get_user_me_api()
         response_data = GetUserResponseSchema.model_validate_json(response.text)
 
         assert_status_code(response.status_code, HTTPStatus.OK)
