@@ -2,6 +2,7 @@ import allure
 from httpx import Response
 
 from clients.api_client import APIClient
+from clients.api_coverage import tracker
 from clients.exercises.exercises_schema import (
     CreateExerciseRequestSchema,
     CreateExerciseResponseSchema,
@@ -21,6 +22,7 @@ class ExercisesClient(APIClient):
     """
 
     @allure.step('Get exercises')
+    @tracker.track_coverage_httpx(APIRoutes.EXERCISES)
     def get_exercises_api(self, query: GetExercisesQuerySchema) -> Response:
         """
         Method to get all exercises in course with id `courseId`.
@@ -34,6 +36,7 @@ class ExercisesClient(APIClient):
         return GetExercisesListResponseSchema.model_validate_json(response.text)
 
     @allure.step('Get exercise with exercise id {exercise_id}')
+    @tracker.track_coverage_httpx(f'{APIRoutes.EXERCISES}/{{exercise_id}}')
     def get_exercise_api(self, exercise_id: str) -> Response:
         """
         Method to get exercise by its id.
@@ -47,6 +50,7 @@ class ExercisesClient(APIClient):
         return GetExerciseResponseSchema.model_validate_json(response.text)
 
     @allure.step('Create exercise')
+    @tracker.track_coverage_httpx(APIRoutes.EXERCISES)
     def create_exercise_api(self, request: CreateExerciseRequestSchema) -> Response:
         """
         Method to create exercise.
@@ -61,6 +65,7 @@ class ExercisesClient(APIClient):
         return CreateExerciseResponseSchema.model_validate_json(response.text)
 
     @allure.step('Update exercise with exercise id {exercise_id}')
+    @tracker.track_coverage_httpx(f'{APIRoutes.EXERCISES}/{{exercise_id}}')
     def update_exercise_api(self, exercise_id: str, request: UpdateExerciseRequestSchema) -> Response:
         """
         Method to update exercise by its id.
@@ -75,6 +80,7 @@ class ExercisesClient(APIClient):
         return UpdateExerciseResponseSchema.model_validate_json(response.text)
 
     @allure.step('Delete exercise with exercise id {exercise_id}')
+    @tracker.track_coverage_httpx(f'{APIRoutes.EXERCISES}/{{exercise_id}}')
     def delete_exercise_api(self, exercise_id: str) -> Response:
         """
         Method to delete exercise by its id.
