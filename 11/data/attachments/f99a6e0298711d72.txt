@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDAyOjM2OjA2Ljg3MzYxMyIsInVzZXJfaWQiOiJmZTJkZjRkYy1jMTMzLTQyOTItOWE1Ny03MjgzMTFlMTVlMDEifQ.EQqNyBuaYcoWb19V2ZT_oA_58iS_hC4vhcNIRpuln8Q'\
+ -H 'content-length: 417'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Million others property serious.","maxScore":51,"minScore":1,"description":"One account take.\nRemember and near ten bill condition stay. Town record drug myself whom pretty.\nPersonal chance thus beyond tonight. Growth time lose. Street door ever trouble receive or.","estimatedTime":"4 weeks","previewFileId":"ff0d037e-0cd5-4cf1-ba18-e863a3cfe20a","createdByUserId":"fe2df4dc-c133-4292-9a57-728311e15e01"}'

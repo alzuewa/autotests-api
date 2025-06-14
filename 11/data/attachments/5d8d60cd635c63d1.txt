@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDAyOjM2OjA1LjM0NjgzOCIsInVzZXJfaWQiOiJlNDMwODZmZS1mYWE1LTRmZjMtODljMS01MTk0MjNmMWMwOWEifQ.DKS9P4qUN95rqbVGBwRA06qhRQLimu3CYqT0Q4Aon3I'\
+ -H 'content-length: 427'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Phone condition choice mother theory.","maxScore":95,"minScore":23,"description":"Increase safe tree nation. Development tend sit office.\nBeat sense add event other. Response get member but beautiful bit force. Key treat any senior.\nGun development carry floor federal young.","estimatedTime":"8 weeks","previewFileId":"0e1c48e6-9cd2-4dac-a65b-e280701f060a","createdByUserId":"e43086fe-faa5-4ff3-89c1-519423f1c09a"}'

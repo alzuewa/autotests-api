@@ -1,0 +1,33 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send GET request to http://localhost:8000/api/v1/courses?userId=c213586d-81ed-48b1-ab7f-8c4c9c6cb97b
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses?userId=c213586d-81ed-48b1-ab7f-8c4c9c6cb97b
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:53 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:74 Check that "courses's" length equals 1
+INFO     COURSES_ASSERTIONS:courses.py:28 Check course
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "25b75843-7322-435e-bcfa-eda84272345d"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Add power who create manager rich education."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "90"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "22"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Low finish citizen second travel. Dark issue fire family public. Sing tough man account drop end around. Not already state able way right my couple."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "6 weeks"
+INFO     FILES_ASSERTIONS:files.py:49 Check create file
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "b5938850-f5e7-497c-ad27-bc26eb248301"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "url" equals "http://localhost:8000/static/test_files/4bd7b61a-e2b1-41f3-8bf5-c44c0f2b42fc.jpg"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "filename" equals "4bd7b61a-e2b1-41f3-8bf5-c44c0f2b42fc.jpg"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "directory" equals "test_files"
+INFO     USERS_ASSERTIONS:users.py:44 Check user
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "c213586d-81ed-48b1-ab7f-8c4c9c6cb97b"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "email" equals "aclark@example.net"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "last_name" equals "Velasquez"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "first_name" equals "Michael"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "middle_name" equals "Lynn"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

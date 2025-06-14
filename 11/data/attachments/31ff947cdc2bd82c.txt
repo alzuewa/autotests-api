@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDAyOjM2OjA1LjkzMjUwMiIsInVzZXJfaWQiOiIwNWI3OTcwOC0xM2MxLTRhYjAtOWY0OS02MWQ3ZmE3ZGJlMDMifQ.kMQuY3-Ns30tDtU7Otyn-uWIRL_iC-5h6oXAzvKA-yU'\
+ -H 'content-length: 348'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Environmental order actually reduce small case wonder across.","maxScore":55,"minScore":7,"description":"Create plan way learn. Must important offer both. Western hold study current them seek while.","estimatedTime":"4 weeks","previewFileId":"fd99bd5f-9714-4e6c-a66a-cdcc9fb093b1","createdByUserId":"05b79708-13c1-4ab0-9f49-61d7fa7dbe03"}'

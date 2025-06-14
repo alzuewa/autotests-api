@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDAyOjM2OjA4LjE0MTM1MyIsInVzZXJfaWQiOiJjNDkyYjkwNS04MzQ5LTQ1ODMtODhiNy1mNzM4YjlhNzIwYWIifQ.XQuuYFWsC5o93dXpM_rkxCzKALZuVoZVw4x18rPW1rw'\
+ -H 'content-length: 413'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Yourself truth sound want usually year when.","maxScore":98,"minScore":1,"description":"Place no remember among law. Tax thus against avoid they certain must.\nBook beat card scientist improve. Fish may question task. No hospital go of start modern enjoy realize.","estimatedTime":"4 weeks","previewFileId":"790307ee-1f15-46df-b56f-d1e047667b52","createdByUserId":"c492b905-8349-4583-88b7-f738b9a720ab"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE0VDAyOjM2OjA4LjQxNDUzNSIsInVzZXJfaWQiOiJkZjRiZDY5Yy1mMTA5LTRiYzktODc1OC1jOGMzYjNiNjNjYTcifQ.5XnvHcNR7rNId4LJIC3PQb0nCseSgebtxxRzkJgJ-jk'\
+ -H 'content-length: 314'\
+ -H 'content-type: application/json'\
+ -d '{"title":"On everybody economic contain prevent view particularly.","courseId":"337281b7-b94f-4030-9105-391ae7604d74","maxScore":86,"minScore":7,"orderIndex":54,"description":"Serious service reduce music unit star. Down realize conference. Table kind interesting conference record leg.","estimatedTime":"5 weeks"}'
