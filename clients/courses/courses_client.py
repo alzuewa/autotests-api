@@ -2,6 +2,7 @@ import allure
 from httpx import Response
 
 from clients.api_client import APIClient
+from clients.api_coverage import tracker
 from clients.courses.courses_schema import (
     CreateCourseRequestSchema,
     CreateCourseResponseSchema,
@@ -18,6 +19,7 @@ class CoursesClient(APIClient):
     """
 
     @allure.step('Get courses')
+    @tracker.track_coverage_httpx(APIRoutes.COURSES)
     def get_courses_api(self, query: GetCoursesQuerySchema) -> Response:
         """
         Method to get all courses for user with id `userId`.
@@ -27,6 +29,7 @@ class CoursesClient(APIClient):
         return self.get(APIRoutes.COURSES, params=query.model_dump(by_alias=True))
 
     @allure.step('Create course')
+    @tracker.track_coverage_httpx(APIRoutes.COURSES)
     def create_course_api(self, request: CreateCourseRequestSchema) -> Response:
         """
         Method to create course.
@@ -41,6 +44,7 @@ class CoursesClient(APIClient):
         return CreateCourseResponseSchema.model_validate_json(response.text)
 
     @allure.step('Get course with course id {course_id}')
+    @tracker.track_coverage_httpx(f'{APIRoutes.COURSES}/{{course_id}}')
     def get_course_api(self, course_id: str) -> Response:
         """
         Method to get course by its id.
@@ -50,6 +54,7 @@ class CoursesClient(APIClient):
         return self.get(f'{APIRoutes.COURSES}/{course_id}')
 
     @allure.step('Update course with course id {course_id}')
+    @tracker.track_coverage_httpx(f'{APIRoutes.COURSES}/{{course_id}}')
     def update_course_api(self, course_id: str, request: UpdateCourseRequestSchema) -> Response:
         """
         Method to update course by its id.
@@ -60,6 +65,7 @@ class CoursesClient(APIClient):
         return self.patch(f'{APIRoutes.COURSES}/{course_id}', json=request.model_dump(by_alias=True, exclude_none=True))
 
     @allure.step('Delete course with course id {course_id}')
+    @tracker.track_coverage_httpx(f'{APIRoutes.COURSES}/{{course_id}}')
     def delete_course_api(self, course_id: str) -> Response:
         """
         Method to delete course by its id.
