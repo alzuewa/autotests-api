@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE3VDAyOjQxOjU0LjM5MTkwNSIsInVzZXJfaWQiOiJiOWU1YjdkZi1lZDY5LTQ2MDYtYWNlMS1mY2M5MGVjZGIwMjcifQ._-DE5QMgi8wLOJLniRTMr8TUxGyusfUGN6QvVoubUeU'\
+ -H 'content-length: 307'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Whether water treatment tough north.","courseId":"2a3263ea-593a-49ef-949a-b8846d851c5d","maxScore":70,"minScore":15,"orderIndex":96,"description":"Purpose something kitchen model sense. Door like onto mission close yes. Environment ball growth event exist activity any.","estimatedTime":"9 weeks"}'

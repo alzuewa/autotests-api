@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE3VDAyOjQxOjUzLjExNjgxNyIsInVzZXJfaWQiOiJmYjZmZDk2Ni1jYmQ2LTRkZDMtYWZhZi1iMGNhMjMxZmYzNTEifQ.CkcWih9temLOcqzsNH9-NS51l9fz_GWCna8FLNQF6hM'\
+ -H 'content-length: 417'\
+ -H 'content-type: application/json'\
+ -d '{"title":"The story decide both crime house street.","maxScore":66,"minScore":24,"description":"Team officer space include can. Food who set model.\nRed stuff hour cup analysis begin authority. Produce really yeah but your eight man.\nSeason usually tax four usually what sing.","estimatedTime":"9 weeks","previewFileId":"eb534fec-849e-4e77-8211-66c197ecb9dd","createdByUserId":"fb6fd966-cbd6-4dd3-afaf-b0ca231ff351"}'

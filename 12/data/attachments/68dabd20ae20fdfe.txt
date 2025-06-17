@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE3VDAyOjQxOjUyLjE3NTczOSIsInVzZXJfaWQiOiJhM2VlOTVjZi1mMzJhLTRmZjYtYjMxNi02MjZhOGQ3YzY5M2YifQ.XwnI16ObjZe88IIXLygkO66SLkzPsgwNo3q4GhsuxGY'\
+ -H 'content-length: 372'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Figure maintain season.","maxScore":68,"minScore":1,"description":"For care popular body. Shoulder wonder arrive human show.\nMy low near property couple. Rise director buy floor.\nRecognize research choice film mind push.","estimatedTime":"2 weeks","previewFileId":"5d0a421c-ca0f-4ec6-9593-1541cac2c82b","createdByUserId":"a3ee95cf-f32a-4ff6-b316-626a8d7c693f"}'

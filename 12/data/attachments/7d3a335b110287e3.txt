@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/5f7eb8e1-d464-4d35-b5b4-0cee057a2ae8'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE3VDAyOjQxOjUzLjExNjgxNyIsInVzZXJfaWQiOiJmYjZmZDk2Ni1jYmQ2LTRkZDMtYWZhZi1iMGNhMjMxZmYzNTEifQ.CkcWih9temLOcqzsNH9-NS51l9fz_GWCna8FLNQF6hM'\
+ -H 'content-length: 238'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Across fast decision born base science.","maxScore":94,"minScore":15,"description":"Such process understand more operation race international last. Avoid discover social none method type throw choice.","estimatedTime":"9 weeks"}'

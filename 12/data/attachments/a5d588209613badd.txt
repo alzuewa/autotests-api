@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE3VDAyOjQxOjU1LjcwMjU4NiIsInVzZXJfaWQiOiI1OGI5ZDZjNy02MGJlLTRjOGMtOWViZi05ZmQ2NjIxMTVhOTAifQ._6c_A_IY9_W8mkxEUbaLKbpl-NHWgTD0VGHggJtnbyI'\
+ -H 'content-length: 369'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Cold agent get light TV.","courseId":"2d955149-a5b6-45c7-93c8-1d887d0d8848","maxScore":95,"minScore":24,"orderIndex":72,"description":"Despite artist to experience eat hard investment. Season western catch every from since knowledge.\nJob second pretty new. Color fight important have step.\nDay maintain wife their. West yet land.","estimatedTime":"5 weeks"}'
