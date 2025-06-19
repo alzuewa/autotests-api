@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE5VDAyOjQwOjU5LjY0MzQ5OSIsInVzZXJfaWQiOiI4ZGRiYzRhYy1mZmNmLTRjMWEtYmJjYS00NTFkNjVlNTllMzUifQ.RW5NVG-5Q8qPMlLKhbKU7qcGp5gsKLUhxU9RvD4xN0M'\
+ -H 'content-length: 296'\
+ -H 'content-type: application/json'\
+ -d '{"title":"This model ball research situation.","courseId":"b7d4916e-c461-4f62-b79c-ae3bcadaba8a","maxScore":84,"minScore":1,"orderIndex":12,"description":"Where sign threat wall. Choose analysis language treat remain since oil. Environment appear minute general build.","estimatedTime":"8 weeks"}'

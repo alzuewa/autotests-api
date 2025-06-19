@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE5VDAyOjQxOjAwLjkxNTAwOCIsInVzZXJfaWQiOiIwNGZlMzNlZi02MWE1LTRmNWQtYjM4MS0yOTViZjk0ZTU5ZGQifQ.nQCKQ4pl-zbA4LE7doHHJtqlNU4yMwdIzJIL9TjP5xs'\
+ -H 'content-length: 341'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Sense them now since fire.","maxScore":92,"minScore":23,"description":"Agree in very painting yard suddenly. Serious night experience. Leave accept piece order central affect people painting.","estimatedTime":"7 weeks","previewFileId":"668b567b-5255-4f4b-81d0-40f29012c810","createdByUserId":"04fe33ef-61a5-4f5d-b381-295bf94e59dd"}'

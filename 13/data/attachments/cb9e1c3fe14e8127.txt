@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE5VDAyOjQwOjU4LjcwODY0MCIsInVzZXJfaWQiOiI3ZjM3NThkZi0zMGMzLTQ4NjItODk5ZS03YThkZDdiM2MyMDYifQ.Jf9ECh4w_ogP8bf-hvbcZnYDb9N6oepLBNYSmh_N8VU'\
+ -H 'content-length: 414'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Amount question test.","maxScore":77,"minScore":6,"description":"Role relationship I she spring race. Stay something order quite term.\nFactor although left. Back receive old kitchen Mrs Mrs perhaps.\nSchool stop wind meeting. Foot stage theory speak study memory.","estimatedTime":"5 weeks","previewFileId":"d0615ec2-e2a5-42f8-b89a-d2ce432b857f","createdByUserId":"7f3758df-30c3-4862-899e-7a8dd7b3c206"}'

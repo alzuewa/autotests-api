@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/d0a116cd-7421-4602-8def-c0c60efa4ade'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE5VDAyOjQwOjU4LjEzMDU2NSIsInVzZXJfaWQiOiI3MjFkZDg1Zi02NjM3LTRjOGYtYmM2OS1hNzZhN2VkOWFkZjUifQ.hOztJLLVX-dBxBexLCM47hfG99QalH4IPWqcRGUu_v8'\
+ -H 'content-length: 314'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Doctor player each crime environmental blood send.","maxScore":66,"minScore":23,"description":"Hundred conference quality talk at throw. Cultural attorney movie idea scientist season food. Money down weight who information option trial. Recently task image order put national.","estimatedTime":"2 weeks"}'

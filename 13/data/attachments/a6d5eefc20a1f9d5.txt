@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTE5VDAyOjQwOjU4LjEzMDU2NSIsInVzZXJfaWQiOiI3MjFkZDg1Zi02NjM3LTRjOGYtYmM2OS1hNzZhN2VkOWFkZjUifQ.hOztJLLVX-dBxBexLCM47hfG99QalH4IPWqcRGUu_v8'\
+ -H 'content-length: 422'\
+ -H 'content-type: application/json'\
+ -d '{"title":"General class bank scientist still officer place.","maxScore":94,"minScore":27,"description":"Organization notice approach garden. Discuss leg increase relationship detail. Sing three billion head.\nOperation red coach must. Letter senior data serious black everyone deal.","estimatedTime":"5 weeks","previewFileId":"d74626a5-e81d-40d5-a700-2d425a9da074","createdByUserId":"721dd85f-6637-4c8f-bc69-a76a7ed9adf5"}'
