@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDAyOjM3OjM2LjA5MjA1MiIsInVzZXJfaWQiOiI5YWM4Zjk4NS01MTA1LTQzOTgtOTFkNi1jZGI3MDk4Yzc5YTEifQ.A92iZ3Wir0G-8tdBZMaaAF5W5C0G_5np7WgFz413sSw'\
+ -H 'content-length: 370'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Coach scientist black near sell suddenly art.","maxScore":63,"minScore":10,"description":"Cold wonder room. Popular together difference.\nSuccessful collection so weight. Doctor financial number not let glass wind start.","estimatedTime":"6 weeks","previewFileId":"ee738a5e-6b99-47b5-90c5-a0048796a314","createdByUserId":"9ac8f985-5105-4398-91d6-cdb7098c79a1"}'

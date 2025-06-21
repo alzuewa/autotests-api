@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDAyOjM3OjM2LjM2NTAxOCIsInVzZXJfaWQiOiI3YTE5M2NkMy04MGEwLTQ3MzEtOTIzNy0xMmYxYjBlOTg4ZDQifQ.tRm5uLk8CVRdFcYU2le8SfQ1UZLdxtgXGOE0NKb17EY'\
+ -H 'content-length: 347'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Investment catch detail.","maxScore":96,"minScore":27,"description":"Series hear amount particular whose marriage. Age thing change law child federal management Democrat. Its significant join drug.","estimatedTime":"7 weeks","previewFileId":"66d7f65c-1f58-4e07-83fe-2fe940a71f73","createdByUserId":"7a193cd3-80a0-4731-9237-12f1b0e988d4"}'

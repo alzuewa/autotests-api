@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDAyOjM3OjMzLjg0NjUzMCIsInVzZXJfaWQiOiIxZjZhODA0Ni1hNjdkLTQ2NjgtOTNiMi0zMTExMDQ1NDg4OWQifQ.NGc5KbeGtNpsNcsck5xnLE3txzW63ZzxKi7azBvMoyk'\
+ -H 'content-length: 243'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Receive issue area argue center.","maxScore":80,"minScore":17,"description":"End half move I.","estimatedTime":"9 weeks","previewFileId":"6a56af1d-08f7-4fcd-9778-03dde9c86e3d","createdByUserId":"1f6a8046-a67d-4668-93b2-31110454889d"}'

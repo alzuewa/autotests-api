@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDAyOjM3OjM1LjA5MDgzOCIsInVzZXJfaWQiOiJmODhmNzE3NC02NzJiLTQzNzYtYTljMi1hYmVjZTM1ZjIwNjkifQ.0ZToRAUn7A9iZkj--2wM10_X7ZNlrw9FuPvQjiacJV4'\
+ -H 'content-length: 359'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Sell clear song key on.","maxScore":92,"minScore":2,"description":"Manage upon whose. Remember determine director without history red.\nWeight while present scene house. Every require voice PM official listen.","estimatedTime":"3 weeks","previewFileId":"5be2d598-1e72-4fa7-b710-bc3c9f11cffb","createdByUserId":"f88f7174-672b-4376-a9c2-abece35f2069"}'

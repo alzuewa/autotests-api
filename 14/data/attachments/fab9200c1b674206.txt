@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/d66f7321-d8b6-45f6-900d-271f8130c3bd'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDAyOjM3OjMzLjU3NDgwOCIsInVzZXJfaWQiOiJmYjcwMWQ2YS04NGI5LTRkZGItYmViOS0zM2IxYzZmZjYwNGEifQ.TMDXm-tp07PF3QXkm_DcmStmR3LFY23x32DH8f9S_i4'\
+ -H 'content-length: 311'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Nation store citizen fill eat maintain education join.","maxScore":82,"minScore":4,"description":"Minute option along speech parent but. Appear leg maintain sound add writer close away. Hard reach relate.\nPlant sound simply other. Man court might responsibility not move.","estimatedTime":"10 weeks"}'
