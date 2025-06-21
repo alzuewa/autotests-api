@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDE4OjE4OjA4Ljk2NzM2NSIsInVzZXJfaWQiOiI0YTZiYjA3Ny0wYjg2LTQwMTktOWUzZi00NzZlMTg3ZWViYmQifQ.3MsYAWbYsje5rgPSeBo4jZkKo3Drlrdg1AnEI2sejpA'\
+ -H 'content-length: 436'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Name service small table begin operation.","maxScore":98,"minScore":9,"description":"Clearly recent memory mouth Congress here.\nGoal different because of fact. Power family nice service business nice company get.\nImagine suddenly success body election new. Today class always prevent.","estimatedTime":"7 weeks","previewFileId":"8dc2f9f6-dd81-4d76-b916-38ff9ec79674","createdByUserId":"4a6bb077-0b86-4019-9e3f-476e187eebbd"}'

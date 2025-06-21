@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/exercises/c46f84d3-59a8-468a-b44a-3db02fe0704c'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDE4OjE4OjExLjk3MTAwMiIsInVzZXJfaWQiOiIyODczMzc0NC1jN2ViLTQzYWEtYmJjZS0xZTI1ZTcxYWU4ODQifQ.2xOW9HNSDV3yE_Dykdp28S0iOjPtPbhb2tL9iRmeCZA'\
+ -H 'content-length: 247'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Firm raise worry woman or.","maxScore":54,"minScore":6,"orderIndex":20,"description":"Final as so player least our. Kid total fast red rich point.\nSpeech carry always how best blood. Always suffer open watch.","estimatedTime":"5 weeks"}'

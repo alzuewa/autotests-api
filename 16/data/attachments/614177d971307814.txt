@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDE4OjE4OjExLjk3MTAwMiIsInVzZXJfaWQiOiIyODczMzc0NC1jN2ViLTQzYWEtYmJjZS0xZTI1ZTcxYWU4ODQifQ.2xOW9HNSDV3yE_Dykdp28S0iOjPtPbhb2tL9iRmeCZA'\
+ -H 'content-length: 368'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Owner these another economy health.","maxScore":75,"minScore":11,"description":"Candidate campaign second now research back former fear. Concern pull pretty expert building carry day. Need very treatment plan account.","estimatedTime":"10 weeks","previewFileId":"b8dd5cfe-c9e1-4b7d-a463-fa6485d00876","createdByUserId":"28733744-c7eb-43aa-bbce-1e25e71ae884"}'

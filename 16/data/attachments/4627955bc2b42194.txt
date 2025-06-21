@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDE4OjE4OjEzLjUxOTU0NyIsInVzZXJfaWQiOiI3MGJkZDZmMy00OTcwLTQ1NjItODMzYy1mNTYxNmMwMTAyZGUifQ.4iJPWDOZUu7xBwalUITtlKRsCEFrzP1CeTxfTTfe9MI'\
+ -H 'content-length: 319'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Outside capital onto team several.","maxScore":58,"minScore":16,"description":"Writer personal crime difference method keep. Director hair structure high ten fear none.","estimatedTime":"10 weeks","previewFileId":"48bcd451-1138-495f-9068-5bd5ecad3a70","createdByUserId":"70bdd6f3-4970-4562-833c-f5616c0102de"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDE4OjE4OjExLjA0MTkyMCIsInVzZXJfaWQiOiIyNThkYTkzNy02OTczLTRlZTQtODBkZC0xMjU3ZTVmODk3YzQifQ.otWNlLJJBR3zTOXyg9Y7mBqnE0trKZLkrjXI_B0_NT0'\
+ -H 'content-length: 392'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Stay rise president treatment.","maxScore":87,"minScore":12,"description":"Exist watch especially vote. Bring serious answer result million. Determine know various.\nPressure sing himself catch total sell. Race data it answer nearly general.","estimatedTime":"10 weeks","previewFileId":"4c8116b3-f702-4a5a-a13d-a3d903f77058","createdByUserId":"258da937-6973-4ee4-80dd-1257e5f897c4"}'
