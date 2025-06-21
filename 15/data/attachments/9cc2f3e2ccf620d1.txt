@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDE3OjA5OjE2LjU0MzM1OCIsInVzZXJfaWQiOiIyYzRjZDJmMi1iZjIwLTRhN2QtYTFkMy1mYjgwYzczZTI3NTcifQ.O8oXm6EJByuz0wtS_RB2AG7t5Wbce5zyaG1XtFVdHRY'\
+ -H 'content-length: 386'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Low read write citizen machine computer use.","maxScore":94,"minScore":4,"description":"Improve tonight training set sign. World why on fear authority such even. Anything parent member both happy you. Record issue candidate option bar.","estimatedTime":"10 weeks","previewFileId":"17334e49-19a1-4428-b9e9-1e9689815191","createdByUserId":"2c4cd2f2-bf20-4a7d-a1d3-fb80c73e2757"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDE3OjA5OjEzLjU0OTQ0NiIsInVzZXJfaWQiOiI4NTVhYTMyNy0xOTBiLTQ0M2MtYjM4YS1iYTIxYTNmMDQ2YTkifQ.-jH6xquhv-L7LweKkU4-WW2Fi7SuIIqnycGx-vtVUCQ'\
+ -H 'content-length: 377'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Approach actually behind.","maxScore":51,"minScore":19,"description":"Heart government of. Again price strong debate.\nVoice recently skin watch for around many five. Might mean government laugh. Cultural staff up as situation.","estimatedTime":"8 weeks","previewFileId":"4a0a6f93-6fa7-49b7-8a07-c9238d6985a1","createdByUserId":"855aa327-190b-443c-b38a-ba21a3f046a9"}'

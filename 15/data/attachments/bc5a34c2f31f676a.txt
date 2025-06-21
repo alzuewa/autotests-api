@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDE3OjA5OjE2LjgxNDg5NiIsInVzZXJfaWQiOiJmOGIwYzEyNy1iMWY4LTQ0MGYtYTQzMS1mNDE1NGE4NzYxNGIifQ.pYbZxRGj2Uu5QZKz6ewKo8bC495YC95vG-U-orVe9gM'\
+ -H 'content-length: 379'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Including everybody pick wall yard study.","courseId":"40f6dae4-3eba-4311-bb68-6f28e1a3d58b","maxScore":74,"minScore":5,"orderIndex":2,"description":"Particularly detail hospital pick want method. Hand war them hear.\nBall its heart most score likely begin. End seek dog.\nThought trade process measure baby.\nEvening particularly rest keep.","estimatedTime":"6 weeks"}'

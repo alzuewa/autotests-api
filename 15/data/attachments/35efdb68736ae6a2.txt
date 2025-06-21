@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDE3OjA5OjE2LjgxNDg5NiIsInVzZXJfaWQiOiJmOGIwYzEyNy1iMWY4LTQ0MGYtYTQzMS1mNDE1NGE4NzYxNGIifQ.pYbZxRGj2Uu5QZKz6ewKo8bC495YC95vG-U-orVe9gM'\
+ -H 'content-length: 414'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Back yet the career provide area fund ball.","maxScore":56,"minScore":3,"description":"Own through and write. Pm may teach window me once than. City add determine man PM sometimes.\nFirst level quite nice enjoy final training. Mr class activity style young relate.","estimatedTime":"9 weeks","previewFileId":"869291df-c06a-4b25-8ec6-f81da987e6ad","createdByUserId":"f8b0c127-b1f8-440f-a431-f4154a87614b"}'

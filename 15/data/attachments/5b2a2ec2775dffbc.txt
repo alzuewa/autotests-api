@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDE3OjA5OjE1LjYxNzYyNyIsInVzZXJfaWQiOiJkNGIwNGZkOC04ODNhLTQ1YzAtOTc3Yi0yMDFhZjA5MmU1ZjEifQ.E5WEGv6DSE38zlN5FTB92HoGTmbRBpJyOd4EtHEcnJU'\
+ -H 'content-length: 307'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Share future pass week.","maxScore":51,"minScore":25,"description":"Interest continue goal miss visit series catch serious. Act clear school five sound fund.","estimatedTime":"7 weeks","previewFileId":"3a61a413-50e3-441f-893c-ccd5c5c7f193","createdByUserId":"d4b04fd8-883a-45c0-977b-201af092e5f1"}'

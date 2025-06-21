@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDE3OjA5OjE1LjAzMDgyNSIsInVzZXJfaWQiOiI5MTZmZDg2NS1mZmMwLTQwNWEtOTBmNC1lOWEyYmYwODVjZDEifQ.PmWANKip7XDCbl5pEo6zvH5Q6TwJku44OECz6usHPI8'\
+ -H 'content-length: 425'\
+ -H 'content-type: application/json'\
+ -d '{"title":"We sure inside star if half Mrs establish.","maxScore":62,"minScore":27,"description":"Or picture four develop possible role less their. Probably owner industry. Cup hear current two get.\nLarge production consumer above oil record. Teacher operation too police firm exactly.","estimatedTime":"9 weeks","previewFileId":"723e9c89-21b5-4faf-92c6-cb46cd8c93f6","createdByUserId":"916fd865-ffc0-405a-90f4-e9a2bf085cd1"}'
