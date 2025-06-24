@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI0VDAyOjQ3OjM4LjczMjQ2MiIsInVzZXJfaWQiOiJhZjBlMjcyOC1hMTc4LTRkNTgtOWIzZi1iNTM5MTUzMmVhNDkifQ.PiRiSnvWYhMkgFvj-Qt4v1mlHreha-pntB_bzofl7C8'\
+ -H 'content-length: 319'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Success them own TV.","maxScore":65,"minScore":7,"description":"Summer wonder middle responsibility best. Away home common science sound man.\nGood argue office hand at.","estimatedTime":"8 weeks","previewFileId":"aa08a6fc-b5a6-48ee-9021-3e07acd016eb","createdByUserId":"af0e2728-a178-4d58-9b3f-b5391532ea49"}'

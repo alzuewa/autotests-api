@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI0VDAyOjQ3OjM3LjIyOTE5NCIsInVzZXJfaWQiOiI5ZmU2YTI1NC02MmE0LTRmMjQtYjI4Zi01MzdjMTdlMTQ4OTEifQ.9Z-PnH7XwxJQDqvmb1nY647DkPH-qLjZlzv04nePvTg'\
+ -H 'content-length: 405'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Want college as tend anything move first.","maxScore":57,"minScore":7,"description":"Society will approach return thousand big. Second note writer body.\nListen music enough not. Receive character sea again product. Get approach policy yourself work lose.","estimatedTime":"8 weeks","previewFileId":"c89a62cf-26fb-4d0c-b8d9-8d6672eb795a","createdByUserId":"9fe6a254-62a4-4f24-b28f-537c17e14891"}'

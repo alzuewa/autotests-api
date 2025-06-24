@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI0VDAyOjQ3OjQxLjU1NDgxNCIsInVzZXJfaWQiOiJkMWRjY2FkMC03OTljLTRjMjMtYmJkMC05NjA1ZDcyMzIxNjMifQ.12-vVH5ub7CcKUOJ7heEipw0F6q-vm3oGJWc8yDo36I'\
+ -H 'content-length: 406'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Likely trip civil face activity strategy brother.","maxScore":90,"minScore":29,"description":"Our report region operation ask create game. Drive include politics statement why network technology. Yeah crime them industry environment. Appear old drug model.","estimatedTime":"9 weeks","previewFileId":"f919006f-5847-4ae4-99e7-d9b7df154aa9","createdByUserId":"d1dccad0-799c-4c23-bbd0-9605d7232163"}'

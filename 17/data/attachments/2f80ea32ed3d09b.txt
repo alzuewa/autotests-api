@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI0VDAyOjQ3OjQwLjI1OTc4NyIsInVzZXJfaWQiOiI3NjY1NjZmNi0wOGViLTQwNjEtODk2Mi1lMmZmNmRjNGI0NmQifQ.7OEeKMAt4pCIO6Ul7d8ne5J5JWQDMJLnxh7a4Xg2UlY'\
+ -H 'content-length: 373'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Animal my writer support level level together find.","maxScore":50,"minScore":28,"description":"Face grow group cut look task government. Thing answer admit attorney. Enjoy Congress international imagine system debate full.","estimatedTime":"5 weeks","previewFileId":"0ccbee66-525d-439d-a8e8-e46bae0c8360","createdByUserId":"766566f6-08eb-4061-8962-e2ff6dc4b46d"}'

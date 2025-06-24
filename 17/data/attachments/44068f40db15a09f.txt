@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI0VDAyOjQ3OjQxLjgzMDI4NSIsInVzZXJfaWQiOiJhN2ZkZDM0MS0wODdjLTRkNmEtOGY4NS1iZjZlMjIwM2QwNDYifQ.xStkSDLwutPXXc7yFJ_fqkMnbQKvBKQsnCz562VGtLI'\
+ -H 'content-length: 328'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Particularly place board poor music.","maxScore":64,"minScore":30,"description":"Information information commercial everybody hear election. Black such might spring protect best.","estimatedTime":"6 weeks","previewFileId":"986f223d-fa84-466b-bbdc-683a77fe3473","createdByUserId":"a7fdd341-087c-4d6a-8f85-bf6e2203d046"}'
