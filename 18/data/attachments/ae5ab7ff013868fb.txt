@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/0834ffe4-81b2-4d42-b8ef-294d16c5b422'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI2VDAyOjQxOjMwLjg4MTY5NyIsInVzZXJfaWQiOiI5ZDU1MzM2OS1kNzQyLTQ5MTgtOTA2OS1hYTI0ZTJiNGI3MWUifQ._095JDHkRKMUp79mQMIxhSUupyZMqjSyCZ7slR4AL68'\
+ -H 'content-length: 215'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Line land form article letter color suggest word.","maxScore":73,"minScore":9,"description":"Onto lawyer them get Democrat. Second break single tree factor wish management film.","estimatedTime":"2 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI2VDAyOjQxOjMxLjQ2OTcyNiIsInVzZXJfaWQiOiI3NGUwYWMxZC02NmJmLTQwNjctYWY5Ny0xOGU3MDgxZWJlOTkifQ.6dRCppH0fXr23lCgVaFy4LCeFxnPeDFdywFi6mbGA4I'\
+ -H 'content-length: 313'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Nation hair any focus get raise edge.","courseId":"45dd0d78-9747-465b-95c0-abca53e53822","maxScore":96,"minScore":28,"orderIndex":69,"description":"Debate low morning receive happy moment.\nJust hold book plant kind fill yard. Money hear want democratic what possible lawyer.","estimatedTime":"6 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI2VDAyOjQxOjMwLjg4MTY5NyIsInVzZXJfaWQiOiI5ZDU1MzM2OS1kNzQyLTQ5MTgtOTA2OS1hYTI0ZTJiNGI3MWUifQ._095JDHkRKMUp79mQMIxhSUupyZMqjSyCZ7slR4AL68'\
+ -H 'content-length: 366'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Material involve employee write.","maxScore":63,"minScore":24,"description":"Break fight fund ready father also citizen. Myself community let support save recently land before. Meet wrong time become police activity.","estimatedTime":"4 weeks","previewFileId":"e6ee24bf-126c-4cda-9cec-e9899c58a19f","createdByUserId":"9d553369-d742-4918-9069-aa24e2b4b71e"}'
