@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDAyOjM3OjIxLjYwODczNCIsInVzZXJfaWQiOiJiZDRlZTIyOS1kMTMyLTQ4ZDMtOWY4Mi01NzAyNGM3NzBlMWMifQ.aDeEqGNgOQkJVVUmvMnq5XpL9ije5lEZzUvATPOfiXc'\
+ -H 'content-length: 328'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Term challenge recognize gun.","maxScore":62,"minScore":17,"description":"Defense population shoulder later government boy. Ground interest blue question. Drug garden idea radio.","estimatedTime":"7 weeks","previewFileId":"29186ffe-99f6-483e-907e-6b753e0e90df","createdByUserId":"bd4ee229-d132-48d3-9f82-57024c770e1c"}'

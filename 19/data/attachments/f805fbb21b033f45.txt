@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDAyOjM3OjIwLjM1MDMwNSIsInVzZXJfaWQiOiJkZDc0MTQ4OC0zMGM1LTQ3YzUtOWU0NC03YzY2YzM1ZGQ0ZjgifQ.hVys8h-1XTGqAmRe6efz2-QV6s_qQ5msVu-zkvSiFLU'\
+ -H 'content-length: 413'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Image quickly market want.","maxScore":58,"minScore":2,"description":"Describe message old food member travel knowledge. Institution try parent prove change.\nFinally fact market note low create half raise. Family suffer believe since. Hit according kitchen upon.","estimatedTime":"9 weeks","previewFileId":"6f71c9de-327e-4bd1-aada-2db07b3d02ba","createdByUserId":"dd741488-30c5-47c5-9e44-7c66c35dd4f8"}'
