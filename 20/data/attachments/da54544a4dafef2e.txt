@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTAxVDAyOjU5OjM1LjM5MDI0MyIsInVzZXJfaWQiOiJiNjliYTE0Mi00ZWYzLTQ4MjYtOTZhOC1lMmFjZTY0YmNiNWIifQ._WfTo51AH_SkoXN5Mg0RieY5VurbsT7fvbqSj0vqLOs'\
+ -H 'content-length: 386'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Cultural action somebody story.","maxScore":55,"minScore":14,"description":"I agreement serious force trial them tax. The source practice look enter home.\nArrive through report focus throughout. Allow clear accept goal sell other main.","estimatedTime":"9 weeks","previewFileId":"2521e70b-4613-4007-892f-d4441dc94ca5","createdByUserId":"b69ba142-4ef3-4826-96a8-e2ace64bcb5b"}'

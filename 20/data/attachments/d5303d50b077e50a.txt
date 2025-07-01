@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTAxVDAyOjU5OjMzLjExMDk1MiIsInVzZXJfaWQiOiIzY2NjNzc2ZS01MTFlLTQ2ZjUtYTVlYS0wMjJjODYyYjhjMzUifQ.0zlsSrlLpVTj6s01HZe_HMgrV9HFuxJfIS_iU1SxA6k'\
+ -H 'content-length: 358'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Section cell close red message care.","maxScore":93,"minScore":2,"description":"Sing begin product step former. Majority really coach meeting. Federal leave kind significant white.\nCongress return as decade.","estimatedTime":"2 weeks","previewFileId":"4085edc4-9660-43e8-8e9b-4956e03a6e40","createdByUserId":"3ccc776e-511e-46f5-a5ea-022c862b8c35"}'

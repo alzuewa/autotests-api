@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:27 Send GET request to http://localhost:8000/api/v1/exercises/52fd77bc-b77c-4e56-9f8a-9e712b75129b
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/exercises/52fd77bc-b77c-4e56-9f8a-9e712b75129b
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:76 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:29 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "52fd77bc-b77c-4e56-9f8a-9e712b75129b"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Owner wife author last condition billion fear."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals "b6458d60-84ae-4605-a880-bc84b4b2c9a0"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "86"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "1"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals "31"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Hold generation poor hold management seek occur. Good term son thus mean clear south. Too lose age six wide.
+Dog international baby shoulder. Party manager three body star politics smile."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "10 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

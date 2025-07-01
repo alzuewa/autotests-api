@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTAxVDAyOjU5OjMxLjg5NzQzNSIsInVzZXJfaWQiOiIzOTU1YmZiZS0xZTVjLTQ3ZGQtYjYzNS04MjMzY2M1NDIwNWEifQ.vLTTf7EwB613lC9KZJIOiEKHZ_0SKEAJlEPRLFU2Xfk'\
+ -H 'content-length: 333'\
+ -H 'content-type: application/json'\
+ -d '{"title":"List well crime however.","maxScore":99,"minScore":28,"description":"Require stay bit tell chance certain lose. Most treat page participant final.\nTheory member trade point marriage.","estimatedTime":"8 weeks","previewFileId":"df73e953-80fb-4fe5-b872-3f7a0255db05","createdByUserId":"3955bfbe-1e5c-47dd-b635-8233cc54205a"}'
