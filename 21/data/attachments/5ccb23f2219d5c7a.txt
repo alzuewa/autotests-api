@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTAzVDAyOjQ4OjAzLjgyNzAxMSIsInVzZXJfaWQiOiJjMThiZmExMy04MWJhLTQyNDUtYTQ3My1lZjc0YTAwYWNjOTYifQ.txPID2fb6YbE2bl47XoQEngIvkIMtwoWA6Am5cCdeLE'\
+ -H 'content-length: 409'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Financial charge tonight democratic.","maxScore":90,"minScore":25,"description":"Environment guy arrive arm beat source. Term visit be difference personal. Piece some be role.\nAnyone development religious executive recent sell fine. Lot risk front none ever.","estimatedTime":"2 weeks","previewFileId":"ba05dc48-eb2a-4902-985e-1cc990370860","createdByUserId":"c18bfa13-81ba-4245-a473-ef74a00acc96"}'

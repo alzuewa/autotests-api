@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTAzVDAyOjQ4OjAzLjU1NDMxMCIsInVzZXJfaWQiOiJhZmY2YWExZi04YzIwLTQwMjMtYWNlNy04ZjI5MTMxMzJlMjYifQ.B1E3ebllBpo6dqz8ZdG0z1UBy4jUt-924uRqqD7kZVE'\
+ -H 'content-length: 302'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Its physical court culture.","maxScore":53,"minScore":1,"description":"Including pick position debate we country especially. Recent short defense dream.","estimatedTime":"9 weeks","previewFileId":"b01e3d64-5122-448c-b247-c99da7b27614","createdByUserId":"aff6aa1f-8c20-4023-ace7-8f2913132e26"}'

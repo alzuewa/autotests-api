@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTAzVDAyOjQ4OjA2LjM1MDg1OSIsInVzZXJfaWQiOiJiNDdhOTg3NS04ODk4LTQwMjUtYjI1OC0yYWEwMTliNDBkYmUifQ.RU9cPwzRCgIw6VKv7v63let1NjeNQSQVAouhP4BRMPY'\
+ -H 'content-length: 363'\
+ -H 'content-type: application/json'\
+ -d '{"title":"According wife majority wife ago write.","maxScore":51,"minScore":18,"description":"Old relate meet ever sister. Site pay camera finally car paper. Election director provide low record outside.\nMoney school also.","estimatedTime":"5 weeks","previewFileId":"1d301293-66c7-4057-ac7b-143af181c935","createdByUserId":"b47a9875-8898-4025-b258-2aa019b40dbe"}'

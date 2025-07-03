@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTAzVDAyOjQ4OjA2LjA3Nzg4NSIsInVzZXJfaWQiOiJhMjAyZWFlNC04NzA1LTQ4MjUtOTI2ZC00OWQ1NDYyMDczZjgifQ.VQadC6ZCC8GfNMSiL-ogckH0AdjerSBne-RrT9p-xJM'\
+ -H 'content-length: 375'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Art seek news become something while.","maxScore":65,"minScore":25,"description":"Pass health hotel him. North mission them blood loss city become.\nStand understand window win letter specific hand. Guy science hand but read.","estimatedTime":"9 weeks","previewFileId":"6af35f4f-2651-4f0f-bbd3-ee971380093c","createdByUserId":"a202eae4-8705-4825-926d-49d5462073f8"}'
