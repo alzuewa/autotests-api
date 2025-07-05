@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA1VDAyOjM3OjE5LjU3MTI3OSIsInVzZXJfaWQiOiJjNmU2OGM1MC00NDNkLTQyZTUtYmJhYy0wNDI1YzliYTQwN2UifQ.PZU3WWME6tSx6obXRFiznT0ZAacTB6kuVSVvSBNI0xs'\
+ -H 'content-length: 421'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Wall those tough moment Republican factor attack.","maxScore":80,"minScore":3,"description":"Detail cold provide town also. Practice less recognize.\nFilm couple everybody player. Bad none than lay agent shake ask believe.\nTend cause prepare according. Such win officer.","estimatedTime":"7 weeks","previewFileId":"336bdf6d-fb3a-4690-a6b7-7af7ed695f02","createdByUserId":"c6e68c50-443d-42e5-bbac-0425c9ba407e"}'

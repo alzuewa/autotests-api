@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA1VDAyOjM3OjE1LjkxNDE2MSIsInVzZXJfaWQiOiI3OTUyZDBmZi04MTM1LTRhNmEtYWU2NC1hYTEyNDhkMjIxMmMifQ.8Yv0NSNmsRfb7tdR5S6DnpQmABP7lWs9h8cPYEdz9jg'\
+ -H 'content-length: 436'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Whom government effort what language admit hear.","maxScore":67,"minScore":3,"description":"Dark here coach event capital safe baby. Give accept only act.\nVery bit series where test something. Line skin edge yard air break collection ground. Yet high cell style air. Church line skill.","estimatedTime":"5 weeks","previewFileId":"2dda1701-8717-49a0-8275-7b2fb883415b","createdByUserId":"7952d0ff-8135-4a6a-ae64-aa1248d2212c"}'

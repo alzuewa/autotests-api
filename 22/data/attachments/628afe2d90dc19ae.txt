@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA1VDAyOjM3OjE4LjAxOTA0NSIsInVzZXJfaWQiOiJhNmE5MmJlZi00OWJkLTQ5YjktYTYyZi1kMDY2NGY5OGE0OTAifQ.gzeO_D6-oTcQ_Pq5fhR1ya_VxT8DGxOr6eTbiwmjAyM'\
+ -H 'content-length: 210'\
+ -H 'content-type: application/json'\
+ -d '{"title":"To plant address artist several.","courseId":"6f41df37-a12f-4424-af7e-ce1146aba236","maxScore":69,"minScore":16,"orderIndex":94,"description":"Anything both garden hundred.","estimatedTime":"5 weeks"}'

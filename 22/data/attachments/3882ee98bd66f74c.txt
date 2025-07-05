@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA1VDAyOjM3OjE3LjA4MTkyMSIsInVzZXJfaWQiOiJlNzBkZDRjZi0xOTRmLTQ5NTItODI3MS1lNDJkNDg5YzM3YmYifQ.4v1RPfVHxEgHOBQOHNNk8Z9Fl_4NeVECeSv9B_QrMnc'\
+ -H 'content-length: 255'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Policy commercial up situation be.","courseId":"50689ced-0d9a-4a8c-9b90-5b16568780c9","maxScore":78,"minScore":17,"orderIndex":36,"description":"Even car bill recent member. School coach civil possible toward develop.","estimatedTime":"3 weeks"}'

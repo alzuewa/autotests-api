@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA1VDAyOjM3OjE1LjAwMTUyMCIsInVzZXJfaWQiOiI3MGIwMjM4OC1hZmM1LTQ3ZDEtYTQzZC00N2VjMzA2YWI5NDcifQ.tBIZp38DainOPu5iYDon41fGmyiBwtRUpuvrFoMJYVs'\
+ -H 'content-length: 409'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Question change likely a organization nice.","maxScore":57,"minScore":8,"description":"Look range not down respond how. Treatment use central evidence lawyer debate.\nFull team argue every quality. Sometimes there step age employee.\nCommon court be anything.","estimatedTime":"8 weeks","previewFileId":"e3a1012e-6b8a-44f7-a410-676013a47030","createdByUserId":"70b02388-afc5-47d1-a43d-47ec306ab947"}'

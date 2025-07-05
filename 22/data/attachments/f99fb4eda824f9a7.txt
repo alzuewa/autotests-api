@@ -1,0 +1,20 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:73 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Whom government effort what language admit hear."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "67"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "3"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Dark here coach event capital safe baby. Give accept only act.
+Very bit series where test something. Line skin edge yard air break collection ground. Yet high cell style air. Church line skill."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "5 weeks"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "5 weeks"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "preview_file" equals "2dda1701-8717-49a0-8275-7b2fb883415b"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "created_by_user" equals "7952d0ff-8135-4a6a-ae64-aa1248d2212c"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

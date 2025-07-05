@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA1VDAyOjM3OjE4LjAxOTA0NSIsInVzZXJfaWQiOiJhNmE5MmJlZi00OWJkLTQ5YjktYTYyZi1kMDY2NGY5OGE0OTAifQ.gzeO_D6-oTcQ_Pq5fhR1ya_VxT8DGxOr6eTbiwmjAyM'\
+ -H 'content-length: 398'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Stay far past nice raise.","maxScore":89,"minScore":19,"description":"Style hand party. Hard last strategy way letter detail.\nQuite time suddenly significant suffer. Scientist over record increase. Series paper health individual say check assume.","estimatedTime":"10 weeks","previewFileId":"04290f62-9a57-4564-9e19-c4c0d66b748c","createdByUserId":"a6a92bef-49bd-49b9-a62f-d0664f98a490"}'
