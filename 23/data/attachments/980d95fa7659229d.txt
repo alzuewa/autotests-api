@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA4VDAyOjQ4OjMxLjM5NzkzOSIsInVzZXJfaWQiOiJkZGM2ZmExMS00ZDE0LTQxNWUtYjQ0Ny1iOTFmMmNlYzExZjkifQ.bR3V7MY-1pgKUvwd3ZtJFydOuhjUsrDrph9AK4HgnEM'\
+ -H 'content-length: 419'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Though Republican sing ahead evening.","maxScore":64,"minScore":25,"description":"Human who modern idea especially put. Than state front everyone.\nMeet choose drug hotel my represent center. Join dream total capital find exactly piece together. Fill off thing win top.","estimatedTime":"3 weeks","previewFileId":"e93a334c-7f51-4b79-b310-1682e59b1dd9","createdByUserId":"ddc6fa11-4d14-415e-b447-b91f2cec11f9"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/f80386d6-b9a3-4076-abd6-a747f8ac21b9'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA4VDAyOjQ4OjMyLjMzMTg2MSIsInVzZXJfaWQiOiJhNjU5MjBlNS0yNDQ4LTQ0OGItYmVhMS1iNDg4OGQ3OWYyNTQifQ.40_YiP3spJuV0cxLtfudB35SRafLXqUJpVCN0H6egQY'\
+ -H 'content-length: 267'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Rest store name charge.","maxScore":60,"minScore":21,"description":"Cost week mind down appear. Share seat growth difference travel exactly. Radio smile hot player affect somebody.\nSuccess true several I head behavior including.","estimatedTime":"9 weeks"}'

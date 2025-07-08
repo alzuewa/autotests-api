@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA4VDAyOjQ4OjMyLjYwNTkwMyIsInVzZXJfaWQiOiIwM2E3N2M1ZS02MDAzLTRjMGEtYTE1OS1iOWUyNWYyY2M4NmIifQ.bYWxzUB67TIk4A9rRJt0fx9Ba6NbG36nZa51nApeZAQ'\
+ -H 'content-length: 302'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Major a nearly describe network other.","courseId":"ab9dc4e5-852c-4e3e-919b-fdd1975cb226","maxScore":75,"minScore":5,"orderIndex":37,"description":"Find similar picture career old authority experience. Now student discover room company partner. Different bag even.","estimatedTime":"7 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTA4VDAyOjQ4OjMwLjc5ODMxMiIsInVzZXJfaWQiOiJjZTc4MWJjNi01NDMxLTQxODMtYTBkOC0xYzBhZWMyNzEzNzYifQ.n-FuC6fgLkaMYrvn3TngnAEw_OyY8IS0jVzpln1V-LY'\
+ -H 'content-length: 361'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Story technology recent listen fact leg.","maxScore":77,"minScore":25,"description":"Price race Mrs financial must. Choose keep common approach star chance indicate. Price clearly newspaper yet television every.","estimatedTime":"2 weeks","previewFileId":"ec5a31f6-fe92-4d37-aa10-9de88681c86a","createdByUserId":"ce781bc6-5431-4183-a0d8-1c0aec271376"}'
