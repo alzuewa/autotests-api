@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEwVDAyOjUwOjIyLjE0NzY1MCIsInVzZXJfaWQiOiIyYTcwNDgwMS01ODA5LTQ0YzEtODNjZC0zNGYyYTFiOWI2N2QifQ.jT7Jgd1rdeOy54tyKHWdbcv42cEKxrK6nsuqOdQ0at4'\
+ -H 'content-length: 454'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Direction growth clear current represent indicate past work.","maxScore":94,"minScore":20,"description":"Read day find themselves specific enough character once. Pick director how deal there report per where. Ground start claim against suffer market.\nPlayer leg positive deal whether.\nStar goal range.","estimatedTime":"10 weeks","previewFileId":"9a0243e6-4300-4359-a6b7-4dc9fa831ab4","createdByUserId":"2a704801-5809-44c1-83cd-34f2a1b9b67d"}'

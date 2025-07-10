@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEwVDAyOjUwOjE4LjA5Mjg1NCIsInVzZXJfaWQiOiIzYjZkMmM3MS0xMDYzLTQyNmMtOWRiNS0xODUyMWUzMzdiZDkifQ.V9yq7g0TK2nH_2BD_9fp06068fvpUK_HNOSptasoAOM'\
+ -H 'content-length: 416'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Measure white some we film involve white.","maxScore":63,"minScore":4,"description":"Picture senior attorney foreign high.\nGrowth open wind. Green key necessary throw development ten. Kind year state woman threat left. Education voice enjoy effect step skill fear.","estimatedTime":"10 weeks","previewFileId":"b95efecd-2122-4ec7-8ffc-dee5837d59ce","createdByUserId":"3b6d2c71-1063-426c-9db5-18521e337bd9"}'

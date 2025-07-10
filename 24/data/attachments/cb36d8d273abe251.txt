@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEwVDAyOjUwOjIxLjE0MzcxMiIsInVzZXJfaWQiOiJmNjZlYTNlNC01NzZkLTQwZWUtYTQ4Yi0zMmVhOGVhZDNiMTAifQ.zUneg31FFEROV_kfuVvvayD6h1wAq5aeAZ5JPi2iABU'\
+ -H 'content-length: 328'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Hundred read himself step there provide short.","maxScore":90,"minScore":23,"description":"Husband range service performance. Claim heart nearly rule film commercial performance.","estimatedTime":"2 weeks","previewFileId":"16187855-c76b-4344-aa31-0561071aa8c1","createdByUserId":"f66ea3e4-576d-40ee-a48b-32ea8ead3b10"}'

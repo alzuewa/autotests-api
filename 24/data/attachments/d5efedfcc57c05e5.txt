@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEwVDAyOjUwOjIyLjQyMDA3NyIsInVzZXJfaWQiOiI2MTgxZjAxOS1kMjdhLTRhZGItOWFlNS0wODFhMDk0MzI0ZTgifQ.VQDy7LDt07zn7YLaclga47AD0Zw0lfMObKjFa2zHlPk'\
+ -H 'content-length: 375'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Face policy bag door.","maxScore":94,"minScore":24,"description":"Both this agent safe bill ok.\nBad very soldier toward through travel event. Concern kind each require create prove.\nShe dream artist author necessary nature.","estimatedTime":"5 weeks","previewFileId":"53eb4761-0b98-40a2-8a44-ed0c0f96e956","createdByUserId":"6181f019-d27a-4adb-9ae5-081a094324e8"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEwVDAyOjUwOjIxLjE0MzcxMiIsInVzZXJfaWQiOiJmNjZlYTNlNC01NzZkLTQwZWUtYTQ4Yi0zMmVhOGVhZDNiMTAifQ.zUneg31FFEROV_kfuVvvayD6h1wAq5aeAZ5JPi2iABU'\
+ -H 'content-length: 318'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Consider investment end stay teach concern.","courseId":"258ba664-f31f-4d0f-bc8d-213878ff8a50","maxScore":67,"minScore":18,"orderIndex":64,"description":"Risk history on face side brother. Approach practice relate base.\nDoctor way sea forget. Accept card of author during could.","estimatedTime":"10 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEwVDAyOjUwOjE5Ljg4NjE0MyIsInVzZXJfaWQiOiJlMmNhMmFjNi03Njg4LTRhZWItYjI4MS1jMmYyNGZlM2QzMTgifQ.Itsht2PEVM6QB2I_IHhi9La-qCeLIuH1L5AodfGNGZI'\
+ -H 'content-length: 330'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Enough international the institution black.","maxScore":89,"minScore":24,"description":"Side month whatever reach explain occur. Travel final particularly vote. Training my nation.","estimatedTime":"7 weeks","previewFileId":"4c7245fa-114a-4e2a-b9ca-1faf78cc34d7","createdByUserId":"e2ca2ac6-7688-4aeb-b281-c2f24fe3d318"}'

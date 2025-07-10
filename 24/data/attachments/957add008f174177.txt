@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/exercises/66aad6e3-fef0-4721-811e-f715f7cf6901'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEwVDAyOjUwOjIwLjg2OTcwNCIsInVzZXJfaWQiOiIyNmVkNWU3MC1jOGQwLTRkOTUtOGU4Yy1lNDI1YzE3YTAwMTAifQ.zztnn4NTppXTNzqG7l5lR5z8Z_JPPi1rsmLIKDSuj6k'\
+ -H 'content-length: 243'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Wonder seem give assume current law.","maxScore":78,"minScore":8,"orderIndex":64,"description":"Point age pull rock might. Newspaper all case among throw. Morning check board exist those protect same bill.","estimatedTime":"8 weeks"}'
