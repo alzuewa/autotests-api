@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEyVDAyOjUzOjI1LjM0NDA3OCIsInVzZXJfaWQiOiI0ZGI3OGNmZi0wNThkLTQ1ZTMtYTMyMi1lOTM3NzljNWQ4MmUifQ.b-Cf6fugplxywqIVhpdQxkUMd9UsBMlGSNAGttBAk6k'\
+ -H 'content-length: 409'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Before whom station life.","maxScore":73,"minScore":11,"description":"Remember national technology main dream. Who hot word finally successful together agent. Head leave commercial tell book floor where.\nWithout big feeling product offer. Start nor fast boy.","estimatedTime":"3 weeks","previewFileId":"36849ce2-5300-495d-ad73-0dfd443bb0a7","createdByUserId":"4db78cff-058d-45e3-a322-e93779c5d82e"}'
