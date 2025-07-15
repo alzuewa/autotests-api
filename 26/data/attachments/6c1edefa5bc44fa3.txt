@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE1VDAyOjU2OjQ1LjA2ODc5NCIsInVzZXJfaWQiOiI3YTU3MGM2Mi00OThjLTQxODUtYThlNS0yMjk0YzlhMWMyZDUifQ.Cin6wFfVMkuYmbBYAoLQSM6us0OLUrjt0B5rWni3GQ4'\
+ -H 'content-length: 287'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Rule man society draw answer participant hotel.","maxScore":99,"minScore":17,"description":"Occur none reflect sense little middle clear.","estimatedTime":"7 weeks","previewFileId":"c8fa73b7-78e1-4c68-806b-9293d09b6fe5","createdByUserId":"7a570c62-498c-4185-a8e5-2294c9a1c2d5"}'

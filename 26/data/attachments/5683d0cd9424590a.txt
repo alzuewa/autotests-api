@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/exercises/5a18271a-2d7e-4703-b1b6-49da4390dc46'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE1VDAyOjU2OjQ3LjI0MjI5OSIsInVzZXJfaWQiOiJmMThhNTNhNi0yMzQ5LTQ0YjctOWNlMS02Mjk1YzliYjA1MzMifQ.8Ixa5c8_ln4wNbUtXvsDRhvsPb1OgMiqbyLgB4aEKCI'\
+ -H 'content-length: 255'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Guy employee parent room east rise box American.","maxScore":95,"minScore":21,"orderIndex":81,"description":"Usually college campaign phone American end future green. Subject smile respond. Poor indicate realize ball.","estimatedTime":"6 weeks"}'
