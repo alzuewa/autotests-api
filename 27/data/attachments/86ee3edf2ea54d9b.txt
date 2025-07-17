@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE3VDAyOjU0OjEyLjA2MzYxNSIsInVzZXJfaWQiOiI0MjI5YWFiZS0yNzlkLTQ2NzUtOTMyNS1mYmNkNWI4MWRiZjIifQ.vxVfVXg29UjSjSeTG5whQBjmew1zdaktyedGkB3JJc0'\
+ -H 'content-length: 377'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Candidate site own collection home.","courseId":"c5a21f32-8cd0-438f-aed5-fceeb1a84abc","maxScore":66,"minScore":9,"orderIndex":1,"description":"Worker campaign according nor simply building.\nNetwork church air lay upon director unit. A military because drug watch compare hundred. Realize hold particularly everybody country show another.","estimatedTime":"9 weeks"}'

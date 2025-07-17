@@ -1,0 +1,18 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send PATCH request to http://localhost:8000/api/v1/courses/785b8766-20fe-4cd0-99bc-438fface1302
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses/785b8766-20fe-4cd0-99bc-438fface1302
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:97 Check update course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Next carry claim risk maintain push."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "69"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "16"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Often pattern once image get. Real play risk visit see should. On consumer cost its when. Must least color artist show pattern."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "8 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

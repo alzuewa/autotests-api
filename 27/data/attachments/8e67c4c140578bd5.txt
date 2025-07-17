@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE3VDAyOjU0OjEyLjA2MzYxNSIsInVzZXJfaWQiOiI0MjI5YWFiZS0yNzlkLTQ2NzUtOTMyNS1mYmNkNWI4MWRiZjIifQ.vxVfVXg29UjSjSeTG5whQBjmew1zdaktyedGkB3JJc0'\
+ -H 'content-length: 329'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Majority despite foot argue.","maxScore":79,"minScore":13,"description":"Admit cell sense certain. Around resource source matter throw offer seven. Team over ever shake for point.","estimatedTime":"5 weeks","previewFileId":"7db1a81f-6a1f-4a5b-9812-2273f5c2cec7","createdByUserId":"4229aabe-279d-4675-9325-fbcd5b81dbf2"}'

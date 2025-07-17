@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE3VDAyOjU0OjExLjc5MDA4MSIsInVzZXJfaWQiOiJkZDAyZDc4OS1iZTg2LTQ4MmItODAyMS00NTBiY2UwYTFjZmYifQ.B2O_Pbn-BWZJ2RHm8SV2QoUAlzLS_1SI2u42-peOEH8'\
+ -H 'content-length: 291'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Realize beyond attention water ahead woman me.","courseId":"e8555c0f-35b8-4019-9843-ccc2ffbdba5c","maxScore":72,"minScore":4,"orderIndex":94,"description":"Time picture song get financial. Street them buy treat why nothing while. Family fall fire until.","estimatedTime":"7 weeks"}'
