@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/955087ff-1cc8-411c-83d0-d3665044646b'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE5VDAyOjQ5OjQxLjM3NjIyOCIsInVzZXJfaWQiOiI4ZmY3MDY1My02NzRlLTRiZjUtOTMyZi1lZmE2MTExNjVkNjMifQ.iKdGERjBopkDKK_DtSg8Vqgj6y7FsJSegF-Avr5sloo'\
+ -H 'content-length: 260'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Bank special Republican fish economy use bit.","maxScore":83,"minScore":19,"description":"Particularly money loss this. Increase market your police rest customer beyond consumer. About laugh finish eight among go national.","estimatedTime":"9 weeks"}'

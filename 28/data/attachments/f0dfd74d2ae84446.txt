@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE5VDAyOjQ5OjQ0LjQzMDIzMyIsInVzZXJfaWQiOiI4M2ZhZDExNi1hMTM4LTRlZWItYmE4Yy1mNzQ3MzNjZWNmOTcifQ.8UrXSqnuYyf6QWMYjmzm6ZtNlG9nOhJPPX83qQ5loXQ'\
+ -H 'content-length: 422'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Military parent nor such improve wall.","maxScore":96,"minScore":26,"description":"Ready order should mind. Fly political such.\nLive so else answer including although memory. Office relationship computer before alone contain yard. Cold can politics line nature different.","estimatedTime":"2 weeks","previewFileId":"b963f3d4-35f9-4a3b-97ed-cdc0e821120d","createdByUserId":"83fad116-a138-4eeb-ba8c-f74733cecf97"}'

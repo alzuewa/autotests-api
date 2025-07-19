@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE5VDAyOjQ5OjQ0LjE1NzU5NyIsInVzZXJfaWQiOiIzMDYxZTNmMy0xN2I4LTRhYTMtYjM2OS05ODEzZWUyZDQ2NjUifQ.OAA7V1ld1Hhw1Gc2GGoLtV7pUY1hwSOc79fz2QPCGx8'\
+ -H 'content-length: 392'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Learn window whatever.","maxScore":78,"minScore":12,"description":"Trip issue writer soon. News artist that ability rest.\nOff strategy second purpose. Share improve list soldier court feeling. Message resource government deal at a for short.","estimatedTime":"4 weeks","previewFileId":"6f24992d-a377-4323-ad03-b4e324357cbb","createdByUserId":"3061e3f3-17b8-4aa3-b369-9813ee2d4665"}'

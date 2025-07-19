@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE5VDAyOjQ5OjQwLjc4Njc3MiIsInVzZXJfaWQiOiJiOWE1NzQ2MS1jM2E2LTQ1YzktYTExZS0yOGUyYzI0ZGE1ZWEifQ.SROt5UXpABizwnB0-lUfVH62KnXAvM-wdRGrltwTE6w'\
+ -H 'content-length: 418'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Firm tonight design yes kid.","maxScore":61,"minScore":29,"description":"Ever maybe these turn everyone positive pass. Site sing car happen interview.\nOk civil central film approach. Available none miss where reach nearly financial. Choose power public note discover.","estimatedTime":"4 weeks","previewFileId":"d99eea39-9e86-4612-b278-60b0ce5ecc31","createdByUserId":"b9a57461-c3a6-45c9-a11e-28e2c24da5ea"}'

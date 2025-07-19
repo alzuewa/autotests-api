@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/exercises/76727edf-2b54-4b4c-aa4e-4cf4ed6ee56a'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE5VDAyOjQ5OjQyLjg4ODM1NiIsInVzZXJfaWQiOiJmOTEyNjJiMS1lMzM2LTQzMzYtOTVhOC02NGY0OGVkZDU2MGIifQ.rdGwMhREfjy6G2S4Uav3JfZ72iZAXrcpqltU_nA2wrc'\
+ -H 'content-length: 336'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Here since head Democrat current best population.","maxScore":50,"minScore":10,"orderIndex":53,"description":"Money myself enter soon clearly hundred. Cup hour eat bad training themselves. Security business ground hair. Public thus chair course star always.\nIn government stock hair area far star.","estimatedTime":"9 weeks"}'
