@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/exercises/c49bc610-685b-4876-946f-5fe9a5b1214a'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIyVDAyOjU0OjU5Ljg4MzAxMiIsInVzZXJfaWQiOiI4NTg0NTVlYi1hYjgwLTRlYWYtODdiNy0xYzAwZTkxNTIxODIifQ.tI7kRSCuoXF5rgy3oxvDhwc3dPaje5rBEjeLftu4AsE'\
+ -H 'content-length: 232'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Perhaps however billion away ever.","maxScore":63,"minScore":22,"orderIndex":97,"description":"Avoid firm large head also. Oil face agree very. Place debate role system forward beautiful enough.","estimatedTime":"5 weeks"}'

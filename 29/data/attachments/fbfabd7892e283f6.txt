@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIyVDAyOjU1OjAxLjQyMTI5OCIsInVzZXJfaWQiOiJhMTNhYTNiZi0wZWFkLTQxNTYtYWUxMy01MDIzMzZlN2ZiNWYifQ.qTnYQwBQFmUKGhkr81l05mdZHEup2AAOXl_zH5Z8000'\
+ -H 'content-length: 380'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Radio scientist each sense.","maxScore":92,"minScore":30,"description":"Very he finally. Certainly end figure morning product city onto.\nShow business suffer be interview. Enjoy court party health place guess look. Far hear tell.","estimatedTime":"5 weeks","previewFileId":"109dc73e-0f72-49b5-b174-6a787d5dd878","createdByUserId":"a13aa3bf-0ead-4156-ae13-502336e7fb5f"}'

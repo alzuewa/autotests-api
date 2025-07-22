@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIyVDAyOjU0OjU5Ljg4MzAxMiIsInVzZXJfaWQiOiI4NTg0NTVlYi1hYjgwLTRlYWYtODdiNy0xYzAwZTkxNTIxODIifQ.tI7kRSCuoXF5rgy3oxvDhwc3dPaje5rBEjeLftu4AsE'\
+ -H 'content-length: 324'\
+ -H 'content-type: application/json'\
+ -d '{"title":"They other page short together.","maxScore":93,"minScore":26,"description":"Throughout which threat care growth body in. Possible eight health author generation forward when.","estimatedTime":"7 weeks","previewFileId":"c505e0e4-e71e-4071-8f8e-003a7ee9acef","createdByUserId":"858455eb-ab80-4eaf-87b7-1c00e9152182"}'
