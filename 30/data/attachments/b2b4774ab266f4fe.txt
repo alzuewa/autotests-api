@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI0VDAyOjU1OjMzLjcyNDU0MCIsInVzZXJfaWQiOiI1OTIzYTgyNC00OTE1LTRhNjgtODNlYy1lZjIxMTcyNjU5ZjQifQ.QknXiDYl1fpsOokflE3mRdugxCj0Ktnb4YpCEHrHpnc'\
+ -H 'content-length: 393'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Evidence out beyond someone reduce card choice.","maxScore":86,"minScore":20,"description":"Better girl style off. Relationship avoid day total ask area care.\nAmong whose week live its guess task. Hold be inside whether ago might individual.","estimatedTime":"10 weeks","previewFileId":"588d262a-853c-4db9-8d4e-dbf7e77c5f72","createdByUserId":"5923a824-4915-4a68-83ec-ef21172659f4"}'
