@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI2VDAyOjUxOjE5LjEyNjM4MSIsInVzZXJfaWQiOiI1NTU0MTIyZC1jOWI2LTQzNWQtYmMwOS01ODA2NGY1NTI5YzYifQ.mpHwA1XaQmk7Hv5b5blaMG5O09b-yHhb0F-HmZgMXUs'\
+ -H 'content-length: 361'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Choose sign marriage lot focus bad make.","maxScore":75,"minScore":8,"description":"Show father yes personal stage.\nMake they admit popular administration. Level movement pattern us. Bag fine we behind ability.","estimatedTime":"2 weeks","previewFileId":"be9f63b8-ba88-416f-96b2-fc953969b815","createdByUserId":"5554122d-c9b6-435d-bc09-58064f5529c6"}'

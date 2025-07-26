@@ -1,0 +1,22 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:27 Send PATCH request to http://localhost:8000/api/v1/exercises/b001546a-0f01-402f-8bc9-9fb46f3918b7
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/exercises/b001546a-0f01-402f-8bc9-9fb46f3918b7
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:93 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Street professor develop cover beyond."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "87"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "23"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals "24"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Throw protect street politics maintain might end sport. Behavior life situation.
+Tell thing hour everything create. Page rate study central include medical teacher eat. Serious call onto."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "4 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema
