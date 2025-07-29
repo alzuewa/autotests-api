@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI5VDAzOjA3OjIyLjU3ODcyNCIsInVzZXJfaWQiOiJlODY0NmYwNS0zNTNlLTQ5NmQtYmNmYi00ZWFjZjAwZWNlMTUifQ.xKZtBCH6qE49DCLV7eMIqFD5pUwLyIrfRoezFXyNg0Y'\
+ -H 'content-length: 377'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Reality seem opportunity oil.","courseId":"f31b5c8d-a41c-42e7-95e6-191b940c1a2b","maxScore":95,"minScore":14,"orderIndex":46,"description":"Until cell significant hand perform politics. Sometimes industry technology treat suggest program. Head to three article natural fish third.\nPhone this country color. Sort to miss TV firm wife sell.","estimatedTime":"7 weeks"}'

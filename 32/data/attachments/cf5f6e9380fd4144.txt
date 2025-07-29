@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI5VDAzOjA3OjE4LjA0NTUzNiIsInVzZXJfaWQiOiI5NGUwNWEyMy1lMDNkLTQ2MzYtYjc4Ni01NzFkYmEyMjg2ODMifQ.xGmDfbLSbWwLm-Tpv7RULhmI4UCtGbse07GyupGJhbw'\
+ -H 'content-length: 332'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Tend hot father.","maxScore":86,"minScore":12,"description":"Beautiful there positive across. Future establish heart me. Above produce believe city mother. Team team without program.","estimatedTime":"8 weeks","previewFileId":"b3e938bd-056b-46d6-8015-b6bfbae0a15b","createdByUserId":"94e05a23-e03d-4636-b786-571dba228683"}'

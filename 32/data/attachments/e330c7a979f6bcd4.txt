@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI5VDAzOjA3OjIxLjMzODU1MyIsInVzZXJfaWQiOiJiNDdjMjViNC0zOWYyLTQ3YmUtODVkZS1iMWE1NTM1N2E4NjUifQ.LaD9rhycvrBFvp0bnVgzQDdMsXWBBrPKathMLseTIWg'\
+ -H 'content-length: 320'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Off itself resource in reflect.","maxScore":75,"minScore":22,"description":"Back material analysis capital.\nDecade artist job attack. Example place mean wait some ahead.","estimatedTime":"3 weeks","previewFileId":"fa425c55-2f52-424a-b822-5ac215b74cd4","createdByUserId":"b47c25b4-39f2-47be-85de-b1a55357a865"}'

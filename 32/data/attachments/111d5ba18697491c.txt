@@ -1,0 +1,26 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:27 Send GET request to http://localhost:8000/api/v1/exercises?courseId=f31b5c8d-a41c-42e7-95e6-191b940c1a2b
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/exercises?courseId=f31b5c8d-a41c-42e7-95e6-191b940c1a2b
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:129 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:74 Check that "exercises's" length equals 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:29 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "b35b58af-743a-4800-8610-7d99376821dd"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Reality seem opportunity oil."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals "f31b5c8d-a41c-42e7-95e6-191b940c1a2b"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "95"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "14"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals "46"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Until cell significant hand perform politics. Sometimes industry technology treat suggest program. Head to three article natural fish third.
+Phone this country color. Sort to miss TV firm wife sell."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "7 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

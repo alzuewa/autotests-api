@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI5VDAzOjA3OjE4Ljk1NjkyMSIsInVzZXJfaWQiOiIwOGYxYjUxNi1lNjRjLTQwZmEtYTU5My02YmIzZDQ3N2FjNTkifQ.5X7BUcG2-k39y0r2fjGr03LiPx-9RnDSVByF8S9oqmQ'\
+ -H 'content-length: 421'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Really fast message finally head audience maybe.","maxScore":71,"minScore":19,"description":"Director themselves because. Generation strategy community also nice. Professor none inside chance also offer.\nLittle leave authority drop. Tonight back kitchen the opportunity.","estimatedTime":"6 weeks","previewFileId":"ce3d1afd-2223-4cd0-bd7d-467555697c65","createdByUserId":"08f1b516-e64c-40fa-a593-6bb3d477ac59"}'
