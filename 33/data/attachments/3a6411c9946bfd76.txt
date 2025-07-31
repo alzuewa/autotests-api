@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/eff39816-abec-4457-bd86-6397bc427a6e'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMxVDAyOjU3OjQ1LjY5NjU5MSIsInVzZXJfaWQiOiI3NzRmNDZmNS01ZWFhLTRiOWYtOTgxMy0yZjFlZmMyMjZmNzUifQ.TA1g6RmhO4TwY6v5i7D2PLMdX0o7pZkqzAo9WA7-hwM'\
+ -H 'content-length: 269'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Card assume set nothing worry free instead.","maxScore":98,"minScore":25,"description":"Possible adult cut president. A miss road morning western.\nGood catch according common. Experience wide majority exactly thought charge chair.","estimatedTime":"8 weeks"}'

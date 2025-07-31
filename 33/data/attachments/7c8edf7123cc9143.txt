@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMxVDAyOjU3OjQ4LjU4MDkxNCIsInVzZXJfaWQiOiI2MTFlMmJkNy1jZTI2LTQ3ZjctYmQxNi1lYjk2YjQ3ZWU3MTYifQ.yR8hxrCjKMn-X3F8KLIO2qsyXLGlzniMENWI-NmH6tU'\
+ -H 'content-length: 441'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Bill successful affect experience better get red.","maxScore":98,"minScore":4,"description":"Case network special now. Understand eat want suffer executive truth. Land wonder oil speak difference camera.\nFish event such development. Account myself turn explain. The finally night major one.","estimatedTime":"8 weeks","previewFileId":"bc62e69d-7f84-490f-ac42-8ebe77b16373","createdByUserId":"611e2bd7-ce26-47f7-bd16-eb96b47ee716"}'

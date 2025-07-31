@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMxVDAyOjU3OjQ3LjIyMDc0NSIsInVzZXJfaWQiOiIxOWQ0Y2E2MC0zMWEzLTQwMWUtYmFhNS0wZDUyZjNmN2Y4ODcifQ.jwXPF9j2xxjTLsR1O5uPV1nNXOsXDM9MjXiikVu7AnM'\
+ -H 'content-length: 331'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Leave area share we moment cause.","maxScore":66,"minScore":3,"description":"Human money test method government oil force wish. Usually east look old against above exactly building.","estimatedTime":"9 weeks","previewFileId":"21494499-7067-455a-8333-5ea7a74a7577","createdByUserId":"19d4ca60-31a3-401e-baa5-0d52f3f7f887"}'

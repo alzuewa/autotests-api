@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMxVDAyOjU3OjQ4Ljg1Mzc5NCIsInVzZXJfaWQiOiI4NDNjZTc2MC1kNzJmLTQwYmYtODlkOC04YTg0OWI5Njc0NWYifQ.sQfaY86EMULF4DYYy4JcocFKQg7f5-XIzAd6NDuBDMo'\
+ -H 'content-length: 434'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Top available remain improve network wonder ago.","maxScore":86,"minScore":8,"description":"Clear politics consider little. Economy likely dog simply. Evidence computer officer approach us.\nLanguage firm tax. Only worker life term one see difference. Your today certain do newspaper.","estimatedTime":"4 weeks","previewFileId":"807e5e0c-4de1-4a18-90e8-1ec61a17847a","createdByUserId":"843ce760-d72f-40bf-89d8-8a849b96745f"}'

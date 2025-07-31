@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMxVDAyOjU3OjQ2LjI3NjYzOSIsInVzZXJfaWQiOiIxOGZiMzVmOS1kY2YwLTQ3N2YtOTIyNi1kODk3NDdmMDc3NDMifQ.yIXuA-d-Kkm6Nez4Qt6A-egw7UQ2sJmse-Q9yYIG_tg'\
+ -H 'content-length: 275'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Coach side offer.","courseId":"1eae40c2-6d95-4b79-bb97-e175949369ab","maxScore":53,"minScore":7,"orderIndex":14,"description":"The interview between reveal whose. Daughter rest coach deep. Money various bar leader. Shake fall individual.","estimatedTime":"2 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTMxVDAyOjU3OjQ1LjY5NjU5MSIsInVzZXJfaWQiOiI3NzRmNDZmNS01ZWFhLTRiOWYtOTgxMy0yZjFlZmMyMjZmNzUifQ.TA1g6RmhO4TwY6v5i7D2PLMdX0o7pZkqzAo9WA7-hwM'\
+ -H 'content-length: 360'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Station friend leg figure culture.","maxScore":51,"minScore":3,"description":"Particular risk impact professional. Ok bill we involve. Make each land.\nSome happen defense issue. Yet huge your while police its.","estimatedTime":"9 weeks","previewFileId":"34e254c7-b917-45b9-b231-6c00837af534","createdByUserId":"774f46f5-5eaa-4b9f-9813-2f1efc226f75"}'
