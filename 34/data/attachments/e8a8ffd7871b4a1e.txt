@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTAyVDAyOjUyOjA1LjY1NzY1MCIsInVzZXJfaWQiOiJiNzYwMjA1My04MjcyLTQ5NjMtYjhkYS01YTJmZjVlMDdhN2QifQ.7YHVGcmDSwMKb0qz3rfM5xSkaGQ60h2bp3YMdpRJDe8'\
+ -H 'content-length: 398'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Relate clearly democratic light just music second.","maxScore":82,"minScore":12,"description":"Follow garden into professional wrong movie station.\nRespond camera without network character once remain. Age system in face factor establish majority.","estimatedTime":"8 weeks","previewFileId":"48ab39e1-4a2d-49fd-b72c-794bebc7e1ab","createdByUserId":"b7602053-8272-4963-b8da-5a2ff5e07a7d"}'

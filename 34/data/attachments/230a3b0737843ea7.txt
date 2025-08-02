@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTAyVDAyOjUyOjA1LjA2MjU5MiIsInVzZXJfaWQiOiIwZTM2MWZmNy0xOGNkLTQ5MmYtOTdkMS00MzFmYmU0Mzg5MDAifQ.DyazPrhWoAujWu2gFzSdlJUcaXZfOw6s53MfSW2ymbY'\
+ -H 'content-length: 387'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Unit eight speech tonight catch ten such.","maxScore":92,"minScore":8,"description":"Gas time half firm. Around like shoulder one Republican.\nEvent race result drop until accept. Meeting response gun generation give administration move.","estimatedTime":"6 weeks","previewFileId":"873a4a68-4f8d-4953-b67b-c1042779f394","createdByUserId":"0e361ff7-18cd-492f-97d1-431fbe438900"}'

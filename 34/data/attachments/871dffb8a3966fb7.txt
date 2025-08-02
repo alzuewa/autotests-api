@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:27 Send GET request to http://localhost:8000/api/v1/exercises/29385f98-8814-4976-94c5-558a7752303f
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/exercises/29385f98-8814-4976-94c5-558a7752303f
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:76 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:29 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "29385f98-8814-4976-94c5-558a7752303f"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Why interest hold wall director mouth stuff."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals "82f01107-a97a-496a-971c-4c57b904c9c9"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "66"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "6"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals "1"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "About leave argue officer hit. First specific dark capital into cause still.
+Face church wait president open imagine. Feeling society war camera morning industry foot. Film somebody third bank."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "4 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

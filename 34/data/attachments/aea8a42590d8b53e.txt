@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTAyVDAyOjUyOjA2LjYxMDcyOSIsInVzZXJfaWQiOiJkZTcwMTkxOC05MmQ1LTQ5NDYtOThlZS1hNjRmZGIxZjRlYWYifQ.jueMZvjUB0Gz5xLaAfV4lMOAIQps8_wAFAGqpcUsmLw'\
+ -H 'content-length: 396'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Bank product doctor dark game.","maxScore":56,"minScore":14,"description":"Process place red human paper sort. Civil enjoy general none. Body any serve year effect surface culture.\nConference recognize born situation teach.\nWhat state yourself.","estimatedTime":"6 weeks","previewFileId":"51ec54ff-4ded-4bd8-88de-c91dd5e385de","createdByUserId":"de701918-92d5-4946-98ee-a64fdb1f4eaf"}'
