@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDAzOjAxOjA2Ljg1MjM4MSIsInVzZXJfaWQiOiJmNjIzMTUzYi05YWU4LTRkMzEtYjU0ZC0yZGFmYjJhZmEwZWIifQ.ZbwhEooeAUvGJY_1-08yJOoWPXFq61HXFmrcA2CykHM'\
+ -H 'content-length: 314'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Land up theory just.","maxScore":61,"minScore":27,"description":"Would herself sort food security news peace save. Draw travel enough become require prepare suffer.","estimatedTime":"7 weeks","previewFileId":"01903d61-0ad8-424f-962c-284e11e936ab","createdByUserId":"f623153b-9ae8-4d31-b54d-2dafb2afa0eb"}'

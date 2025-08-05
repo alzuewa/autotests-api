@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDAzOjAxOjA5Ljg2MDY1NCIsInVzZXJfaWQiOiJlZjRlNjIyMC0wMzVjLTRiYmQtOGM4ZS00NTRjMjVmM2QwMjUifQ.Lnrk72971DlQ0Z1_ei69xHFfh_M7cfEntu4iKZ-sFrk'\
+ -H 'content-length: 350'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Matter everything democratic.","maxScore":88,"minScore":20,"description":"Window our particular environment upon natural card how. Computer thus budget. Kid answer team those hit myself central offer.","estimatedTime":"3 weeks","previewFileId":"704750a4-e50d-4633-9f91-f0f3b207625f","createdByUserId":"ef4e6220-035c-4bbd-8c8e-454c25f3d025"}'

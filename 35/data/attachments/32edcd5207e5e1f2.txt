@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDAzOjAxOjExLjM4Nzc3NCIsInVzZXJfaWQiOiJlMzIyN2UxZi1hMGFjLTQ0ZDEtYjRjYi0wMTY5ZDA5NWQ1YjUifQ.iQvIEDDnp3ArEkepbsS-sa9QOcPj7kJU_kQM3lyGRi4'\
+ -H 'content-length: 423'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Weight color moment collection pattern compare might.","maxScore":63,"minScore":4,"description":"Condition within position. Leader fast a individual. Challenge red behavior marriage represent simple likely.\nPolitical newspaper yet and. Rich because member southern thank.","estimatedTime":"10 weeks","previewFileId":"94275592-0fb4-49dc-be4f-d0e885875370","createdByUserId":"e3227e1f-a0ac-44d1-b4cb-0169d095d5b5"}'
