@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA3VDAyOjU5OjMxLjIwMTQzMiIsInVzZXJfaWQiOiIxZmJjNmU4ZS1hZWEyLTQ5ZmMtYWU5OC1jMDEwMjU2MWQyYzgifQ.aAGA7z7chytNJd_eWEhh3BCxxfHkCD9dSGodZ4Ecy_I'\
+ -H 'content-length: 427'\
+ -H 'content-type: application/json'\
+ -d '{"title":"They so interest still woman long cost.","maxScore":86,"minScore":11,"description":"Laugh safe eat number individual. Under air and couple hard relate. Participant now determine sound share beyond wait.\nProcess page probably economic. Institution foot decide against identify.","estimatedTime":"6 weeks","previewFileId":"ace65258-5b6e-4a24-a771-fab8d7a784d1","createdByUserId":"1fbc6e8e-aea2-49fc-ae98-c0102561d2c8"}'

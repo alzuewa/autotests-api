@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA3VDAyOjU5OjMwLjIyMzM4MiIsInVzZXJfaWQiOiJiZDFmYzRjNS02YThkLTQ5OWItYTU4ZS1kYTY5Y2RhM2VjYjIifQ.dT1D5YgsLVUtHTpVt7PtMGOPpL8ta75X-VzHvl6U35I'\
+ -H 'content-length: 405'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Particularly once reveal these away successful happy discover.","maxScore":61,"minScore":4,"description":"Rise recognize around. Individual fact brother deep common almost will. Company rest arm himself national fall term whose. Sort east case benefit of.","estimatedTime":"5 weeks","previewFileId":"a46f33aa-3193-405d-b51e-406472d13377","createdByUserId":"bd1fc4c5-6a8d-499b-a58e-da69cda3ecb2"}'

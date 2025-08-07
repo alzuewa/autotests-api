@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA3VDAyOjU5OjI4Ljk4MjEzNSIsInVzZXJfaWQiOiI3YWZmYWUwZC00ZTdjLTQ3NDYtYmU0My0zZDA0MGE4ZTViOWMifQ.5V8t6Zgdq_u7g8SP01NbjFO0tknVABdvbhx6Q7yF4jA'\
+ -H 'content-length: 365'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Develop we commercial suddenly arrive else candidate career.","maxScore":70,"minScore":17,"description":"Child whatever town factor amount senior available. Hard page type her nor. He opportunity them environmental.","estimatedTime":"4 weeks","previewFileId":"3548cd1b-a96e-4657-b84b-4728ec3aa353","createdByUserId":"7affae0d-4e7c-4746-be43-3d040a8e5b9c"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA3VDAyOjU5OjI5Ljk1MTkwOCIsInVzZXJfaWQiOiI0N2ZhZmM3YS1kMTcxLTQ4M2ItYmEzNS0yZDZhODEyMmViMzUifQ.GjXdr536B4AotQ1ujaVRrWkjBKvKkbrDPphnyl8K-dw'\
+ -H 'content-length: 358'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Wide drive fast worker back now eat.","maxScore":54,"minScore":10,"description":"Feeling former money rich future shake. Sell itself score address baby again at. Year manager hit call there interesting fight.","estimatedTime":"3 weeks","previewFileId":"0d929e31-a647-4e6e-9a8d-e16724c2dc1e","createdByUserId":"47fafc7a-d171-483b-ba35-2d6a8122eb35"}'

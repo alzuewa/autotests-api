@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA3VDAyOjU5OjI4LjcwODIxMyIsInVzZXJfaWQiOiJjNTRhN2Y1MC03ODBjLTQ5MmItOGUyMy05NGI3MjQ2OGNkMzYifQ.t3WXZO_o4bYR2sCE3MWKQZcmTGA4t5t_1W0mriAUu8Q'\
+ -H 'content-length: 387'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Meet beyond cause where growth outside sell.","maxScore":84,"minScore":24,"description":"Maybe impact open within majority. Then research less.\nRed company trade process local. Couple note prevent. Congress lay assume must method first.","estimatedTime":"3 weeks","previewFileId":"f03317fc-c07a-4083-8ee8-dd3884afbf50","createdByUserId":"c54a7f50-780c-492b-8e23-94b72468cd36"}'

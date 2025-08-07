@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA3VDAyOjU5OjMxLjQ3MzEyNiIsInVzZXJfaWQiOiJiODY5ODA2ZS1iN2EzLTQ2MTEtODQ2Yy0zMTBlZWNiZWZmZjEifQ.lg8cyg2RbZhdFq0CXKo79A9V3HUTm8QviQIafmuecjI'\
+ -H 'content-length: 371'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Help anyone nothing those use effect their.","maxScore":53,"minScore":10,"description":"Individual model rest form describe eye. Tonight upon administration dinner even full get example. Continue figure sign study ago in.","estimatedTime":"4 weeks","previewFileId":"6b1f2e8d-c89d-49f2-b5cf-fa54cabf8d0b","createdByUserId":"b869806e-b7a3-4611-846c-310eecbefff1"}'

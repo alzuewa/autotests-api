@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA3VDAyOjU5OjMwLjIyMzM4MiIsInVzZXJfaWQiOiJiZDFmYzRjNS02YThkLTQ5OWItYTU4ZS1kYTY5Y2RhM2VjYjIifQ.dT1D5YgsLVUtHTpVt7PtMGOPpL8ta75X-VzHvl6U35I'\
+ -H 'content-length: 354'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Performance sure develop decade.","courseId":"480a6f60-aa2c-421b-b3b8-5c115af3aa10","maxScore":81,"minScore":25,"orderIndex":95,"description":"Door thousand prepare maintain recognize ahead state. Sometimes leave sea return weight beyond. Start break study who less paper hair feeling. Space smile get result course.","estimatedTime":"6 weeks"}'
