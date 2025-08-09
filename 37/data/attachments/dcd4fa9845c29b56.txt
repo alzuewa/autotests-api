@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA5VDAyOjQxOjM0LjM0MDM0MCIsInVzZXJfaWQiOiIzNDE2YjA5ZC1lNzBlLTRlZjgtYjdmOC0xYTNhOWExZGZhYzgifQ.rzoAhU7sjXp2PFcOALxotSARGRaRnK--HleNpEV5cNw'\
+ -H 'content-length: 271'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Pressure training dark task.","maxScore":99,"minScore":4,"description":"American well ok serve. Main hear special strong.","estimatedTime":"7 weeks","previewFileId":"98c9b1a4-51eb-4bff-996a-15d519307157","createdByUserId":"3416b09d-e70e-4ef8-b7f8-1a3a9a1dfac8"}'

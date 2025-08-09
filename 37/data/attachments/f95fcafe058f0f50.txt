@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA5VDAyOjQxOjM2LjMwNDc1MyIsInVzZXJfaWQiOiI3MDkxYjZmZS1mZmY4LTQwMDgtYTAwNS04NGJjYTFjNWEwMjYifQ.L708fToKOrW6i7sNEokWVwU3RyUelYa6k1qy_lfhE3A'\
+ -H 'content-length: 319'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Beautiful allow pretty trial card.","courseId":"5a15d8b0-8a49-4412-aca1-b827344e2e26","maxScore":52,"minScore":19,"orderIndex":6,"description":"Street former each wife Congress activity subject. History support study you race now. Charge go down sell say knowledge natural reflect.","estimatedTime":"5 weeks"}'

@@ -1,0 +1,26 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:27 Send GET request to http://localhost:8000/api/v1/exercises?courseId=eeb15d13-b86b-422f-ace5-00087ff78fc4
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/exercises?courseId=eeb15d13-b86b-422f-ace5-00087ff78fc4
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:129 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:74 Check that "exercises's" length equals 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:29 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "f6ae2770-99b5-4c05-93f5-f53a8cb79372"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Other fire police subject risk."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals "eeb15d13-b86b-422f-ace5-00087ff78fc4"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "59"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "9"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals "23"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Woman black medical it. Important write record card matter reveal.
+Security service action real. Into think possible stuff responsibility respond free move."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "2 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

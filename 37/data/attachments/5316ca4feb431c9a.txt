@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA5VDAyOjQxOjMzLjE1NjMzOSIsInVzZXJfaWQiOiI2Mjk2MDY0Zi1kZjcwLTQzNWQtYmQwYi1hZTFhNjFkMmM3OGUifQ.nz7bj6NiaCJs6h9lKOg-2g8ZLQOMYI8FvAB4my85Tuo'\
+ -H 'content-length: 408'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Ask answer stay whole name training idea.","maxScore":60,"minScore":7,"description":"Statement purpose pretty speak religious. Find present off local yard just. Their health thousand series woman he.\nCut simply picture glass laugh. Wrong choose few special.","estimatedTime":"6 weeks","previewFileId":"558c0c03-e55a-4949-8bd2-0396f5abeb0e","createdByUserId":"6296064f-df70-435d-bd0b-ae1a61d2c78e"}'
