@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEyVDAyOjQwOjQ1LjEwODk0OSIsInVzZXJfaWQiOiIyZGQxNTUzOS01Y2ZiLTQ2MjEtYTA0Ny0xMGQzZmRkZjQyZDQifQ.ClUu8UkbzS0Regl5Z9BPHeg8L7VLvT7Lz7TZ8jqQAmA'\
+ -H 'content-length: 427'\
+ -H 'content-type: application/json'\
+ -d '{"title":"National score five far employee or our.","maxScore":84,"minScore":6,"description":"Social Mrs among wrong. Fight color base college within fly.\nSame glass five war. Hair vote head walk discuss old. Knowledge thought assume score claim again especially. Set like effect pass.","estimatedTime":"10 weeks","previewFileId":"82a485e1-d1ab-4316-bb7b-20c07da40c8f","createdByUserId":"2dd15539-5cfb-4621-a047-10d3fddf42d4"}'

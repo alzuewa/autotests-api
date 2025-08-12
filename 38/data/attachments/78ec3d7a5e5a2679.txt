@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEyVDAyOjQwOjQzLjUzNTA5NCIsInVzZXJfaWQiOiIyMDkzNTFlYi1jYjU2LTRiOWItYjRhNC1mMzliNWViZTNkZDEifQ.0j37AoA0D11NcIH4mx4RfbHC91vpBrCbbMUNSHxm49Y'\
+ -H 'content-length: 348'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Third sit central member democratic black recently.","maxScore":64,"minScore":11,"description":"Add laugh road hear. Guess cause understand realize listen hand. Building culture knowledge president.","estimatedTime":"2 weeks","previewFileId":"d705f263-0cd1-48a5-9b51-f24f9ab87372","createdByUserId":"209351eb-cb56-4b9b-b4a4-f39b5ebe3dd1"}'

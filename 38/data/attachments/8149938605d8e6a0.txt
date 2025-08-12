@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEyVDAyOjQwOjQyLjU2MTA4NyIsInVzZXJfaWQiOiJjMmUwYTllNi1kZTRhLTQ3MDQtYTBlNC0zMTFiNDk3MmYwMjkifQ.OiXYoDlJD7FrHYIxZUr8JPhLWR3ffIdxdAWx7gc5M9o'\
+ -H 'content-length: 384'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Management change exist democratic.","maxScore":64,"minScore":30,"description":"Right save apply. Small on result police follow day suddenly.\nAlways gas leader common. Budget either day work anything state same. Station again spring.","estimatedTime":"2 weeks","previewFileId":"2164065e-bf1e-4bfb-9fa1-452b5d05c495","createdByUserId":"c2e0a9e6-de4a-4704-a0e4-311b4972f029"}'

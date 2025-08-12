@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEyVDAyOjQwOjQzLjUzNTA5NCIsInVzZXJfaWQiOiIyMDkzNTFlYi1jYjU2LTRiOWItYjRhNC1mMzliNWViZTNkZDEifQ.0j37AoA0D11NcIH4mx4RfbHC91vpBrCbbMUNSHxm49Y'\
+ -H 'content-length: 360'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Lose buy never know small.","courseId":"42dd60ec-bd5b-4305-8e0c-0e86aad010d9","maxScore":75,"minScore":18,"orderIndex":94,"description":"Special religious receive return. Pattern energy exist collection fast important. Allow player teach position.\nProve town central. Himself commercial read old local. Color pick report.","estimatedTime":"2 weeks"}'

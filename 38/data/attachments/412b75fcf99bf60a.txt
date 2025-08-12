@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/a03a57ce-f028-4bc3-a493-a23fe29b7667'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEyVDAyOjQwOjQyLjI4ODc2OCIsInVzZXJfaWQiOiJlMzU1OGIwZC1hYTQ1LTQ3MjMtYjNlZS0xMGNlNDFkYjI2NTgifQ.C2WYXLH4dKY1WAnxfvHey3YqXXBMfOetmf6i7aJxG4A'\
+ -H 'content-length: 310'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Military minute program choice southern some prove ok.","maxScore":60,"minScore":8,"description":"Town official gun. Whose eat especially order four give over.\nPoor guess almost around detail. Friend last suggest of unit speech.\nSuch kid magazine mention. Long fund let.","estimatedTime":"2 weeks"}'

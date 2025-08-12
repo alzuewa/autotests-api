@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEyVDAyOjQwOjQ0LjUyMzIxNSIsInVzZXJfaWQiOiJjNTY4MzYyNC05MmJmLTRhNjUtOWRkNS1jMzk1YmQ4ZWNiMWIifQ.axWOnMbLwc7Osf8oVbngG5LLpto_vmVhdNeLzm0tDHI'\
+ -H 'content-length: 439'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Until player hour explain task movement few.","maxScore":94,"minScore":20,"description":"Parent college bed so one. Worker under guy fast start six.\nDescribe suggest every adult word degree day adult. Picture attention significant it similar red. Employee goal defense this finally music.","estimatedTime":"8 weeks","previewFileId":"f57d2b2b-974f-486b-8028-a8524b9bf276","createdByUserId":"c5683624-92bf-4a65-9dd5-c395bd8ecb1b"}'
