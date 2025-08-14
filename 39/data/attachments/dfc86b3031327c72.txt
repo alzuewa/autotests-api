@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDAyOjQ4OjU5LjYzODc5OSIsInVzZXJfaWQiOiJlYzUwMDY3ZS0wZGFkLTQyYTAtYTMxYS00MTVjYWI2MzllMjMifQ.GXsgAan3RS7zVQfCm8vgVYys5L294Eg37tQv9z0Vu4w'\
+ -H 'content-length: 420'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Computer quickly case evening.","maxScore":90,"minScore":24,"description":"Off natural show act spend today public final.\nCare whether feel. Commercial human let charge majority yourself forward. Send from through mind possible. First fight current fine thought member.","estimatedTime":"2 weeks","previewFileId":"4ccf28da-09fc-4d87-b516-eda37dd2ed8b","createdByUserId":"ec50067e-0dad-42a0-a31a-415cab639e23"}'

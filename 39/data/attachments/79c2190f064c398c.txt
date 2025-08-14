@@ -1,0 +1,34 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send GET request to http://localhost:8000/api/v1/courses?userId=89f66fc0-933b-4536-9575-66db429c7197
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses?userId=89f66fc0-933b-4536-9575-66db429c7197
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:53 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:74 Check that "courses's" length equals 1
+INFO     COURSES_ASSERTIONS:courses.py:28 Check course
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "bf5611f7-ae36-4124-a2da-2774741b015c"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Rise keep stage boy."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "86"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "21"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Western forward every professor difficult accept. Arrive base quickly eight speech weight treatment. Site weight not.
+Always keep fact chance. Decade rather maybe."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "3 weeks"
+INFO     FILES_ASSERTIONS:files.py:49 Check create file
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "b9b8440c-5496-42f8-bf34-aaf1214046ac"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "url" equals "http://localhost:8000/static/test_files/e56def31-6ca4-497f-8e77-b43c85323694.jpg"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "filename" equals "e56def31-6ca4-497f-8e77-b43c85323694.jpg"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "directory" equals "test_files"
+INFO     USERS_ASSERTIONS:users.py:44 Check user
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "89f66fc0-933b-4536-9575-66db429c7197"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "email" equals "david02@example.net"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "last_name" equals "Obrien"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "first_name" equals "Eddie"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "middle_name" equals "Keith"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

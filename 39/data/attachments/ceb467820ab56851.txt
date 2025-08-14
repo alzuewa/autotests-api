@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDAyOjQ4OjU4LjczMzM1NCIsInVzZXJfaWQiOiI4OWY2NmZjMC05MzNiLTQ1MzYtOTU3NS02NmRiNDI5YzcxOTcifQ.HtVs8Hn4itKdie5frhnvx8LTdgHdUw2uV8oq2JbjKsI'\
+ -H 'content-length: 379'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Rise keep stage boy.","maxScore":86,"minScore":21,"description":"Western forward every professor difficult accept. Arrive base quickly eight speech weight treatment. Site weight not.\nAlways keep fact chance. Decade rather maybe.","estimatedTime":"3 weeks","previewFileId":"b9b8440c-5496-42f8-bf34-aaf1214046ac","createdByUserId":"89f66fc0-933b-4536-9575-66db429c7197"}'

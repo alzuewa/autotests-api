@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/4095cd76-5502-4b2b-b24a-f15757db4ecb'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDAyOjQ5OjAwLjIyNTEwMCIsInVzZXJfaWQiOiIxZDQwZWVkYi05ZDQyLTQyZTctYTU3Zi1jMDZiMmY2YWFiNjAifQ.oqnHrVueCZGsG_Kwgzb8pUyUfKNZ50H0NYvahb3L3Xk'\
+ -H 'content-length: 259'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Kitchen determine end sit Mrs.","maxScore":82,"minScore":11,"description":"Research chance artist space explain. Various change actually out across look worker.\nHome sort point we wish rather. Only adult light agreement.","estimatedTime":"3 weeks"}'

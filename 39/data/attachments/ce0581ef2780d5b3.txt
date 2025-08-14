@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDAyOjQ5OjAyLjc1NTE3MyIsInVzZXJfaWQiOiI2Y2ZlMjJkMC1kYzM2LTRiODktOWUxMC1iOWQ2MjZmM2NjMjcifQ.EFh4dflL3pYFVwTRX-jnJsjFHqVUoHIuHA1ASaCMneg'\
+ -H 'content-length: 439'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Out yard specific realize oil start near foot.","maxScore":66,"minScore":27,"description":"Choose true right. Movie better somebody production partner future represent.\nMajor news away suggest second various. While responsibility area follow.\nAround father himself else institution play.","estimatedTime":"8 weeks","previewFileId":"d9ece679-3b89-4217-86d3-4a3372ecb888","createdByUserId":"6cfe22d0-dc36-4b89-9e10-b9d626f3cc27"}'
