@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE2VDAyOjM3OjM4LjkxMjMwMyIsInVzZXJfaWQiOiJhNjdiODI3Ni1jYzdlLTRiMzAtYmQ2Ny1mMWI3ZTE4NGRlZDUifQ.ad3IbH468285LZ71ccWtOSFxcNsXrE5TDbzloVR_1c4'\
+ -H 'content-length: 262'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Security race eat produce.","courseId":"d7028eae-6fee-4bd2-81c0-10156c503085","maxScore":60,"minScore":30,"orderIndex":2,"description":"Others on either interesting talk service my. End inside go help price himself physical.","estimatedTime":"3 weeks"}'

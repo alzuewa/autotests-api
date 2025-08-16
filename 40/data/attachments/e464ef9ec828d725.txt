@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE2VDAyOjM3OjM4LjY0MDQ4NyIsInVzZXJfaWQiOiI4ZDVlMDA0OS00ZmM1LTQxYjYtODk5OS0zMzJhYWEwZDFjN2UifQ.woHbRqeK0Kavgr6Kf9rImGWfTPRr9i4IKLE6q93fm8s'\
+ -H 'content-length: 371'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Possible program model art.","maxScore":80,"minScore":23,"description":"Majority because Democrat budget fine group. At hand writer.\nShare data old general ground loss image. Manage gas side month detail entire strategy.","estimatedTime":"8 weeks","previewFileId":"ab042d2b-e3a1-4f19-b552-875784567da5","createdByUserId":"8d5e0049-4fc5-41b6-8999-332aaa0d1c7e"}'

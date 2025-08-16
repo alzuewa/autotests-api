@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE2VDAyOjM3OjM4LjY0MDQ4NyIsInVzZXJfaWQiOiI4ZDVlMDA0OS00ZmM1LTQxYjYtODk5OS0zMzJhYWEwZDFjN2UifQ.woHbRqeK0Kavgr6Kf9rImGWfTPRr9i4IKLE6q93fm8s'\
+ -H 'content-length: 339'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Personal off information that budget.","courseId":"d752e0cd-ebec-442e-81ad-b4f4ce72331c","maxScore":95,"minScore":4,"orderIndex":80,"description":"Strong from wrong entire head sing. Change five fine record form cold. Great section report attention never suggest. Allow audience sound human challenge.","estimatedTime":"8 weeks"}'

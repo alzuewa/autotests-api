@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/exercises/0490be08-1248-441d-b03e-52c787dd9ab2'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE2VDAyOjM3OjM4LjY0MDQ4NyIsInVzZXJfaWQiOiI4ZDVlMDA0OS00ZmM1LTQxYjYtODk5OS0zMzJhYWEwZDFjN2UifQ.woHbRqeK0Kavgr6Kf9rImGWfTPRr9i4IKLE6q93fm8s'\
+ -H 'content-length: 307'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Science professional fish training.","maxScore":62,"minScore":19,"orderIndex":72,"description":"Cultural along various. Travel find late arm ever best high.\nTalk there after always. Poor animal natural check enough first baby economy. Song lead kitchen answer instead.","estimatedTime":"4 weeks"}'
