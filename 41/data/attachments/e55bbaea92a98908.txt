@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDAyOjM2OjE4LjEyMDE1MiIsInVzZXJfaWQiOiI4YTgxZWMxZC00ZTFjLTQ3NWEtYmZiZS0zM2YxYjRmMTM4MjQifQ.l2R3MahIJsUqSfNVSN9lEVbbyDPxGjqaODS_SVfBD0Q'\
+ -H 'content-length: 409'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Bag appear any act wish.","maxScore":79,"minScore":29,"description":"Worker culture similar magazine firm. Defense worry carry.\nMinute career professor receive. Open understand approach good benefit onto degree.\nThem offer century expect leave wall protect.","estimatedTime":"7 weeks","previewFileId":"729efe65-cccd-46e7-a43a-321e5686e725","createdByUserId":"8a81ec1d-4e1c-475a-bfbe-33f1b4f13824"}'

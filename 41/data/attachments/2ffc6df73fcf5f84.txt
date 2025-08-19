@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDAyOjM2OjE3LjUzMTk1NCIsInVzZXJfaWQiOiI2YzdlNTc5MS1iMDlmLTQ3MDMtOWVlMC05N2M1MGI5YzljNTEifQ.wE9SUqOkqC7ZCcyaSU8-OJq8yKULKJq3GeZa1kVfF_g'\
+ -H 'content-length: 351'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Project get court program particularly television pay other.","courseId":"4d9d050f-794e-48f1-8481-1b6cfba691c9","maxScore":92,"minScore":18,"orderIndex":87,"description":"Here baby bad PM information something party. School suggest hotel ever position condition. Feeling as popular direction off behind analysis.","estimatedTime":"10 weeks"}'

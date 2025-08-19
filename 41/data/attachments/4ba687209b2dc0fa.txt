@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDAyOjM2OjE1LjI4Mzk5OSIsInVzZXJfaWQiOiJlNTUyZjg0My1kYmJkLTQyZTctODdkOS1jODBmNTJlMDFiM2QifQ.u48SePWyzGxyFC-f3RzR2Dce5rF2UAnWZ8i6ozIHrmc'\
+ -H 'content-length: 417'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Nothing through quality others common onto amount east.","maxScore":100,"minScore":9,"description":"Easy study occur go. Song we sell owner. Red imagine data increase describe nice.\nPerhaps day specific focus. We board expert decision decade beyond. Fund blue enjoy.","estimatedTime":"8 weeks","previewFileId":"731a1095-3e03-4c1e-a0f2-f4435a91ef8c","createdByUserId":"e552f843-dbbd-42e7-87d9-c80f52e01b3d"}'

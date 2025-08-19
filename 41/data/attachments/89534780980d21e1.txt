@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDAyOjM2OjE0LjM1MjA0MiIsInVzZXJfaWQiOiI0MTg5YTg0Zi0zYzI5LTQyY2QtYjk3YS01NWY1NmEyY2E0MjgifQ.kYuGUtHEsR_eQsjnNr2kfGV9G_8PY3bONp5K0hPmiDQ'\
+ -H 'content-length: 409'\
+ -H 'content-type: application/json'\
+ -d '{"title":"City exist politics fear need art life.","maxScore":86,"minScore":5,"description":"Rest name customer herself check fish over employee. Himself wrong most night lay. Each pay year animal simple space.\nNone who bad maintain figure end. Right according charge.","estimatedTime":"9 weeks","previewFileId":"70cf8311-60ae-4ab3-a525-ca7a204d487e","createdByUserId":"4189a84f-3c29-42cd-b97a-55f56a2ca428"}'

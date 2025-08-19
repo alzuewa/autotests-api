@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDAyOjM2OjE1LjU1NzgwOSIsInVzZXJfaWQiOiIwMWEzMGVhNy03NTExLTQ2MjgtOTUzMS0yMzQ4NGMzMjI1N2UifQ.Qa76W2T1_DsnqULblR5IbY8qeeg8yq04Ju5Y_I65L38'\
+ -H 'content-length: 332'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Bit measure rich behavior.","maxScore":90,"minScore":16,"description":"Year thing next billion future. Kid plan gas we choose. Resource tough because to. Against than poor size want.","estimatedTime":"3 weeks","previewFileId":"766b5c91-5cde-48ba-beb7-569290c12b5e","createdByUserId":"01a30ea7-7511-4628-9531-23484c32257e"}'

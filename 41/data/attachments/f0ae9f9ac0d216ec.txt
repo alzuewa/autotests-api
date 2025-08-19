@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDAyOjM2OjEzLjcxODE2MiIsInVzZXJfaWQiOiI4ZDI4OWRjNC0wMjIyLTRlYjYtYTYwZS1iMDU2OTczYzM4YzQifQ.JAwHDSOpnglOiouRYLIMrmrNORGIatsVC9TUxEY9Ij4'\
+ -H 'content-length: 405'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Author Congress federal laugh political window whole new.","maxScore":59,"minScore":20,"description":"Address leader left religious information. Film hold age meet. Meet finish need all American building fire.\nBad certain better college send picture off.","estimatedTime":"5 weeks","previewFileId":"8a9e325a-ff13-485c-9485-ab4ebb765cd3","createdByUserId":"8d289dc4-0222-4eb6-a60e-b056973c38c4"}'
