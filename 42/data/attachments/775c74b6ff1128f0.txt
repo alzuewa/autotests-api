@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIxVDAyOjMzOjA1LjQ0MTA5OCIsInVzZXJfaWQiOiI2NjgzNjliYS1iNzkxLTQ5MjktOGY2OC1mODk2NGZhM2JhNmYifQ.S_fTLOhoPTWYUE7lp7PWa6ehEDhcG_K9maOE5uZQe3w'\
+ -H 'content-length: 426'\
+ -H 'content-type: application/json'\
+ -d '{"title":"West black help city stand material kid.","maxScore":71,"minScore":12,"description":"Enjoy big add keep school fine man. As either occur mouth figure often. Window I tell degree.\nHappy majority near loss. Commercial letter standard beyond. Once prove beat bed population win.","estimatedTime":"8 weeks","previewFileId":"700a44c7-305d-40b2-a529-2b41fe65f155","createdByUserId":"668369ba-b791-4929-8f68-f8964fa3ba6f"}'

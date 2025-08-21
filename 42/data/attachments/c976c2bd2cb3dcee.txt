@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIxVDAyOjMzOjAyLjY2MjIzMSIsInVzZXJfaWQiOiIxOGUxYjA2Mi1jZTIxLTQzODYtYWU1YS01YWYwOTBiZTgyZTgifQ.4cmqT5LaMeuBkbrxbGUv3q-JlwUtqZ09BAF3WxlD6U0'\
+ -H 'content-length: 368'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Civil bit line region true thousand they.","maxScore":56,"minScore":20,"description":"Serious maybe management job. Because reach exactly region reach stock present. Senior reason class possible modern financial water.","estimatedTime":"5 weeks","previewFileId":"7cedbb7c-ad86-467e-9b7b-1de60d7828e4","createdByUserId":"18e1b062-ce21-4386-ae5a-5af090be82e8"}'

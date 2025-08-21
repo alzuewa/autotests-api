@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIxVDAyOjMzOjA0LjQ2NjYzOCIsInVzZXJfaWQiOiI1MzlhZmMyNC1lODIyLTQxMmMtYjlhNi1iZWZlMzUzOGI2ZjIifQ.tl_VA2lbJ2KAz6x33mvsEpXtYnZUx81Z1jNysaTutu8'\
+ -H 'content-length: 323'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Else no prevent he fund quality.","maxScore":78,"minScore":24,"description":"Her realize action maintain call year. Expect list level contain. Structure election like true.","estimatedTime":"10 weeks","previewFileId":"9c56c136-79a9-4bf5-8467-6d8c94a1d15d","createdByUserId":"539afc24-e822-412c-b9a6-befe3538b6f2"}'

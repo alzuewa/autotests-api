@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIxVDAyOjMzOjA2Ljk0ODU0OCIsInVzZXJfaWQiOiI0MWUwY2E5OC1mNTcyLTQxYjAtYTI0OS03ODM4ZDdmMmE2NzMifQ.dmffwkr_B7l7c7TSAe3jd-74A5eZJnFF7B4K2E_bcpM'\
+ -H 'content-length: 369'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Onto often throughout you age alone activity baby.","maxScore":53,"minScore":7,"description":"Sign cold leave civil weight probably. Difficult plan fund when majority strong west. Box herself teach past role allow well.","estimatedTime":"8 weeks","previewFileId":"6593efb1-27eb-47dd-a0e3-c4164e788de7","createdByUserId":"41e0ca98-f572-41b0-a249-7838d7f2a673"}'

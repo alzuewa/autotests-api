@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIxVDAyOjMzOjAzLjI1NDM0OCIsInVzZXJfaWQiOiI5NWMyMjU2NC01OThkLTRjMDctOGY4MC02OTEyZWExNDk1MzgifQ.4bZJ_UR1UddsGhsXNCCEYJ_J6m2VyCEo9batdTt2vH4'\
+ -H 'content-length: 379'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Cup manager probably lot nor song nearly.","maxScore":64,"minScore":15,"description":"Degree team century way lay important stop. Here including open situation analysis decide front mind. Gun lose watch ten kitchen list employee.","estimatedTime":"6 weeks","previewFileId":"9aa5f50a-fddb-458c-98fb-0f57dcf18893","createdByUserId":"95c22564-598d-4c07-8f80-6912ea149538"}'
