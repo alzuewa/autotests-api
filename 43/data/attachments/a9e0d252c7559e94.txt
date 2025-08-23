@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIzVDAyOjI5OjIxLjY0ODUzNiIsInVzZXJfaWQiOiIwOGM4Njk5Yy1hOTA4LTQ4NGItYTkxYi0wMjQ0ODVmNzNjY2UifQ.0CsTQBr51_uPQBNVeN8MhvleNCyXMhWfw1uitHy2NAY'\
+ -H 'content-length: 361'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Mind practice form her so.","maxScore":51,"minScore":9,"description":"Run charge image respond red. Set professor too response challenge store.\nHot crime throw important. Long fast age fund. Face increase sure.","estimatedTime":"8 weeks","previewFileId":"621a4065-5618-4209-bf5c-5c08c9d0d45c","createdByUserId":"08c8699c-a908-484b-a91b-024485f73cce"}'

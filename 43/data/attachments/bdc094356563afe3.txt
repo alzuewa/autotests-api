@@ -1,0 +1,34 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send GET request to http://localhost:8000/api/v1/courses?userId=08c8699c-a908-484b-a91b-024485f73cce
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses?userId=08c8699c-a908-484b-a91b-024485f73cce
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:53 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:74 Check that "courses's" length equals 1
+INFO     COURSES_ASSERTIONS:courses.py:28 Check course
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "e59cfaf4-1232-40ec-b3aa-a003e356de8b"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Mind practice form her so."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "51"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "9"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Run charge image respond red. Set professor too response challenge store.
+Hot crime throw important. Long fast age fund. Face increase sure."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "8 weeks"
+INFO     FILES_ASSERTIONS:files.py:49 Check create file
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "621a4065-5618-4209-bf5c-5c08c9d0d45c"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "url" equals "http://localhost:8000/static/test_files/8dea598a-31ce-4e89-b73c-6e814da34193.jpg"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "filename" equals "8dea598a-31ce-4e89-b73c-6e814da34193.jpg"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "directory" equals "test_files"
+INFO     USERS_ASSERTIONS:users.py:44 Check user
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "08c8699c-a908-484b-a91b-024485f73cce"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "email" equals "tcain@example.com"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "last_name" equals "Walker"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "first_name" equals "Jessica"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "middle_name" equals "Jasmine"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

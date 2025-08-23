@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIzVDAyOjI5OjI2LjE4NTYzOCIsInVzZXJfaWQiOiI5YTRkMWUzNi04ZWQ2LTRhMTgtYmIzYS1hN2U4OWYyMzQxZGUifQ.IH29tQveqE02dR-cM_Ihwu-gZxMK-13DzDWvKd24HEk'\
+ -H 'content-length: 434'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Wife technology technology garden artist evidence experience.","maxScore":53,"minScore":7,"description":"Democrat federal song company. Kitchen article order need. Institution sit fly power.\nThemselves allow environment crime low move. Kind figure shoulder cup. Improve fill medical.","estimatedTime":"7 weeks","previewFileId":"04b754e6-0b15-47ac-8b01-5bc995851043","createdByUserId":"9a4d1e36-8ed6-4a18-bb3a-a7e89f2341de"}'

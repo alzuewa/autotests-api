@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIzVDAyOjI5OjIyLjU1OTY1OSIsInVzZXJfaWQiOiJmYmU0N2IzMi1hYTI1LTQ3Y2EtOGEzMS0yNWUyNDE2YTkxODMifQ.GqZZx7XTRftdIkfhZ-nJa5ujgdHdQMBreM8VCVTqt5o'\
+ -H 'content-length: 336'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Wall coach firm citizen.","maxScore":55,"minScore":15,"description":"Development down year consider possible door tell drive. Bring music successful within see. Always record step today.","estimatedTime":"8 weeks","previewFileId":"ac71e1c6-ab95-4df1-ab04-5e31e1276554","createdByUserId":"fbe47b32-aa25-47ca-8a31-25e2416a9183"}'

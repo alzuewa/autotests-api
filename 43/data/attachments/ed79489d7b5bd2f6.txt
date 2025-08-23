@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIzVDAyOjI5OjI1LjkxMDI2NyIsInVzZXJfaWQiOiIzMTA0ODNhNC00YmEwLTRhY2UtYmM1OC1lMTI1MzM0YzQwNjEifQ.Qe_rca8DEzYRxOy-gAPj_EJvBzikG9XEl5rfpjRjZKw'\
+ -H 'content-length: 313'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Reflect nor leg hit tonight.","courseId":"691f06bc-3567-4bdf-9675-8b17b6855884","maxScore":56,"minScore":26,"orderIndex":74,"description":"Order fund pattern line. Now coach garden wonder hand though. Seem fund TV by. Them hotel add against somebody natural political budget.","estimatedTime":"6 weeks"}'

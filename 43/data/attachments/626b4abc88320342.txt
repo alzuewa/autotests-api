@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIzVDAyOjI5OjI0Ljk0Nzg2MSIsInVzZXJfaWQiOiI4MDc0NmI3ZS05MTYwLTRlNTQtYjg2My1kMzdhNjhkYTg3NjEifQ.iHSTLmuyoEqH6JCbe2PdAU4Wo04gpi_uWErWAzOB7J0'\
+ -H 'content-length: 367'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Financial any allow mention.","maxScore":73,"minScore":1,"description":"Response tough agency quickly very. Strategy southern he marriage significant.\nMeasure her sport performance. War reduce worry learn itself for.","estimatedTime":"3 weeks","previewFileId":"248245e6-1733-43ca-bd80-787d5d80d55f","createdByUserId":"80746b7e-9160-4e54-b863-d37a68da8761"}'

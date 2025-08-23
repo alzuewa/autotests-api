@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/10f0d595-069f-43e6-9d8c-09f1ba7482cf'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIzVDAyOjI5OjIzLjE1MjUxNSIsInVzZXJfaWQiOiIzMDc2NWE2ZS1lNjE2LTRkMTAtOTlhNi03Yzk5ZjExNWI0ZWUifQ.5LeSMlPT5jx7fNmmd13uXd9TVdaGaCXonPbK2At0xHQ'\
+ -H 'content-length: 261'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Really front citizen their understand.","maxScore":99,"minScore":9,"description":"Like stock yourself project about while avoid. Organization necessary daughter fly kitchen force check. Trial short example situation quite.","estimatedTime":"10 weeks"}'

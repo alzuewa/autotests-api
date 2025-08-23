@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIzVDAyOjI5OjIzLjE1MjUxNSIsInVzZXJfaWQiOiIzMDc2NWE2ZS1lNjE2LTRkMTAtOTlhNi03Yzk5ZjExNWI0ZWUifQ.5LeSMlPT5jx7fNmmd13uXd9TVdaGaCXonPbK2At0xHQ'\
+ -H 'content-length: 372'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Class contain our share tax concern.","maxScore":98,"minScore":13,"description":"Start operation indeed either risk free different. Recently structure hear his could prepare here. Huge half none. Draw defense yourself new.","estimatedTime":"8 weeks","previewFileId":"b4dcade0-b4fe-4a65-8e2f-e922c23979c7","createdByUserId":"30765a6e-e616-4d10-99a6-7c99f115b4ee"}'
