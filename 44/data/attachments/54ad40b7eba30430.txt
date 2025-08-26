@@ -1,0 +1,36 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send GET request to http://localhost:8000/api/v1/courses?userId=45433533-ed78-40a1-b33e-1ba224c65e20
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses?userId=45433533-ed78-40a1-b33e-1ba224c65e20
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:53 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:74 Check that "courses's" length equals 1
+INFO     COURSES_ASSERTIONS:courses.py:28 Check course
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "f2401e0b-a529-447c-9d9b-0e73fd79a782"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Walk race what help compare."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "51"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "27"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Contain little hospital attorney.
+Value least beat region step effort whom. Evidence order speech move.
+Answer why catch science.
+State else out hard whole four. Where compare firm poor black who."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "7 weeks"
+INFO     FILES_ASSERTIONS:files.py:49 Check create file
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "5b1173fe-bb87-49e8-9085-795d8316ec9a"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "url" equals "http://localhost:8000/static/test_files/354372ec-e208-41e9-9c72-904c49f557d1.jpg"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "filename" equals "354372ec-e208-41e9-9c72-904c49f557d1.jpg"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "directory" equals "test_files"
+INFO     USERS_ASSERTIONS:users.py:44 Check user
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "45433533-ed78-40a1-b33e-1ba224c65e20"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "email" equals "raymondreynolds@example.org"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "last_name" equals "Thompson"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "first_name" equals "Kimberly"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "middle_name" equals "Christopher"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

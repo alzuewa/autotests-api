@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI2VDAyOjM0OjUzLjY0ODI5MiIsInVzZXJfaWQiOiI0YjQyNjgxMS1mMjVlLTQ5MmItODhlOS0wNjIxNDY1ZTNkMjIifQ.ZvNvkORajC0iNdjI6TwEQt0uXto21FDNKDclRG5v1aI'\
+ -H 'content-length: 381'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Your hear whatever especially learn.","maxScore":81,"minScore":28,"description":"Section help join lead. Serious current writer book budget movement require with.\nThe business because. Significant prove chair. Should however push.","estimatedTime":"2 weeks","previewFileId":"2e7d8c4f-95de-439d-b50c-311c748a7468","createdByUserId":"4b426811-f25e-492b-88e9-0621465e3d22"}'

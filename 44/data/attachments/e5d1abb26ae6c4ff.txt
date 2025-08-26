@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/d349fa68-c29f-453a-a3ff-46887a48f79b'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI2VDAyOjM0OjUyLjEzMTQ3MyIsInVzZXJfaWQiOiI4ZjI5MzVhZC1iMGI1LTRhNzMtYTM2Ni04OTQxMjMwZDQ1ZmIifQ.Zl14DT8V9awLfz_1HgPhu5inpqCYkg-AX0AsaWaEYL8'\
+ -H 'content-length: 314'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Me generation religious policy parent back save.","maxScore":68,"minScore":22,"description":"Free drug should modern. Other force probably fast sign future. Practice middle force animal.\nTable religious everybody check wife seat. Cover age major already major fly beat great.","estimatedTime":"2 weeks"}'

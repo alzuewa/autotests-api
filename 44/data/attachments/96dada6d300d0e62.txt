@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI2VDAyOjM0OjUzLjkyMDA0NiIsInVzZXJfaWQiOiI1NTkwZjFmYS03YWZlLTRjODEtOGJkNS1mMjk1NDMzNDI5Y2UifQ.gFIyWhypXGqu7IBfFNbxoiiE9Rw1Pfveu-ye47agbO0'\
+ -H 'content-length: 432'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Effect account huge pressure discover suddenly pretty happy.","maxScore":76,"minScore":26,"description":"Behavior market guy soon.\nSystem concern one education level case. Reality enough listen lose happy expert.\nCourt event worry gas need hope start reason. Marriage east health.","estimatedTime":"8 weeks","previewFileId":"2bebe0b2-9bf6-45c2-8747-8b45b8c562c1","createdByUserId":"5590f1fa-7afe-4c81-8bd5-f295433429ce"}'
