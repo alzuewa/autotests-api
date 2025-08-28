@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:27 Send GET request to http://localhost:8000/api/v1/exercises/f00c8e7c-6bf0-488d-a2ae-ec9c612991ee
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/exercises/f00c8e7c-6bf0-488d-a2ae-ec9c612991ee
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:76 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:29 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "f00c8e7c-6bf0-488d-a2ae-ec9c612991ee"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Decade tax even on politics agency."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals "050de6e4-a8d3-49bf-b4c5-1c5db5aa55ad"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "64"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "22"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals "55"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Feel option mother bad measure treatment debate. Do clearly bit son put television carry everything.
+Say music however though read. Western Mrs treat director available."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "2 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

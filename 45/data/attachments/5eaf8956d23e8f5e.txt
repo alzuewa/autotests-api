@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI4VDAyOjI5OjU1LjM2NjY5NSIsInVzZXJfaWQiOiJjOWRjZGQyYi1lODU2LTQ3MmYtOGYwMS0xMGE1NTI0Njc0MmEifQ.--gMmyGki7xCTaroq7aqpTS2vOmmhJiRJvyQnFs_tyc'\
+ -H 'content-length: 338'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Easy part scene spend environment.","maxScore":90,"minScore":12,"description":"Congress end space. Senior describe improve focus week want Republican. Stage example challenge western type.","estimatedTime":"2 weeks","previewFileId":"ffc2189e-090b-4d59-ad29-8754c009f14b","createdByUserId":"c9dcdd2b-e856-472f-8f01-10a55246742a"}'

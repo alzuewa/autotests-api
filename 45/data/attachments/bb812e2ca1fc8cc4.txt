@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI4VDAyOjI5OjU3Ljk5NDAyOSIsInVzZXJfaWQiOiI4MTFmNDllYS1iYWY0LTQ1YTEtODUyMi0yY2U5YzI2ODE5N2UifQ.MuglR_akaW9uIRLvsxqFFHQgq_nltfcR8SJxYGjlkbo'\
+ -H 'content-length: 349'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Report firm study operation.","maxScore":100,"minScore":1,"description":"Meeting turn natural yourself tax life.\nSave six note away leader price. Office society magazine produce discover democratic.","estimatedTime":"8 weeks","previewFileId":"85144fa1-2bd5-48fc-9dd9-525ce3c86528","createdByUserId":"811f49ea-baf4-45a1-8522-2ce9c268197e"}'

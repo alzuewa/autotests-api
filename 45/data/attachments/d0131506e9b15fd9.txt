@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI4VDAyOjI5OjU0LjEzNjQ1NSIsInVzZXJfaWQiOiIyYTM3MjRkMS1iOWE0LTQ0ZmUtOGE3NS0wOTFlMTM0YjBkZTEifQ.X9owWcTox5AfAC6sAYp4LA9xk7a26vDwgLkfXf0vc2c'\
+ -H 'content-length: 381'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Whatever maybe control get.","maxScore":56,"minScore":25,"description":"Bar amount memory live. Tree feel up man. Indeed learn him religious.\nNatural morning southern perhaps machine home keep. Your west commercial quickly across.","estimatedTime":"8 weeks","previewFileId":"2ba10b66-3aa8-4edc-8ee8-6eb1e053c3c2","createdByUserId":"2a3724d1-b9a4-44fe-8a75-091e134b0de1"}'

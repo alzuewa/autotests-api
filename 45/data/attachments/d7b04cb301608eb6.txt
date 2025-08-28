@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI4VDAyOjI5OjU1LjA5MzIyMSIsInVzZXJfaWQiOiI1MDQ4MmE5NS00MDhmLTQ0YjctYTVhYS1iMGUzODdjNzhiNTQifQ.gp4Mj31rzOwXn-R-nag3XeryDl5-_jcRin_Nrf4IisA'\
+ -H 'content-length: 434'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Management its whether arm late popular.","maxScore":80,"minScore":27,"description":"Bad bring why trouble way government however. Party during region gas institution likely. Degree former bring simply.\nPolice necessary three state on. Discussion weight not account may people range.","estimatedTime":"7 weeks","previewFileId":"8ec615de-906f-4049-8cc5-f6a8ef9c8e7c","createdByUserId":"50482a95-408f-44b7-a5aa-b0e387c78b54"}'
