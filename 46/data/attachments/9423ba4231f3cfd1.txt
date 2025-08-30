@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDAyOjI0OjE5LjY4NDE1MyIsInVzZXJfaWQiOiI5MzIyZTE3OS02NTQzLTRlNWQtYWRjYS0zZjBlYzViNmMxYzAifQ.HfPDWwtZNvaYI21ke-ClnALj6hYCEVmaZNzIdzdt8Lg'\
+ -H 'content-length: 396'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Skin he current age bar.","maxScore":88,"minScore":15,"description":"Draw just practice analysis. Money foreign will tend American.\nBill religious some answer back enough. North which majority federal difficult investment. Pull carry step music.","estimatedTime":"2 weeks","previewFileId":"2f5cf26c-97c7-48e7-bd66-3b1deacbcc05","createdByUserId":"9322e179-6543-4e5d-adca-3f0ec5b6c1c0"}'

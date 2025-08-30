@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDAyOjI0OjE3LjE1OTg5NCIsInVzZXJfaWQiOiI0YzBkNjUxNi02ZjRkLTQ3ZGItOWFiNC1jZTk2MzMzYzI5YjMifQ.W73QiJQzb3Lds25tFaMyfBtBsBwuKQWaafKlZUu6yUE'\
+ -H 'content-length: 327'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Appear central determine available.","courseId":"97459d4a-5bc5-40eb-bed2-032d114cff18","maxScore":100,"minScore":28,"orderIndex":97,"description":"Religious return stock idea travel either. Once near serious line this compare growth. Democrat their admit project. Sound big shoulder might.","estimatedTime":"3 weeks"}'

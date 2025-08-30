@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDAyOjI0OjE2LjU2NjQ4OSIsInVzZXJfaWQiOiJlNWVmMTVmNC1kOWRmLTQwZGYtYmEwYy1jNDc1ZDQ4MWRkMzQifQ.VobiUarVsqZ-XN00HJ8iCzZQCTHz64fK-wPL3z6eCTU'\
+ -H 'content-length: 419'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Always parent scene public choice then why.","maxScore":78,"minScore":12,"description":"Voice act cover get. Month there pressure usually prevent. Avoid officer security policy experience former something.\nFirm detail his difficult bring. Future race above along find.","estimatedTime":"5 weeks","previewFileId":"9c4d78e8-93d7-4e3c-872b-180a3d064a58","createdByUserId":"e5ef15f4-d9df-40df-ba0c-c475d481dd34"}'

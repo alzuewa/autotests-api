@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDAyOjI0OjE4LjA5MDgwNCIsInVzZXJfaWQiOiJkMjA4ZjhiOS0wMWY2LTQwNDgtYWMxMC04MGE5ZmRmMmIzNzAifQ.CkNTYQsELWiheVpLdchuQ1ZOaKzdUzmdTMI3D9B-J50'\
+ -H 'content-length: 235'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Write simply side rise.","courseId":"0336bab8-178b-4f27-b9b2-6fcd1e0caef9","maxScore":75,"minScore":3,"orderIndex":90,"description":"And few lawyer raise magazine. Republican just improve meeting.","estimatedTime":"10 weeks"}'

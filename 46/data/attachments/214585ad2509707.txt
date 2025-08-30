@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/b2267485-f073-4db1-88ad-f107662ab10f'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDAyOjI0OjE2LjU2NjQ4OSIsInVzZXJfaWQiOiJlNWVmMTVmNC1kOWRmLTQwZGYtYmEwYy1jNDc1ZDQ4MWRkMzQifQ.VobiUarVsqZ-XN00HJ8iCzZQCTHz64fK-wPL3z6eCTU'\
+ -H 'content-length: 205'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Traditional scene begin mouth.","maxScore":80,"minScore":18,"description":"Him doctor build on test onto where.\nMake alone easy early ahead stay. Response huge group.","estimatedTime":"4 weeks"}'
