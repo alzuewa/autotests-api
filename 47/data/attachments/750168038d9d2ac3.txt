@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAyVDAyOjMyOjAzLjcxNTAyNSIsInVzZXJfaWQiOiJhZjU3ZjY1Zi0zMGI4LTRkZmUtYTg2ZC1hNzJlMDkxZmU5MTUifQ.vTGHXubjRoexZVNHpef_TL6iLzvjTOP5RMISHdH2nqc'\
+ -H 'content-length: 331'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Company instead factor strategy law international.","maxScore":92,"minScore":12,"description":"Take speech trade right charge. Us operation including hot cultural manage level ever.","estimatedTime":"9 weeks","previewFileId":"156e50ba-166c-4862-88a9-e164fde8466a","createdByUserId":"af57f65f-30b8-4dfe-a86d-a72e091fe915"}'

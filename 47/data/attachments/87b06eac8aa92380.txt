@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAyVDAyOjMyOjAzLjk4OTc4NSIsInVzZXJfaWQiOiIwYjY4YTA5My0xOTMyLTQ3NzgtYTBmZC01NDBlNjQ2NmI4ZDMifQ.BCXaCsM6KRiDBRdg2MR-78rceFgC0n6pqmwpAQ8wpEc'\
+ -H 'content-length: 367'\
+ -H 'content-type: application/json'\
+ -d '{"title":"International wall author officer network.","maxScore":51,"minScore":9,"description":"Region far avoid discussion worker matter always. Stock off point run.\nCold place into. Development land put expect down end send.","estimatedTime":"6 weeks","previewFileId":"ac887e97-5ce1-4aec-9afa-da311f379e0e","createdByUserId":"0b68a093-1932-4778-a0fd-540e6466b8d3"}'

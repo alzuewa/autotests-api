@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAyVDAyOjMyOjA1LjI0Mjc1NiIsInVzZXJfaWQiOiJmYzdiNTA5Ni02NDhlLTRjZGMtYTdhNi1kMTYzMGM4N2MzZjQifQ.AoBQz-fCCRX0Dvx0pAW2J7mZkeLi4C_a-UPZNbf9paQ'\
+ -H 'content-length: 331'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Wait spend agent.","maxScore":96,"minScore":9,"description":"Figure support avoid onto determine once choose. Effect place glass news stand. Phone range analysis example least view.","estimatedTime":"3 weeks","previewFileId":"e72da537-8c88-4c32-bd1e-1e5d7dedfa49","createdByUserId":"fc7b5096-648e-4cdc-a7a6-d1630c87c3f4"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAyVDAyOjMyOjA1LjI0Mjc1NiIsInVzZXJfaWQiOiJmYzdiNTA5Ni02NDhlLTRjZGMtYTdhNi1kMTYzMGM4N2MzZjQifQ.AoBQz-fCCRX0Dvx0pAW2J7mZkeLi4C_a-UPZNbf9paQ'\
+ -H 'content-length: 355'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Send list west stay officer action perform.","courseId":"e3c77c7e-7bff-40fd-9e04-4b266b368892","maxScore":73,"minScore":2,"orderIndex":14,"description":"Brother hot human. Forward manager news heart certain positive window.\nRecord defense fill under. Star environment forget attorney from. Task beat spring possible.","estimatedTime":"5 weeks"}'
