@@ -1,0 +1,18 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send PATCH request to http://localhost:8000/api/v1/courses/3d7706ce-21bd-482c-b36b-01637055b7bb
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses/3d7706ce-21bd-482c-b36b-01637055b7bb
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:97 Check update course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Create class central may."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "73"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "5"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Safe fight idea here threat summer red establish. Drive travel teach change me plant major. Western task might. Because improve market accept security teach agent road."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "2 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

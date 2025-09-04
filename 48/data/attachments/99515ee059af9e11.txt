@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA0VDAyOjI0OjM0Ljg3NjkxNiIsInVzZXJfaWQiOiI1ZjFiODRjZS0xMDlmLTQ5NWYtYjI5ZS1hMDA4ZjRhMGE1MjUifQ.tRMEGsgtaUUPCvuckzeHDDMySVfnBQDyVLFz1R4pI4I'\
+ -H 'content-length: 406'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Single benefit him fish first paper yes.","maxScore":95,"minScore":12,"description":"Section both our yeah take standard. Put view piece site also check positive. Loss less thought word traditional.\nSecurity buy attack. Happy foreign teach similar at act.","estimatedTime":"9 weeks","previewFileId":"7986e4dd-7137-4ef0-ad88-1eeb06e2b843","createdByUserId":"5f1b84ce-109f-495f-b29e-a008f4a0a525"}'

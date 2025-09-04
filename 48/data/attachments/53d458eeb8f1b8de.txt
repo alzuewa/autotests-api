@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA0VDAyOjI0OjM1LjgxNTgxOCIsInVzZXJfaWQiOiIxNGEwZjY1OS0wNzRmLTQ3ODctYTI0Ni1jZDYwNmVjZTM0ZWIifQ.aTJLb0UCBRcxxwS5BI6DP-2VftpfJ0gJEZaDnobnwOY'\
+ -H 'content-length: 336'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Bank level happen home describe sport up.","maxScore":97,"minScore":28,"description":"Exist weight food themselves officer star group. Receive ground training TV trip protect bring wish.","estimatedTime":"9 weeks","previewFileId":"191d19a1-1a01-45b8-b670-95cb665c7712","createdByUserId":"14a0f659-074f-4787-a246-cd606ece34eb"}'

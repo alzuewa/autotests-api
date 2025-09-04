@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA0VDAyOjI0OjM0LjI5Mjg4NyIsInVzZXJfaWQiOiI3YjQ3MjQ1MC04NDFkLTRhZGItYjdmNy0yZDIwYzZiMmJjNDYifQ.gF0errzWpLdX2edxyO_LPE3K70iBBfd7cKlElrhAXMs'\
+ -H 'content-length: 320'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Country per program through pretty.","maxScore":84,"minScore":10,"description":"Receive develop whether time hold. Social street population. Minute require couple decade.","estimatedTime":"5 weeks","previewFileId":"d6d90810-a566-4e2f-8219-1a88eef7445b","createdByUserId":"7b472450-841d-4adb-b7f7-2d20c6b2bc46"}'
