@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/fe259ee2-a7a1-45bc-a6e3-eb6593da7f98'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA2VDAyOjI0OjA3Ljg4MTA2MiIsInVzZXJfaWQiOiI5MWI5MmU1OS1jNTE5LTRjNzMtOWYxZi00ZmE0OTgwNTJjNDgifQ.N-iINs8ZXni5xR-QBeZM2gyeaUl0dv4fE6d7j35-UuM'\
+ -H 'content-length: 183'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Ago be authority tell.","maxScore":84,"minScore":19,"description":"Truth fly paper. Decade improve woman. Want lose let teacher stage on others.","estimatedTime":"10 weeks"}'

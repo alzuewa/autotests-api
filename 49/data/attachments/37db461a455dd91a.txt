@@ -1,0 +1,33 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send GET request to http://localhost:8000/api/v1/courses?userId=a1870db3-423b-404c-bca1-4f3df1360786
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses?userId=a1870db3-423b-404c-bca1-4f3df1360786
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:53 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:74 Check that "courses's" length equals 1
+INFO     COURSES_ASSERTIONS:courses.py:28 Check course
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "eabe5d59-523f-4b37-af63-db1ad4b7cd53"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Whose manage morning accept would where."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "96"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "12"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "News population family traditional similar room industry. Rule keep door seven positive. Possible election court lose no young."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "2 weeks"
+INFO     FILES_ASSERTIONS:files.py:49 Check create file
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "bacd309a-e49e-44be-8f91-45fc054f1c8b"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "url" equals "http://localhost:8000/static/test_files/e332ae3d-69e6-4900-9884-0b2a7b02dc20.jpg"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "filename" equals "e332ae3d-69e6-4900-9884-0b2a7b02dc20.jpg"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "directory" equals "test_files"
+INFO     USERS_ASSERTIONS:users.py:44 Check user
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "a1870db3-423b-404c-bca1-4f3df1360786"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "email" equals "warrencarl@example.com"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "last_name" equals "Clements"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "first_name" equals "Emily"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "middle_name" equals "Madeline"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

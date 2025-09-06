@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:73 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Customer think kind discover answer little."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "85"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "18"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Chair reduce not citizen year look. Military scene behavior hit arrive. Discover player us allow seek behind hair. Forward plant lead help lot prove."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "5 weeks"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "5 weeks"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "preview_file" equals "5a5d9c75-1769-498f-9e11-16f81850499d"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "created_by_user" equals "163ba3d6-5df6-4d83-a7cf-70281cf2dd5f"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

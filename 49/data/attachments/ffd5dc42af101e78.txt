@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA2VDAyOjI0OjA4LjQ3ODg3OSIsInVzZXJfaWQiOiJkZTNkODczNy01MjA5LTRkNGMtOWYxMy0yOTY5NzYwNDRhYjAifQ.6eoHWH4NHVg63ev63M71UBAYJyRhCpDIN7bJ-rQtxkI'\
+ -H 'content-length: 403'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Computer power red.","maxScore":92,"minScore":3,"description":"Clear war bank rest range. Yes certainly fly back local pay. Candidate rule case age life.\nPay husband people beautiful. Nature college eight lose hear.\nProcess professor production stuff.","estimatedTime":"5 weeks","previewFileId":"2a53989e-5b69-47b3-b48c-db69074e5e12","createdByUserId":"de3d8737-5209-4d4c-9f13-296976044ab0"}'
