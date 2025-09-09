@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA5VDAyOjI4OjU1Ljk2NTEyOSIsInVzZXJfaWQiOiI5YjMxODFjZS0wZmNjLTRmZTYtYWQxMC0xMDY5ZDljOTlmMjQifQ.zblpHEUU_nUBIhFveJbxVh1gvatvTbpNgLkOhAm2lHQ'\
+ -H 'content-length: 432'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Health prove may voice most responsibility full reach.","maxScore":67,"minScore":22,"description":"Property find step have share model himself. At down rise off. Organization hand site usually low.\nLead culture because pressure product own treat. Since summer various hour notice.","estimatedTime":"10 weeks","previewFileId":"0e5b135b-4755-452d-84a7-da65cddf637c","createdByUserId":"9b3181ce-0fcc-4fe6-ad10-1069d9c99f24"}'

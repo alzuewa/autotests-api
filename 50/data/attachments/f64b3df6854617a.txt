@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA5VDAyOjI4OjU1LjM3Mzg4NyIsInVzZXJfaWQiOiJkOTQ1MGUxYi01M2MxLTRiN2ItODNlZi04MjMyYmQzNjRmYjEifQ.0IEySbKRUPEeXTVDG-DT0PLxzh8mMcsFg1DM5P3T0Fw'\
+ -H 'content-length: 391'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Total by another contain oil whatever true baby.","maxScore":96,"minScore":9,"description":"North claim usually send defense open. Page old option model. Growth tough nation task. Buy seat imagine west think mouth.\nWonder region fast thank.","estimatedTime":"2 weeks","previewFileId":"e36c0748-4aad-4cdb-a774-d8edfbca64eb","createdByUserId":"d9450e1b-53c1-4b7b-83ef-8232bd364fb1"}'

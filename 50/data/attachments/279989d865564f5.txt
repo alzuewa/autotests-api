@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/e5738d8e-bdb8-44b6-8a99-96f9f1329db7'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA5VDAyOjI4OjU2LjkwNjE5NyIsInVzZXJfaWQiOiJlNjcxMjNjZi0xYjk4LTQxMTgtOWM5NS1kNjc0Y2EyMjEwYmYifQ.tu0b53zydwe4nApOHmWsZ1WLGUWwSgk6q2ig-t6Yok0'\
+ -H 'content-length: 277'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Concern natural cultural product risk.","maxScore":50,"minScore":10,"description":"Card fire off traditional they become light. Understand same direction series dark actually player.\nElse hear green claim present middle. Shake key within.","estimatedTime":"4 weeks"}'

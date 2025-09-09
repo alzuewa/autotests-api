@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA5VDAyOjI4OjU5LjY4MjgyOCIsInVzZXJfaWQiOiIyMDkxNTg1Yi0wNDI5LTQ3ZDMtOGE2MS1kZmFiNjkwODEzYzAifQ.EEziPR-moMNqFI0tlQz-8aiFODsuQWwh57dOzt_37DU'\
+ -H 'content-length: 305'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Less threat impact you language traditional.","maxScore":69,"minScore":8,"description":"Learn us fight generation identify. Huge draw strategy leave peace.","estimatedTime":"9 weeks","previewFileId":"a6725f26-874a-4150-900a-4d4c561b112e","createdByUserId":"2091585b-0429-47d3-8a61-dfab690813c0"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA5VDAyOjI4OjU5LjQxMDE0MCIsInVzZXJfaWQiOiI5ZThkOTQ4Zi0yOTViLTQ2NTAtODgxOS0zZjQzMmExYjY0MzMifQ.unOSwB2IRh3VjaIn9UuO-41W3fVCVSGjtZ5zGJ02VnY'\
+ -H 'content-length: 359'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Movement water write part far spend special.","courseId":"7bcaa786-353a-4fc8-8f64-9a64c6f0d8cc","maxScore":73,"minScore":16,"orderIndex":3,"description":"Mother spend machine mean. Police offer popular draw will.\nBut begin nation season message radio he. Open perhaps theory so cultural. Great actually performance same.","estimatedTime":"5 weeks"}'

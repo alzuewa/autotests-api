@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA5VDAyOjI4OjU5LjQxMDE0MCIsInVzZXJfaWQiOiI5ZThkOTQ4Zi0yOTViLTQ2NTAtODgxOS0zZjQzMmExYjY0MzMifQ.unOSwB2IRh3VjaIn9UuO-41W3fVCVSGjtZ5zGJ02VnY'\
+ -H 'content-length: 405'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Where such store north institution become growth anyone.","maxScore":74,"minScore":10,"description":"Southern process direction painting nice carry. A guess late trial.\nPoor mouth recently pass deep enter door.\nFar but health forget somebody book truth.","estimatedTime":"7 weeks","previewFileId":"47bd3a2d-961d-4e22-b174-ab5273bb7a9f","createdByUserId":"9e8d948f-295b-4650-8819-3f432a1b6433"}'
