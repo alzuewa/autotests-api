@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDAyOjI4OjE0LjgxNjA5NCIsInVzZXJfaWQiOiI3MjgzNDAxYi1jZDRmLTQyZmItODgzOS03MTM4MjVkNWEzMWEifQ.qPiEwer2ryR79y6xL4IV3yRp4X2vIQ1Z4jQbpSSMLJE'\
+ -H 'content-length: 388'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Exist care sea medical.","maxScore":69,"minScore":11,"description":"Almost throw fire food ago effort decide. Style tend under store sign.\nBook week that right production part. Want eat low. Mother but we key result newspaper like apply.","estimatedTime":"3 weeks","previewFileId":"9da992bd-7b60-47b1-92a0-00e71b4905b2","createdByUserId":"7283401b-cd4f-42fb-8839-713825d5a31a"}'

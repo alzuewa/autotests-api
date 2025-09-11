@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDAyOjI4OjEzLjU3MTIxMyIsInVzZXJfaWQiOiIwM2ZlMTY1Ni03ZTE2LTRmOWUtYTQ0NS1kZTNhYzI5MDRlMjgifQ.E4T4OLtd_NM3kQGiiMCOxB2zEi7kHfa6KNnz_LgGhxY'\
+ -H 'content-length: 410'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Certainly easy mother probably good surface.","maxScore":95,"minScore":30,"description":"Rich wide compare attention. Hold others must. Particularly agency recognize.\nBank lay recent including us wide occur. Impact country real rule tend what consider public.","estimatedTime":"6 weeks","previewFileId":"392cb4f9-9347-430a-86a8-5eb3ab25ce7e","createdByUserId":"03fe1656-7e16-4f9e-a445-de3ac2904e28"}'

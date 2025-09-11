@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDAyOjI4OjEzLjI5NjczMiIsInVzZXJfaWQiOiI1OGI5NmRkNC0wYjNkLTQwYjktOWEyZi1iNjZiM2M1YmM5OWUifQ.xDm4PuvSiZBJjpFUlB9nckFY9gbZY2JtjG-yldV3OLA'\
+ -H 'content-length: 386'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Professor experience account region fact level off.","maxScore":72,"minScore":21,"description":"Mother analysis care decade military. Blue fine determine stay growth article. Behind use serious above brother. Same amount chair whatever.","estimatedTime":"4 weeks","previewFileId":"74c620b6-a10c-4d26-a08e-fd3d90314493","createdByUserId":"58b96dd4-0b3d-40b9-9a2f-b66b3c5bc99e"}'

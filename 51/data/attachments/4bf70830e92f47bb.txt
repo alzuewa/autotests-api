@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/6923a6a4-7bb9-4fe1-b86b-f83e5a80cb28'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDAyOjI4OjEzLjI5NjczMiIsInVzZXJfaWQiOiI1OGI5NmRkNC0wYjNkLTQwYjktOWEyZi1iNjZiM2M1YmM5OWUifQ.xDm4PuvSiZBJjpFUlB9nckFY9gbZY2JtjG-yldV3OLA'\
+ -H 'content-length: 309'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Want modern more four particular key.","maxScore":79,"minScore":15,"description":"Report light PM officer. Despite hope when ever bill room. Often if office reveal vote.\nAll since arrive they hear field. Daughter for staff assume section house. Significant place friend.","estimatedTime":"3 weeks"}'
