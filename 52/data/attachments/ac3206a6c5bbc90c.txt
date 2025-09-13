@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/exercises/67ca8465-e944-480c-891a-133853e99312'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDAyOjE5OjAxLjU1MjY3NyIsInVzZXJfaWQiOiI5OTUyZjA4OS1jZGQwLTQwM2EtODg2MC0zYzdhYzFjZmE2MTUifQ.bdOoc8gslRZTmlSeGziShRjVvSBV_83ocddGKZNleSQ'\
+ -H 'content-length: 303'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Remain world teach itself.","maxScore":52,"minScore":9,"orderIndex":85,"description":"Production recognize somebody piece loss product thus. Begin data like employee. Area little hear several.\nAnalysis baby away somebody. Democrat identify tree type card director.","estimatedTime":"5 weeks"}'

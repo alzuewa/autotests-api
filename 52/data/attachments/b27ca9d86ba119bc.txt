@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDAyOjE5OjAxLjU1MjY3NyIsInVzZXJfaWQiOiI5OTUyZjA4OS1jZGQwLTQwM2EtODg2MC0zYzdhYzFjZmE2MTUifQ.bdOoc8gslRZTmlSeGziShRjVvSBV_83ocddGKZNleSQ'\
+ -H 'content-length: 379'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Full we station common lose age evening game.","courseId":"9b951969-39c2-4429-9f75-2da7ed830dee","maxScore":100,"minScore":13,"orderIndex":100,"description":"Decade machine use today process. Even within show interview pull.\nPublic seem stuff responsibility ahead. Trial lawyer house under walk. Upon investment probably administration tax.","estimatedTime":"2 weeks"}'

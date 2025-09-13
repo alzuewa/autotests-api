@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDAyOjE5OjAzLjA3NjI1NSIsInVzZXJfaWQiOiIyZGY5NzAyOS04ZTc1LTQ0NWUtYjI0NC0wMWFlODgyYTdiOWUifQ.sgSei_s8T8_O1NxJd7pPwr7m-U3hnEhnas5yJYRLGq4'\
+ -H 'content-length: 380'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Until best stage market.","maxScore":56,"minScore":10,"description":"Public debate tree eight join. Myself sometimes alone where.\nPlant company heart performance maybe shoulder leader. Can give third consumer wait put send cause.","estimatedTime":"9 weeks","previewFileId":"663aa3ec-041d-4d8c-945b-266db4b5116d","createdByUserId":"2df97029-8e75-445e-b244-01ae882a7b9e"}'

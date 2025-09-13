@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDAyOjE5OjAxLjgyNTUxNiIsInVzZXJfaWQiOiIwMTVlODNiNy1iYzNmLTQxNGUtYjVmMC02ZDJlNDc0YjIwMDYifQ.rXWMPIBVAokgl34ekSpWQ16XXHS_khHQQZuFNV0-TVg'\
+ -H 'content-length: 405'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Local onto top learn wife meeting list.","maxScore":66,"minScore":30,"description":"Professional order film send growth. Compare green tax.\nCourt crime society far fight outside program capital. Idea she capital range. Security behavior important around.","estimatedTime":"7 weeks","previewFileId":"0b39d2c2-1d1d-470e-83e3-ed140e5645b6","createdByUserId":"015e83b7-bc3f-414e-b5f0-6d2e474b2006"}'

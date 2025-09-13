@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/bb4f7493-8d8f-4cb9-ba6c-a238d8cae478'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDAyOjE5OjAwLjA0NDU1NiIsInVzZXJfaWQiOiIzMTMyNGE4ZC01NjZlLTRjYzAtOTU0Ni04MzlhM2FmNjE1ZjYifQ.RzLol-TviDFK0Ua2FE-7XR6azRYLxV3o9xW6i0UCN-A'\
+ -H 'content-length: 290'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Chance military radio class doctor.","maxScore":98,"minScore":7,"description":"Campaign task city of some long require. Pretty effect agreement level character.\nAuthority raise company expert sign step. Front often national head amount realize in her.","estimatedTime":"8 weeks"}'
