@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE2VDAyOjI1OjE1LjQ3OTg4NCIsInVzZXJfaWQiOiI2YmNjZmU4Yy00M2IzLTQ0MjctYWZkNS01ZDQxZDQ0MGZkODYifQ.Pz-OGCNzqVR5bIcq0ykWwQSsPBCJuWnVdrvNJQ_bqNI'\
+ -H 'content-length: 357'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Network power yeah believe.","courseId":"9f1922d8-bcbc-4d84-bfd5-64e0800e410e","maxScore":93,"minScore":20,"orderIndex":90,"description":"Toward close we. Fill series spend back catch. Company leave eat likely mission level. Common born visit TV.\nSimilar history call edge I system campaign. Thing drop similar PM art.","estimatedTime":"4 weeks"}'

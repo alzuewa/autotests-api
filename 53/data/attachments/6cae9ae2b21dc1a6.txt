@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/e0be498b-5271-4bcc-8f6b-7d9a9ce33a0a'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE2VDAyOjI1OjE1LjIwNzAwMiIsInVzZXJfaWQiOiJiZWM5OGRhMi04NWUwLTQ4NWYtODVlNi04OTE5ZTFkMmM4OWYifQ.rrMTuIbK6E1l9XTWu7lEBf0BHc8ESLzRY6vBO2t8B9M'\
+ -H 'content-length: 282'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Sure thing author agent different exist.","maxScore":69,"minScore":1,"description":"Like size very so game every pattern. Standard woman campaign several rise in. Reveal mention address song realize interesting. Democrat others ever group real.","estimatedTime":"3 weeks"}'
