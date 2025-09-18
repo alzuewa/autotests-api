@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE4VDAyOjI0OjU5LjM3OTM5NyIsInVzZXJfaWQiOiJjNzVmZmU4Ny01MTFmLTQ1ZGEtOWIyYy0zNzg0ZTMyMmQ5YmIifQ.pdO_Sc2GW7NVhRl1CstPm23L1t1s1EuPcPrvO5gpyXw'\
+ -H 'content-length: 356'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Forward follow money bring.","maxScore":50,"minScore":29,"description":"Company ground point whether theory. Plan mother maybe week. Rock accept clearly religious. World population wife interesting change.","estimatedTime":"10 weeks","previewFileId":"d757c248-da95-40be-becb-6190e10d895e","createdByUserId":"c75ffe87-511f-45da-9b2c-3784e322d9bb"}'

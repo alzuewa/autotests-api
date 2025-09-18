@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/35cf8380-3398-40ae-84a4-5b026668a8e5'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTE4VDAyOjI1OjAwLjg2NTg3OSIsInVzZXJfaWQiOiI3MWI5MDIwYy03YmQ1LTRmYTUtOTA5Yy03NTQ0ZTc1MjU0OTQifQ.Mz9VDCDUOjEEArQYhGyb8TN9Dhoi1zQnCl5e8ei1toY'\
+ -H 'content-length: 227'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Will year either dark.","maxScore":66,"minScore":2,"description":"Look soldier reveal speak subject well strong everything. Play buy feel low history. Suffer interview left their find fall.","estimatedTime":"7 weeks"}'
