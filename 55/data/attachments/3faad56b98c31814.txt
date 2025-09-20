@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIwVDAyOjIzOjAwLjYwNjU4MyIsInVzZXJfaWQiOiJhZDc3M2Q0YS1lN2VkLTRjOWItOWIzNS1hOTc2NDM0ZjQ3ZTUifQ.pAVtoG-y8hNFCXuo4pmXpT0e_A0bTrszh4VFLGPYRW8'\
+ -H 'content-length: 394'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Team account outside article out.","maxScore":96,"minScore":22,"description":"Decide letter account happen. Specific bad authority your. Since including design.\nSet instead gas end network itself star born. Recently organization support under.","estimatedTime":"3 weeks","previewFileId":"6a826f01-f3cd-4d0a-8255-4abfd6cfd840","createdByUserId":"ad773d4a-e7ed-4c9b-9b35-a976434f47e5"}'

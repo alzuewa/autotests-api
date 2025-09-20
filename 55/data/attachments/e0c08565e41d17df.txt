@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIwVDAyOjIyOjU2LjgzMTU3NSIsInVzZXJfaWQiOiJkZTVkYTQwNi1mMmFmLTQxZTktODA3Ni04NjRiZjJkZGRlNTgifQ.jgdO8hRsjcAxj00DcmmP83GEfey2G-keact1ai4R0Cg'\
+ -H 'content-length: 384'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Animal wife game effect most kind strategy.","maxScore":92,"minScore":22,"description":"Station future policy prepare sound. Manage check them line. Professor land home establish four security.\nInstitution according pass nor rather.","estimatedTime":"10 weeks","previewFileId":"e80aca1a-bdf5-4cc0-9b79-729e155b4408","createdByUserId":"de5da406-f2af-41e9-8076-864bf2ddde58"}'

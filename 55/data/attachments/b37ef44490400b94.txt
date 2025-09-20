@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIwVDAyOjIzOjAwLjAyMzY1MCIsInVzZXJfaWQiOiIzOWZlZWEwZC1iZWNmLTQ3NGMtYTI2NC1hY2JkYmVmMWI3MzgifQ.WPLqpnbqTl1qypLrWhqYlQhbAhSQD4T-Y8IYQBI5quI'\
+ -H 'content-length: 337'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Thought none western from physical.","maxScore":76,"minScore":16,"description":"Prepare over citizen serious fine. Model budget region senior. Music mission yourself professor per couple.","estimatedTime":"9 weeks","previewFileId":"840c2f40-c2d4-4c33-8ca6-b8c6a13b186f","createdByUserId":"39feea0d-becf-474c-a264-acbdbef1b738"}'

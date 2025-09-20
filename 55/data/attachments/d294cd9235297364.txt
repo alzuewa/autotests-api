@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/99503787-36a1-4947-8377-e64d8f84e33f'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIwVDAyOjIyOjU3Ljc3ODg5MSIsInVzZXJfaWQiOiI1ZDQ0ZGE0MC0xMTdiLTQ0NmMtYmE1MS1kNzU4YTQyMjNkYWQifQ._HFq3TDLXFIxmowP26ERdhpxPHE2ksaRTDGUfvxmqnI'\
+ -H 'content-length: 299'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Garden ground window edge two than direction.","maxScore":65,"minScore":11,"description":"Herself rich line begin tell according. Thus lay decide religious discover really nice. Unit thousand physical child unit. Through skill pass garden what physical hundred.","estimatedTime":"4 weeks"}'

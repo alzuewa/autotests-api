@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIwVDAyOjIzOjAwLjAyMzY1MCIsInVzZXJfaWQiOiIzOWZlZWEwZC1iZWNmLTQ3NGMtYTI2NC1hY2JkYmVmMWI3MzgifQ.WPLqpnbqTl1qypLrWhqYlQhbAhSQD4T-Y8IYQBI5quI'\
+ -H 'content-length: 370'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Store marriage happen.","courseId":"679672cd-79b6-48fb-a329-7c06318b9f0a","maxScore":59,"minScore":6,"orderIndex":42,"description":"Catch stand four you body ever. Article that low explain look.\nReflect under garden leave. Help send yeah factor. Down speech same heart.\nKid Mr decision if. Imagine according mention southern most.","estimatedTime":"4 weeks"}'

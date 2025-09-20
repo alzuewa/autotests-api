@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIwVDAyOjIyOjU4LjA1MjM2MSIsInVzZXJfaWQiOiI4YTU5MzAwOC02NjgwLTRhZTctOWQ0My0zZWIzMDUzZmY4ZjcifQ.ia3QPtiRb-xm1NkGYmp78dIIwcZv0_Dt8w1iZ1QTbtY'\
+ -H 'content-length: 373'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Might century popular company major explain your.","maxScore":70,"minScore":26,"description":"Participant less southern manage reduce bed movie morning. Also western gun market produce evening. Worker capital while contain.","estimatedTime":"7 weeks","previewFileId":"68b2e64d-8b0d-49aa-961a-09e369d1fb3a","createdByUserId":"8a593008-6680-4ae7-9d43-3eb3053ff8f7"}'
