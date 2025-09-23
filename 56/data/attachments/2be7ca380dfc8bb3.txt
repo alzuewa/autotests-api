@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIzVDAyOjI1OjM4LjEwMjY2NSIsInVzZXJfaWQiOiJiYjQ0N2MwMy03YzdkLTQ5NTktOWYxYy03MjZjMWU1MjQ3ZGIifQ.llRAmWiyTv7-NASSSJ-_SSdaOW5nNw41fzO6agcE-WM'\
+ -H 'content-length: 381'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Artist trial popular manage scientist growth.","maxScore":91,"minScore":24,"description":"Dream my personal term. Oil view manager board family.\nThus your idea job indicate start rule. Leg question I half he country arrive couple.","estimatedTime":"7 weeks","previewFileId":"c316105d-c0c6-4886-8c1f-c2bd4bf0c4b3","createdByUserId":"bb447c03-7c7d-4959-9f1c-726c1e5247db"}'

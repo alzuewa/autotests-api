@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIzVDAyOjI1OjM4LjM3NTU0NyIsInVzZXJfaWQiOiIzNjQ4Yzc1MC0yOWM0LTQ3ZWItYjkyMi00NTUzZGY3MDE4MTYifQ.Ond3Fzr9VtHn1GO9yA79ynTWugLuWG5L-3R9WYlhNqQ'\
+ -H 'content-length: 329'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Student find against involve firm various.","courseId":"4aa59e49-8e0e-42c1-9ec4-d16657275ad2","maxScore":98,"minScore":22,"orderIndex":30,"description":"About forget could around model. Notice minute doctor one. Some throughout teacher born central but marriage. Project office evening such.","estimatedTime":"7 weeks"}'

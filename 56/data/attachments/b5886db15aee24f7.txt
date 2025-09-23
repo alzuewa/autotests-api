@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIzVDAyOjI1OjM4LjM3NTU0NyIsInVzZXJfaWQiOiIzNjQ4Yzc1MC0yOWM0LTQ3ZWItYjkyMi00NTUzZGY3MDE4MTYifQ.Ond3Fzr9VtHn1GO9yA79ynTWugLuWG5L-3R9WYlhNqQ'\
+ -H 'content-length: 399'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Bit traditional life.","maxScore":66,"minScore":18,"description":"Stage technology town force of. Sell find majority mind condition.\nThere tonight decide whether performance.\nThough such series reveal stand. Stay recent computer personal leg down.","estimatedTime":"5 weeks","previewFileId":"54b652eb-4d93-4945-a158-afa7c1e62fb3","createdByUserId":"3648c750-29c4-47eb-b922-4553df701816"}'

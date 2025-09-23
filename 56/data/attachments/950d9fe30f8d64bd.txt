@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIzVDAyOjI1OjM5LjYzNDExNSIsInVzZXJfaWQiOiJmN2VkZjZlZS01NTYxLTRiNzgtYWJlMS0xNTg5NjVkNWFmNTIifQ.3f1NvVN3yUx8JhN0PWSyC1BLTWlzDxc4JPnbK4iamWI'\
+ -H 'content-length: 322'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Else nor bar training woman.","maxScore":60,"minScore":6,"description":"Against no agent phone artist end level church. Great nice by party physical understand total reach.","estimatedTime":"3 weeks","previewFileId":"ed4b1d92-03e1-480a-a4f6-747c7f3f4298","createdByUserId":"f7edf6ee-5561-4b78-abe1-158965d5af52"}'

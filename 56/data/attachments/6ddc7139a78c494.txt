@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIzVDAyOjI1OjM5LjM2MDg4MSIsInVzZXJfaWQiOiJjM2RlNzlkYS1kOWZmLTQ5ODQtYTgzOC1kMjZjYzRhMDEyZTQifQ.Wrvpb88CcJcaUW1ICGymwiELFQGmqsuxcP1XSt6sGCQ'\
+ -H 'content-length: 415'\
+ -H 'content-type: application/json'\
+ -d '{"title":"House even detail lot visit later.","maxScore":93,"minScore":11,"description":"Hope work alone part full television modern. Someone method reveal.\nBelieve guess career region. Bag key executive expect threat suddenly vote. Truth laugh certainly man think produce.","estimatedTime":"10 weeks","previewFileId":"a1c9f453-b70d-436b-aa71-4b19803ce9df","createdByUserId":"c3de79da-d9ff-4984-a838-d26cc4a012e4"}'
