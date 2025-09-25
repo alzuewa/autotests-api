@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI1VDAyOjI4OjI2LjI1MjI1MSIsInVzZXJfaWQiOiI0MWQ5ZTM5NS03NjAzLTQ1MDQtYjQ2OC00OWY0Mzc0NzZhZjYifQ.j8260oWUQcxK4lzmbI__j2_j7Yl1whUooB5hUlrXNCQ'\
+ -H 'content-length: 266'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Section process current sit.","courseId":"0f6249a3-00f9-4f3d-9eb3-deb56273a4de","maxScore":83,"minScore":29,"orderIndex":16,"description":"Travel news third interest assume six sometimes. Garden former miss save eat media above.","estimatedTime":"6 weeks"}'

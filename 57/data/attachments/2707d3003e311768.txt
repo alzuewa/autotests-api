@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI1VDAyOjI4OjIyLjgyMTIwMyIsInVzZXJfaWQiOiJjMzc3MjlmYi01ZmJkLTRmOTQtYmU1Zi01ZTMwYzk3MDNhYWIifQ.em6gSUvxeLdtEt-R4C44h-jABYDnsFBaSL5b6mrZc_A'\
+ -H 'content-length: 429'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Edge learn watch more local region small unit.","maxScore":65,"minScore":19,"description":"Home cover particular attention address leg.\nCity me week like agent help life. Easy authority east success. All parent receive owner matter event free. Treatment great pay science again.","estimatedTime":"2 weeks","previewFileId":"72d352a0-fdf6-40da-971c-26fe79823cd6","createdByUserId":"c37729fb-5fbd-4f94-be5f-5e30c9703aab"}'

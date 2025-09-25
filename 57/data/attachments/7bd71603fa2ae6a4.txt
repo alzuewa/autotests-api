@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI1VDAyOjI4OjI2LjUyNjMwMSIsInVzZXJfaWQiOiI5N2VhNzE3YS03MDkwLTQxZjUtOTViNS04MWFlYTY2Mzk5NDIifQ.jsmtflUVXjs7KuO_-CwC5RfqTiKCl5uURydNPjkHir0'\
+ -H 'content-length: 396'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Once listen such sometimes believe western many general.","courseId":"3b0e2259-1da6-4062-8b55-96232484ba5f","maxScore":96,"minScore":22,"orderIndex":60,"description":"Main sort face mean hour. Fall grow service south wish care whatever. Culture Congress budget thought throughout whom.\nHeavy one nature share garden parent director. Happy seem their cause.","estimatedTime":"10 weeks"}'

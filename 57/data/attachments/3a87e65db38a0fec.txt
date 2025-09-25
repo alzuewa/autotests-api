@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI1VDAyOjI4OjI1LjI2OTkxNyIsInVzZXJfaWQiOiI1ZTc5YmJmOS01ZWEwLTQ0ZDEtYmQxNC03MWExZmQ1YTU2OTcifQ.yMe5KnAhjAsVZTeOgWt3lFJLstM4wl0EuE86dFYNgeA'\
+ -H 'content-length: 386'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Catch training onto process pick himself.","maxScore":74,"minScore":19,"description":"Bed like present individual. Course position right reduce term. Director product hand red however ok. Manage level exist ask court positive agreement.","estimatedTime":"2 weeks","previewFileId":"0b120ec1-3335-4185-b6d0-a4b06fb1f5f7","createdByUserId":"5e79bbf9-5ea0-44d1-bd14-71a1fd5a5697"}'

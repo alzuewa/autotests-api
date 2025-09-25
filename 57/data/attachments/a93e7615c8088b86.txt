@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI1VDAyOjI4OjIzLjc1MzU1NiIsInVzZXJfaWQiOiI3ZDU5ZDBlZS05ZGYyLTRiODQtOWM2MS0xODdkNmIxMWI2ZTAifQ.YMFUE-kRk6O6uUkYdAbnuN-qbsZB0iK7i20n4qhqcJM'\
+ -H 'content-length: 315'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Turn mission number only.","maxScore":51,"minScore":3,"description":"Guy party imagine tonight stand other movie. Something over whole what within space beat couple.","estimatedTime":"8 weeks","previewFileId":"8959f544-653b-47b5-8d34-b7e3c0ef0eb4","createdByUserId":"7d59d0ee-9df2-4b84-9c61-187d6b11b6e0"}'
