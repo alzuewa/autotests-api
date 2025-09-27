@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI3VDAyOjIyOjI5LjY3MTQ2NSIsInVzZXJfaWQiOiIzODYxMDA5ZS05YmNmLTQ4NzctOTJhYS1hYzY1NWZhOTZmNTAifQ.G5JhgB4TAxAfMj-00QxF-aX8gC0-YyNhItr8EO57ZJc'\
+ -H 'content-length: 363'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Hear woman son wife whole.","maxScore":51,"minScore":14,"description":"Civil test increase because treatment. Situation rule your rather.\nSpecial tonight three radio role another store. Far color upon either why.","estimatedTime":"8 weeks","previewFileId":"020a697d-0440-4653-9b95-2165fff8f9ab","createdByUserId":"3861009e-9bcf-4877-92aa-ac655fa96f50"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI3VDAyOjIyOjI3Ljg0MTUxNiIsInVzZXJfaWQiOiI5Njk3ZmRmMi00OTU2LTQ5OTYtYjQyNy1iODY3OTE3Y2E5ZDYifQ.2FpnjZX3hpEDlZ-t35zOZL41KLxXp3YwNTIufwDrJgs'\
+ -H 'content-length: 371'\
+ -H 'content-type: application/json'\
+ -d '{"title":"That sport partner question tend.","maxScore":71,"minScore":24,"description":"Occur response wall full treat wind land. Successful future fly system.\nOwn or attention record. Check experience true federal huge field at.","estimatedTime":"10 weeks","previewFileId":"b3d05bbf-6399-4d43-b71b-da3dd8cc7ed2","createdByUserId":"9697fdf2-4956-4996-b427-b867917ca9d6"}'

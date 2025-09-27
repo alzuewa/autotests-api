@@ -1,0 +1,22 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:27 Send PATCH request to http://localhost:8000/api/v1/exercises/70544028-614e-402f-9804-a8a7c8de916d
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/exercises/70544028-614e-402f-9804-a8a7c8de916d
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:93 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Tonight especially factor."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "74"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "15"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals "32"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Figure investment hard thus despite writer likely knowledge. Company try direction. Happy hard truth.
+Everyone gun identify we each write traditional."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "10 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI3VDAyOjIyOjI3LjI1NTExMSIsInVzZXJfaWQiOiJlYTJkNzUwYy0zZGYwLTRiMDgtODA4MS04YTg5ZmNkMjE2YjIifQ.1jPvXZAFX2UbaOh-sgEna5HbGtDNh1eV_Fd7ddKOEXM'\
+ -H 'content-length: 400'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Full money how yard it.","maxScore":67,"minScore":12,"description":"Professor hot that indicate hotel. Their build expect support indeed mind.\nBall couple change could good. Phone head everything whom grow. Show popular arrive discuss than behavior.","estimatedTime":"7 weeks","previewFileId":"5e2a073d-5d6a-4f76-82e3-49c9b5a683f1","createdByUserId":"ea2d750c-3df0-4b08-8081-8a89fcd216b2"}'

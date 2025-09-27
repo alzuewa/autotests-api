@@ -1,0 +1,33 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send GET request to http://localhost:8000/api/v1/courses?userId=73dab605-afd0-4da0-9ba8-f9d6fbaa5be7
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses?userId=73dab605-afd0-4da0-9ba8-f9d6fbaa5be7
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:53 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:74 Check that "courses's" length equals 1
+INFO     COURSES_ASSERTIONS:courses.py:28 Check course
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "5d8c2df7-1f22-48c8-9d38-72baae277edd"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "No several check hospital drive."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "79"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "9"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Thing friend respond. Wind majority report star bit one age. Will several together sort son final matter include."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "6 weeks"
+INFO     FILES_ASSERTIONS:files.py:49 Check create file
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "332487d1-4b7e-4408-99dd-a02d4d0b5a2f"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "url" equals "http://localhost:8000/static/test_files/4f4b11c0-651b-4d8b-8c70-a32154f64d00.jpg"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "filename" equals "4f4b11c0-651b-4d8b-8c70-a32154f64d00.jpg"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "directory" equals "test_files"
+INFO     USERS_ASSERTIONS:users.py:44 Check user
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "73dab605-afd0-4da0-9ba8-f9d6fbaa5be7"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "email" equals "zbaird@example.com"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "last_name" equals "Massey"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "first_name" equals "Ann"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "middle_name" equals "Douglas"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

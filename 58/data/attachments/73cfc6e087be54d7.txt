@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI3VDAyOjIyOjMwLjQwNzA2NSIsInVzZXJfaWQiOiI3OTEwNjU1OS05MDFjLTQ5OGMtOWExMi05OGU2NWJmYjllMTAifQ.1ONzrEJKZ_t8wkvZUPERuK3KZ00K5UeGEQNXbQ4Lr2o'\
+ -H 'content-length: 303'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Simple accept meeting serious able.","maxScore":55,"minScore":3,"description":"Answer main him these. Fine receive citizen PM himself including positive.","estimatedTime":"2 weeks","previewFileId":"acc2e979-bc63-4e52-acc4-299827e4fd15","createdByUserId":"79106559-901c-498c-9a12-98e65bfb9e10"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI3VDAyOjIyOjI2LjM1MjU4MCIsInVzZXJfaWQiOiI3M2RhYjYwNS1hZmQwLTRkYTAtOWJhOC1mOWQ2ZmJhYTViZTcifQ.KzDDv9KXYzmGfdwhLIDHZOgQPnn0h1erxYzeekvYmRI'\
+ -H 'content-length: 339'\
+ -H 'content-type: application/json'\
+ -d '{"title":"No several check hospital drive.","maxScore":79,"minScore":9,"description":"Thing friend respond. Wind majority report star bit one age. Will several together sort son final matter include.","estimatedTime":"6 weeks","previewFileId":"332487d1-4b7e-4408-99dd-a02d4d0b5a2f","createdByUserId":"73dab605-afd0-4da0-9ba8-f9d6fbaa5be7"}'

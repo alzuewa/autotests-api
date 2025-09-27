@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI3VDAyOjIyOjI4LjQyNDQxMiIsInVzZXJfaWQiOiJkODMzMDYxNi00NmI3LTRlZTAtYjQyMS0xYzQyYTNlZmIxYzgifQ.Df6li5zvcLBAnq2p4GVRGsV1vd7I1Abh3RjPHVscr30'\
+ -H 'content-length: 356'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Property stuff experience relate.","maxScore":56,"minScore":9,"description":"Must thank bed certain without. Daughter might understand born then. Maintain glass our. Movie ability current those fall night.","estimatedTime":"10 weeks","previewFileId":"0668a319-ee8e-43bd-8249-3e37facaf18b","createdByUserId":"d8330616-46b7-4ee0-b421-1c42a3efb1c8"}'
