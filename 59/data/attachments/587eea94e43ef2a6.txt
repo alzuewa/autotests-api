@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTMwVDAyOjI1OjEzLjgwMjc4OCIsInVzZXJfaWQiOiIzMTg5OTg5ZS00NzZkLTQ3MjgtYjU2OC01MTczNzUxM2I3ZjMifQ.vMWyh2sDc_NWNqGL05-0vlCS7Jqp52FkR8Zbw2LwZAk'\
+ -H 'content-length: 381'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Leader life mission.","maxScore":75,"minScore":4,"description":"Dark difference board apply contain star. Memory director century baby eight office.\nNotice task west power red natural. Thousand power stage not ground eat manager.","estimatedTime":"10 weeks","previewFileId":"185d6cf9-cd06-442c-b99f-323f910a131e","createdByUserId":"3189989e-476d-4728-b568-51737513b7f3"}'

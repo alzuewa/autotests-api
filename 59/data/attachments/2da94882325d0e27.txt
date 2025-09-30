@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTMwVDAyOjI1OjE3LjAyMzkxMCIsInVzZXJfaWQiOiJmY2JhMzk4YS1mMWMzLTRlYTYtYWJmYS1mZjdhY2YxYTU2NDMifQ.LIKCtsKRGGQgvnCxun-OfgMGqo5U1Ux8XKooqSK8kbU'\
+ -H 'content-length: 421'\
+ -H 'content-type: application/json'\
+ -d '{"title":"White this strong hear trial.","maxScore":68,"minScore":15,"description":"Vote visit accept today nice. Source red kind open notice data.\nDifferent little action ever.\nOffer source human.\nOr argue respond station real. Film the member turn. Debate deep past according.","estimatedTime":"5 weeks","previewFileId":"2c4e3f04-380f-4002-ba1a-5d53627d8877","createdByUserId":"fcba398a-f1c3-4ea6-abfa-ff7acf1a5643"}'

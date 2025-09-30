@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTMwVDAyOjI1OjEzLjE2MzI1OCIsInVzZXJfaWQiOiJkNDM4MjM2MS1jMWEyLTRiYzAtYjdlMC0zMjlhZDA3ZTkxMzQifQ.WcwKXzV54XeyXTBMuUwhMrcvbnLHCHWKa9Y6APUEM7E'\
+ -H 'content-length: 369'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Network today over effect size where.","maxScore":59,"minScore":11,"description":"Important leg open scientist who. Beautiful example heart.\nMatter too somebody while more no. Glass official there plan receive science.","estimatedTime":"4 weeks","previewFileId":"991a9136-4407-46a9-9b62-c64dca76391b","createdByUserId":"d4382361-c1a2-4bc0-b7e0-329ad07e9134"}'
