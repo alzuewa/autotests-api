@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAyVDAyOjI1OjQxLjA4MTIzNyIsInVzZXJfaWQiOiIzZDQ4YWQ1Yi1kMDMyLTQ4NTQtODMwNy1mOTZlYjAyNDY2NDAifQ.NVSp76Skgm5nC8UK_ErFI8slanYYjXf5-xCvbRcu93w'\
+ -H 'content-length: 266'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Phone world animal good.","maxScore":64,"minScore":11,"description":"Fight difficult star participant military walk.","estimatedTime":"6 weeks","previewFileId":"b5d86419-d080-46de-8c11-e14ef34b2650","createdByUserId":"3d48ad5b-d032-4854-8307-f96eb0246640"}'

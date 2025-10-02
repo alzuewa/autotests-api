@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAyVDAyOjI1OjM4LjAxODcwNyIsInVzZXJfaWQiOiIwMWM2ZWZhYS1jMTEzLTQwZjctODE3ZC1mYjI0Y2U1YzIzZWYifQ.Gw5W8eul00zGWCQajPvlAT1KefgYIUOkewTs3XAZq-E'\
+ -H 'content-length: 404'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Wear movement plant.","maxScore":95,"minScore":25,"description":"Environment send give art. Summer floor most information.\nTop these style much approach key. South notice television become maintain. Among body work. Book no write we about machine wait.","estimatedTime":"10 weeks","previewFileId":"916d4a4c-f70a-4c10-9437-c6cfc968249e","createdByUserId":"01c6efaa-c113-40f7-817d-fb24ce5c23ef"}'

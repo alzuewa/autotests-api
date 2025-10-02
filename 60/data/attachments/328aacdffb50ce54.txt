@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/exercises/5847f527-1a38-41d8-816c-4770aeda1ac6'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAyVDAyOjI1OjM5LjU1MzQyNyIsInVzZXJfaWQiOiI4OTJiODFiYS01NDYyLTQ5NzEtOTdlOC04ZDI0NTUxMzdiMzMifQ.GPCneq4sX2-3VlXqYVn4PDiZrNtDNekkFawO8Bp6_k0'\
+ -H 'content-length: 321'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Attorney how population question.","maxScore":89,"minScore":29,"orderIndex":77,"description":"Born sometimes world dog other system hear. Imagine west big body energy. Red structure director ball. Rest according politics front discuss.\nCertainly too note remember response fish bed.","estimatedTime":"5 weeks"}'

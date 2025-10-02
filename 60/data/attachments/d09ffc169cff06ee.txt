@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/7d2f269f-a9c0-4893-8346-f9e4167b4b32'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAyVDAyOjI1OjM4LjAxODcwNyIsInVzZXJfaWQiOiIwMWM2ZWZhYS1jMTEzLTQwZjctODE3ZC1mYjI0Y2U1YzIzZWYifQ.Gw5W8eul00zGWCQajPvlAT1KefgYIUOkewTs3XAZq-E'\
+ -H 'content-length: 312'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Born majority nice seat training peace.","maxScore":66,"minScore":20,"description":"Modern hair million others hit Mr already. Own particular job continue hear someone.\nSocial purpose behind beyond plant heart power across. Bed weight someone quickly. Carry begin ok once.","estimatedTime":"10 weeks"}'

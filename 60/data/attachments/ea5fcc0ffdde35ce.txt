@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAyVDAyOjI1OjM2LjUxODA5NSIsInVzZXJfaWQiOiJlMTIwOGJjZi04NmU3LTQ3ZjMtYjg5NC01ZDcwMTlmZDUzZTcifQ.Yafz4LjeBRTzIWv9HpIr3NFL2ZJ105qrrxExYmlDgVg'\
+ -H 'content-length: 395'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Prepare car method now.","maxScore":68,"minScore":13,"description":"Assume same executive however section never. Morning admit small whose.\nPass owner skill fine subject. Rest art will if. Design enter however look could seem prevent industry.","estimatedTime":"10 weeks","previewFileId":"70ab26e2-dc15-49ef-8d5c-b26e346d7fb0","createdByUserId":"e1208bcf-86e7-47f3-b894-5d7019fd53e7"}'
