@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA0VDAyOjIwOjU4LjEzOTc4MiIsInVzZXJfaWQiOiJiZGIzODQ2OC1iOTUwLTQxYmUtOWFjOC1lOGE1Yjc0M2Y1YWQifQ.n57__bPpzZbAlXjcDj6V3PcXfVEYKAzsjpDpGv3VJJ4'\
+ -H 'content-length: 366'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Born end pretty push often word professor.","maxScore":73,"minScore":13,"description":"What rich else. Believe Republican economy every be watch establish. Indeed president ok sound talk military. Choice leave begin.","estimatedTime":"9 weeks","previewFileId":"d6b1f080-4c2a-46d2-84de-75274d4ec308","createdByUserId":"bdb38468-b950-41be-9ac8-e8a5b743f5ad"}'

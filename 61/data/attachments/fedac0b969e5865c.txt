@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA0VDAyOjIwOjU5LjMxMjk5NCIsInVzZXJfaWQiOiIwNDVlMDA4Ny0zMDBmLTQ2MzgtYWIxOC02MTA3MGI5YWEzYjEifQ.E7d7DnhtC2TUFgavuQ_mz07zRVkbZCrp7BqXrisLNOQ'\
+ -H 'content-length: 320'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Put human tend character.","maxScore":100,"minScore":24,"description":"His practice begin food power father. Mr hospital try. Market become box enjoy feeling edge action.","estimatedTime":"5 weeks","previewFileId":"aff1c3c3-c943-4b72-805c-cac7513ef757","createdByUserId":"045e0087-300f-4638-ab18-61070b9aa3b1"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA0VDAyOjIwOjU3LjI0NzQzNCIsInVzZXJfaWQiOiJmMmExZTg5MS00Y2E2LTQ4YmYtYjRkMS05MmZiNGI0NTM5YzIifQ.KGG4smFtgVh6pFpnDgyaztyiTWlgtaNs9f5pbgmFyx4'\
+ -H 'content-length: 415'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Order simple fund final.","maxScore":76,"minScore":16,"description":"Direction value doctor body gun. Tonight practice range lot good.\nSection parent garden office because girl prepare. Some prove tax near fly together anything. Because board chair executive away.","estimatedTime":"2 weeks","previewFileId":"3d942f71-5a1c-4680-b3af-57841089f872","createdByUserId":"f2a1e891-4ca6-48bf-b4d1-92fb4b4539c2"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA0VDAyOjIxOjAwLjUxMjk3NiIsInVzZXJfaWQiOiIyODNkZTJjMy1hYmEwLTQ0NmQtODQ5My04OTU3MmZmMzJlZWIifQ.lg26egtElI7gCFgzthJVAINfufk2Y4a229FPdKeHMa0'\
+ -H 'content-length: 412'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Without recent type provide gun sound staff study.","maxScore":63,"minScore":5,"description":"Series them night street woman radio international station. Product investment adult choose. Check mean kind charge behind call eight own.\nHouse cold manager tax rise.","estimatedTime":"5 weeks","previewFileId":"726b2f53-eb90-454c-a140-6b6ebd9d261b","createdByUserId":"283de2c3-aba0-446d-8493-89572ff32eeb"}'
