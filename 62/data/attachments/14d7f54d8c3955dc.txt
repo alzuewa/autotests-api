@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA3VDAyOjI2OjI4LjI0NzczNSIsInVzZXJfaWQiOiIyZGJhODVlMy0zYzJiLTQzMTQtOTU3Yi0yMDI3ODg0ZTY2NDEifQ.8_a4jhKPNjwS1hPHLsB0z3Oi1XZtOy28pCyF5I0ZU7Y'\
+ -H 'content-length: 336'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Present other leader while by property ball.","maxScore":75,"minScore":14,"description":"College enter population quickly base. Remain these resource response. Might push national later.","estimatedTime":"9 weeks","previewFileId":"1a74ea4b-17aa-4a8d-b073-67691c8ae4b0","createdByUserId":"2dba85e3-3c2b-4314-957b-2027884e6641"}'

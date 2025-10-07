@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA3VDAyOjI2OjI3LjY2MDk4OCIsInVzZXJfaWQiOiIxM2QzN2VjMy00ODkyLTRlMDEtYTNmNy05N2IyODRhYzdlNTQifQ.wXwkT66fNUP2c6wbbn-lRdGHc1XP3cYhQB9gyDwU0Fk'\
+ -H 'content-length: 408'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Detail give once share.","maxScore":87,"minScore":16,"description":"Air chair low then. Wonder price affect he.\nMethod if mother read southern life far. Throw magazine impact decision head ready begin. Lawyer painting environment possible production answer.","estimatedTime":"6 weeks","previewFileId":"f9b5244b-007e-4bfe-a123-00db65dfbedb","createdByUserId":"13d37ec3-4892-4e01-a3f7-97b284ac7e54"}'
