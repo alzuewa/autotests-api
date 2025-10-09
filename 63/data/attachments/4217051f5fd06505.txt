@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA5VDAyOjI3OjE5LjI4Mjk3MCIsInVzZXJfaWQiOiI0OTVkYjRiNi1lNGMxLTRlODctODhlMS1jMWY5N2Q0ZGRiN2IifQ.3St_LVhGGsDpy4xxK4IPoNtXXFSuyMmkG3_oawx7t9w'\
+ -H 'content-length: 395'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Seem instead improve public soldier rather.","maxScore":58,"minScore":8,"description":"Someone generation trip table start ball. Region several task ability. Stage believe picture inside.\nEnjoy ground up receive inside. Grow scene strategy eye.","estimatedTime":"2 weeks","previewFileId":"d6d0ffc9-038d-406c-8704-de22910ba12a","createdByUserId":"495db4b6-e4c1-4e87-88e1-c1f97d4ddb7b"}'

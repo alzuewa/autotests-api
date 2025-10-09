@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA5VDAyOjI3OjIxLjc2ODUyNCIsInVzZXJfaWQiOiIzNDU5NmE5NC00MWE3LTQ4NzAtOTI3My1jMjFiZGFiOWUzYjIifQ.ruDac81cm4oLwSbSzJeENrnQ7ovS5kur94Brby5YJJk'\
+ -H 'content-length: 424'\
+ -H 'content-type: application/json'\
+ -d '{"title":"First hard over third institution me.","maxScore":67,"minScore":20,"description":"Mr wish they. Drop say consider employee activity institution piece.\nProject yes arm during place character fear. Win visit yeah need rather will special. Paper general call Democrat federal.","estimatedTime":"2 weeks","previewFileId":"c48e90d6-5b14-4f49-ad3d-598a0feb3226","createdByUserId":"34596a94-41a7-4870-9273-c21bdab9e3b2"}'

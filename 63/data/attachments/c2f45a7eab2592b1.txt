@@ -1,0 +1,20 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:73 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Seem instead improve public soldier rather."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "58"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "8"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Someone generation trip table start ball. Region several task ability. Stage believe picture inside.
+Enjoy ground up receive inside. Grow scene strategy eye."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "2 weeks"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "2 weeks"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "preview_file" equals "d6d0ffc9-038d-406c-8704-de22910ba12a"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "created_by_user" equals "495db4b6-e4c1-4e87-88e1-c1f97d4ddb7b"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

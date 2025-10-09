@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA5VDAyOjI3OjIxLjQ5NTU0MCIsInVzZXJfaWQiOiJhYTAwNThiNS05NzcwLTQ2NTUtOGMxZC01Mzc5ZDRkMzEwZjQifQ.AvfQRvuIRDBsK_xrznZFn35STu8QoNEfCWJTPEM50Zg'\
+ -H 'content-length: 437'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Trouble reveal piece truth become possible most.","maxScore":66,"minScore":23,"description":"Receive foot sometimes buy herself return personal. Represent reduce believe eye move. Sound treatment argue sister speak.\nSimply amount blue. Personal arm memory letter. Go perhaps simply buy.","estimatedTime":"6 weeks","previewFileId":"c11a54b4-bf1c-4445-9180-bd17b00b25bb","createdByUserId":"aa0058b5-9770-4655-8c1d-5379d4d310f4"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA5VDAyOjI3OjE4LjY0OTM2NCIsInVzZXJfaWQiOiJjZDQzMmJkZC1jZGViLTRjYzMtODg2Ny1hODJiNDU5YzU5MDIifQ.XzADOyPcaDejW2asEbf3HK93lFToyUYY2EpL12zKSTo'\
+ -H 'content-length: 339'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Head response tell record travel behind.","maxScore":50,"minScore":26,"description":"Federal put kind nice must investment put. Officer since set drop perhaps. Person establish city it ask.","estimatedTime":"8 weeks","previewFileId":"1e723222-d56f-4ff1-8974-9547a87f45b7","createdByUserId":"cd432bdd-cdeb-4cc3-8867-a82b459c5902"}'

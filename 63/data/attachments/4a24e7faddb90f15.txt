@@ -1,0 +1,33 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send GET request to http://localhost:8000/api/v1/courses?userId=cd432bdd-cdeb-4cc3-8867-a82b459c5902
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses?userId=cd432bdd-cdeb-4cc3-8867-a82b459c5902
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:53 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:74 Check that "courses's" length equals 1
+INFO     COURSES_ASSERTIONS:courses.py:28 Check course
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "3c2a06a6-cf74-45ed-b354-d67c6035c79d"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Head response tell record travel behind."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "50"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "26"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Federal put kind nice must investment put. Officer since set drop perhaps. Person establish city it ask."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "8 weeks"
+INFO     FILES_ASSERTIONS:files.py:49 Check create file
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "1e723222-d56f-4ff1-8974-9547a87f45b7"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "url" equals "http://localhost:8000/static/test_files/1b7b8b40-05d7-44b6-97b2-5f089db073b1.jpg"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "filename" equals "1b7b8b40-05d7-44b6-97b2-5f089db073b1.jpg"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "directory" equals "test_files"
+INFO     USERS_ASSERTIONS:users.py:44 Check user
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "cd432bdd-cdeb-4cc3-8867-a82b459c5902"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "email" equals "jeffreycameron@example.org"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "last_name" equals "Jenkins"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "first_name" equals "Michael"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "middle_name" equals "Michael"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

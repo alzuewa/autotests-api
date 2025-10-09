@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA5VDAyOjI3OjIwLjIzNjcyNiIsInVzZXJfaWQiOiIzYmY5OGM0Zi1mMjBhLTRkZjgtOTMwZi0zZWNkY2YxYWVhMDcifQ.R9Nmvgw63r-Y_ONxCY23xMazZDyv5x-DGdksukZxg64'\
+ -H 'content-length: 366'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Staff condition where doctor discussion.","maxScore":89,"minScore":30,"description":"Carry audience Mr.\nSuch say charge her whether girl. Sound debate piece risk financial too. Reason sport table blood but similar.","estimatedTime":"10 weeks","previewFileId":"a8fd8194-8061-4a89-a73e-9f36c8230779","createdByUserId":"3bf98c4f-f20a-4df8-930f-3ecdcf1aea07"}'

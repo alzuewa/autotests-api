@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/c54c1c29-8ea6-4ab9-8329-3bc62d35d5f8'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA5VDAyOjI3OjIwLjIzNjcyNiIsInVzZXJfaWQiOiIzYmY5OGM0Zi1mMjBhLTRkZjgtOTMwZi0zZWNkY2YxYWVhMDcifQ.R9Nmvgw63r-Y_ONxCY23xMazZDyv5x-DGdksukZxg64'\
+ -H 'content-length: 272'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Each lawyer however something entire myself.","maxScore":74,"minScore":6,"description":"Yeah develop relate company will. Whole commercial sort position suggest certain forget after. Turn participant fact most rest should get station.","estimatedTime":"5 weeks"}'
