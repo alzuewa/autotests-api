@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTExVDAyOjIyOjU3Ljc4NjIwMiIsInVzZXJfaWQiOiJiYTJhNTI1Ni1hMGIzLTQ0ODktODQ4NC0wNTNjNmMyMTA3MTQifQ.w6VVj637TXoGg6Evwrmn3QkHnG1nKkYJ5OEaJzrod2U'\
+ -H 'content-length: 319'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Try language case campaign money them shoulder.","maxScore":67,"minScore":11,"description":"Instead style kitchen science occur.\nDoctor book cold that whom minute game.","estimatedTime":"5 weeks","previewFileId":"263cabe8-b772-4e88-9d70-9acacf716491","createdByUserId":"ba2a5256-a0b3-4489-8484-053c6c210714"}'

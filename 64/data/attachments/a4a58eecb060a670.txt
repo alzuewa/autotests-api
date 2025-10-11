@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/957c9112-06f6-4e44-94f2-0a154cda4857'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTExVDAyOjIyOjU2LjI2Mzg5MyIsInVzZXJfaWQiOiI1ODdkNTFmYy1iYTZmLTRiZTYtOWZiMC0zZWY4YWY5MjUyYmUifQ.1lO2V_263_gFkTrotL9llZGYXY34l_hnB7NxizOmtck'\
+ -H 'content-length: 309'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Stock take worry cut gas.","maxScore":61,"minScore":8,"description":"Which say beat modern born sometimes future.\nDrop fly Mr series yourself news north. Morning ever each.\nApply ever event situation. Few own show carry. Front set garden person.\nPer beyond table free.","estimatedTime":"8 weeks"}'

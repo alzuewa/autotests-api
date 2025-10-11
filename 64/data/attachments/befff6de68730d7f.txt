@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTExVDAyOjIyOjU4LjA2MTEzMSIsInVzZXJfaWQiOiJlMTgyMThmOC0xOWI1LTQ1NmItODRhMi0zMTRmOTY5ZTQwYmMifQ.Lu8ykhCaNKgdYHAkfH7gmFs-tPt5sg1EXXegeTpO6O0'\
+ -H 'content-length: 393'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Mean special woman special win.","maxScore":99,"minScore":6,"description":"Too success require environmental west still answer. Level stay lead.\nTraditional why unit most improve. Window two just country school. Task city person bill western.","estimatedTime":"4 weeks","previewFileId":"217d1c22-e6fe-4900-b6e0-aa9ec7c83eef","createdByUserId":"e18218f8-19b5-456b-84a2-314f969e40bc"}'

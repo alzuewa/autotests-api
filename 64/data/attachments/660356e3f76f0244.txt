@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTExVDAyOjIyOjU2Ljg2MTE3NCIsInVzZXJfaWQiOiJjNjc4MjI3Ny05MmUxLTRhOGEtOWNkZC02YzFlYTA1OTY3MDIifQ.uKwQ_D_SOAtEc0ozylh01bIDpDgD_rK62kUr1jb6_iU'\
+ -H 'content-length: 427'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Assume world change remember technology would factor.","maxScore":55,"minScore":1,"description":"Spring notice huge ability responsibility purpose animal.\nCertainly game sound mouth forward. Culture let region seat seek production something. Now approach poor ten pretty know.","estimatedTime":"5 weeks","previewFileId":"610e40d4-21ae-4ade-89e4-84364b55fdb7","createdByUserId":"c6782277-92e1-4a8a-9cdd-6c1ea0596702"}'

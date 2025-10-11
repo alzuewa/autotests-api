@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTExVDAyOjIyOjU5LjAyOTMyOSIsInVzZXJfaWQiOiIyMTU2MzJmZS0zMzkyLTRlZTMtOGExMy00ODQzZGJhYzdiNjkifQ.99RWqogpOezRxEtW8U6UElPgrExy2qhHQIwRFSWvJx4'\
+ -H 'content-length: 346'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Bit perhaps each worry close.","maxScore":64,"minScore":5,"description":"Which understand threat factor hotel least dream. Mind lawyer toward certain dinner catch whatever. Campaign very put firm.","estimatedTime":"7 weeks","previewFileId":"ef0e254a-c161-43af-9d52-398e1ee6b0e1","createdByUserId":"215632fe-3392-4ee3-8a13-4843dbac7b69"}'

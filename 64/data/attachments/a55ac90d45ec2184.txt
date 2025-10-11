@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTExVDAyOjIyOjU0Ljc2MDkxOCIsInVzZXJfaWQiOiI3Y2RhZjZiMC0yZjMwLTQ5MmQtOTU2ZS04OGE2NWI3NDY1YzIifQ.8nI6j6MjxTZRXCo-URnMnjsb2EDlQrz8i_U9o7bjSr8'\
+ -H 'content-length: 331'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Sister out modern.","maxScore":67,"minScore":1,"description":"Send by section three. Trial chance often assume fill.\nYourself raise animal skin stay. Over catch onto adult war see.","estimatedTime":"8 weeks","previewFileId":"c28dcedf-82e4-42c7-8afa-40ec3c303f5d","createdByUserId":"7cdaf6b0-2f30-492d-956e-88a65b7465c2"}'
