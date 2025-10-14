@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE0VDAyOjI4OjA5LjY0NTcwNyIsInVzZXJfaWQiOiJhYzE2M2FhMS1jZWFjLTRlMjctYjUwMS01OWVhYjI2YzllN2MifQ.olBlJXuaigmRnN39gCZMEuAjdkVy74CEvvIIHgd8kaM'\
+ -H 'content-length: 367'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Production available ever before affect.","maxScore":96,"minScore":25,"description":"In then economic participant. Responsibility series will today six indicate through true. Down top pattern poor mind challenge miss.","estimatedTime":"3 weeks","previewFileId":"45117a7d-e106-4dbc-98e2-93489be539c8","createdByUserId":"ac163aa1-ceac-4e27-b501-59eab26c9e7c"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/d51b075a-9993-412b-ad94-d3bce060f804'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE0VDAyOjI4OjA3LjEyMjAwMiIsInVzZXJfaWQiOiIxNWQyNTViMy00NGE2LTQ5YjItOGRlYy04MGNjOWY3ZDI5ZDcifQ.EkIg7X0ouO6rOs3_8AW5zTWjK6qO6jKWTNRPUswQvo0'\
+ -H 'content-length: 306'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Institution hard respond particularly physical almost.","maxScore":59,"minScore":21,"description":"If recently nor. Travel five to partner PM develop. Everyone food standard.\nCivil unit color writer mind remember. Image discussion energy spring always sometimes wide.","estimatedTime":"4 weeks"}'

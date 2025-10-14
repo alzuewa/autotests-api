@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE0VDAyOjI4OjA5LjY0NTcwNyIsInVzZXJfaWQiOiJhYzE2M2FhMS1jZWFjLTRlMjctYjUwMS01OWVhYjI2YzllN2MifQ.olBlJXuaigmRnN39gCZMEuAjdkVy74CEvvIIHgd8kaM'\
+ -H 'content-length: 308'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Let event job modern right however.","courseId":"899714ff-676e-45e0-bcc6-32453e03b3d8","maxScore":78,"minScore":19,"orderIndex":17,"description":"Live different movement upon even wait free. Out support happen room record. Explain group know college song behind several.","estimatedTime":"9 weeks"}'
