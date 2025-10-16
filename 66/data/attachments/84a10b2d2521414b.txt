@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/exercises/53553965-7fb7-427e-866a-3382fbc43277'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDAyOjI5OjQ1Ljk4NjQzNyIsInVzZXJfaWQiOiJlYzI5MTYwYy01MWYzLTQ2YWEtYmMzOC04MWVjMTY5ZTg1MTMifQ.OTx57IqYHh5kiv47ui3CTtYuVJdHIocTylh35fMnIRU'\
+ -H 'content-length: 276'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Throughout dog threat such say on wind.","maxScore":88,"minScore":4,"orderIndex":9,"description":"Kind sea enough his ground recognize. Mother fine usually check professor every among. Late money animal risk. Stay rise city fund daughter.","estimatedTime":"8 weeks"}'

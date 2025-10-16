@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDAyOjI5OjQ3LjI5NjY5MSIsInVzZXJfaWQiOiJjMTQ2NzI0NC03NzIzLTRjYjUtYjU5OS1jYTA2ZDEzZWVhZTEifQ.dSmlOKiwl_FyZvrBwHukL56gt-z2z1UMkdQoDl_0M2g'\
+ -H 'content-length: 363'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Knowledge force song management provide dream.","courseId":"c0daf06b-60c7-485b-8d21-a786c36c4610","maxScore":66,"minScore":14,"orderIndex":12,"description":"First identify describe keep. The cost computer program. Open try seek tax behind nation road soldier.\nCity course yes major six miss. Quite arm name throw some allow.","estimatedTime":"9 weeks"}'

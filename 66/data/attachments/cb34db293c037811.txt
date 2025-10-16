@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDAyOjI5OjQ1Ljk4NjQzNyIsInVzZXJfaWQiOiJlYzI5MTYwYy01MWYzLTQ2YWEtYmMzOC04MWVjMTY5ZTg1MTMifQ.OTx57IqYHh5kiv47ui3CTtYuVJdHIocTylh35fMnIRU'\
+ -H 'content-length: 400'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Impact better little politics audience more wonder.","maxScore":67,"minScore":4,"description":"Mouth could feel raise. Sister weight nice board position.\nDevelop shake result term. Nothing before land our so. Leader detail seem whatever result wife.","estimatedTime":"5 weeks","previewFileId":"2af3c403-5e86-4f75-bda4-089310963ac5","createdByUserId":"ec29160c-51f3-46aa-bc38-81ec169e8513"}'

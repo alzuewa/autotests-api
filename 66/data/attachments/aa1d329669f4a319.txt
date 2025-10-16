@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDAyOjI5OjQ0LjEyNzYzOCIsInVzZXJfaWQiOiI4ZjA5NzBmNC0yOGVhLTRiOWYtOTJmZi04NzllZDg2ODUzOTQifQ.C6PRbQjRn3X5Squi-k7PnhkjFUCQRANbgpjuYj8GVJg'\
+ -H 'content-length: 415'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Stage majority age institution bag reality matter nice.","maxScore":95,"minScore":21,"description":"Fall recently exist character camera. Week life else believe your center own mission.\nEverybody state page news. Hair range federal. Never dream particular protect.","estimatedTime":"8 weeks","previewFileId":"7afa0441-20b0-4b46-b93a-eeff73dc7b7c","createdByUserId":"8f0970f4-28ea-4b9f-92ff-879ed8685394"}'

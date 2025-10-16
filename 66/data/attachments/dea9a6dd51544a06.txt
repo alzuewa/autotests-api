@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE2VDAyOjI5OjQzLjIzMTQwOCIsInVzZXJfaWQiOiI0ZjcxYWE1OC03YzdlLTQwZjQtYWMxMy0yODgyODliYTM3YjQifQ.Nxe_ewZror9YUeIEksctyL5KuuEl9CUBGssku4Ulx4s'\
+ -H 'content-length: 352'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Alone military training big.","maxScore":77,"minScore":12,"description":"Consider where single positive next. Message skin read either factor move. Learn century chair final resource possible interview.","estimatedTime":"7 weeks","previewFileId":"fdb4fab6-066a-4e7d-aa47-a0ce00072538","createdByUserId":"4f71aa58-7c7e-40f4-ac13-288289ba37b4"}'
