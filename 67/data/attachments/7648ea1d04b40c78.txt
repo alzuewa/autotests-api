@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDAyOjIzOjMzLjA5NTU5NiIsInVzZXJfaWQiOiI0ODg1OTAyOC1iMTgxLTQ5MTctYmM3ZC01MTlhMTNkMjM5Y2MifQ.cpKokoAQL2jaQJ1h-kxEvT8MG4HW-b8-ko70Pnkgi20'\
+ -H 'content-length: 426'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Expect pressure although federal as.","maxScore":55,"minScore":23,"description":"Candidate reveal same also. Everything decade continue fight person.\nEvidence cell animal action. Smile as really structure.\nNumber total kid president rise keep drug. Sort conference bad will.","estimatedTime":"5 weeks","previewFileId":"b8485e91-19da-4754-a92a-713ae42fa9df","createdByUserId":"48859028-b181-4917-bc7d-519a13d239cc"}'

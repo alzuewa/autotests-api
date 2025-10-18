@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDAyOjIzOjMyLjM2NDEwNiIsInVzZXJfaWQiOiJmMjYwNTAyZS1jZjlkLTRiNzUtOGZjZC0xMjEzY2IwZDQ2MDkifQ.WXh7j3vnn71nsNv6pGMAEXZ1cQrzYml3PDC-zyOukes'\
+ -H 'content-length: 335'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Three happen brother car author.","maxScore":92,"minScore":7,"description":"Room begin least say rather factor service how. Recent agent well feel live.\nBecause whom cup truth central.","estimatedTime":"8 weeks","previewFileId":"a0365b3f-e3c5-468b-b76f-40302553ca2f","createdByUserId":"f260502e-cf9d-4b75-8fcd-1213cb0d4609"}'

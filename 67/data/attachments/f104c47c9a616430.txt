@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDAyOjIzOjMxLjEzMTYyMSIsInVzZXJfaWQiOiJmZDUxM2ZhZS0wZjU4LTRiYWMtOWFiOS02MjNkYWI3NmQzYzUifQ.DXFFpIqOujk7Nt7gO4U5iJtmPl8zgNaC3E64ezUbhHg'\
+ -H 'content-length: 399'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Could big dog television.","maxScore":53,"minScore":28,"description":"Affect argue war relate scene. Officer something theory fight hope real remain. Win star country blue model explain professional. Political bed play election firm sell make name.","estimatedTime":"10 weeks","previewFileId":"9fb74a31-c5fe-4c77-964b-1712f846dc90","createdByUserId":"fd513fae-0f58-4bac-9ab9-623dab76d3c5"}'

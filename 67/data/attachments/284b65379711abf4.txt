@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDAyOjIzOjMzLjY4Njg3NiIsInVzZXJfaWQiOiIxNTFkYjg4NS00YmU3LTRlZDgtOGEwYi04NDA1MGM2OGU0YmQifQ.0sBvRLoyuEaxfnRcV-Zfu_x3cGyW7330qtsYqDIUQm0'\
+ -H 'content-length: 380'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Direction age bill boy over.","maxScore":65,"minScore":2,"description":"Nation here outside town. True financial good exactly start. Stand central challenge word left.\nListen reveal big only. Deal budget begin attorney condition.","estimatedTime":"3 weeks","previewFileId":"d3fa47f1-340e-46c5-8649-aa7d8959bfa4","createdByUserId":"151db885-4be7-4ed8-8a0b-84050c68e4bd"}'

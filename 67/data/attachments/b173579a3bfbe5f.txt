@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDAyOjIzOjI5LjkyMTk2MCIsInVzZXJfaWQiOiJmMWVlMjYwOS0xYTM3LTRhYzQtYTc3Yy01OTRmOWRlYjU2ZGUifQ.pMaeBsE6LGUbycEM74F1paPrTFgsC-o0H0EwRJ9tPEU'\
+ -H 'content-length: 387'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Test now white employee others throughout arrive myself.","maxScore":77,"minScore":29,"description":"Church other hand its family recently quickly. Strategy even dinner reflect rest dream.\nMatter laugh office rule. Force he call window.","estimatedTime":"5 weeks","previewFileId":"68b843e1-4199-4d03-9c5b-8b570aaaadd7","createdByUserId":"f1ee2609-1a37-4ac4-a77c-594f9deb56de"}'

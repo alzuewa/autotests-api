@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDAyOjIzOjMxLjEzMTYyMSIsInVzZXJfaWQiOiJmZDUxM2ZhZS0wZjU4LTRiYWMtOWFiOS02MjNkYWI3NmQzYzUifQ.DXFFpIqOujk7Nt7gO4U5iJtmPl8zgNaC3E64ezUbhHg'\
+ -H 'content-length: 339'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Several method young fight spring.","courseId":"f4530eba-22af-4b56-a886-0e1a2e54926e","maxScore":73,"minScore":14,"orderIndex":13,"description":"Film method produce strategy. Company represent all perform specific light stay. Boy provide exactly center care sit anyone kind. Might maybe add recognize.","estimatedTime":"2 weeks"}'
