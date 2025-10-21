@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIxVDAyOjMyOjA1LjMyMzg0OSIsInVzZXJfaWQiOiJhYTE2ZjljMS0wZDViLTRmMTgtYmIzNC00NWViZDRmYmZiZTUifQ.3MMnD9luzZZcmEjgF-x9SD0N6GW6plsANIUEHJYZ2r0'\
+ -H 'content-length: 395'\
+ -H 'content-type: application/json'\
+ -d '{"title":"None sign color red trouble.","maxScore":55,"minScore":11,"description":"Plant most indeed growth age. Full significant figure place view effort. Along although industry finish most society mouth.\nSide certain feeling manage group eight public.","estimatedTime":"3 weeks","previewFileId":"50bb8299-5228-4466-a42d-5c271a05198e","createdByUserId":"aa16f9c1-0d5b-4f18-bb34-45ebd4fbfbe5"}'

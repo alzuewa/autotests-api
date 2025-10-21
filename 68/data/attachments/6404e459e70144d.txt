@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIxVDAyOjMyOjAyLjc3ODUxOSIsInVzZXJfaWQiOiI0MGQ3MzM3MS0wOGQ4LTQxNGUtOTQ4Ni1iNDM5OGI2YmY3NTUifQ.r3v_2_-WogPXpK4b2vyci-fwfov9v58Xw9ivVdUTX5Q'\
+ -H 'content-length: 340'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Quality practice push finish five.","maxScore":78,"minScore":24,"description":"Character without model number bag give. Several likely reach. Building season should ground lay impact middle.","estimatedTime":"6 weeks","previewFileId":"2f529fdc-adf6-4d4a-9d1c-65695c90e0fe","createdByUserId":"40d73371-08d8-414e-9486-b4398b6bf755"}'

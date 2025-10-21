@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:73 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Quality practice push finish five."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "78"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "24"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Character without model number bag give. Several likely reach. Building season should ground lay impact middle."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "6 weeks"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "6 weeks"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "preview_file" equals "2f529fdc-adf6-4d4a-9d1c-65695c90e0fe"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "created_by_user" equals "40d73371-08d8-414e-9486-b4398b6bf755"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

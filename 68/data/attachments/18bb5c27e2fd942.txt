@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIxVDAyOjMyOjAzLjM2Mzg3NiIsInVzZXJfaWQiOiI5ZTYzNGU4NS01MjMxLTRhODktYjRhNi1mMTk4OGQ3ZjRiYTgifQ.nEj41RuOn_ex7ZQHzMJBHI6_I4nPQOxi8DWKDXFXoEE'\
+ -H 'content-length: 331'\
+ -H 'content-type: application/json'\
+ -d '{"title":"It catch above road.","maxScore":51,"minScore":27,"description":"Behavior everybody effect year type. Institution why deep really organization. Box bring education study agree true.","estimatedTime":"8 weeks","previewFileId":"29c97a38-7d3f-4e80-853e-a49e78229247","createdByUserId":"9e634e85-5231-4a89-b4a6-f1988d7f4ba8"}'

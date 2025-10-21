@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIxVDAyOjMyOjA1LjkxNDE5MyIsInVzZXJfaWQiOiJiMTZjYmZmNS00YmU5LTRhYWYtODU4ZC00Y2JhMTY1ZjNiZDAifQ.DugFudXFoaLas1brSOsuFQbArKiYAbZv2lnH2yZbIHo'\
+ -H 'content-length: 423'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Beat then behind population nation design rather.","maxScore":60,"minScore":28,"description":"Fast against point look area life. Less real important head somebody pick challenge. Question how blue save media imagine open point. Size response would individual because often.","estimatedTime":"5 weeks","previewFileId":"9c9925b9-1e24-416f-aaf3-1281a86adc26","createdByUserId":"b16cbff5-4be9-4aaf-858d-4cba165f3bd0"}'
