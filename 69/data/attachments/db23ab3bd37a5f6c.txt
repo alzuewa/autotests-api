@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/17dd401a-aa69-4ec5-bfdb-1a578781f20f'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIzVDAyOjMwOjM3LjA2MTY1NiIsInVzZXJfaWQiOiJkYzRhYzFlMy00ODc3LTQ2NmYtYWU3MS1lM2U2MmEwYzQzYjIifQ.YMfMNqpLoxW-2rPT99taZ9TsgV-1eNkBHbn7LneZWdk'\
+ -H 'content-length: 287'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Use necessary go raise hard could.","maxScore":92,"minScore":8,"description":"Second meet daughter husband eat. Thousand truth piece western relationship every enough.\nCustomer necessary science size positive. Similar admit investment herself plan.","estimatedTime":"3 weeks"}'

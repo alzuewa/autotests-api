@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIzVDAyOjMwOjM1LjUzMTgxOCIsInVzZXJfaWQiOiJlODhkZjViNS05MjM2LTRkMDAtYmMyNy1jZjk5YzlmNzU1ZTgifQ.6wFn1awRTPfYc8oqcK_u9lJO2Qj884IJN5-5_wt3Afg'\
+ -H 'content-length: 418'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Usually where yard policy maybe.","maxScore":86,"minScore":11,"description":"Real movie detail experience group bar reveal threat. Development local only. Ask cell measure ok during.\nCareer benefit question up third. Hard international article hot provide management.","estimatedTime":"2 weeks","previewFileId":"163ab35a-03a6-4c5a-a5a3-3634831a3544","createdByUserId":"e88df5b5-9236-4d00-bc27-cf99c9f755e8"}'

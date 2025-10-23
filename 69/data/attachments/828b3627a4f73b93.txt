@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIzVDAyOjMwOjM3LjA2MTY1NiIsInVzZXJfaWQiOiJkYzRhYzFlMy00ODc3LTQ2NmYtYWU3MS1lM2U2MmEwYzQzYjIifQ.YMfMNqpLoxW-2rPT99taZ9TsgV-1eNkBHbn7LneZWdk'\
+ -H 'content-length: 355'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Field upon it least.","maxScore":78,"minScore":11,"description":"Rather fact whole take. A the building television toward money.\nLate health economy guy article particularly to. Candidate official enough.","estimatedTime":"2 weeks","previewFileId":"a76cccac-c6ef-44c7-bdb3-b45a0358554b","createdByUserId":"dc4ac1e3-4877-466f-ae71-e3e62a0c43b2"}'

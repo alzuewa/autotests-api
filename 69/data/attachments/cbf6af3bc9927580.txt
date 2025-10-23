@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/exercises/22c5d230-baef-4bc7-822f-c44d9ecc8d69'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIzVDAyOjMwOjM4LjMzMTk1OSIsInVzZXJfaWQiOiJmYjVkOTFlYy1mYzI2LTQ2NGQtOThjZi1hNzZmMTI5ODc4NDcifQ.QPUcfE7QLBuaE8hIyZByFWNeaqxMa6_Oz82CIk1Vav0'\
+ -H 'content-length: 265'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Force lay alone evidence fact purpose.","maxScore":94,"minScore":22,"orderIndex":18,"description":"Population market key health. Protect adult son maybe why new term. Table understand if important set parent. History hair hold.","estimatedTime":"8 weeks"}'
