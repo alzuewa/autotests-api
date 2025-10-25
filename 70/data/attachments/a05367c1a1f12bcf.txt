@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDAyOjI4OjMwLjc1MDkxMCIsInVzZXJfaWQiOiIyMTlhNmE4ZS00MTZkLTQwZjEtOWRiYS1kNmJkYzM1ZDY1YTAifQ.CpQcBmr_JPfRkrl9BbOttqwovTLXi7QNwdcS_Oosgjc'\
+ -H 'content-length: 290'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Officer so moment soldier pull claim.","courseId":"cf116861-04f4-4ec6-a535-5e55213ab5df","maxScore":73,"minScore":25,"orderIndex":59,"description":"Issue describe hear college city cup war. Bag technology will wall. Which identify reveal shake already.","estimatedTime":"6 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDAyOjI4OjMyLjA1MzcyNyIsInVzZXJfaWQiOiI2ZjU2Y2ZmYS0zODAzLTQ2MzYtYjRkNy02M2MyYjUzYTJmODIifQ.j21uLivylwu_uO6jWxBOaTCxK4r9-B8gVKhxU0YR_-c'\
+ -H 'content-length: 411'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Agree mission operation certainly.","maxScore":55,"minScore":8,"description":"Win present save. Building trouble democratic have. Television institution thank throw memory real measure.\nIncluding heart agency meet. Thought customer minute despite tree receive.","estimatedTime":"7 weeks","previewFileId":"54f95c3d-5c1d-40cb-9d63-e3f4e2e42dd1","createdByUserId":"6f56cffa-3803-4636-b4d7-63c2b53a2f82"}'

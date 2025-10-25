@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDAyOjI4OjMyLjYzMTc5NiIsInVzZXJfaWQiOiJmNzA4MmJiNC00YzkwLTQzYWItOWFkNS0zZmY5ODZmNGUxMGIifQ.sTFcNgMP64fFcHyp0uvzqvmWAYIYmOFKQ3jvwWTeIvs'\
+ -H 'content-length: 310'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Before allow your will.","maxScore":83,"minScore":20,"description":"Begin spring specific break dream. Per traditional southern. Common common likely sense and.","estimatedTime":"8 weeks","previewFileId":"bda87163-d40e-47fa-b398-0ea22fff6079","createdByUserId":"f7082bb4-4c90-43ab-9ad5-3ff986f4e10b"}'

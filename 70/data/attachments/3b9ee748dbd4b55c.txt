@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDAyOjI4OjMwLjc1MDkxMCIsInVzZXJfaWQiOiIyMTlhNmE4ZS00MTZkLTQwZjEtOWRiYS1kNmJkYzM1ZDY1YTAifQ.CpQcBmr_JPfRkrl9BbOttqwovTLXi7QNwdcS_Oosgjc'\
+ -H 'content-length: 359'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Arm inside identify.","maxScore":94,"minScore":13,"description":"Long rise available worker PM. His person view chair available often environment history. Much hair first green investment believe reality need.","estimatedTime":"6 weeks","previewFileId":"a8f65366-20e0-404d-b948-276285ec49f3","createdByUserId":"219a6a8e-416d-40f1-9dba-d6bdc35d65a0"}'

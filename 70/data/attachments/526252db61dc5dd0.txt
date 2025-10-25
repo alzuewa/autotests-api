@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDAyOjI4OjMyLjA1MzcyNyIsInVzZXJfaWQiOiI2ZjU2Y2ZmYS0zODAzLTQ2MzYtYjRkNy02M2MyYjUzYTJmODIifQ.j21uLivylwu_uO6jWxBOaTCxK4r9-B8gVKhxU0YR_-c'\
+ -H 'content-length: 265'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Almost law population account.","courseId":"020b5292-975d-48cf-834b-0d39e1f76e97","maxScore":68,"minScore":29,"orderIndex":85,"description":"Half stand sell. Trouble must high building. Protect challenge decision hope industry.","estimatedTime":"4 weeks"}'

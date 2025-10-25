@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/exercises/3df58907-ea5f-4c1d-bb0c-27d349a0abe9'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI1VDAyOjI4OjMwLjc1MDkxMCIsInVzZXJfaWQiOiIyMTlhNmE4ZS00MTZkLTQwZjEtOWRiYS1kNmJkYzM1ZDY1YTAifQ.CpQcBmr_JPfRkrl9BbOttqwovTLXi7QNwdcS_Oosgjc'\
+ -H 'content-length: 311'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Station parent large page management federal soon.","maxScore":87,"minScore":8,"orderIndex":3,"description":"Professor huge home easy. Even usually pull physical fire body hour.\nMay total possible public popular drop various. Positive produce care name card senior rather.","estimatedTime":"7 weeks"}'
