@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI4VDAyOjMxOjE5LjIzNjQ4NiIsInVzZXJfaWQiOiJmNGY5YjdjNy1jZDk5LTQ1YmMtYWRkNy0zMzM1YjhmYjZiNjQifQ.1i8QlIyL5mkgl2VDFTaeAPMoFx9sR0p83gdly53WJfM'\
+ -H 'content-length: 360'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Action finally green speak.","maxScore":64,"minScore":19,"description":"Road act employee wife rate challenge shake your. Financial trial sing show military. Include quickly item law forward possible treatment.","estimatedTime":"2 weeks","previewFileId":"1572b90a-dec4-4b79-9a7f-89848a351f78","createdByUserId":"f4f9b7c7-cd99-45bc-add7-3335b8fb6b64"}'

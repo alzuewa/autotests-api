@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTI4VDAyOjMxOjE3LjY5NjM2MSIsInVzZXJfaWQiOiIzOGY0MjU5Ni0zMTkwLTRhNGYtOGQ1Yi00ZTJhNWM0NGVjYzYifQ.EJ1SNc8yKsTUV6Y94aM-mk00Eulkd9K7wDz23_Y_4Kg'\
+ -H 'content-length: 407'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Ahead soon rule maintain.","maxScore":93,"minScore":22,"description":"Young gas listen rather total either. Unit thought wait our. Design find high perform smile offer glass.\nRegion wide others message. Design television meet. Fund street smile plant show.","estimatedTime":"7 weeks","previewFileId":"7deef0f3-52e2-48f2-84f2-c37a67848a3a","createdByUserId":"38f42596-3190-4a4f-8d5b-4e2a5c44ecc6"}'
