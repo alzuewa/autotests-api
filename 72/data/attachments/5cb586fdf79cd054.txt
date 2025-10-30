@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/fbfeda27-8963-4e5e-9c90-608e30a99778'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTMwVDAyOjM3OjA0LjkyMTA5MyIsInVzZXJfaWQiOiJkZDc0YjQzYy0zNjI5LTRlZGItOTJjNi0wYjdkZDc0OTczMmEifQ.N9VdVf24i9gTCExH2kAMH-AFxJn-OVag8dEqQJIV3-k'\
+ -H 'content-length: 198'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Seem city break hair.","maxScore":86,"minScore":22,"description":"Federal better approach case goal alone site play. Bill place ability. Really crime authority.","estimatedTime":"4 weeks"}'

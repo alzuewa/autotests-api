@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTMwVDAyOjM3OjAzLjE3OTEyMCIsInVzZXJfaWQiOiJlZGU5OTg1MC1mMzEyLTQ4MTUtYjUxYS00ZmU5ZGIxZWNiNTYifQ.s3jkfmCEqLb1jAUpNfqy8Ll0qTFuCE-YZ16vrom7vLw'\
+ -H 'content-length: 406'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Oil follow under crime as.","maxScore":67,"minScore":20,"description":"Range surface three day foreign generation experience. Early voice special face. Everyone foreign boy plan.\nNote other anyone town. Build listen start. Full between number police want.","estimatedTime":"8 weeks","previewFileId":"81ab731c-dbf6-4733-9b25-03e30cade1e9","createdByUserId":"ede99850-f312-4815-b51a-4fe9db1ecb56"}'

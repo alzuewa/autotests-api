@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTMwVDAyOjM3OjA1LjE4MDY1MCIsInVzZXJfaWQiOiIzZTk4N2RlOS0yMDYxLTQ2OWQtODA4Zi0wMTg0NjQ4ZWZhMmYifQ.YuGXOLj8m-dKIMWCilNImmPabrWGmVqjRsCn1BqjKCg'\
+ -H 'content-length: 358'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Authority set really help.","maxScore":58,"minScore":4,"description":"Identify wear avoid music. Them four church task.\nLeast available start teach. Long six phone half. Policy south lawyer many within get.","estimatedTime":"10 weeks","previewFileId":"f3570685-2d9f-4efb-8f42-001018a9ef5e","createdByUserId":"3e987de9-2061-469d-808f-0184648efa2f"}'

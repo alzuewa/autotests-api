@@ -1,0 +1,24 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:27 Send GET request to http://localhost:8000/api/v1/exercises/0b55ce63-de5c-4b2a-82a6-71aae0e24d77
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/exercises/0b55ce63-de5c-4b2a-82a6-71aae0e24d77
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:76 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:29 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "0b55ce63-de5c-4b2a-82a6-71aae0e24d77"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Long PM yard street itself husband itself."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals "0863ef45-63df-4908-8bc0-0020821700a4"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "61"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "4"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals "62"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "High operation question first senior pattern. Ground true art appear. Help owner order write individual character carry fine."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "2 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTMwVDAyOjM3OjA3LjYyNTUzNSIsInVzZXJfaWQiOiJjYTdmZGI2OS04MmJlLTRiNzgtYjM2YS0wOWM5ZjI4MWRjODYifQ.0AcW-b7BT2fMHfNa7K8Gqdk9Zc9IYKNfXK7Nk7oVyTo'\
+ -H 'content-length: 380'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Similar fact would blood draw rise.","maxScore":92,"minScore":4,"description":"Happy watch nice. Memory miss budget require offer benefit.\nMay professor night condition miss reason. Audience into card hair stuff life change him.","estimatedTime":"10 weeks","previewFileId":"c80a7fe7-bd7d-4bf5-957c-7214cba595d4","createdByUserId":"ca7fdb69-82be-4b78-b36a-09c9f281dc86"}'

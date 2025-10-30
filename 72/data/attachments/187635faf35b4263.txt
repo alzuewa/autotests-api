@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTMwVDAyOjM3OjA0LjkyMTA5MyIsInVzZXJfaWQiOiJkZDc0YjQzYy0zNjI5LTRlZGItOTJjNi0wYjdkZDc0OTczMmEifQ.N9VdVf24i9gTCExH2kAMH-AFxJn-OVag8dEqQJIV3-k'\
+ -H 'content-length: 368'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Continue call respond.","maxScore":76,"minScore":19,"description":"Specific issue back matter you into. Open student explain billion wait rock.\nLeg president image ever benefit. Vote apply capital method wife control.","estimatedTime":"4 weeks","previewFileId":"8175bf9b-4b5c-45ce-b1ff-aa8bcde00143","createdByUserId":"dd74b43c-3629-4edb-92c6-0b7dd749732a"}'

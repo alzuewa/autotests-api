@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTMwVDAyOjM3OjA3LjA2NTUxMCIsInVzZXJfaWQiOiIzMzMzNGE1ZS01ZjQ1LTRjNjItODE5Ni00NDcxZGMxMjkyNzQifQ.Mrg2bM4c6yvAkEd2hb8tb8xbeXdJrFnZkMa0oFUO5hQ'\
+ -H 'content-length: 355'\
+ -H 'content-type: application/json'\
+ -d '{"title":"History need trouble party hold.","maxScore":54,"minScore":8,"description":"Begin keep stand series treatment dinner.\nCollege pressure gas during tonight including. Almost property modern them piece head.","estimatedTime":"5 weeks","previewFileId":"359b49df-10a4-4eb2-bd78-639ddbde9cac","createdByUserId":"33334a5e-5f45-4c62-8196-4471dc129274"}'
