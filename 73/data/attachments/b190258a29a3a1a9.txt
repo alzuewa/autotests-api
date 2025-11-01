@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTAxVDAyOjM3OjQ1LjczMzk0NSIsInVzZXJfaWQiOiI4MWU5ZDdjMy00NDRjLTQ5YmMtOTZkZi05MTFmYTc1YjE1NzkifQ.GS6H_osAQVRmZk4O5w8bjG3zd9PoAk4CzEbdhbUqd4I'\
+ -H 'content-length: 312'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Computer final win see guess.","maxScore":89,"minScore":2,"description":"Difficult design involve attorney. Fact Mrs name close child detail. East point what gun.","estimatedTime":"3 weeks","previewFileId":"be351ec0-82ac-4b61-803b-a00f9a4a022a","createdByUserId":"81e9d7c3-444c-49bc-96df-911fa75b1579"}'
