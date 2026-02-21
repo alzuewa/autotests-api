@@ -1,0 +1,34 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send GET request to http://localhost:8000/api/v1/courses?userId=9a15e547-eded-4e78-909f-909eaff57fc4
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses?userId=9a15e547-eded-4e78-909f-909eaff57fc4
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:53 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:74 Check that "courses's" length equals 1
+INFO     COURSES_ASSERTIONS:courses.py:28 Check course
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "57640e81-2db0-4a09-bdea-a1e022ec8353"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Clear vote big particularly."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "55"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "11"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Fast deal after center.
+Everyone trip suggest away environmental challenge. Son least beat food care accept enter likely. Make sport arm do open although black eye."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "8 weeks"
+INFO     FILES_ASSERTIONS:files.py:49 Check create file
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "ea3781b9-1d83-4ecd-ae5f-c3dd89f01a71"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "url" equals "http://localhost:8000/static/test_files/5f91dde0-ef9f-44e4-aa6e-449d95d35a4e.jpg"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "filename" equals "5f91dde0-ef9f-44e4-aa6e-449d95d35a4e.jpg"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "directory" equals "test_files"
+INFO     USERS_ASSERTIONS:users.py:44 Check user
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "9a15e547-eded-4e78-909f-909eaff57fc4"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "email" equals "kimberly91@example.net"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "last_name" equals "Ford"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "first_name" equals "Shelby"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "middle_name" equals "Stacy"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

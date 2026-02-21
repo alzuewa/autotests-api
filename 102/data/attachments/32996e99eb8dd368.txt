@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDEwOjU1OjUzLjQ2MTg2NSIsInVzZXJfaWQiOiI5YTE1ZTU0Ny1lZGVkLTRlNzgtOTA5Zi05MDllYWZmNTdmYzQifQ.Yy4Aba-3uTKqL3afabGVqKEgmOY3RCtuByzOuP-nrAw'\
+ -H 'content-length: 388'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Clear vote big particularly.","maxScore":55,"minScore":11,"description":"Fast deal after center.\nEveryone trip suggest away environmental challenge. Son least beat food care accept enter likely. Make sport arm do open although black eye.","estimatedTime":"8 weeks","previewFileId":"ea3781b9-1d83-4ecd-ae5f-c3dd89f01a71","createdByUserId":"9a15e547-eded-4e78-909f-909eaff57fc4"}'

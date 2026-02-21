@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDEwOjU1OjU1LjUyNzc1NyIsInVzZXJfaWQiOiI2MWRjNjRjNS0zZTExLTQ4ZjYtOWI4Zi0zYjc4NjNiYjNkODMifQ.ubBhBz8K_cKYiFqK7bh9O9xLt9Zl-5tdv-47DtmxXgM'\
+ -H 'content-length: 297'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Mr good do case hotel short.","maxScore":79,"minScore":28,"description":"Own feeling particular air. Issue knowledge fire nothing describe thought.","estimatedTime":"2 weeks","previewFileId":"aba3bdec-d69b-4d81-9ff4-a3358334a302","createdByUserId":"61dc64c5-3e11-48f6-9b8f-3b7863bb3d83"}'

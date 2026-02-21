@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDEwOjU1OjU3Ljk4ODkwNCIsInVzZXJfaWQiOiI3MzU4ZDI4Ny0zMDhkLTRmYTAtYmJiNS1jNjZjNzkxM2U2ZjEifQ.D60iTm8YcrZYCttXhQjxGmp-siea_e2OhSz62prre0w'\
+ -H 'content-length: 400'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Relate take individual buy government four.","maxScore":53,"minScore":7,"description":"Hold when according unit. They both foot professor.\nWonder glass without become finally after. College cover chance be collection. Country anyone couple boy must.","estimatedTime":"3 weeks","previewFileId":"90805dff-3fdf-4e37-bcd1-07e096345795","createdByUserId":"7358d287-308d-4fa0-bbb5-c66c7913e6f1"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDEwOjU1OjU0Ljk0NzQ4NSIsInVzZXJfaWQiOiIzZmFlNDlhNS0yNWIwLTQ2MDAtODBlMC04ZTZmZDU4Zjk4MGYifQ.Ag6w_1HjwKxjAjm3Z4fk3V09078T3gjiby1yS-9OtVI'\
+ -H 'content-length: 385'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Would ready can get much appear region.","maxScore":55,"minScore":1,"description":"Little human wonder billion citizen argue. Successful short can staff thing guess year.\nNation purpose painting population hand. And name north social.","estimatedTime":"8 weeks","previewFileId":"a7f37ac3-4f1f-4099-8124-5da54d2696aa","createdByUserId":"3fae49a5-25b0-4600-80e0-8e6fd58f980f"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/exercises/ddbcce14-6bd4-4ddb-8afa-3225f70de975'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDEwOjU1OjU2LjQ3NzkzNSIsInVzZXJfaWQiOiJkODE5ZThiYS1hNzkxLTQ0M2QtODhjYy1kN2I2ZjkyNzMyNWEifQ.LNsqvkZ71GHeHd6eKMN7oWp1maTamv15iYXNSrvyGbE'\
+ -H 'content-length: 237'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Fund section once free campaign.","maxScore":95,"minScore":5,"orderIndex":65,"description":"Company project whole political. Message them hear. Organization fine unit prevent necessary each use skin.","estimatedTime":"3 weeks"}'

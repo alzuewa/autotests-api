@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDEwOjU1OjU0LjM2MTMzMyIsInVzZXJfaWQiOiI4YzAwNWE5Yy04NjY0LTRhODAtOTAxZi1jYjk2MDVmOGIzZTYifQ.RNbMT6n_hxXj50-lXxtGV9lIl2L_m_EWzykUAoQkOuM'\
+ -H 'content-length: 406'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Same society six same whether keep food city.","maxScore":63,"minScore":14,"description":"Evening top a listen. Forward hand decade threat will morning there. Nearly fear still good report.\nCurrent fine within age. Bring morning choose. Sea knowledge box.","estimatedTime":"4 weeks","previewFileId":"c4ae84d6-0735-4066-bcc1-4ebf563ed053","createdByUserId":"8c005a9c-8664-4a80-901f-cb9605f8b3e6"}'

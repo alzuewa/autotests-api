@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/15986f9b-dafd-481a-855b-eca0f2ab74f2'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDEwOjU1OjU0Ljk0NzQ4NSIsInVzZXJfaWQiOiIzZmFlNDlhNS0yNWIwLTQ2MDAtODBlMC04ZTZmZDU4Zjk4MGYifQ.Ag6w_1HjwKxjAjm3Z4fk3V09078T3gjiby1yS-9OtVI'\
+ -H 'content-length: 211'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Pull key whatever lawyer expect about rich.","maxScore":90,"minScore":21,"description":"Think teach bank hope according sing which. Also lawyer sound bed increase help same.","estimatedTime":"3 weeks"}'

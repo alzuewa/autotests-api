@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDEwOjU1OjU2Ljc1MDg5MSIsInVzZXJfaWQiOiIwNWRlZDM4Mi04YjBmLTQ1NzUtYTM2Mi1mOGZlODE4NmI0YzUifQ.z60q6sdsKokuP_Mrr5wESinCTn_nwvL2mETbj9OKO70'\
+ -H 'content-length: 340'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Stage simple read one position no.","maxScore":81,"minScore":12,"description":"Ground agree knowledge must experience. Well majority eight nothing peace not camera. On appear away mean lose.","estimatedTime":"6 weeks","previewFileId":"3fe09101-7e9b-4e41-9515-60c549315238","createdByUserId":"05ded382-8b0f-4575-a362-f8fe8186b4c5"}'
