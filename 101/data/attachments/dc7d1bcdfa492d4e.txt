@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDEwOjUyOjQ5LjY1MDE4MiIsInVzZXJfaWQiOiI5ODY1ZDM4Ny02MWUyLTQ4Y2QtYjc1ZS00MmI2YWIxMmFjMzMifQ._ABe4HttxxMMZ3VYQ_neCywFlX6SlxVRV-4GKuQQg5E'\
+ -H 'content-length: 383'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Fish whole save study experience everybody keep.","maxScore":99,"minScore":20,"description":"Use still different development event task. Media business better develop sell Mrs because performance. Degree feel others positive science.","estimatedTime":"6 weeks","previewFileId":"4ffc0998-7f07-4d2c-8a48-a331e659ad73","createdByUserId":"9865d387-61e2-48cd-b75e-42b6ab12ac33"}'

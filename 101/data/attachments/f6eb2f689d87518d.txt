@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDEwOjUyOjQ5LjkyMzEzNSIsInVzZXJfaWQiOiI5MDYwMGQ2My0xYTgyLTQ1OWYtYmY5MS1jNmVmYjU0ZTliNGUifQ.jNkQj8CqHRcN1QGDyLYhqDRE_Zd9sDzgSQGMMfwp0bM'\
+ -H 'content-length: 379'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Spend expert someone meet blood.","courseId":"be709c2a-184b-49aa-8f41-0a4cdd5005d9","maxScore":78,"minScore":28,"orderIndex":61,"description":"Spring ability many.\nEven live identify. Agree white since anyone card.\nOff best stock wall ahead personal.\nAdult remember increase summer account wide success. Letter fire figure statement hand.","estimatedTime":"6 weeks"}'

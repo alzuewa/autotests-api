@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDEwOjUyOjQ4LjcxMjgzNCIsInVzZXJfaWQiOiI5ZmU1NWNmNC0wN2JkLTRkNWItYjlmYS05OWY4MTNkY2YyNTkifQ.FlsRbkc9UTP_8ciNZnGTj7PHjM4C4lIutBlk-kiODoo'\
+ -H 'content-length: 334'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Girl east meet also big throughout production.","maxScore":76,"minScore":10,"description":"Nor official law box. Particular lose bit brother dream suffer. Behind last trade individual.","estimatedTime":"7 weeks","previewFileId":"93974243-8f49-49a2-aa98-f585d4d2fe4f","createdByUserId":"9fe55cf4-07bd-4d5b-b9fa-99f813dcf259"}'

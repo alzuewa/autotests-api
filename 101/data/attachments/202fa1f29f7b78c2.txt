@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDEwOjUyOjQ5LjkyMzEzNSIsInVzZXJfaWQiOiI5MDYwMGQ2My0xYTgyLTQ1OWYtYmY5MS1jNmVmYjU0ZTliNGUifQ.jNkQj8CqHRcN1QGDyLYhqDRE_Zd9sDzgSQGMMfwp0bM'\
+ -H 'content-length: 402'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Room movie table risk use.","maxScore":100,"minScore":13,"description":"Matter politics little.\nPass Congress wear positive option hold federal. Mother wish report.\nThousand daughter wrong if future. Off discussion people billion various woman often.","estimatedTime":"5 weeks","previewFileId":"62fe59f8-eec5-4462-8114-9aaf9a71a4ec","createdByUserId":"90600d63-1a82-459f-bf91-c6efb54e9b4e"}'

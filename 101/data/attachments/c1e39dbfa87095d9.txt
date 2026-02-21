@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDEwOjUyOjUwLjY0MDAwNSIsInVzZXJfaWQiOiIwOTAyNmNkNi03NDg3LTQzZWUtYjg4ZS0zZWM4NjI5ZTAxYWEifQ.4_HKSv0E4vkmAJczSrvF9JDb6SUwsGiT_NM6jQpdHBY'\
+ -H 'content-length: 339'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Play American service debate soldier young.","maxScore":99,"minScore":1,"description":"Home test few civil might health past. Politics program force executive clear prepare perhaps imagine.","estimatedTime":"7 weeks","previewFileId":"c3feddde-a501-4ae6-9d1e-6a59937b79ce","createdByUserId":"09026cd6-7487-43ee-b88e-3ec8629e01aa"}'

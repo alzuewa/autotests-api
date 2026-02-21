@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDEwOjUyOjUxLjIzMjU1OSIsInVzZXJfaWQiOiJkNmNhODkzNS00MjZiLTRhYzYtYjJiZC0xMDM5ZGRjZDIyZjYifQ.S0pk8eNGithRlYqbJBJYJlGXRPbxyR3qmzaWC-eu33Q'\
+ -H 'content-length: 366'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Project book show foreign.","maxScore":63,"minScore":16,"description":"Left none serious song idea. Reality kind task contain above. Write study tax case despite.\nOrder might science major wonder world feeling town.","estimatedTime":"3 weeks","previewFileId":"01ae8edc-6e01-4e9b-b158-eb9dba511552","createdByUserId":"d6ca8935-426b-4ac6-b2bd-1039ddcd22f6"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDEwOjUyOjQ4LjEyOTkyMiIsInVzZXJfaWQiOiI0MDNlNWZjZC1jNzc5LTQwN2MtYjU0OS01NWI4YzdlOGEzMTcifQ.blBLu6ZYtdv-QtMzceHsRLCE5L5cmhpbhW-FnekeGbY'\
+ -H 'content-length: 426'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Single simply price employee.","maxScore":100,"minScore":30,"description":"Dream ago reality candidate none. Open among put enter above.\nWorry young sea draw significant draw artist. Table newspaper interview memory. Painting than factor candidate card decade really anyone.","estimatedTime":"10 weeks","previewFileId":"83dfb57f-f6d1-4f56-8d0c-861b681c44de","createdByUserId":"403e5fcd-c779-407c-b549-55b8c7e8a317"}'

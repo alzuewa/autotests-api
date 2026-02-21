@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDEwOjUyOjQ3LjUzOTYyMiIsInVzZXJfaWQiOiI5YWViZWVkOS02MzE0LTQwNzQtYTExZC1jMDI2MTk4ZmNhZmUifQ.zOnMsyXirYlNvtcfaUBxdUT8rli_J2NcrTSlxSNYUx0'\
+ -H 'content-length: 452'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Protect item economic together seat population agent these.","maxScore":65,"minScore":3,"description":"Reason card agency. Party whom garden trip course.\nView public face late wonder name game. Huge could down interview argue social here.\nTree reveal my someone. Say agree like mean special property.","estimatedTime":"9 weeks","previewFileId":"33b22e95-18d2-4998-ae8f-47845d4032ec","createdByUserId":"9aebeed9-6314-4074-a11d-c026198fcafe"}'

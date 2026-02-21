@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/1754d911-0626-496d-93c1-c99a277edf9b'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDEwOjUyOjQ4LjEyOTkyMiIsInVzZXJfaWQiOiI0MDNlNWZjZC1jNzc5LTQwN2MtYjU0OS01NWI4YzdlOGEzMTcifQ.blBLu6ZYtdv-QtMzceHsRLCE5L5cmhpbhW-FnekeGbY'\
+ -H 'content-length: 306'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Value wait source color hit beautiful.","maxScore":82,"minScore":12,"description":"Space evidence yourself night education time great. Culture issue six black garden whom exactly. Throughout run material grow item hair everyone affect. Game agreement few morning may.","estimatedTime":"10 weeks"}'
