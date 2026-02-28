@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI4VDA5OjUwOjI2LjI3OTE5MSIsInVzZXJfaWQiOiJkNDRmMTg2My00N2FlLTQ4ZDktOWY5NS1iNGJjOTczNGM5ZmUifQ.DCEfIDTln3MXsfzhZWmyX_95hb-dbuJCbQ-b8KLDe98'\
+ -H 'content-length: 384'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Prove beautiful operation recognize.","courseId":"66e34943-5bb9-42ca-919b-ce8a9f4ecae7","maxScore":50,"minScore":6,"orderIndex":48,"description":"Determine box floor to network.\nCut position long or.\nTable most suffer population college. Impact cost total head use key still. Star campaign number player question. Quickly loss themselves voice.","estimatedTime":"7 weeks"}'

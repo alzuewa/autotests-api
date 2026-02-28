@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI4VDA5OjUwOjI0LjE2MTg4NyIsInVzZXJfaWQiOiI4ZjRiMzA2Ny04YWI2LTQ3ZGEtYTMxMC0xMmE2ZGZhNTJkM2YifQ.qjuGJkucjCHpln07FDxPHVpK6pmnb5OAKR1Npq7TsXg'\
+ -H 'content-length: 397'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Rich spend government type.","maxScore":51,"minScore":25,"description":"Land realize often.\nSomeone might message inside firm accept indicate. Catch moment wonder nature fly conference break. Customer simple themselves claim simply international.","estimatedTime":"5 weeks","previewFileId":"c779c016-76bd-4b63-9989-7f9302ef6b1c","createdByUserId":"8f4b3067-8ab6-47da-a310-12a6dfa52d3f"}'

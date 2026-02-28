@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/1b0e4e54-8f64-43d1-831a-6c4778d6c8b6'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI4VDA5OjUwOjI0LjE2MTg4NyIsInVzZXJfaWQiOiI4ZjRiMzA2Ny04YWI2LTQ3ZGEtYTMxMC0xMmE2ZGZhNTJkM2YifQ.qjuGJkucjCHpln07FDxPHVpK6pmnb5OAKR1Npq7TsXg'\
+ -H 'content-length: 304'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Politics control they direction.","maxScore":76,"minScore":21,"description":"Watch one their day company I. Offer goal language team.\nLong affect personal real our return. Country smile better call.\nRoom art set through. Garden suffer Mrs magazine success contain.","estimatedTime":"7 weeks"}'

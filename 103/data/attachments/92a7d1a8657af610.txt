@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI4VDA5OjUwOjI1LjMzNjAxMCIsInVzZXJfaWQiOiIwMWM2YzdlMS0xNTAyLTQ4OWYtYWMxMy1lZmU4NTVmNzllZDEifQ.yg17XTdPvpZGshfahALKyoUUyykg3tzl2c_GQTgMpHk'\
+ -H 'content-length: 380'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Billion space some its without.","maxScore":59,"minScore":9,"description":"Arrive else today small. Cost money exist learn common meeting population.\nNo thus term trouble. Open style few growth official financial discussion else.","estimatedTime":"7 weeks","previewFileId":"70980699-0b50-4e5c-855d-e4cc71ae627e","createdByUserId":"01c6c7e1-1502-489f-ac13-efe855f79ed1"}'

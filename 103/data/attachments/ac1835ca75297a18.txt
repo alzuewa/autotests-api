@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/exercises/d2966175-cc4e-45cb-814b-ad134305aeb3'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI4VDA5OjUwOjI1LjMzNjAxMCIsInVzZXJfaWQiOiIwMWM2YzdlMS0xNTAyLTQ4OWYtYWMxMy1lZmU4NTVmNzllZDEifQ.yg17XTdPvpZGshfahALKyoUUyykg3tzl2c_GQTgMpHk'\
+ -H 'content-length: 239'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Reduce party bag color writer above hear identify.","maxScore":63,"minScore":29,"orderIndex":82,"description":"Control edge sport like war reason training. Try consumer traditional per institution big.","estimatedTime":"9 weeks"}'

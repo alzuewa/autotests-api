@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI4VDA5OjUwOjIzLjI3OTI3MSIsInVzZXJfaWQiOiJmZGNhZWM4MS0yMjQxLTQzODUtYTIxMi04OTIxNmQ5NWE3NDkifQ.k0TDeIZAt50ekCJgVz5o9nMc8tfnAlhqjF2RLNqalpw'\
+ -H 'content-length: 401'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Star case table serious several produce grow.","maxScore":76,"minScore":21,"description":"Protect from all room join. Option party century dinner occur.\nArea source if there near claim majority like. Piece hundred happen star five opportunity garden.","estimatedTime":"4 weeks","previewFileId":"2a88c9a0-1c9b-402e-aa82-35fae430a40d","createdByUserId":"fdcaec81-2241-4385-a212-89216d95a749"}'

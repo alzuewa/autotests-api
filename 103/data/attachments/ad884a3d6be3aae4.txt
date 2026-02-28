@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI4VDA5OjUwOjIyLjQyNzMyNSIsInVzZXJfaWQiOiIwNDAzYTJhMS05ZDM2LTQzMTctYmQ2Ni0zNmI2YjdlYjI2ZWIifQ.VA1YWGGt-xkvQ_-tuYWZCs2BzdY2qsCcrzaBqyjWJs4'\
+ -H 'content-length: 341'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Assume general involve similar turn maybe.","maxScore":88,"minScore":26,"description":"Full gas sort if. War letter I pretty leg major.\nNews similar five risk. Board production every manage.","estimatedTime":"6 weeks","previewFileId":"b09c8346-0224-4518-a4b3-6da58f4ad2c4","createdByUserId":"0403a2a1-9d36-4317-bd66-36b6b7eb26eb"}'

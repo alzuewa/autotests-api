@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI4VDA5OjUwOjI0LjQyMTA5MCIsInVzZXJfaWQiOiJjMTRmNzk2MS1mMDc3LTRlYjItOWEyNi0yYzg4NGNlMWM5ODQifQ.By1p32h8TOCsYP879On9_L0KtMH9sfe4YQRZF14p0zI'\
+ -H 'content-length: 329'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Poor prevent blue project world small.","maxScore":96,"minScore":14,"description":"Dog particularly less wear leader. Worker indeed first street including read. Artist bank both.","estimatedTime":"10 weeks","previewFileId":"25fa87d4-e250-4efa-ad5d-16b72ce13834","createdByUserId":"c14f7961-f077-4eb2-9a26-2c884ce1c984"}'

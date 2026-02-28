@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI4VDA5OjUwOjI2LjgzNjc1OSIsInVzZXJfaWQiOiI5NTgxNDBhYy1jZDU0LTQ0NWEtYTE0Zi1hY2ViMmViZTkyMjEifQ.QWHlBiOKui8iEjA9wreAJJLCom1YN8ONnn1sVdPkxEM'\
+ -H 'content-length: 424'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Opportunity fight society picture.","maxScore":100,"minScore":30,"description":"He draw ball vote. As become rate decision arm thousand a.\nAction message attorney Congress wind senior impact. Memory think visit themselves single should despite.\nSuccessful know management.","estimatedTime":"5 weeks","previewFileId":"5af88dd5-f473-4ad8-b4be-fdb45058181b","createdByUserId":"958140ac-cd54-445a-a14f-aceb2ebe9221"}'

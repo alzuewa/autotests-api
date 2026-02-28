@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI4VDA5OjUwOjI2LjI3OTE5MSIsInVzZXJfaWQiOiJkNDRmMTg2My00N2FlLTQ4ZDktOWY5NS1iNGJjOTczNGM5ZmUifQ.DCEfIDTln3MXsfzhZWmyX_95hb-dbuJCbQ-b8KLDe98'\
+ -H 'content-length: 417'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Girl senior this key edge child would.","maxScore":74,"minScore":9,"description":"East student fact. Design out student night.\nSit as make. Effort pattern on.\nEdge rate tough sometimes send we than travel. Method day politics so agency ready. Eat rich piece whole.","estimatedTime":"10 weeks","previewFileId":"0470e4d9-cac8-47e9-81fb-8decf8540f6d","createdByUserId":"d44f1863-47ae-48d9-9f95-b4bc9734c9fe"}'

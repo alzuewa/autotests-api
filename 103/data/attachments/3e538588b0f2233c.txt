@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI4VDA5OjUwOjI1LjU5NTAzNiIsInVzZXJfaWQiOiI3ODg1OGRkNi1iYzMwLTQ2MmQtOWRkNS04MzMxN2I4MjQzNDQifQ.9ssbOm3QO3r7oJ9_mUmPSHqz2eZD6HKaQaL51LBLZ6A'\
+ -H 'content-length: 372'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Answer course someone image practice.","maxScore":100,"minScore":18,"description":"According event work quickly name four decision stay. Product camera behind history close. Science bar executive morning say outside again.","estimatedTime":"7 weeks","previewFileId":"f0503b4a-332f-4cd1-81ef-23473bfecb99","createdByUserId":"78858dd6-bc30-462d-9dd5-83317b824344"}'
