@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA3VDA5OjUyOjU4LjQ5NjA4OSIsInVzZXJfaWQiOiJhMGQyYzYzZC02YmE3LTQ1MmUtODU1MS0zODc3NWE4ZTY2MDMifQ.d7_L2wCm07NXjIQ-qj9OZYzboA1mKAiKvJ1EXlKHyz0'\
+ -H 'content-length: 372'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Culture style popular everything power.","maxScore":78,"minScore":13,"description":"Behavior only wear eight animal.\nMove employee ask section third. Upon for such might.\nHit word we party line. Station other avoid only.","estimatedTime":"7 weeks","previewFileId":"b7221694-b73d-4cce-bd07-00598b19fac6","createdByUserId":"a0d2c63d-6ba7-452e-8551-38775a8e6603"}'

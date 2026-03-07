@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA3VDA5OjUyOjU3LjMyNDc4OCIsInVzZXJfaWQiOiIxNzg4NWQzMi1mYzk2LTRjZmItYTRlYi03Y2EwZWMzNTgzMzcifQ.8rDFgP-40y99a2pr8bbjbcOX6NH3N4Fezwocq0F5yC4'\
+ -H 'content-length: 373'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Draw agency thousand power smile son several.","maxScore":89,"minScore":4,"description":"Concern wait support without. Material into safe campaign place political long. Across history husband region pay Republican trip red.","estimatedTime":"4 weeks","previewFileId":"54f706a3-8630-476f-9cfa-16b1646c61a4","createdByUserId":"17885d32-fc96-4cfb-a4eb-7ca0ec358337"}'

@@ -1,0 +1,33 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send GET request to http://localhost:8000/api/v1/courses?userId=f5220f7d-2511-4718-b74b-b557d0bfec2b
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses?userId=f5220f7d-2511-4718-b74b-b557d0bfec2b
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:53 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:74 Check that "courses's" length equals 1
+INFO     COURSES_ASSERTIONS:courses.py:28 Check course
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "9edbfa7a-538f-49de-95bb-811517cddd7b"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Benefit environmental get throughout."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "62"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "13"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Recently improve choice Democrat name. Everyone yard woman star his campaign benefit. Once start she identify expert life rich. Art view natural job administration within study."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "5 weeks"
+INFO     FILES_ASSERTIONS:files.py:49 Check create file
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "91398622-aef7-42d6-9059-51d59a3c806b"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "url" equals "http://localhost:8000/static/test_files/bd59b95d-8b85-4257-9360-6fdb57841181.jpg"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "filename" equals "bd59b95d-8b85-4257-9360-6fdb57841181.jpg"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "directory" equals "test_files"
+INFO     USERS_ASSERTIONS:users.py:44 Check user
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "f5220f7d-2511-4718-b74b-b557d0bfec2b"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "email" equals "veronica20@example.com"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "last_name" equals "Ferguson"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "first_name" equals "Martin"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "middle_name" equals "Jennifer"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

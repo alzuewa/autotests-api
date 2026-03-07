@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA3VDA5OjUyOjU5LjQzMTU4MyIsInVzZXJfaWQiOiIxNjQ2Y2NlMi0xMmQxLTRhOGMtOTZhMi05NGU0Y2JjNmQyNTkifQ.iFmOYVCa4WW1YO9GkUDusOU6cDx4Xd2--CPFB2U5hZo'\
+ -H 'content-length: 322'\
+ -H 'content-type: application/json'\
+ -d '{"title":"They ball final.","courseId":"a514018c-6e93-467c-b26c-23d6291bba89","maxScore":71,"minScore":28,"orderIndex":75,"description":"Player pretty evening fight read necessary challenge. Base why theory window thousand measure. Speech today edge good who city work. Or note other art next.","estimatedTime":"10 weeks"}'

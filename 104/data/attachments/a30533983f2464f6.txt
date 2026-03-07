@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA3VDA5OjUyOjU2LjQxNTYwNCIsInVzZXJfaWQiOiJmNTIyMGY3ZC0yNTExLTQ3MTgtYjc0Yi1iNTU3ZDBiZmVjMmIifQ.fkVbaK-PeAgJ7hNc2KcAFchZLlTMupJviaqD65JnVPQ'\
+ -H 'content-length: 409'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Benefit environmental get throughout.","maxScore":62,"minScore":13,"description":"Recently improve choice Democrat name. Everyone yard woman star his campaign benefit. Once start she identify expert life rich. Art view natural job administration within study.","estimatedTime":"5 weeks","previewFileId":"91398622-aef7-42d6-9059-51d59a3c806b","createdByUserId":"f5220f7d-2511-4718-b74b-b557d0bfec2b"}'

@@ -1,0 +1,26 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:27 Send GET request to http://localhost:8000/api/v1/exercises?courseId=49f0a504-0788-4735-a47a-6cf764e95e4a
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/exercises?courseId=49f0a504-0788-4735-a47a-6cf764e95e4a
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:129 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:74 Check that "exercises's" length equals 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:29 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "9697fb3b-9982-4eef-a0ad-3d5f3d3e6f73"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Same avoid five reveal firm resource home pattern."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals "49f0a504-0788-4735-a47a-6cf764e95e4a"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "65"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "26"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals "93"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Campaign network seem great. First wind though.
+Stop place friend attention. No shake network pressure paper."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "7 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

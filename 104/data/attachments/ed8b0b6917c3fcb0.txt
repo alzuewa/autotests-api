@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA3VDA5OjUyOjU3LjkxMzk3MSIsInVzZXJfaWQiOiI5ZWJlNGE2Ni1kMzVhLTRkODMtOTk5YS02NGQ4NzY0NTZkMTkifQ._K5nMnPvl11OysVvdZRdK0l42cLtMq-f114QVy3Jv1c'\
+ -H 'content-length: 393'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Teacher our answer expect nice.","maxScore":63,"minScore":27,"description":"Process moment care focus do eight statement laugh. Crime save budget.\nEnergy nothing each day fish Democrat. Represent your fast common or. Person use recently skin.","estimatedTime":"2 weeks","previewFileId":"d46df32a-535e-46c4-83d3-931269c7fa46","createdByUserId":"9ebe4a66-d35a-4d83-999a-64d876456d19"}'
