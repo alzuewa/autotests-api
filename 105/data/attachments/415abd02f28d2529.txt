@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDA5OjU3OjAxLjUxNTg0OCIsInVzZXJfaWQiOiI5NTA2YzEyNy02ZjUxLTRhZDEtOWExOS0wNGFlNjg0NzBiZmMifQ.rLtGizZkpjVfOEru7PTVTAdaNxPPxGiiY8HGwn0f1xM'\
+ -H 'content-length: 342'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Sense its place start magazine across.","courseId":"1ac15074-8066-4b1a-9a04-216cd12ed360","maxScore":84,"minScore":2,"orderIndex":18,"description":"Hard easy true movie. Hundred send call break. Against few whole senior skill.\nFuture audience control member check food. Type center seek spend important.","estimatedTime":"7 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDA5OjU2OjU4LjUwMDg4NSIsInVzZXJfaWQiOiI2YjUxYTUxYy02NjFjLTQ4MDctODYzMi01MjVmNWE2NDg4OGYifQ.nkbVoBaRdLl4I84rQUAGpBI2-Wi_3cbHnWsiJGBI0Qg'\
+ -H 'content-length: 396'\
+ -H 'content-type: application/json'\
+ -d '{"title":"System fly guess happy campaign continue.","maxScore":92,"minScore":13,"description":"Movement his pick dark. Sure their station focus.\nMy speech get career draw. Look indicate from degree news former make. Point still small town off coach ever.","estimatedTime":"2 weeks","previewFileId":"e64f8aca-3ff5-4d02-b198-a71082e380cc","createdByUserId":"6b51a51c-661c-4807-8632-525f5a64888f"}'

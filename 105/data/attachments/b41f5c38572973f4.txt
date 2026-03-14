@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDA5OjU3OjAyLjc2NzEyMyIsInVzZXJfaWQiOiI4NDI1NTI3Yy1kNjZlLTQwMmEtYmUwMi1hMWE4OGNiY2Y4YmQifQ.9JAr0joEmpZiEoXHs17jWREz1J5gIUKXByOSFrPir5E'\
+ -H 'content-length: 402'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Wonder significant hard politics would strong.","maxScore":73,"minScore":27,"description":"Media newspaper than probably. Answer treat shoulder candidate religious. Owner not natural today range.\nThing perform image agent. Music despite agency action.","estimatedTime":"8 weeks","previewFileId":"a99bf269-d34f-4f40-a4c9-994eff6e66da","createdByUserId":"8425527c-d66e-402a-be02-a1a88cbcf8bd"}'

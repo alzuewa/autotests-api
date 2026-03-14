@@ -1,0 +1,18 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send PATCH request to http://localhost:8000/api/v1/courses/f8da5fa1-5bbf-4e4d-8c6b-26f9b6805130
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses/f8da5fa1-5bbf-4e4d-8c6b-26f9b6805130
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:97 Check update course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Medical base employee over."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "77"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "4"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Film authority above animal debate. Vote pay structure these class common. Quite note fight billion turn alone sometimes."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "6 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

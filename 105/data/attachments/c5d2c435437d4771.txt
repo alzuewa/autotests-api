@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDA5OjU3OjAzLjA0MTA1NSIsInVzZXJfaWQiOiI1NzFjMTI5MC0zZWFjLTRhNmEtOWIzZC1mNmIyMWRjZTRhMzYifQ.XAj3x7_S3Q_BmQbSDamF5V_4PaU7Bwt0rxr9k9JQJOc'\
+ -H 'content-length: 375'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Produce east occur skill I born.","maxScore":84,"minScore":13,"description":"Game thought risk factor until usually budget. Well radio knowledge show anyone single. Back standard law. Later air serious question national room.","estimatedTime":"5 weeks","previewFileId":"e483fcdc-86c2-4459-8d01-8d26cfdf621f","createdByUserId":"571c1290-3eac-4a6a-9b3d-f6b21dce4a36"}'

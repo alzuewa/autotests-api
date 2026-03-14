@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDA5OjU2OjU5Ljk5MzA3NSIsInVzZXJfaWQiOiJhOTkwMWE5OS1kN2RiLTRlOGMtOGEwNC0zNmYyOTZjNzRlMWYifQ.9a7FYMhbfALhpZ58qWB-PXD0yMGruQfk4m_vljkZQWM'\
+ -H 'content-length: 414'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Strategy color experience enter glass serious.","maxScore":53,"minScore":22,"description":"Thus sometimes involve PM world Congress crime term. Lot cause phone most image million national baby.\nHouse whose grow upon increase. Voice back history house hair accept.","estimatedTime":"8 weeks","previewFileId":"d1b345c2-4eb3-469b-9f1d-f4bad380d8aa","createdByUserId":"a9901a99-d7db-4e8c-8a04-36f296c74e1f"}'

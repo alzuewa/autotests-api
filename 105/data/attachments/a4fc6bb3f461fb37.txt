@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDA5OjU3OjAxLjc4OTIwNyIsInVzZXJfaWQiOiIzYWQyYTE4YS0yM2FhLTQxZWMtYWY4Ny1hZTY3MWU5YWU3ZDIifQ.eGZUi1ju874wUYV_oHwWO319aTLtlAxbQouOyhySsC8'\
+ -H 'content-length: 422'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Reveal federal would must work word.","maxScore":53,"minScore":15,"description":"Indicate find mother wonder there. Mrs deal personal fast yet throughout water. Process focus interesting town.\nLetter leader gun stand animal learn. Necessary popular must concern specific.","estimatedTime":"7 weeks","previewFileId":"8ea207f8-1679-472a-bcdb-adbb1af73ef3","createdByUserId":"3ad2a18a-23aa-41ec-af87-ae671e9ae7d2"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE0VDA5OjU3OjAxLjc4OTIwNyIsInVzZXJfaWQiOiIzYWQyYTE4YS0yM2FhLTQxZWMtYWY4Ny1hZTY3MWU5YWU3ZDIifQ.eGZUi1ju874wUYV_oHwWO319aTLtlAxbQouOyhySsC8'\
+ -H 'content-length: 336'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Continue lead but executive.","courseId":"d0456fda-9361-4426-8e82-375169b85537","maxScore":57,"minScore":4,"orderIndex":84,"description":"Safe discover meeting age computer. Personal property whether factor set. Wind any often executive audience hot several his. Watch option which kitchen student.","estimatedTime":"4 weeks"}'
