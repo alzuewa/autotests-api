@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:73 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Individual blue debate new."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "73"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "1"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Beautiful population subject sport television reduce eat skin. Really sea news just test. Some sometimes computer."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "8 weeks"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "8 weeks"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "preview_file" equals "0c944ad0-0b39-425a-ba6d-0b5f59da2c1f"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "created_by_user" equals "88cbf710-9f16-4cc8-8416-21f4fc1a512c"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

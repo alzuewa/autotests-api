@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIxVDA5OjU2OjEzLjEwNjUzNiIsInVzZXJfaWQiOiI5NTRiMmRmZi0xNGIxLTQ0MWYtYTZlZS1iYjMzYTdhOGMwODAifQ._4RmhnjREuIO2sktwRIsti4xyrGgvtj6LafqIi-jd6Y'\
+ -H 'content-length: 375'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Enter hotel Congress risk while.","maxScore":55,"minScore":30,"description":"Side like scene meet interview form lawyer. Community total citizen purpose positive science responsibility. Up fly herself thousand foot manage by.","estimatedTime":"9 weeks","previewFileId":"6efd8cc7-4fc2-4c3b-b58b-3debce97ac3f","createdByUserId":"954b2dff-14b1-441f-a6ee-bb33a7a8c080"}'

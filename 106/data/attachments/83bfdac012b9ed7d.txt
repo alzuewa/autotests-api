@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIxVDA5OjU2OjE1LjY3MTk3MyIsInVzZXJfaWQiOiJiNDM4MTUxMS02MGVmLTRmNDEtYmU0My01NzA4N2Q2NGRkYmYifQ.pHGncpYjg0vxUgeUyvE2mg-soY9rcog5hdr0k0HPs1w'\
+ -H 'content-length: 415'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Over shake view myself.","maxScore":74,"minScore":12,"description":"Detail its economic off resource hair never. Without media different bar budget difficult. Join entire most.\nFigure clear outside nation money less. Movie project radio professor your what attack.","estimatedTime":"8 weeks","previewFileId":"1c11846e-06a3-4cd4-b643-9ae9f17af552","createdByUserId":"b4381511-60ef-4f41-be43-57087d64ddbf"}'

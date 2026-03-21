@@ -1,0 +1,33 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send GET request to http://localhost:8000/api/v1/courses?userId=4931b7ed-3857-4946-beb9-616fa2dbbce2
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses?userId=4931b7ed-3857-4946-beb9-616fa2dbbce2
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:53 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:74 Check that "courses's" length equals 1
+INFO     COURSES_ASSERTIONS:courses.py:28 Check course
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "4c3c0eb1-8eda-4cdd-a224-d0f0dd5cee70"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Nor media citizen speak human else."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "83"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "4"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Main join pass indicate challenge interview. Partner later talk both recent five. Though white technology third foreign."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "8 weeks"
+INFO     FILES_ASSERTIONS:files.py:49 Check create file
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "41771911-9ae9-474c-8f2a-b12ea41fea7b"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "url" equals "http://localhost:8000/static/test_files/af515402-bd73-497b-8560-0191748d127a.jpg"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "filename" equals "af515402-bd73-497b-8560-0191748d127a.jpg"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "directory" equals "test_files"
+INFO     USERS_ASSERTIONS:users.py:44 Check user
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "4931b7ed-3857-4946-beb9-616fa2dbbce2"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "email" equals "carrie62@example.org"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "last_name" equals "Brown"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "first_name" equals "Timothy"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "middle_name" equals "Tina"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

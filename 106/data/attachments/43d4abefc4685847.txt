@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIxVDA5OjU2OjEyLjUyMzI2NiIsInVzZXJfaWQiOiI4OGNiZjcxMC05ZjE2LTRjYzgtODQxNi0yMWY0ZmMxYTUxMmMifQ.SJgkjZxcOSWE9KJFGwHIDAaxPn7kd9wM1-Gy83eh3Pc'\
+ -H 'content-length: 335'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Individual blue debate new.","maxScore":73,"minScore":1,"description":"Beautiful population subject sport television reduce eat skin. Really sea news just test. Some sometimes computer.","estimatedTime":"8 weeks","previewFileId":"0c944ad0-0b39-425a-ba6d-0b5f59da2c1f","createdByUserId":"88cbf710-9f16-4cc8-8416-21f4fc1a512c"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIxVDA5OjU2OjExLjYyNDI5NyIsInVzZXJfaWQiOiI0OTMxYjdlZC0zODU3LTQ5NDYtYmViOS02MTZmYTJkYmJjZTIifQ.HS8UVO9dbnyF8IhJHLZhe7oycoohuf3PiUimaNpmstQ'\
+ -H 'content-length: 349'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Nor media citizen speak human else.","maxScore":83,"minScore":4,"description":"Main join pass indicate challenge interview. Partner later talk both recent five. Though white technology third foreign.","estimatedTime":"8 weeks","previewFileId":"41771911-9ae9-474c-8f2a-b12ea41fea7b","createdByUserId":"4931b7ed-3857-4946-beb9-616fa2dbbce2"}'

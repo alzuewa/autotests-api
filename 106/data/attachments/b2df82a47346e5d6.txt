@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIxVDA5OjU2OjE2LjI1Mjk1OSIsInVzZXJfaWQiOiI3ZjIyNDE0Yi03YjI2LTRiNjktOWU5MC02YjdhODVmYjk3NmUifQ.A9c50X0az9yau2HVhbhrUC-MP6L_1p8Bejsg0pAm4wg'\
+ -H 'content-length: 406'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Off law minute policy decade live speech.","maxScore":75,"minScore":30,"description":"Memory focus line serious hold body. Skill hospital continue some political them. We raise much why effort true administration. Environmental lay allow place soon suffer.","estimatedTime":"5 weeks","previewFileId":"7a5d62a5-88c7-418e-ad92-d658dd36ec78","createdByUserId":"7f22414b-7b26-4b69-9e90-6b7a85fb976e"}'
