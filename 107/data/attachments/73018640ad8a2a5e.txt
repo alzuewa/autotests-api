@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDEwOjAxOjQ1LjY1MzkwNiIsInVzZXJfaWQiOiIzOGM3YTk0Yy03M2YwLTQ5NjEtYjhkMi1iNTFmNTU1MTMwMTkifQ.7X7Q9wxokP4JvWxcxyx7ZHbR0GWoe-AYVcwjGhmCW6k'\
+ -H 'content-length: 402'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Page deep forward read safe might during.","maxScore":87,"minScore":12,"description":"None benefit office TV minute look amount rise. Serious few small sing car budget.\nPopular company citizen many strategy. Recently light pressure matter itself seat.","estimatedTime":"5 weeks","previewFileId":"744f33c8-684f-46cb-9365-3216090ac4ec","createdByUserId":"38c7a94c-73f0-4961-b8d2-b51f55513019"}'

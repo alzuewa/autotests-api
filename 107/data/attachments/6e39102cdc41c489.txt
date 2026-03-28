@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDEwOjAxOjQ0Ljc0Nzk2OCIsInVzZXJfaWQiOiIyZjY0MmYyYi01ZTMzLTQ5YjktOWIxYS02ZTZlZmU1MGI5ODMifQ.rrxWz64-VaAvrUJk1sXeWs0xJhmHF_Eln-cGYp-AzvU'\
+ -H 'content-length: 324'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Order foot radio maybe effect.","maxScore":95,"minScore":30,"description":"Campaign several couple support go sense. Deep toward after consider. Writer public discover stuff.","estimatedTime":"7 weeks","previewFileId":"b619ab5a-2724-4ab9-8e11-ad56604ed4df","createdByUserId":"2f642f2b-5e33-49b9-9b1a-6e6efe50b983"}'

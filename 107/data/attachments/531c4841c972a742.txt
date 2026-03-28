@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDEwOjAxOjQ4LjAzMDQzMiIsInVzZXJfaWQiOiIxN2ExYTM0MS1kODI3LTQ4YmItYjczZC03ZjY2MWVhZGE4MWQifQ.5ToXuVh3VMr4kmNe1YCbsngm_QMwJdduYVNylkuU0yM'\
+ -H 'content-length: 335'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Message face field too his program doctor.","courseId":"eae15bd4-f21a-4205-8549-5a766da0b804","maxScore":64,"minScore":4,"orderIndex":97,"description":"Impact town woman hard happy we.\nGuess somebody you peace soon heart live.\nLead various song discussion. Data owner huge radio skin big mother.","estimatedTime":"5 weeks"}'

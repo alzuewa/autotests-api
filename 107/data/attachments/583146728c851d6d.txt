@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDEwOjAxOjQ2LjgyNDU4MiIsInVzZXJfaWQiOiI5MmQzMTg3Zi05OWYyLTQyOGEtOTg1Mi03ZDAyMjQzMDIwMzkifQ.z9oyVF_vRc6UtBj--riDYiHzYPpg1Pt_WLPMg5c7kak'\
+ -H 'content-length: 299'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Carry agree think career movie eye.","courseId":"97595605-98a6-474e-b6ce-41263a7e31ba","maxScore":59,"minScore":7,"orderIndex":56,"description":"Public type today possible. Compare short across.\nSpring effect new morning take letter. Work me each within avoid.","estimatedTime":"2 weeks"}'

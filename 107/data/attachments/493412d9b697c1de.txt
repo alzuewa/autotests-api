@@ -1,0 +1,21 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:53 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Carry agree think career movie eye."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals "97595605-98a6-474e-b6ce-41263a7e31ba"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "59"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "7"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals "56"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Public type today possible. Compare short across.
+Spring effect new morning take letter. Work me each within avoid."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "2 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDEwOjAxOjQ4LjAzMDQzMiIsInVzZXJfaWQiOiIxN2ExYTM0MS1kODI3LTQ4YmItYjczZC03ZjY2MWVhZGE4MWQifQ.5ToXuVh3VMr4kmNe1YCbsngm_QMwJdduYVNylkuU0yM'\
+ -H 'content-length: 398'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Congress by rate worry film building.","maxScore":57,"minScore":28,"description":"End keep political eight. Theory force tend brother between.\nRegion environmental be rock tonight fill though. Everyone approach third network board including night.","estimatedTime":"9 weeks","previewFileId":"8379e720-b62f-4a8e-9689-50b20a106a12","createdByUserId":"17a1a341-d827-48bb-b73d-7f661eada81d"}'

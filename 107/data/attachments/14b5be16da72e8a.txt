@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDEwOjAxOjQ2LjgyNDU4MiIsInVzZXJfaWQiOiI5MmQzMTg3Zi05OWYyLTQyOGEtOTg1Mi03ZDAyMjQzMDIwMzkifQ.z9oyVF_vRc6UtBj--riDYiHzYPpg1Pt_WLPMg5c7kak'\
+ -H 'content-length: 363'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Step feel animal force.","maxScore":57,"minScore":4,"description":"Traditional air system like building yes method assume. Himself lead understand site law put. Use issue newspaper partner attorney push size deal.","estimatedTime":"2 weeks","previewFileId":"5e7381c5-5232-47a2-81bc-faf0b81492cd","createdByUserId":"92d3187f-99f2-428a-9852-7d0224302039"}'

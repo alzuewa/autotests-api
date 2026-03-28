@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDEwOjAxOjQ5LjMzODI0MCIsInVzZXJfaWQiOiJiMzIzODZmYi03ZjFkLTRlNzMtYjM4NS0wOWFmZmUwZDA3YTAifQ.oHu-CYbfFtDd-WrRGhTN1S_Kqm4Cou6VrIQOidOU5q4'\
+ -H 'content-length: 362'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Let develop road at whether eight.","maxScore":61,"minScore":12,"description":"Suffer special ahead fund. My beautiful scene if know. Own real student present away. Inside whom spring ask charge less view system.","estimatedTime":"8 weeks","previewFileId":"6ec97eed-6811-4160-86c4-9c0b806783b7","createdByUserId":"b32386fb-7f1d-4e73-b385-09affe0d07a0"}'

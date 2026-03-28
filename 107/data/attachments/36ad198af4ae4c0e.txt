@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDEwOjAxOjQ3Ljc1Njk5MiIsInVzZXJfaWQiOiI2MzgzMWU0Yy0yNjRmLTQ1NGYtYWY2YS1mY2MwOTVmZDkyZWIifQ.RptwLQA03APnpb_6wovblw_D9X-nMYh9dvvfL7FQJH0'\
+ -H 'content-length: 388'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Woman garden wide upon.","maxScore":74,"minScore":12,"description":"Give put where of create certainly later. North yourself hour fast. Later quickly present leave.\nPurpose soon near interesting drop. Wife turn reality upon make pattern.","estimatedTime":"3 weeks","previewFileId":"17d86d03-8526-408d-bb6f-b0c7b2de2cd8","createdByUserId":"63831e4c-264f-454f-af6a-fcc095fd92eb"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDEwOjAxOjQ2LjIzNzk5MyIsInVzZXJfaWQiOiI1YWRlZmY1Mi1jZDYyLTQ1ZjktODQ5OC1mM2JkNzNmNTE5NjYifQ.gE0gL5rkrTY3KoiLs4t30vabKpvp308Jyajxnh5dNMA'\
+ -H 'content-length: 394'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Heavy let do several.","maxScore":68,"minScore":6,"description":"East there time model after office student. Whom upon type foreign lawyer.\nThose light generation section former hope. Garden black population owner. Agent entire mother believe.","estimatedTime":"3 weeks","previewFileId":"cdda0aaa-2148-4149-ae2b-438c363267eb","createdByUserId":"5adeff52-cd62-45f9-8498-f3bd73f51966"}'
