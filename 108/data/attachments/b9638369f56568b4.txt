@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEwOjAxOjMzLjI2NzM3MyIsInVzZXJfaWQiOiI5NDZjZjVjNi1iZDU3LTQzMjUtOGUzZC1jZTg3M2VhNzAxOWYifQ.2ZLt63tIjzDQ7FQzxcd9nFx9L-sqo0CnkFHGJAlNNPM'\
+ -H 'content-length: 350'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Beyond coach also trade national perhaps interest.","maxScore":65,"minScore":19,"description":"Smile many say during travel. Decision speech several someone next situation. So car even across manage.","estimatedTime":"10 weeks","previewFileId":"6168530b-3272-4a24-9b44-5a278d55da67","createdByUserId":"946cf5c6-bd57-4325-8e3d-ce873ea7019f"}'

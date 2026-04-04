@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEwOjAxOjMyLjM2OTMzNSIsInVzZXJfaWQiOiJjY2FmMDZiNS0zNGYwLTQzNDEtOTJmOC02YjJmNWYyMWNkYjEifQ.joJv9h_pfGtjG92ZZPLZE4jOXHDi8QioO3n3GhcDx8A'\
+ -H 'content-length: 299'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Next plan interesting one.","maxScore":95,"minScore":15,"description":"Stop find drive give either. Oil throughout almost interview best which serve.","estimatedTime":"4 weeks","previewFileId":"f9b7e0f3-176c-480d-b077-e3c8f4e8afa4","createdByUserId":"ccaf06b5-34f0-4341-92f8-6b2f5f21cdb1"}'

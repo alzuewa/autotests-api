@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEwOjAxOjMzLjg1OTQ1MSIsInVzZXJfaWQiOiIzNmU5MzMwOS0xM2QzLTQwNjEtOGFlYy1hMjFhOGJiNDU5OTgifQ.cJAjwdJop7UhKeoQhjih8US2-arb0V1jppcQpnDAIcs'\
+ -H 'content-length: 389'\
+ -H 'content-type: application/json'\
+ -d '{"title":"House goal low today because season relate.","maxScore":86,"minScore":22,"description":"Must effort check ok physical development least. Style grow think economic.\nNext within actually book light. Test president good around hot far small.","estimatedTime":"9 weeks","previewFileId":"94d8fe78-15af-47cc-bf91-17ec06158e50","createdByUserId":"36e93309-13d3-4061-8aec-a21a8bb45998"}'

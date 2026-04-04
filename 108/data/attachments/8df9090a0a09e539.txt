@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEwOjAxOjM0LjQ1MjQyOSIsInVzZXJfaWQiOiI5NmEzN2UwMC1lMTM4LTQxOWMtODAyMC1jNDg3ZGU0YmE3ODYifQ.N73k7AiVTj26LHDpPs41dlzOPu4A-JlZnR4UHO42Txg'\
+ -H 'content-length: 390'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Beat yard job throw ago explain.","maxScore":71,"minScore":30,"description":"Way enough tonight customer decision ability specific. Against rich start foot land address. Year total plant various even half. Capital reality record different.","estimatedTime":"10 weeks","previewFileId":"781df884-a521-4666-b154-60011faaf19d","createdByUserId":"96a37e00-e138-419c-8020-c487de4ba786"}'

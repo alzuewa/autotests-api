@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEwOjAxOjM1LjcxNzE2MyIsInVzZXJfaWQiOiI0NWJiOTU1My1mNDgwLTRkZTMtODI5OC1jNDY1ZGY5NTBjY2QifQ.Ztie_f9DZLXCcN93ocgFNH_Wbc_hFIsXWgn7gKk67n4'\
+ -H 'content-length: 431'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Public statement agent action speak heart maybe year.","maxScore":90,"minScore":15,"description":"Measure which them north stand apply senior. Environment rather think others. Treat be on agency.\nRepublican the any theory address run quickly. Similar quite entire past yeah music.","estimatedTime":"8 weeks","previewFileId":"962cddcd-db53-490b-ae3c-220edf8aaffe","createdByUserId":"45bb9553-f480-4de3-8298-c465df950ccd"}'

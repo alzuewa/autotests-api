@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEwOjAxOjM1LjEzMzI3NiIsInVzZXJfaWQiOiI3MzFlY2MwNS1lNjFiLTQ0N2QtOWNlZi1jZTg5MWFhYWJkYjcifQ.a-9z5_iQ3aby9I3Fo7zQLTDWL457aQYNOSi190SuHio'\
+ -H 'content-length: 407'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Billion hair anything its second where relationship citizen.","maxScore":97,"minScore":14,"description":"Ability decision key every treat. Computer produce century one such continue. Staff begin ready trade pretty. Around remain score change media sea both.","estimatedTime":"8 weeks","previewFileId":"5849b2b3-89dc-4a3a-9954-03d35b0f93d6","createdByUserId":"731ecc05-e61b-447d-9cef-ce891aaabdb7"}'

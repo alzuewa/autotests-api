@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/0df2b57a-39e4-4a36-9b36-36c3b23c6e54'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEwOjAxOjMzLjg1OTQ1MSIsInVzZXJfaWQiOiIzNmU5MzMwOS0xM2QzLTQwNjEtOGFlYy1hMjFhOGJiNDU5OTgifQ.cJAjwdJop7UhKeoQhjih8US2-arb0V1jppcQpnDAIcs'\
+ -H 'content-length: 263'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Example herself happy establish indeed early rock.","maxScore":81,"minScore":30,"description":"Toward decade market wife company both study. Should system American manage ahead recognize space. No response more old thing ask.","estimatedTime":"2 weeks"}'

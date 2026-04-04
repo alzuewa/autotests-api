@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEwOjAxOjM2LjQzNDc5MiIsInVzZXJfaWQiOiI2YjRjMzg0My1mZjk5LTRkYWYtODNmNC00YTY5M2FkZDM4YzcifQ.UU7DGmmomhi250etnQyEf8WxoxsphAJDHNmuQEomgck'\
+ -H 'content-length: 293'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Your sister score out natural human.","maxScore":87,"minScore":2,"description":"Quickly meeting reason TV toward book. Friend say chance about.","estimatedTime":"9 weeks","previewFileId":"bd6002a6-1664-4afd-94b8-1acd61539ea2","createdByUserId":"6b4c3843-ff99-4daf-83f4-4a693add38c7"}'
