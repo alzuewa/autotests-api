@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/7d5c7c44-3d1b-48b7-b902-8168a299f9b0'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTExVDEwOjA0OjE3Ljk3MTg4MyIsInVzZXJfaWQiOiJmZTQ1MDYxMS0zODAyLTQ1ZGEtODYxYi01YjU3MTk4NjlkNjUifQ.P_5ta8D_kLBeQrPRMFxQG7s8uJyTxn0KBLmEwoeAXTo'\
+ -H 'content-length: 289'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Arrive people over according result game.","maxScore":98,"minScore":18,"description":"Treat clearly than eight certainly. Without remain question make. Consider bit back begin list ever much.\nResult eye claim. Company serious interest form just left.","estimatedTime":"3 weeks"}'

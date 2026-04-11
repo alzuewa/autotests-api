@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTExVDEwOjA0OjE2LjMxNzU1MCIsInVzZXJfaWQiOiJkZjIzMWZkMi0wOGUwLTRmZDctODJiMC0yZDZlOGRlYWNjZWQifQ.RtOr-FanP22r1d-QAEr06jKmJv7jWGy6V31ZEkkYFl4'\
+ -H 'content-length: 371'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Among question argue west notice crime industry.","maxScore":51,"minScore":14,"description":"Must case election. Experience season Democrat individual section morning pick. Where just here dinner peace today prepare free.","estimatedTime":"8 weeks","previewFileId":"2c0d7b66-2945-460e-9d34-23860c0b11de","createdByUserId":"df231fd2-08e0-4fd7-82b0-2d6e8deacced"}'

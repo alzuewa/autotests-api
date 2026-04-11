@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/exercises/055ae6c4-2775-486b-accb-dd28c1adb2bd'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTExVDEwOjA0OjE5LjM2MDM2MCIsInVzZXJfaWQiOiJkNDQ1ZTgwYi00NjFiLTRiYTQtOWU0Zi1iYjEzMTYyY2FlZDYifQ.2bsQqN_IkdemmIil5QDjGqP6OcVsPGUJQMb0wgiSyZw'\
+ -H 'content-length: 311'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Stock address as arrive store practice.","maxScore":91,"minScore":26,"orderIndex":80,"description":"Send sure charge war themselves black. Kid area serious camera design.\nForward than thousand message we establish series. Mr hope company fact poor. Alone until old school.","estimatedTime":"6 weeks"}'

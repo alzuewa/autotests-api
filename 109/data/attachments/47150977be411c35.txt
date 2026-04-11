@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTExVDEwOjA0OjE3Ljk3MTg4MyIsInVzZXJfaWQiOiJmZTQ1MDYxMS0zODAyLTQ1ZGEtODYxYi01YjU3MTk4NjlkNjUifQ.P_5ta8D_kLBeQrPRMFxQG7s8uJyTxn0KBLmEwoeAXTo'\
+ -H 'content-length: 316'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Mouth response nation everyone.","maxScore":85,"minScore":20,"description":"Water trouble seem behind. Feeling away bank blood expert might the. Worry use team start.","estimatedTime":"4 weeks","previewFileId":"05cbdc9c-8b82-4cc3-8f21-aa9383aa90bd","createdByUserId":"fe450611-3802-45da-861b-5b5719869d65"}'

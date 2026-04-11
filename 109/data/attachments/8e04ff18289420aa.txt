@@ -1,0 +1,26 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:27 Send GET request to http://localhost:8000/api/v1/exercises/bb24e7d7-138f-47ff-a79b-37be89144b7a
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/exercises/bb24e7d7-138f-47ff-a79b-37be89144b7a
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:76 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:29 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "bb24e7d7-138f-47ff-a79b-37be89144b7a"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "To paper effect."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals "189e4a9d-d47e-4545-a9d8-7e24f84f6190"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "84"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "5"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals "85"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Protect guess lay.
+Because follow check much. Still should perhaps within nation drop inside partner.
+Material air development around. Station enter never whether them common certainly free."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "6 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

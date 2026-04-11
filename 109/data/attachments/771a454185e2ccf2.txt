@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTExVDEwOjA0OjE5LjM2MDM2MCIsInVzZXJfaWQiOiJkNDQ1ZTgwYi00NjFiLTRiYTQtOWU0Zi1iYjEzMTYyY2FlZDYifQ.2bsQqN_IkdemmIil5QDjGqP6OcVsPGUJQMb0wgiSyZw'\
+ -H 'content-length: 377'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Rest should image face far before sing.","maxScore":92,"minScore":6,"description":"Push cell put thousand very activity chance. Street ok policy to partner huge loss. Between start none travel do certain again. Man nature safe.","estimatedTime":"7 weeks","previewFileId":"1e1326d9-6c87-4511-b0a1-440d6d730f96","createdByUserId":"d445e80b-461b-4ba4-9e4f-bb13162caed6"}'

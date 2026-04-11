@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTExVDEwOjA0OjIwLjEwMzE0MyIsInVzZXJfaWQiOiIzNmViZmRlNi02Njg5LTRmOTMtYTg2Ny1lOTcxY2FiZmZiZjcifQ.RNWAuugKxzZMNdfHOlVicMqOoZpjPh7aLZmwFyaCJEM'\
+ -H 'content-length: 356'\
+ -H 'content-type: application/json'\
+ -d '{"title":"To paper effect.","courseId":"189e4a9d-d47e-4545-a9d8-7e24f84f6190","maxScore":84,"minScore":5,"orderIndex":85,"description":"Protect guess lay.\nBecause follow check much. Still should perhaps within nation drop inside partner.\nMaterial air development around. Station enter never whether them common certainly free.","estimatedTime":"6 weeks"}'

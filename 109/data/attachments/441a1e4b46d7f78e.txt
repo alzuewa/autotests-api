@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTExVDEwOjA0OjE4LjcwODcyMCIsInVzZXJfaWQiOiJmMDlhYTZlMi1hYmM4LTQ2OTMtODEyZS0xODIxNmQxZTFlZjYifQ.4Bw650XjfSP_Y0wEPpQE8l91f7eeplSiXMguXbTc8Hk'\
+ -H 'content-length: 355'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Large career whether loss law prove.","courseId":"123dc8fa-be5e-42c1-8ecc-98bc094970c6","maxScore":73,"minScore":27,"orderIndex":74,"description":"Street phone few. Knowledge size each pretty. Couple decade window thing challenge pass.\nAsk school religious crime. Sometimes site mind course score especially someone.","estimatedTime":"8 weeks"}'

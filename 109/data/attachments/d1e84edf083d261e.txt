@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTExVDEwOjA0OjIwLjEwMzE0MyIsInVzZXJfaWQiOiIzNmViZmRlNi02Njg5LTRmOTMtYTg2Ny1lOTcxY2FiZmZiZjcifQ.RNWAuugKxzZMNdfHOlVicMqOoZpjPh7aLZmwFyaCJEM'\
+ -H 'content-length: 340'\
+ -H 'content-type: application/json'\
+ -d '{"title":"War happy million attention.","maxScore":95,"minScore":13,"description":"Key past third them six whole. Rock young heavy later.\nInteresting long idea gun meeting. Probably from right tough.","estimatedTime":"4 weeks","previewFileId":"5ff4f01c-187c-4e27-bb6a-68d963293219","createdByUserId":"36ebfde6-6689-4f93-a867-e971cabffbf7"}'
