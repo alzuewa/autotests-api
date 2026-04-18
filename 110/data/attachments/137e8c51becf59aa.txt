@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE4VDEwOjExOjMwLjYwNTExMCIsInVzZXJfaWQiOiIyMzI0OGNmNi0yMzRkLTQ2ODAtOTU4Zi04Zjk4ZGIyMGZjYmQifQ.juG_muI_z4JVnv3s7G6KMTRK2nLG5ESlFChNEK5w8Es'\
+ -H 'content-length: 391'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Learn product baby eye notice store.","maxScore":57,"minScore":2,"description":"Whose notice product suffer feeling ground my. Less who surface tonight sign generation discuss. Can agreement speak.\nHigh strong letter amount. Rock type wide.","estimatedTime":"6 weeks","previewFileId":"ce5549dd-34be-45fa-8291-e35ff6aa986a","createdByUserId":"23248cf6-234d-4680-958f-8f98db20fcbd"}'

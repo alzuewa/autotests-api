@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE4VDEwOjExOjI5LjQ4ODEzMSIsInVzZXJfaWQiOiI3YTQxMzdjNy0xNDdlLTQxZTUtYTdhZi0yMThiNGU2M2ZiOTEifQ.MK05XSR0Dvup0i29dpDbU5bM_4RejFxdKL9Di2-VSpM'\
+ -H 'content-length: 358'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Operation however another matter send.","maxScore":96,"minScore":15,"description":"Activity book doctor it glass pattern consumer indeed. White same without discover. Material party wife purpose least others.","estimatedTime":"4 weeks","previewFileId":"05e7404d-6a65-4afb-8bad-5d04b39cdb2e","createdByUserId":"7a4137c7-147e-41e5-a7af-218b4e63fb91"}'

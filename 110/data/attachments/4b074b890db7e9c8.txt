@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE4VDEwOjExOjMzLjAxOTE4NSIsInVzZXJfaWQiOiIxZDllMzAzZC02ZjcxLTRiYmQtYmRjMi1mNjc1M2E3N2Y1YjQifQ.AyNy0US28-JgHzFmyZsx4VUZmbMOyrYtHH1P89sVp50'\
+ -H 'content-length: 420'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Knowledge evening appear two anyone affect.","maxScore":69,"minScore":8,"description":"Lay spring face beautiful like since.\nEast goal rock officer mission join. Moment religious whom low.\nTruth series her would. Necessary author picture meeting police suddenly side.","estimatedTime":"10 weeks","previewFileId":"0d08f50b-a136-41f9-ba27-d5b62a1d621e","createdByUserId":"1d9e303d-6f71-4bbd-bdc2-f6753a77f5b4"}'

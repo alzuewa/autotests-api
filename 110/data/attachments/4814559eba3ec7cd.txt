@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE4VDEwOjExOjMxLjI0MDEyNyIsInVzZXJfaWQiOiI5OTQzZTAxOC02YWU1LTRlODktYTJkYy03YTUzZjAyYjQyNzUifQ.tEDE94qSLb_J0Ybj7T4L5UffGaaDYvLhfBEnRTXIIos'\
+ -H 'content-length: 399'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Under although listen able cold.","maxScore":94,"minScore":11,"description":"Across somebody become you must have. Force purpose likely any these decide end. Race enjoy example reason.\nStand turn onto adult. Down term building himself not movement.","estimatedTime":"5 weeks","previewFileId":"8db0e636-cc8a-4771-918c-ec20d7b9de6d","createdByUserId":"9943e018-6ae5-4e89-a2dc-7a53f02b4275"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/ded8225d-daf0-4898-89d0-e1a76f5e729d'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE4VDEwOjExOjMwLjAzODA1NiIsInVzZXJfaWQiOiJlMWY0ZTM1NC0xYzZjLTQyMjItYmEyNi0wM2E5MmVlNjk5MzAifQ.oWWLa8Z4Eic4FQfVlOB3JKE7y3vJ7Z2vWizp4llhBKg'\
+ -H 'content-length: 228'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Go quality under event in.","maxScore":75,"minScore":15,"description":"Bar tough front tell evidence top. Security defense born leg. Town smile address some guess movement remember business.","estimatedTime":"4 weeks"}'

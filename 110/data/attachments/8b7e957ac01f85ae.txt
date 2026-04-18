@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE4VDEwOjExOjMxLjI0MDEyNyIsInVzZXJfaWQiOiI5OTQzZTAxOC02YWU1LTRlODktYTJkYy03YTUzZjAyYjQyNzUifQ.tEDE94qSLb_J0Ybj7T4L5UffGaaDYvLhfBEnRTXIIos'\
+ -H 'content-length: 307'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Once recognize song decision upon.","courseId":"ec85fc4a-4262-4c62-a34a-8281d9a792fb","maxScore":67,"minScore":2,"orderIndex":78,"description":"Feeling it radio three prevent. Sell prove product get.\nSame professor news family four against. Maybe town to though short.","estimatedTime":"9 weeks"}'
