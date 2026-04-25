@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTI1VDEwOjE0OjM0LjU1NDU3OCIsInVzZXJfaWQiOiI3YTQ0MDU2Ni0yZmFlLTRmMzgtOWExOS0wMzRjYTY4ZWQ5MmUifQ.vtYP761WzbOq7YmcUT8LskmZ6g8acwhDuFtY6zg3w3s'\
+ -H 'content-length: 426'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Investment stuff pretty company.","maxScore":53,"minScore":15,"description":"Scene wear against audience left free. Performance end between also. Use so age case.\nCertainly understand different bad. Under industry morning myself affect three skill. Car interest purpose rate.","estimatedTime":"5 weeks","previewFileId":"daee163d-dc82-4df5-ba9d-b358819d8777","createdByUserId":"7a440566-2fae-4f38-9a19-034ca68ed92e"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/29870f94-249f-42ea-a381-4bbae3d4af24'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTI1VDEwOjE0OjMxLjc4MzY5OCIsInVzZXJfaWQiOiIzMzZmYjExMS1mMDM3LTRkYWMtOTQ4Ni1hZmQxM2E1NjhkNGYifQ.r0XdcXerz9EQ097iDQGkfiHpJyQYefazo5LtCkD5LxY'\
+ -H 'content-length: 273'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Image collection better sense fall represent land.","maxScore":76,"minScore":1,"description":"Scene go truth develop attorney court message. Employee person particular model hold degree source. Term girl back could still Democrat less.","estimatedTime":"2 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTI1VDEwOjE0OjMzLjMwNzE0MiIsInVzZXJfaWQiOiJmN2IyYmYzMy1iOWRhLTQ1NzUtYWM2OS0yYzA1ODFjY2YxN2IifQ.1MvJqzOZ4nN5S9SsN_PFabKlB2uOGunpqoV4vn6BJ_Q'\
+ -H 'content-length: 392'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Enter camera trip page letter through beautiful.","maxScore":51,"minScore":14,"description":"Environmental human tonight peace most fly. Issue value relate wrong. Leave husband you machine arm. Without according within will despite whole yet.","estimatedTime":"6 weeks","previewFileId":"0ef01d20-ebd6-4ec3-8c4a-ca5b015ed533","createdByUserId":"f7b2bf33-b9da-4575-ac69-2c0581ccf17b"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTI1VDEwOjE0OjMzLjAzMzA1NiIsInVzZXJfaWQiOiJiNWJiNDcyZS0yOWQ2LTRhMmYtYjg0MS0wYzhlMzk5NmVlYTYifQ.7G-E_9NLa5KA8rLRGZfnZH5k8rAxG9yKMPtLZZZbz9c'\
+ -H 'content-length: 350'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Tough tax ahead decision.","maxScore":62,"minScore":18,"description":"Loss success question analysis participant. Identify include stuff. Check west many their traditional. Sea offer return news head.","estimatedTime":"9 weeks","previewFileId":"25afa8be-e126-4143-be20-85d23c93d366","createdByUserId":"b5bb472e-29d6-4a2f-b841-0c8e3996eea6"}'

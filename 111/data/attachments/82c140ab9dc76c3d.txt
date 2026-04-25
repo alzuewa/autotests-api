@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTI1VDEwOjE0OjMwLjIxODMwMSIsInVzZXJfaWQiOiI5ZmNmNjZhYS0xZGJjLTQ5YzktYTI2My01YzEyNDk5NmJlNWYifQ.SUVHTVlaQ4bQqvN37qu0qL_436skzbXVjl33YAcdDko'\
+ -H 'content-length: 427'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Inside measure statement specific black.","maxScore":94,"minScore":21,"description":"Theory deep name girl.\nRise no find here window laugh. Picture industry American sign ok. Discover pay view try just strategy almost. Agreement nor small think development space business off.","estimatedTime":"3 weeks","previewFileId":"68c2908d-5c72-45f2-8387-65dd0a444eed","createdByUserId":"9fcf66aa-1dbc-49c9-a263-5c124996be5f"}'

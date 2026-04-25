@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTI1VDEwOjE0OjM0LjI4MDM2MCIsInVzZXJfaWQiOiI3NzQ4ZDVmNi0xOWJjLTRhZmItODc0Ny0wNWExZTI1YWQyYmMifQ.fzr7mQqvG0GUYePPrFDpwFuoeKLZyx36ZsLAWbkYxV4'\
+ -H 'content-length: 328'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Go learn understand.","maxScore":82,"minScore":3,"description":"True cup another game either per realize fast. Along well eat family spend. Hope push often Democrat loss because.","estimatedTime":"6 weeks","previewFileId":"d30683a4-b283-4a8c-9545-4bff1a19ef1e","createdByUserId":"7748d5f6-19bc-4afb-8747-05a1e25ad2bc"}'

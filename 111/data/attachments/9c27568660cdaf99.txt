@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTI1VDEwOjE0OjMxLjc4MzY5OCIsInVzZXJfaWQiOiIzMzZmYjExMS1mMDM3LTRkYWMtOTQ4Ni1hZmQxM2E1NjhkNGYifQ.r0XdcXerz9EQ097iDQGkfiHpJyQYefazo5LtCkD5LxY'\
+ -H 'content-length: 379'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Federal want six hear do.","maxScore":79,"minScore":11,"description":"Gas upon lose above short change.\nVoice memory join whole carry own offer machine.\nNumber soon yes amount rock bag citizen follow. Those specific know sound.","estimatedTime":"7 weeks","previewFileId":"8089838b-666b-420f-836b-bb9c8709ade6","createdByUserId":"336fb111-f037-4dac-9486-afd13a568d4f"}'

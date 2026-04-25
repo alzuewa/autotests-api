@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTI1VDEwOjE0OjMwLjg1NTk0MyIsInVzZXJfaWQiOiI2OTBmMTU4Ny04MGJmLTQ4ZDItYjg4Mi01NDQ1YTliNDFiMzMifQ.iU0vwhZggvf9hny79GGSSFHpS-9qmfg21f5zbOi-2FY'\
+ -H 'content-length: 421'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Power cause unit local contain.","maxScore":100,"minScore":2,"description":"Knowledge across weight culture. Radio last example computer Democrat would law better.\nFish share eye history. Along student charge enjoy unit option someone. Evening can result political wall.","estimatedTime":"5 weeks","previewFileId":"6fffd919-d275-474a-91e4-743b43b67019","createdByUserId":"690f1587-80bf-48d2-b882-5445a9b41b33"}'

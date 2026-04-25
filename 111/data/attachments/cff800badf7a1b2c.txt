@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTI1VDEwOjE0OjM0LjU1NDU3OCIsInVzZXJfaWQiOiI3YTQ0MDU2Ni0yZmFlLTRmMzgtOWExOS0wMzRjYTY4ZWQ5MmUifQ.vtYP761WzbOq7YmcUT8LskmZ6g8acwhDuFtY6zg3w3s'\
+ -H 'content-length: 359'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Still painting tree today maybe according.","courseId":"d7f8b740-0aa6-4dc4-8ecd-1f1a8d8bc688","maxScore":71,"minScore":3,"orderIndex":50,"description":"Decade language through our.\nTheory ten often against. Gun glass word brother bit impact. Usually many specific region raise west base. Check expect set current charge.","estimatedTime":"8 weeks"}'
