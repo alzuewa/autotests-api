@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/1274e877-5475-46c7-b5af-97856a6c0520'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTAyVDEwOjI1OjMxLjA1NjEwMiIsInVzZXJfaWQiOiI5ZDRjNWFiNy1mM2YzLTQzMDctYmY3OS0xNGQyNzlhYzhkNzIifQ.gnEhgmbOBFSUbGdYG4nSJTxhYRgEwnZBNu42QIOsCUI'\
+ -H 'content-length: 260'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Ever travel mother.","maxScore":82,"minScore":21,"description":"Hair tend heavy model owner fine consumer. Decide information public study hot hard Democrat.\nTree hospital tax international service. Camera instead system.","estimatedTime":"3 weeks"}'

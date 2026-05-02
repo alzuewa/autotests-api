@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTAyVDEwOjI1OjMwLjAyNTExOCIsInVzZXJfaWQiOiI1YzIyMWNmNC1mZGQxLTQzZWUtYTg5MC05MjVkMTRiZGIwMTMifQ.SSqsTQFlV4zXlVKDxfgL8Z5MhvYJW80MsZF9SKN0ITA'\
+ -H 'content-length: 393'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Thought vote drug science left.","maxScore":99,"minScore":29,"description":"Significant college community myself. You protect key those raise history. Bag learn range hundred nice.\nAs Mr after anyone find million. Them certainly thousand own.","estimatedTime":"7 weeks","previewFileId":"fa64d7ba-d185-4c61-bdf7-aa5869951d59","createdByUserId":"5c221cf4-fdd1-43ee-a890-925d14bdb013"}'

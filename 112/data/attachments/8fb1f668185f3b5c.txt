@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTAyVDEwOjI1OjMyLjczNjQxNSIsInVzZXJfaWQiOiI0YWNmYTRmZC03NmI1LTRkMTUtYjg0NS03NDMxZDdlZDVmNGIifQ.Fj5cHMm-R85fr2OWkEQ2KBBGDDKtc7F-h_O0nfzsVlw'\
+ -H 'content-length: 412'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Pick tax where game mind.","maxScore":64,"minScore":13,"description":"Set involve relationship along carry need thought western.\nStyle attention defense put some either at. Successful design strong specific wait. Town scene no recognize. Of talk build special.","estimatedTime":"10 weeks","previewFileId":"c767007a-c27d-47c0-ac86-062bae79e422","createdByUserId":"4acfa4fd-76b5-4d15-b845-7431d7ed5f4b"}'

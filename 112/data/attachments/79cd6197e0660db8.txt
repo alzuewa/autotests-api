@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTAyVDEwOjI1OjMyLjQyNzY5MiIsInVzZXJfaWQiOiJkMTU4ZWRkYS1kMzJkLTRhNjctOWIxNy02NTI0YTFlNTU0NWYifQ.-tXevHipMlS7K_GDY3qQ8L82ulQ8L3zAMi9rwZGIGSc'\
+ -H 'content-length: 323'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Sound remember land.","maxScore":69,"minScore":19,"description":"Write also who hair book. Pm top blood matter born policy admit. Including develop determine painting range.","estimatedTime":"9 weeks","previewFileId":"fa6cc03f-83ed-4854-b964-37a87f9059c5","createdByUserId":"d158edda-d32d-4a67-9b17-6524a1e5545f"}'

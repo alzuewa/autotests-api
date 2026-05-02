@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTAyVDEwOjI1OjM0LjE3MjEyOCIsInVzZXJfaWQiOiJhMzhkMWQyNC1iZDlkLTQ0NWUtYWIzMi1lY2Y2YmIzNjU0Y2YifQ.9Y5yDmpQGutXWeFgd8UUgXcHQxt_Dug6fAPwrGvrL7Y'\
+ -H 'content-length: 376'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Probably court style space.","maxScore":71,"minScore":10,"description":"Without get while according.\nAnimal thank you friend. Consider professor tree tough land true.\nPersonal hold drop keep example any. Me dark raise thank.","estimatedTime":"5 weeks","previewFileId":"8ded7e58-5c86-497a-8461-f839da0c97bd","createdByUserId":"a38d1d24-bd9d-445e-ab32-ecf6bb3654cf"}'

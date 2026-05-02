@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTAyVDEwOjI1OjMzLjUyNjg2MCIsInVzZXJfaWQiOiIyOGE1NTE3Ni1kMTE3LTQ1MjctYTZmMC04YWViMWRkN2FlOTcifQ.OwmqEOIZglvPjGipyY0fkhir4YZ9cU3X3XFU4U4BCiM'\
+ -H 'content-length: 337'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Member ever style bad.","courseId":"27aa99ed-12a1-42b0-9e76-adf390c1787c","maxScore":79,"minScore":8,"orderIndex":68,"description":"Stage goal keep candidate trade.\nFeeling collection south behavior human front world. Wife card book spend discover wear friend. Stand cause hit main term can expert.","estimatedTime":"3 weeks"}'

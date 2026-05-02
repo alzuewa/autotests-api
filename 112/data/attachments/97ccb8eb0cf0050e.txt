@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTAyVDEwOjI1OjMxLjA1NjEwMiIsInVzZXJfaWQiOiI5ZDRjNWFiNy1mM2YzLTQzMDctYmY3OS0xNGQyNzlhYzhkNzIifQ.gnEhgmbOBFSUbGdYG4nSJTxhYRgEwnZBNu42QIOsCUI'\
+ -H 'content-length: 426'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Whole require about improve same.","maxScore":88,"minScore":26,"description":"Condition wrong national skin upon husband. Seat put amount very them. Benefit cold near major test discussion many sure.\nBorn what song force. Play eat hot relationship. Learn easy they page this.","estimatedTime":"8 weeks","previewFileId":"8b0cc7cc-71b8-4ead-938d-155286163946","createdByUserId":"9d4c5ab7-f3f3-4307-bf79-14d279ac8d72"}'

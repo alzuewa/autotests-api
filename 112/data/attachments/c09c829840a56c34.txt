@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTAyVDEwOjI1OjMyLjczNjQxNSIsInVzZXJfaWQiOiI0YWNmYTRmZC03NmI1LTRkMTUtYjg0NS03NDMxZDdlZDVmNGIifQ.Fj5cHMm-R85fr2OWkEQ2KBBGDDKtc7F-h_O0nfzsVlw'\
+ -H 'content-length: 252'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Southern a myself budget.","courseId":"a22c9829-c232-4a1f-a264-ab1577975868","maxScore":74,"minScore":13,"orderIndex":25,"description":"North question door less table. Price light television. Must describe moment.","estimatedTime":"10 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTAyVDEwOjI1OjMzLjUyNjg2MCIsInVzZXJfaWQiOiIyOGE1NTE3Ni1kMTE3LTQ1MjctYTZmMC04YWViMWRkN2FlOTcifQ.OwmqEOIZglvPjGipyY0fkhir4YZ9cU3X3XFU4U4BCiM'\
+ -H 'content-length: 365'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Strategy owner almost he fill suggest.","maxScore":59,"minScore":23,"description":"Seek lose Mrs list. Grow fear more tree religious goal.\nYeah small suffer impact with. Brother state coach draw people traditional.","estimatedTime":"5 weeks","previewFileId":"58765268-9300-44a5-ac2d-53edc9c58abe","createdByUserId":"28a55176-d117-4527-a6f0-8aeb1dd7ae97"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTAyVDEwOjI1OjMxLjM2NjQwMyIsInVzZXJfaWQiOiJkMWIyNzMwMS00OTI3LTRkYjEtYWZhNy00YTgyYTcyMGY1NzgifQ.-JvVXDkj0hAMbfMAN70_zneAogkdeo4uL58xKI_eHQ0'\
+ -H 'content-length: 387'\
+ -H 'content-type: application/json'\
+ -d '{"title":"The buy represent.","maxScore":98,"minScore":5,"description":"Big analysis last whatever. Fine later step difficult support grow suffer.\nLetter field executive expert effort their. Watch form specific many. Short about gas mouth system.","estimatedTime":"4 weeks","previewFileId":"21b5def4-ab8b-49a0-9143-9da822a64369","createdByUserId":"d1b27301-4927-4db1-afa7-4a82a720f578"}'
