@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDEwOjMxOjU3LjY2ODM3OSIsInVzZXJfaWQiOiJjZDQxODE4Mi1mMmNmLTRhYzEtYTExMS00NWY3ODNlZGI2ZWYifQ.Z0D9b_3ixrQrUTmAFYsUs_5es6T1Y34F1mzUcJPWzEQ'\
+ -H 'content-length: 400'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Guy already raise off trouble your.","maxScore":95,"minScore":2,"description":"Here owner show. Week remain treat Republican.\nInternational but travel analysis law. Suggest attack society.\nToward of seem. Beyond father involve hour challenge wear.","estimatedTime":"10 weeks","previewFileId":"f379c621-4e35-4dcc-b1f3-a6acbeeac280","createdByUserId":"cd418182-f2cf-4ac1-a111-45f783edb6ef"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDEwOjMxOjU4Ljc2NDE4OSIsInVzZXJfaWQiOiJjNjBjMmExNC0yOWE3LTRlZDAtODA4NC02NmRhYjcyYWVjMmEifQ.rB_nu2fS-kehIAQh8VfHdBmf1Doa9gcyZGHnn8QuFAc'\
+ -H 'content-length: 359'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Project wait American business police.","courseId":"b63a4c13-9f70-41d8-be71-8544fc42aa9e","maxScore":55,"minScore":30,"orderIndex":52,"description":"Popular tax carry bed particularly. Behind life experience region yes them. Protect policy beat stuff.\nBecome nor wear rule he who. Green skill affect adult contain table.","estimatedTime":"7 weeks"}'

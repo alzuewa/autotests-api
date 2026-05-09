@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDEwOjMxOjU3LjY2ODM3OSIsInVzZXJfaWQiOiJjZDQxODE4Mi1mMmNmLTRhYzEtYTExMS00NWY3ODNlZGI2ZWYifQ.Z0D9b_3ixrQrUTmAFYsUs_5es6T1Y34F1mzUcJPWzEQ'\
+ -H 'content-length: 314'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Tough point maybe life smile face mouth learn.","courseId":"a70b6fae-d322-4c00-9950-5d7a61c88741","maxScore":83,"minScore":24,"orderIndex":21,"description":"Main store relationship prove hundred skin practice respond.\nCreate data significant push. Today down include reality.","estimatedTime":"6 weeks"}'

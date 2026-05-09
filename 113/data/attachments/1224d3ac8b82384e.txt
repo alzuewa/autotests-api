@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/exercises/cb4944b5-5d7c-4a9c-983f-147f0cefd604'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDEwOjMxOjU3LjY2ODM3OSIsInVzZXJfaWQiOiJjZDQxODE4Mi1mMmNmLTRhYzEtYTExMS00NWY3ODNlZGI2ZWYifQ.Z0D9b_3ixrQrUTmAFYsUs_5es6T1Y34F1mzUcJPWzEQ'\
+ -H 'content-length: 251'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Physical pay human thing discuss ever.","maxScore":95,"minScore":17,"orderIndex":46,"description":"Staff kitchen training office want economy sea. Daughter person measure around. What part similar worker cultural.","estimatedTime":"3 weeks"}'

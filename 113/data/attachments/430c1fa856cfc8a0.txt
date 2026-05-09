@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDEwOjMxOjU3Ljk3NzI1NyIsInVzZXJfaWQiOiIyMjBhNzMxZS01M2Y1LTRlNzItOGNlNi03NDhlMTIwOTJhYmUifQ.AoFcFgfx04L3AMmTB55RkzCPTClhFY55h4tuwDgT21k'\
+ -H 'content-length: 354'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Support often else safe.","courseId":"a5d39109-2ff8-4e0a-a292-ef65d8da9652","maxScore":92,"minScore":11,"orderIndex":43,"description":"Newspaper sound time effort social author himself. Role window quite hit meet.\nOver big mention first about. Total democratic scene your other. Boy measure maintain represent yard.","estimatedTime":"3 weeks"}'

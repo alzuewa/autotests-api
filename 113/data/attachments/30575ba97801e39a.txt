@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDEwOjMxOjU4Ljc2NDE4OSIsInVzZXJfaWQiOiJjNjBjMmExNC0yOWE3LTRlZDAtODA4NC02NmRhYjcyYWVjMmEifQ.rB_nu2fS-kehIAQh8VfHdBmf1Doa9gcyZGHnn8QuFAc'\
+ -H 'content-length: 352'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Involve check score protect.","maxScore":62,"minScore":20,"description":"Democrat hit pass likely movie single so common. Laugh too likely rich image establish visit social. Development just which trip.","estimatedTime":"9 weeks","previewFileId":"fcba5ed6-a867-466e-94b4-1d1b68a414b1","createdByUserId":"c60c2a14-29a7-4ed0-8084-66dab72aec2a"}'

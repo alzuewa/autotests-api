@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDEwOjMxOjU2LjYxODg5MiIsInVzZXJfaWQiOiIzYTc0Y2VlMy0xN2I1LTQ1YTgtOTU5Yi0yNzE1NGMwNTkxMzMifQ.ArBuMKFHF6E_v6y_FRT9dv5gWmOKRNojJZnHZC8Taf4'\
+ -H 'content-length: 321'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Institution family government loss.","maxScore":60,"minScore":25,"description":"Almost use score. Society us turn development born strategy. Rate now art project describe.","estimatedTime":"9 weeks","previewFileId":"d0f56b28-7325-4db9-9545-ef2d6eca6d0c","createdByUserId":"3a74cee3-17b5-45a8-959b-27154c059133"}'

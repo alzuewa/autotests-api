@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDEwOjMxOjU3Ljk3NzI1NyIsInVzZXJfaWQiOiIyMjBhNzMxZS01M2Y1LTRlNzItOGNlNi03NDhlMTIwOTJhYmUifQ.AoFcFgfx04L3AMmTB55RkzCPTClhFY55h4tuwDgT21k'\
+ -H 'content-length: 356'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Book moment majority rate effort scientist.","maxScore":93,"minScore":30,"description":"Center resource painting not defense evening actually. Happen war very blood country. Night fine magazine senior care.","estimatedTime":"3 weeks","previewFileId":"6f438c25-af93-4ece-a189-4ed049886c28","createdByUserId":"220a731e-53f5-4e72-8ce6-748e12092abe"}'

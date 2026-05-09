@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDEwOjMxOjU0LjMxOTI4NCIsInVzZXJfaWQiOiI4M2I2NzgxZC1hNjkzLTRjYzktYmVjMy1iMjY2ZGIzZTQ2ZWMifQ.n44GtKvsqqwZbq92FgdPJ7IRq242JvTAyKrhThTjdS8'\
+ -H 'content-length: 399'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Down question cultural pick teach administration short.","maxScore":59,"minScore":28,"description":"First movement work gun power campaign. Themselves certainly social professor. Much responsibility animal despite factor. Wrong themselves fill loss.","estimatedTime":"3 weeks","previewFileId":"7ec119ab-fa3b-4c8e-827d-396d567d9af5","createdByUserId":"83b6781d-a693-4cc9-bec3-b266db3e46ec"}'

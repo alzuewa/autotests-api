@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDEwOjMxOjU5LjQyMjA4NyIsInVzZXJfaWQiOiJiMDYxNTBmMi1jMGIwLTQwMTEtYWQ3Mi1lYzc5YjE0NWM1N2YifQ.PO4tIbpnXXpF79FDoCipoIXBDyBmtRWkRsoA76npZ6U'\
+ -H 'content-length: 396'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Bar mention indicate out must wear quality.","maxScore":80,"minScore":6,"description":"Stock work travel none.\nServe couple natural. Represent control thing move. Push could property.\nDecide bit born age food. Color defense worker action movie.","estimatedTime":"7 weeks","previewFileId":"71c2cd4c-f9d0-4fa7-b3f1-376d9ba96555","createdByUserId":"b06150f2-c0b0-4011-ad72-ec79b145c57f"}'

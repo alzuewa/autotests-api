@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDEwOjMxOjU1LjMxNzMxOCIsInVzZXJfaWQiOiJiY2VmZDYyMy1lYWY3LTRiNjEtYTM3OC0zMmZlMjEyM2YzNjYifQ.weWqF7tT3blnmixQkpVfth-7xXQo-vyqYCHjB_7E2OA'\
+ -H 'content-length: 427'\
+ -H 'content-type: application/json'\
+ -d '{"title":"National heart government place even.","maxScore":99,"minScore":17,"description":"Hair development across nor wall political. Few item hope which I suggest old turn.\nHealth believe wide.\nBed evening better recognize same out. Region family smile good memory receive remember.","estimatedTime":"7 weeks","previewFileId":"2b152650-1429-4ad1-ac63-39ca9b2226d3","createdByUserId":"bcefd623-eaf7-4b61-a378-32fe2123f366"}'

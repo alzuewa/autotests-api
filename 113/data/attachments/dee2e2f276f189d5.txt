@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA5VDEwOjMxOjU1Ljk2Nzg2OSIsInVzZXJfaWQiOiJmNzhjYzQ4OS0wYzYxLTQ0YjEtYTI5ZS0wYjc4ZTkxMTQzMGEifQ.mFT9CJ1FRTLEYWvEEunaW54BKzc9PpBsjjeTZFh-jt8'\
+ -H 'content-length: 373'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Sea no join not bill likely reality.","maxScore":95,"minScore":12,"description":"Letter let stay third lay herself. Hand already or. Community factor quickly woman.\nCar simply drop face evening view. Region window police.","estimatedTime":"10 weeks","previewFileId":"053b904a-0d13-48de-8ec3-a9b18f323d91","createdByUserId":"f78cc489-0c61-44b1-a29e-0b78e911430a"}'
