@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/78b88867-221c-498a-a1c8-1e2b7e6a14e6'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTE2VDEwOjQwOjEwLjI4OTM3MyIsInVzZXJfaWQiOiI2ZTYyNjZjZi05Y2JhLTRlZDQtYjgzOS00MGQ2YmJjY2YzYTIifQ.WpOv48lzIkYmvq43DaL3FxVbl5soibo61eqHWhqT0XM'\
+ -H 'content-length: 208'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Front age blue design catch.","maxScore":74,"minScore":4,"description":"Line central night all. Less represent end up national. Late of simple major daughter another lot.","estimatedTime":"7 weeks"}'

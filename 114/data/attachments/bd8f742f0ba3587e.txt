@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTE2VDEwOjQwOjEwLjU2MzM4NyIsInVzZXJfaWQiOiI2OTIzZTY0MS0yYWVhLTRmNTAtOGNmYS1mNGY5NjMyZDNiZmEifQ.oKcPab-ogU6RymMLMfT5H0cbN25Z_UUDIhFzKb1S_bc'\
+ -H 'content-length: 371'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Very southern memory religious.","maxScore":64,"minScore":2,"description":"Final book discover century through dream customer. Although management marriage down generation break.\nWord discussion gun old style who career.","estimatedTime":"2 weeks","previewFileId":"36c920fa-f589-49f8-b684-6d3a71e511f0","createdByUserId":"6923e641-2aea-4f50-8cfa-f4f9632d3bfa"}'

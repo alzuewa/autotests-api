@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTE2VDEwOjQwOjEwLjI4OTM3MyIsInVzZXJfaWQiOiI2ZTYyNjZjZi05Y2JhLTRlZDQtYjgzOS00MGQ2YmJjY2YzYTIifQ.WpOv48lzIkYmvq43DaL3FxVbl5soibo61eqHWhqT0XM'\
+ -H 'content-length: 394'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Series firm production sure no office car.","maxScore":68,"minScore":25,"description":"Chair production medical class. Yeah budget cultural thought you edge.\nFull bad represent college civil mission.\nPretty large we begin meeting never treat.","estimatedTime":"4 weeks","previewFileId":"cb170135-4c5f-4bdf-9885-8ca59ca7d750","createdByUserId":"6e6266cf-9cba-4ed4-b839-40d6bbccf3a2"}'

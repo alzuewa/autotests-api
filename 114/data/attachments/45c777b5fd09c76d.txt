@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTE2VDEwOjQwOjExLjgwMDU4OCIsInVzZXJfaWQiOiI4ZTQ2MTY5YS01ZmVmLTQxMTctYjMwNC04OWQ2ZWI4N2Y4NDEifQ.kGzxui0Kd7nbsZuBJ450eKZ9EqK2ducYlNIq2KakrhE'\
+ -H 'content-length: 367'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Type husband up plant suggest chair.","maxScore":62,"minScore":13,"description":"Positive wall product leg pull life public left. Suddenly toward well walk speak. Face relationship point mission TV treatment director.","estimatedTime":"5 weeks","previewFileId":"27fd031a-7570-404e-a97c-79df9ccbcbb5","createdByUserId":"8e46169a-5fef-4117-b304-89d6eb87f841"}'

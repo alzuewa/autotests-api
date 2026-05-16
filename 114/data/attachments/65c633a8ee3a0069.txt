@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTE2VDEwOjQwOjA4Ljc1MTY2MiIsInVzZXJfaWQiOiJjYzFjYzAyYi00Y2FjLTQ4NTYtODY3Mi1mY2MzOGI5NTkzYTIifQ.UzSvnaC_CazY-V41o_vsPKx53F4WMohIOWGu2drXEqE'\
+ -H 'content-length: 428'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Suddenly information because hard special.","maxScore":83,"minScore":13,"description":"Head town who activity too second board town. Notice college tend risk share woman. Talk effect easy explain president today pattern.\nTravel life television analysis not. System answer girl.","estimatedTime":"3 weeks","previewFileId":"a7216d1c-90f1-4c44-afb1-8d9625d448e4","createdByUserId":"cc1cc02b-4cac-4856-8672-fcc38b9593a2"}'

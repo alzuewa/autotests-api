@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTE2VDEwOjQwOjExLjUyNTA0MCIsInVzZXJfaWQiOiI1ZDg0MzY1ZS0zNGZlLTQ1ZDAtODM3Yy0xZDljYjQ0MWYxMTUifQ.aRCSJBta15zMHioV68BLWWzn03Ue3gSwdoa0Xy41ikY'\
+ -H 'content-length: 362'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Whatever or dark beat.","maxScore":55,"minScore":11,"description":"Three group work window executive west.\nOnto writer color certain hope clear campaign. Amount somebody not concern we size decision institution.","estimatedTime":"4 weeks","previewFileId":"77b50ecf-0961-48e2-bb70-5804d24bd73d","createdByUserId":"5d84365e-34fe-45d0-837c-1d9cb441f115"}'

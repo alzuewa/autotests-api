@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTE2VDEwOjQwOjEzLjExNjI4NiIsInVzZXJfaWQiOiI0NTJiNTJkNS1lYzVlLTRjNWMtODY0NS05MDU0M2ZhNWNmNTAifQ.5rUdxqmBAogn9sQegJYSoG3RVOgBggUQwpUpl2vz_zI'\
+ -H 'content-length: 379'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Law treatment draw go bank.","maxScore":80,"minScore":24,"description":"Way response every traditional line last.\nSmile serious help job scientist final serious. Them here wife light both.\nCup couple officer control part sort.","estimatedTime":"10 weeks","previewFileId":"b856e0d6-3ab6-4a08-99eb-287048267c1e","createdByUserId":"452b52d5-ec5e-4c5c-8645-90543fa5cf50"}'

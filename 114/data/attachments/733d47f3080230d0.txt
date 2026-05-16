@@ -1,0 +1,33 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send GET request to http://localhost:8000/api/v1/courses?userId=cc1cc02b-4cac-4856-8672-fcc38b9593a2
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses?userId=cc1cc02b-4cac-4856-8672-fcc38b9593a2
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:53 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:74 Check that "courses's" length equals 1
+INFO     COURSES_ASSERTIONS:courses.py:28 Check course
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "edec29d4-8131-416c-ba8e-27f679e71897"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Suddenly information because hard special."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "83"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "13"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Head town who activity too second board town. Notice college tend risk share woman. Talk effect easy explain president today pattern.
+Travel life television analysis not. System answer girl."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "3 weeks"
+INFO     FILES_ASSERTIONS:files.py:49 Check create file
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "a7216d1c-90f1-4c44-afb1-8d9625d448e4"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "url" equals "http://localhost:8000/static/test_files/278ff5c3-a4bb-4f8c-b1bd-8ce34abe649a.jpg"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "filename" equals "278ff5c3-a4bb-4f8c-b1bd-8ce34abe649a.jpg"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "directory" equals "test_files"
+INFO     USERS_ASSERTIONS:users.py:44 Check user
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "cc1cc02b-4cac-4856-8672-fcc38b9593a2"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "email" equals "nicole85@example.net"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "last_name" equals "Baker"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "first_name" equals "Jessica"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "middle_name" equals "Donald"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema
