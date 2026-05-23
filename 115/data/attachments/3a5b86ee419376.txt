@@ -1,0 +1,18 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send PATCH request to http://localhost:8000/api/v1/courses/29f388c9-c839-4d2a-87ef-83937cb185e0
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses/29f388c9-c839-4d2a-87ef-83937cb185e0
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:97 Check update course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Year but white travel information."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "77"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "9"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Outside give suffer sure ball foot language. Amount common still language interesting PM across. Form bag away great action base. Reality education win not indicate artist."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "2 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

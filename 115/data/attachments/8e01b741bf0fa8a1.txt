@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTIzVDEwOjUzOjM2LjA1ODA5MiIsInVzZXJfaWQiOiI2ZjQ3YzIzNy1hYzk1LTRiOWQtODM2Mi1lZTdkMmNiMWJmZjIifQ.NOnhIGeqcT5clLPgzSt1MnJpkGpZ33vXPvY8VAKumiY'\
+ -H 'content-length: 420'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Special check series talk another relate.","maxScore":54,"minScore":19,"description":"Attention since table easy place end job. Manage difference artist case.\nJob station town section. Nature as dark during prove.\nRaise hot provide water rock. Job mean director fund.","estimatedTime":"10 weeks","previewFileId":"04b768e0-3a61-4153-a518-5dc3fed813cd","createdByUserId":"6f47c237-ac95-4b9d-8362-ee7d2cb1bff2"}'

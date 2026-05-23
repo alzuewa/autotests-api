@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTIzVDEwOjUzOjMyLjk0ODUxOSIsInVzZXJfaWQiOiI3MzNmZTAwMi1iZDlmLTRlNjEtODQxOC04NjMyOGFhZmJkNjAifQ.B7QXgf_JLnToL0LQV_zjMu53JaALcqzD0TRRD6TfOSE'\
+ -H 'content-length: 362'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Amount while still rise writer.","maxScore":98,"minScore":23,"description":"Compare region wish drive worry include.\nAbility road deal simply seat. Billion until animal source rule. Finish interview as young or.","estimatedTime":"7 weeks","previewFileId":"cbfcd03b-992d-4780-af65-61de698425ca","createdByUserId":"733fe002-bd9f-4e61-8418-86328aafbd60"}'

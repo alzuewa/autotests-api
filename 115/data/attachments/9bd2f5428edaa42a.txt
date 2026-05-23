@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTIzVDEwOjUzOjM2LjcyMDM3OCIsInVzZXJfaWQiOiIyZmY3M2M4Yy1lYmE3LTQxZGQtYTg2OC05ZjVjZTIyYjYxNTIifQ.QSzlegBRiXSWLgV6l2fBs57bYqtLT7B_iG9fldNqxDc'\
+ -H 'content-length: 308'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Camera six arm might character.","maxScore":99,"minScore":25,"description":"Whose star himself civil southern trial democratic. East appear middle gas within.","estimatedTime":"7 weeks","previewFileId":"961f648b-905f-43ca-ac3b-92a288c65fc6","createdByUserId":"2ff73c8c-eba7-41dd-a868-9f5ce22b6152"}'

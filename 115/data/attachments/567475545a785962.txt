@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTIzVDEwOjUzOjM0Ljc4MTAyMyIsInVzZXJfaWQiOiI2ODg1ODQ0ZC1iYmRiLTQ1YzMtYTg1Ni0zMzNkMzdiNDBjYWEifQ.UOKk2k0b3zUG8H69XiS5LDUmND-s154CJu8wLY48wEo'\
+ -H 'content-length: 410'\
+ -H 'content-type: application/json'\
+ -d '{"title":"East phone blood.","maxScore":83,"minScore":22,"description":"For seat soldier someone. Accept alone red loss turn whose.\nModern table Democrat sometimes stuff front. Perform garden attorney foot indicate. Phone send several despite. Bill society beyond born.","estimatedTime":"6 weeks","previewFileId":"ee834c7c-e998-42a6-a7da-551e4506e8c3","createdByUserId":"6885844d-bbdb-45c3-a856-333d37b40caa"}'

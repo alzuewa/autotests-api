@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTIzVDEwOjUzOjMzLjUyOTMzMyIsInVzZXJfaWQiOiJkMTczMWRlNS1hZTRhLTRhNDktOGQ1Zi1kNzg1NmViNzA4MWIifQ.oauJ9WVmtJJAfnzrYy-VmqQ60xxCHEas6gScFEIFfbQ'\
+ -H 'content-length: 402'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Simple mention air point pretty read outside.","maxScore":70,"minScore":13,"description":"Development only population drive them. Stock religious appear reduce condition many.\nNote drive organization pretty usually true they. Option any baby consider.","estimatedTime":"6 weeks","previewFileId":"cd65bda7-82d7-4645-8962-479ad5bfb47a","createdByUserId":"d1731de5-ae4a-4a49-8d5f-d7856eb7081b"}'

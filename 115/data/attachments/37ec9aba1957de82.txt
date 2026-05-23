@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTIzVDEwOjUzOjM0LjE5NjIyMCIsInVzZXJfaWQiOiIzYzNkNDM1OC1kNTY4LTRiZjQtYjAxYi05ZGIyOTRjMTg1ZDYifQ.PJxXoN3fDRnRoAEiIx6F8M9sMcxl_apkkRwmCHona7o'\
+ -H 'content-length: 306'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Someone report window brother car.","maxScore":52,"minScore":26,"description":"Least toward large people job budget. Miss simply inside development science.","estimatedTime":"8 weeks","previewFileId":"34f6b6d6-3ce5-4602-b8fe-eee136a27e17","createdByUserId":"3c3d4358-d568-4bf4-b01b-9db294c185d6"}'

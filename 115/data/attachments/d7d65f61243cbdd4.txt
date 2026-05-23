@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/29f388c9-c839-4d2a-87ef-83937cb185e0'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTIzVDEwOjUzOjMzLjUyOTMzMyIsInVzZXJfaWQiOiJkMTczMWRlNS1hZTRhLTRhNDktOGQ1Zi1kNzg1NmViNzA4MWIifQ.oauJ9WVmtJJAfnzrYy-VmqQ60xxCHEas6gScFEIFfbQ'\
+ -H 'content-length: 288'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Year but white travel information.","maxScore":77,"minScore":9,"description":"Outside give suffer sure ball foot language. Amount common still language interesting PM across. Form bag away great action base. Reality education win not indicate artist.","estimatedTime":"2 weeks"}'

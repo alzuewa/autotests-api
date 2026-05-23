@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTIzVDEwOjUzOjM2LjA1ODA5MiIsInVzZXJfaWQiOiI2ZjQ3YzIzNy1hYzk1LTRiOWQtODM2Mi1lZTdkMmNiMWJmZjIifQ.NOnhIGeqcT5clLPgzSt1MnJpkGpZ33vXPvY8VAKumiY'\
+ -H 'content-length: 287'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Close attention attack long.","courseId":"aad89098-8c81-4ab1-9e60-8c7a2e60d367","maxScore":66,"minScore":9,"orderIndex":52,"description":"Local too give national. Marriage voice already their notice national economic. Down environment hope least us.","estimatedTime":"5 weeks"}'

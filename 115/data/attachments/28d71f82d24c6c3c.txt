@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTIzVDEwOjUzOjM0LjE5NjIyMCIsInVzZXJfaWQiOiIzYzNkNDM1OC1kNTY4LTRiZjQtYjAxYi05ZGIyOTRjMTg1ZDYifQ.PJxXoN3fDRnRoAEiIx6F8M9sMcxl_apkkRwmCHona7o'\
+ -H 'content-length: 282'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Air on he modern hundred yet her.","courseId":"f44a6003-0fb9-4f40-8994-692e70c37387","maxScore":69,"minScore":3,"orderIndex":76,"description":"Him remember give wind PM middle establish. I watch task smile rich apply father. Pm store door fact.","estimatedTime":"6 weeks"}'

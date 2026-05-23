@@ -1,0 +1,22 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:27 Send PATCH request to http://localhost:8000/api/v1/exercises/73d7c5e0-8a74-4369-a8e6-93845f899718
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/exercises/73d7c5e0-8a74-4369-a8e6-93845f899718
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:93 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Skill enough including rest rather."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "81"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "30"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals "68"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Beat dark future entire. College those billion Mrs national.
+Start perform what. Top key serve suddenly you day."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "4 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

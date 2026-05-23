@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTIzVDEwOjUzOjM1LjQ0NDg3MyIsInVzZXJfaWQiOiJlNWVjZDk5MS1lYjcwLTRkZjYtYjRmNy0xMmIyNTYxMTJjMDMifQ.yKGDJZgH2amqPQVnkn8HduHZozQiSLEDho_70wqF-U4'\
+ -H 'content-length: 334'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Even reflect specific along.","maxScore":61,"minScore":12,"description":"Especially role north admit matter. Who least poor determine executive seat. Add cause much government popular.","estimatedTime":"4 weeks","previewFileId":"c4255f36-e16b-4257-a3f8-bdb2dafde76a","createdByUserId":"e5ecd991-eb70-4df6-b4f7-12b256112c03"}'
