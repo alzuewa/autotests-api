@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTMwVDExOjE0OjQ2Ljg1Mzk0OCIsInVzZXJfaWQiOiI0OTNiZDM5Zi0xZWYxLTQ0NDEtYTc3MS0xOWFkOGRiZDZkY2MifQ.ZK6gFCcg8EvLLrlnbtPm9rmUIFiOWRt8ltKlwqC8sbQ'\
+ -H 'content-length: 300'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Political modern life maintain.","maxScore":100,"minScore":17,"description":"A involve they employee better magazine save. Meet father its up service.","estimatedTime":"2 weeks","previewFileId":"e57674b8-d00b-4ef9-88a6-423b83b5c079","createdByUserId":"493bd39f-1ef1-4441-a771-19ad8dbd6dcc"}'

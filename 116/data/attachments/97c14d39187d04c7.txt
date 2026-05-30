@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTMwVDExOjE0OjQ4LjIxNTQ3OSIsInVzZXJfaWQiOiJhMjYwOWVmZC1kYmE1LTQzOTMtOTM3Mi1iYjU4MDVmNDM2ZTUifQ.IdUOWxeWukc2InQhmBkxeKP6aEdlqCKnZYuhK1ctJko'\
+ -H 'content-length: 429'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Right interesting seven job put send common.","maxScore":95,"minScore":21,"description":"Middle whatever impact data discuss reflect talk. Course else western.\nMeasure door citizen look consumer spend story on. Fast father TV tax. Clearly name especially seek return need laugh.","estimatedTime":"9 weeks","previewFileId":"38945b8d-c61d-4930-9b59-fccd9c73e219","createdByUserId":"a2609efd-dba5-4393-9372-bb5805f436e5"}'

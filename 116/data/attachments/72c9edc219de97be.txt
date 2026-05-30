@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTMwVDExOjE0OjQ5LjExMTI5MiIsInVzZXJfaWQiOiJiNmFkNGI1Zi0xMDI1LTRmYjItODBkZi1jZmQyODQ3ZDZlN2QifQ.SXM6D-QK8LpR9yY1lIU_PHx__vWYNuW2n6AuJaamRGQ'\
+ -H 'content-length: 417'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Door floor end board although work address.","maxScore":90,"minScore":20,"description":"Policy leader page new growth worker we. Door garden director table family.\nIndicate space sit age structure rise. How level cover who decide. Stay event voice along pick wonder.","estimatedTime":"4 weeks","previewFileId":"753f3c96-e344-46cf-a94b-9e5132cc4e99","createdByUserId":"b6ad4b5f-1025-4fb2-80df-cfd2847d6e7d"}'

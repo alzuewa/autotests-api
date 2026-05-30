@@ -1,0 +1,22 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:27 Send PATCH request to http://localhost:8000/api/v1/exercises/55a7576c-f27f-4283-85a9-c2260fefc83e
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/exercises/55a7576c-f27f-4283-85a9-c2260fefc83e
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:93 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Blue this wife blood degree worker word religious."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "73"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "20"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals "1"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Miss wind same visit. Writer treatment free interesting move which against. Conference and poor ever.
+Picture tough guy. Others building worker matter any figure."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "7 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

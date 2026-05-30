@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTMwVDExOjE0OjQ1Ljc5MDQ3NSIsInVzZXJfaWQiOiI5YTVhMDQxMi00OGFkLTRmMjctYWI4Yi03MTg3ODk4MDIwNGEifQ.uwL7ojlNnAJV4E98HUQ2phfJStHHdyKYXrFccBKgyMg'\
+ -H 'content-length: 422'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Data glass easy box argue dinner sell.","maxScore":87,"minScore":5,"description":"Fact catch short claim over daughter six. Try long trial vote administration.\nWoman rock base guess within. Region number administration side remember leader exactly. Play follow dinner by.","estimatedTime":"9 weeks","previewFileId":"80cba94c-5024-4463-9d6f-263d4c153f51","createdByUserId":"9a5a0412-48ad-4f27-ab8b-71878980204a"}'

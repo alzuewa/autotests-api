@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTMwVDExOjE0OjQ2LjQyNjM1OSIsInVzZXJfaWQiOiI0MjIxYTYzOC1hMGFmLTRhMWMtYjUxZS1kYTA0ZjI1MjFiMTgifQ.olqB_O08UrE0FQETGrpJ3ndpKfRxHzsSTvtV2QUDiZM'\
+ -H 'content-length: 391'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Money look occur score baby small central.","maxScore":93,"minScore":16,"description":"Action provide night the continue threat.\nProbably father medical human fund. Our science study find condition stand. Old generation protect sell effect.","estimatedTime":"8 weeks","previewFileId":"4350126f-7b74-4c17-8170-ebc4ce47e3cb","createdByUserId":"4221a638-a0af-4a1c-b51e-da04f2521b18"}'

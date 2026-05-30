@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTMwVDExOjE0OjQ4LjAyMjcwMCIsInVzZXJfaWQiOiIyMDdkOTBjZS05NTNhLTRlMzctODcxYi0zOTlkZmQ2ZmEzZjIifQ.6pjX2N5a364GvribZAefuZYsEXtmMOX_LuCHWnXOECM'\
+ -H 'content-length: 427'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Finish large until soon pick quickly include.","maxScore":76,"minScore":11,"description":"Would reduce reason appear item air fire. Heart follow this across time what no.\nUse others agency factor painting college interview eight. Treat center lawyer. Degree theory agree hard.","estimatedTime":"6 weeks","previewFileId":"0d6d3c3b-8f59-42c4-830d-b834f74c20f3","createdByUserId":"207d90ce-953a-4e37-871b-399dfd6fa3f2"}'

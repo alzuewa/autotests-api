@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTMwVDExOjE0OjQ5LjMwMzc3NCIsInVzZXJfaWQiOiJkZTE3NzQ0NC1lODlhLTRmZWItYWYwMC0wZjAxZjZiYzZhNTgifQ.wTzq3awWFpZYRReBlvq-DgyEoNh7x5XYGoSshn5xv5c'\
+ -H 'content-length: 378'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Structure quality play value save watch friend although.","maxScore":95,"minScore":10,"description":"Everything political anyone behind for. Cultural class information experience son his. Television for sign radio southern view.","estimatedTime":"2 weeks","previewFileId":"329bfec9-5d06-4ee4-b564-c43203c8b768","createdByUserId":"de177444-e89a-4feb-af00-0f01f6bc6a58"}'
