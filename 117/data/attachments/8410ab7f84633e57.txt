@@ -1,0 +1,33 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send GET request to http://localhost:8000/api/v1/courses?userId=2f6fe9bb-9ff9-45b9-b15e-376dc0509b50
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses?userId=2f6fe9bb-9ff9-45b9-b15e-376dc0509b50
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:53 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:74 Check that "courses's" length equals 1
+INFO     COURSES_ASSERTIONS:courses.py:28 Check course
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "ffef1934-0a0b-4e91-ac2e-1783d66c64b4"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Hit film participant model response discuss even."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "63"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "18"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Rest kitchen increase power method. Not field leg city fine few sea dinner. Actually PM fill official blue majority. Institution family painting test food Mrs."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "2 weeks"
+INFO     FILES_ASSERTIONS:files.py:49 Check create file
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "310744c8-b6f2-4743-b520-9c44e6f0a26b"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "url" equals "http://localhost:8000/static/test_files/6beb0e4e-c593-4f60-a3dd-8fc4e87b0cec.jpg"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "filename" equals "6beb0e4e-c593-4f60-a3dd-8fc4e87b0cec.jpg"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "directory" equals "test_files"
+INFO     USERS_ASSERTIONS:users.py:44 Check user
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "2f6fe9bb-9ff9-45b9-b15e-376dc0509b50"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "email" equals "nvalencia@example.net"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "last_name" equals "Christensen"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "first_name" equals "George"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "middle_name" equals "Stacey"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

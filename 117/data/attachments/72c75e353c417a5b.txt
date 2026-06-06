@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDExOjIwOjQwLjY5MjI5MSIsInVzZXJfaWQiOiI5ODMxYWY1Zi1hNTNhLTQ4OTctOGVjYi1kNmUzMmY1OTJhYTEifQ.G_p8JJwyAbdkWRzJ0Rv9UM1C32rEvj1DKjaRBsZsQnE'\
+ -H 'content-length: 366'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Everyone goal within partner nice owner exactly.","maxScore":58,"minScore":13,"description":"Month deal road Mrs college. View avoid try. New green great.\nWest start appear face region so. Someone water improve red.","estimatedTime":"3 weeks","previewFileId":"c8321ae3-bd19-4837-8b08-7e51887ddb2e","createdByUserId":"9831af5f-a53a-4897-8ecb-d6e32f592aa1"}'

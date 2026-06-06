@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDExOjIwOjQwLjY5MjI5MSIsInVzZXJfaWQiOiI5ODMxYWY1Zi1hNTNhLTQ4OTctOGVjYi1kNmUzMmY1OTJhYTEifQ.G_p8JJwyAbdkWRzJ0Rv9UM1C32rEvj1DKjaRBsZsQnE'\
+ -H 'content-length: 383'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Decision chair huge shoulder choose cold somebody.","courseId":"a932a5c7-d0f8-4674-b068-cab6ec011c99","maxScore":70,"minScore":16,"orderIndex":32,"description":"Ahead news idea offer free say.\nSpeak idea him age her politics popular. Field firm argue thus image. Better participant television mouth product plan. Design guy college and station.","estimatedTime":"8 weeks"}'

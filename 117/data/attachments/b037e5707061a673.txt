@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDExOjIwOjM4Ljk4Mzg0NCIsInVzZXJfaWQiOiIwMWFlZWFkNy0xMDg0LTRiNjYtYTM2MC0xMjcyYzgzNjNjOTIifQ.h1K2L6dIQvHY6MYMb7rU6-dRHJ6PxduzcnwMVNI0GZI'\
+ -H 'content-length: 443'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Seven third garden nor many human responsibility garden.","maxScore":52,"minScore":22,"description":"Response ability agency about capital. Activity goal skill according early senior. Strong news painting likely happy else. Most drive safe sometimes far by.\nFederal catch administration mind.","estimatedTime":"7 weeks","previewFileId":"142a9b1e-4cf5-447b-a446-14ed24401d74","createdByUserId":"01aeead7-1084-4b66-a360-1272c8363c92"}'

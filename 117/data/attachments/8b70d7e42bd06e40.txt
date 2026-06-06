@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDExOjIwOjM3LjU1MjAxNiIsInVzZXJfaWQiOiIyZjZmZTliYi05ZmY5LTQ1YjktYjE1ZS0zNzZkYzA1MDliNTAifQ.G8WxoyaEvS-aUXNiWxKmLT8MmzNQdHuIZJb-KprF1pY'\
+ -H 'content-length: 403'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Hit film participant model response discuss even.","maxScore":63,"minScore":18,"description":"Rest kitchen increase power method. Not field leg city fine few sea dinner. Actually PM fill official blue majority. Institution family painting test food Mrs.","estimatedTime":"2 weeks","previewFileId":"310744c8-b6f2-4743-b520-9c44e6f0a26b","createdByUserId":"2f6fe9bb-9ff9-45b9-b15e-376dc0509b50"}'

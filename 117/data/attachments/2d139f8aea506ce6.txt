@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDExOjIwOjQxLjkzMjIyOSIsInVzZXJfaWQiOiIyMmYxMjZmYi05ZWQxLTQ0NWEtOTRhNS0xN2M5NTU2MGFkYWUifQ.6tw4L-fgByuoKqE2KA1ud64gk4L3zkUtpdgTgBTOULY'\
+ -H 'content-length: 365'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Next look article positive provide.","maxScore":98,"minScore":14,"description":"Cup give community material push western begin. Challenge only bed north brother. Employee adult size market catch prepare toward send.","estimatedTime":"9 weeks","previewFileId":"2f9c6cec-c7dc-4bae-a967-2f85f13fd831","createdByUserId":"22f126fb-9ed1-445a-94a5-17c95560adae"}'

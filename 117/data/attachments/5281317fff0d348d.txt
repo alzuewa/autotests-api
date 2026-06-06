@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDExOjIwOjQwLjQzMjczMSIsInVzZXJfaWQiOiIzNzRlNmU4Yy0wZTU2LTRkYzMtYjBiYS0xZTU1ZTc3NjYxYWMifQ.bM0jyHiIuirYwsuZBCAZgf0RttlhAVWoBeueoEbGVF4'\
+ -H 'content-length: 310'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Speak bank sign old partner community stop.","courseId":"6a03eeaa-886c-4592-9e82-2b5c9cb6e71f","maxScore":67,"minScore":10,"orderIndex":42,"description":"Civil development range I. Share bill both worry produce look free remain. Each worker can itself later sometimes dog.","estimatedTime":"2 weeks"}'

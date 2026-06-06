@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDExOjIwOjM5LjUzODI2MCIsInVzZXJfaWQiOiJlZTRjYTY0Yi0xNzQ5LTQ0MGItYjljNS0zOThkMzg3YTE2NWMifQ.Ps9INVqdrZtDaKhZbJ1NilqsARXyPntY5C5yBTSP31A'\
+ -H 'content-length: 398'\
+ -H 'content-type: application/json'\
+ -d '{"title":"North usually news.","maxScore":68,"minScore":1,"description":"Everybody yourself perhaps ever majority lot sit. Together surface be health. Decide few wear raise. Your far event become war.\nBase store scientist grow. Democratic attorney activity.","estimatedTime":"6 weeks","previewFileId":"d171c6bc-b2d0-4376-bda9-5b145d48749c","createdByUserId":"ee4ca64b-1749-440b-b9c5-398d387a165c"}'
