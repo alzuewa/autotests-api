@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/1ca376fb-f980-4f20-ac31-e35444031a45'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTEzVDExOjQwOjE4LjU5NzM5NCIsInVzZXJfaWQiOiIwZjBmNDBmNy02NzFiLTQ0ZmQtOGI3ZC02M2IyYjgxMGVkNzUifQ.Ft2EdxRJXcUEja7N6KO1qFRZlBjqlCxxZbS-t2tnJmE'\
+ -H 'content-length: 234'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Film back fight usually star during computer arm.","maxScore":83,"minScore":6,"description":"Must job together size apply. Resource stage culture long benefit. Onto campaign something each attack.","estimatedTime":"4 weeks"}'

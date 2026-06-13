@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTEzVDExOjQwOjIwLjI3MTg5MyIsInVzZXJfaWQiOiJhOTQ5Njk5ZC1iZDc3LTQ2NTctOGZjNy1jM2EwOGE1ZmMyMGIifQ.kpgDSnEAqnr0FUGBQelxBIHW1tew5Q09c-XE_D5FS0k'\
+ -H 'content-length: 404'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Develop keep risk professional business remember reach.","maxScore":65,"minScore":6,"description":"Trial soldier argue always too dark. Age benefit answer nation house strong phone. Commercial popular day light western. It ten baby ahead hard give radio.","estimatedTime":"4 weeks","previewFileId":"e4d108ea-54ca-43bd-a5e0-a82c449b284d","createdByUserId":"a949699d-bd77-4657-8fc7-c3a08a5fc20b"}'

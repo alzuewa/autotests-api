@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/exercises/e75231ed-2be4-460b-8540-a31f47d34815'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTEzVDExOjQwOjIwLjI3MTg5MyIsInVzZXJfaWQiOiJhOTQ5Njk5ZC1iZDc3LTQ2NTctOGZjNy1jM2EwOGE1ZmMyMGIifQ.kpgDSnEAqnr0FUGBQelxBIHW1tew5Q09c-XE_D5FS0k'\
+ -H 'content-length: 310'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Tonight accept too cost simple drop white.","maxScore":99,"minScore":1,"orderIndex":62,"description":"Southern health TV include executive final including today. Few who minute street. Cold over deep name although. Professional treat keep experience little blue certainly.","estimatedTime":"5 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTEzVDExOjQwOjE5LjI0NTU1NCIsInVzZXJfaWQiOiJkZWI2ZjNiYi04ZWRlLTQxMWEtOGYwYi1jMjBmZDVkZTQ0NjYifQ.SgIktvKsy86QZU4tDJxRs8Sismkmi_KQvXEUzs9C_tU'\
+ -H 'content-length: 382'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Challenge within mouth could herself concern quality.","maxScore":72,"minScore":11,"description":"Form radio nothing. Enjoy suffer method difference discussion behavior wish it. Drug live field director policy major soon collection.","estimatedTime":"6 weeks","previewFileId":"d1cb7596-7d8b-4fcd-8849-a28ed4daf9b9","createdByUserId":"deb6f3bb-8ede-411a-8f0b-c20fd5de4466"}'

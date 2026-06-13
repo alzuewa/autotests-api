@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTEzVDExOjQwOjIwLjU4MTE4NyIsInVzZXJfaWQiOiIyMThhNDQ4OS1lYTgzLTRkMTItYTMxYy1jNTdkYjg5ZWRjYzMifQ.Hyucdz12irnqr2Z5O95lPu-K7nwATpwqXzH7cdSU7bw'\
+ -H 'content-length: 293'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Leader into war maybe recent.","courseId":"38378f11-b8c6-45dd-8075-0e1dc6c09ecb","maxScore":87,"minScore":30,"orderIndex":43,"description":"Technology note vote strong mission brother reality. Thought culture word perhaps explain.\nPlan notice nation day.","estimatedTime":"5 weeks"}'

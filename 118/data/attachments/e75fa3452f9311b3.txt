@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTEzVDExOjQwOjE3Ljk0NjY5MiIsInVzZXJfaWQiOiIxNGZhNzI4NC0wMGQzLTQyNzctYmFlZC1kNDM2NTA0NzUyY2QifQ.TUblF-gKMK49Gg1fITYmJDE30r6ewy2v78CX1R8z1u4'\
+ -H 'content-length: 361'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Threat first hit example.","maxScore":100,"minScore":5,"description":"Social heavy computer organization more month college. Day away effort ability stage several. Them yard word maybe nice want page conference.","estimatedTime":"4 weeks","previewFileId":"ba7e1112-e74a-48b7-9973-222a232dc276","createdByUserId":"14fa7284-00d3-4277-baed-d436504752cd"}'

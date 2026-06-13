@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTEzVDExOjQwOjIxLjM4MDExNCIsInVzZXJfaWQiOiJmN2E2Njk1MS01M2VmLTQ5ZWItOWMwMy1iMTkwOGY4NWQ3ZTgifQ.vE33HutqPVZnqpBtxDg9HOsDckmr0uHdcNhONzrOXpA'\
+ -H 'content-length: 380'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Everyone itself exist will she space buy.","maxScore":86,"minScore":12,"description":"Defense box take letter away try according. Economy break both performance purpose class.\nBudget report admit option. Name Mrs trip tree card.","estimatedTime":"10 weeks","previewFileId":"da6168d5-4da9-406c-bd4d-c60df786b461","createdByUserId":"f7a66951-53ef-49eb-9c03-b1908f85d7e8"}'

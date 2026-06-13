@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTEzVDExOjQwOjIyLjAzODQwNyIsInVzZXJfaWQiOiJlZWJjYTdiNC00ZWFlLTRhMzQtYmQwZi1kY2RkNjAzNTE5ZDAifQ.V8U82k3pjyjxgjQxVQRWoIyVgWG2d3zcFE2VWl6bwuw'\
+ -H 'content-length: 313'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Wide level number reveal movie before.","maxScore":81,"minScore":7,"description":"Begin she whom nation management wish why cover. Room nor phone lose next doctor.","estimatedTime":"2 weeks","previewFileId":"ef6c410f-4bd9-4737-8c6f-99c4cb28518d","createdByUserId":"eebca7b4-4eae-4a34-bd0f-dcdd603519d0"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTEzVDExOjQwOjE4LjU5NzM5NCIsInVzZXJfaWQiOiIwZjBmNDBmNy02NzFiLTQ0ZmQtOGI3ZC02M2IyYjgxMGVkNzUifQ.Ft2EdxRJXcUEja7N6KO1qFRZlBjqlCxxZbS-t2tnJmE'\
+ -H 'content-length: 372'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Generation future hard something wide.","maxScore":96,"minScore":16,"description":"Talk often real race far.\nTravel middle try hit coach left we off. Decide travel law dinner. Career difference talk down night wait power.","estimatedTime":"7 weeks","previewFileId":"3689b9b5-0355-4267-86ad-e5dedd3b4742","createdByUserId":"0f0f40f7-671b-44fd-8b7d-63b2b810ed75"}'
