@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTIwVDExOjQxOjA0LjcwNzY3NSIsInVzZXJfaWQiOiJlMjFjMDJlOS1lNWMyLTRlZTktYTEyOC1kODg0ZjZmNjU0NWYifQ.52_mgwC0YLwxe1ZiT_g8Ygft1Cik9vTCFfmGbtS0Rxk'\
+ -H 'content-length: 382'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Trip full bad image.","maxScore":100,"minScore":9,"description":"Say fund any government garden. Ahead maintain fire Republican sense recognize early. Call board tree nearly everybody produce eat.\nMy hand reality care process hour.","estimatedTime":"2 weeks","previewFileId":"e063916f-80d5-402c-9045-d325cda0509f","createdByUserId":"e21c02e9-e5c2-4ee9-a128-d884f6f6545f"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTIwVDExOjQxOjAwLjA2MDg1OCIsInVzZXJfaWQiOiJjMWEwODdmNC03NmVjLTQwMGMtYjEwYy01Mjg0M2NhNjI5NGYifQ.jaMrM3QcdYFrKrjzZ4Tfpjv4xPmEIZyFMVbHAEpoTbY'\
+ -H 'content-length: 346'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Help manager toward best with body professional.","maxScore":80,"minScore":23,"description":"Federal boy per.\nSo couple order although sister until question. Along realize case easy center eight.","estimatedTime":"5 weeks","previewFileId":"867170af-9c30-47fe-b8bf-761cc3687cf6","createdByUserId":"c1a087f4-76ec-400c-b10c-52843ca6294f"}'

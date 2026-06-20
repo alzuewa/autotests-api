@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTIwVDExOjQxOjA0LjExNzc2OCIsInVzZXJfaWQiOiI3NjQ5YzI1My05ZGQ4LTRkYWUtYjk5ZS00ZWFlOWU4ZTFkYTMifQ.slhCt9bWilD29w12_d85TsKOEmk_MoJnpRkHcZE2jl4'\
+ -H 'content-length: 338'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Oil enter sing various today wear care.","maxScore":71,"minScore":6,"description":"And international despite reality young do medical.\nOver quite similar mean pay discuss. Full get check.","estimatedTime":"2 weeks","previewFileId":"5a752cf0-5447-424c-8de9-6489ff4598f9","createdByUserId":"7649c253-9dd8-4dae-b99e-4eae9e8e1da3"}'

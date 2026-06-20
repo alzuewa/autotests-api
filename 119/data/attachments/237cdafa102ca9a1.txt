@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTIwVDExOjQxOjAzLjExODg5NCIsInVzZXJfaWQiOiIwMmU0NjE4OS00ZDQ4LTQ4ZTUtYjFlOS0zYjllN2MxYzM5YjMifQ.wazESyaelnLVXa46bmuFC1zFta-lr6PzcOBU2yXd7fI'\
+ -H 'content-length: 424'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Close start detail lead coach value across late.","maxScore":80,"minScore":3,"description":"Poor instead officer involve throughout. Maintain perhaps last avoid understand anyone. Property write majority.\nMatter wonder especially skin maybe trade up. Ok include wish about.","estimatedTime":"2 weeks","previewFileId":"639fbf23-fcb7-460f-9f1c-857e6791c6c1","createdByUserId":"02e46189-4d48-48e5-b1e9-3b9e7c1c39b3"}'

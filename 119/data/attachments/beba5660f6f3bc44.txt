@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTIwVDExOjQxOjAwLjk2MDg5OCIsInVzZXJfaWQiOiI2YmRjY2MzNy02MTlkLTRlMGEtOWViZS0zYzhiNmI4NTZlNjYifQ.dK50bFIp2CKoc6KYJYTtCvVB4MU0ObiLgwTRAdHpFbQ'\
+ -H 'content-length: 404'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Thank court fast kitchen.","maxScore":74,"minScore":21,"description":"Local available international pressure short. Case work test interesting others common measure federal. Management character knowledge result.\nRepublican medical area practice simply.","estimatedTime":"9 weeks","previewFileId":"4b35291d-53df-4827-bbe0-fcc23f4a0e3c","createdByUserId":"6bdccc37-619d-4e0a-9ebe-3c8b6b856e66"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTIwVDExOjQxOjAzLjM5MzMxMSIsInVzZXJfaWQiOiI5ZmU3NWJhMi01MmVmLTQwM2ItYjRkZS0zZjk0OTdhZTg5OTcifQ.09jwFGmg8jXKVCAOY3m4xIR-Eo-msPb_I-pmIr2VTM0'\
+ -H 'content-length: 341'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Beautiful light do best degree lawyer.","maxScore":65,"minScore":6,"description":"Serious theory family indeed. Which door resource world marriage civil structure. Almost hotel of population.","estimatedTime":"2 weeks","previewFileId":"6e2c2214-f650-48dc-ad31-2170ac758f72","createdByUserId":"9fe75ba2-52ef-403b-b4de-3f9497ae8997"}'
