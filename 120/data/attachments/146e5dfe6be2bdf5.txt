@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI3VDExOjI0OjE4LjMxNTAxNyIsInVzZXJfaWQiOiI1ZGU0NWRlOC00OTA0LTQxNzEtYmIyYy03MTgyNmJlYWFkMjkifQ.rj460P0kvDjcpYjuS1vRjOk1JaQ7J4WOhYQETvj442w'\
+ -H 'content-length: 424'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Perhaps season travel writer rule spring.","maxScore":80,"minScore":13,"description":"Heavy debate stay deal. War happy really board force more follow feel.\nStay matter yeah how for understand. Might call open so media accept owner. Official movie identify study power my.","estimatedTime":"10 weeks","previewFileId":"f676608a-6bf6-4d9e-b210-a73dc5e7c309","createdByUserId":"5de45de8-4904-4171-bb2c-71826beaad29"}'

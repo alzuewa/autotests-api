@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI3VDExOjI0OjE4LjU4OTE0MyIsInVzZXJfaWQiOiI2NTRlZGViYi01ZWFmLTRhODItODQ1My04NjdmYmEzYTU0MTEifQ.bT6UQ61vFBWpnc3opy1tANqTUs7fxQ55bEcZdkB5mAo'\
+ -H 'content-length: 313'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Plan science throw heavy end.","courseId":"1a4c48c6-b279-4d09-a60f-65fe2b44cd87","maxScore":92,"minScore":25,"orderIndex":70,"description":"Either magazine age just against. Economic field light go father.\nRight style case quickly short. Smile almost note could church none.","estimatedTime":"4 weeks"}'

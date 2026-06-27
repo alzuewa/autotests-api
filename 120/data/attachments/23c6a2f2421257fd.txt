@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI3VDExOjI0OjIwLjUyODMzMSIsInVzZXJfaWQiOiIwMzNiNTZjZC0yNDE4LTQ5OTMtYWY4Mi0zYzI5MTcxMjEyY2IifQ.JBd5ju0cmTKuh1Rann-qBkQ0caqUJmxb1cB2qbEBrdM'\
+ -H 'content-length: 395'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Response number time reason similar interview.","maxScore":71,"minScore":3,"description":"Brother charge maintain learn store. Skin institution town. Plan TV left manager.\nQuickly represent type happen speech fast return. Of remember art they.","estimatedTime":"10 weeks","previewFileId":"91ec6649-7599-4ac5-ad64-b09386d3ca5c","createdByUserId":"033b56cd-2418-4993-af82-3c29171212cb"}'

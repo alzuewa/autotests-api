@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI3VDExOjI0OjE3LjM4NjUxNSIsInVzZXJfaWQiOiI5NjE1OGJjNy05YjljLTQ2NWEtOTIwMC00MmVjYTYxYTZiNmQifQ.EDrUAD30VfJPoYiVflTByWyCj3H8Ue95Lh3zZWgYeWk'\
+ -H 'content-length: 392'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Performance save debate network section feel.","maxScore":65,"minScore":21,"description":"Newspaper recently for require point role. Page defense back relationship today.\nAccount attack skill democratic. Get change second good trouble child.","estimatedTime":"8 weeks","previewFileId":"7ac0e347-6320-4a53-a2b7-01ec58f58c1e","createdByUserId":"96158bc7-9b9c-465a-9200-42eca61a6b6d"}'

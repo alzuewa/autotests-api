@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/f1558e33-73ac-4eb7-9ae3-8d1f0e078423'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI3VDExOjI0OjE4LjMxNTAxNyIsInVzZXJfaWQiOiI1ZGU0NWRlOC00OTA0LTQxNzEtYmIyYy03MTgyNmJlYWFkMjkifQ.rj460P0kvDjcpYjuS1vRjOk1JaQ7J4WOhYQETvj442w'\
+ -H 'content-length: 319'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Budget act age particular assume imagine everybody.","maxScore":65,"minScore":22,"description":"Worry staff behind side suggest citizen. Front gun enter century material left. Travel not everyone pressure person medical way.\nLanguage success road spring. Prepare protect Congress.","estimatedTime":"8 weeks"}'

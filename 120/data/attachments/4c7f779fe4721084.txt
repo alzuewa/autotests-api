@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI3VDExOjI0OjE5LjU0NDM2OSIsInVzZXJfaWQiOiI3NDFlMDc4My1mZWU0LTRiZmEtYTc1Mi1lMmM5YTQzYjk4YzkifQ.XT8AlhVPEUjo25WQFnqGAQhUgpfSTMcu5qheFiLmd3s'\
+ -H 'content-length: 361'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Hold resource enjoy field.","maxScore":77,"minScore":15,"description":"Especially why or marriage laugh rock.\nBall pay whom wait. Discuss why culture physical. Section positive hotel question officer late over.","estimatedTime":"7 weeks","previewFileId":"6c0db163-5ca3-4f41-b044-f4a5c93a0d29","createdByUserId":"741e0783-fee4-4bfa-a752-e2c9a43b98c9"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI3VDExOjI0OjE2LjQ4OTMyMSIsInVzZXJfaWQiOiJhZGU4NWU1Mi0wMjc2LTRhODMtYTZkNy00YjMzMTRjOGZmYjQifQ.dBRqhUWKqDLhQcej5VrW1gBsfl2dJF88fXf64-sRRzw'\
+ -H 'content-length: 338'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Light ok artist plant of worker also.","maxScore":83,"minScore":28,"description":"Few stop Republican simply training. Agency success town. Next board son yard point face discussion stock.","estimatedTime":"8 weeks","previewFileId":"9aa374eb-0432-4c2e-abde-6b6b7fd93369","createdByUserId":"ade85e52-0276-4a83-a6d7-4b3314c8ffb4"}'

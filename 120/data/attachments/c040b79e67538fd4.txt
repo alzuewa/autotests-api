@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI3VDExOjI0OjE5LjgxODU1OCIsInVzZXJfaWQiOiJlYjA1YjdkZi0wNDU0LTRlYmMtYmRjMS0xZWM3MTk0NTUwZjIifQ.R3LvsbQ1Gt2YDCjm_Bmc5ARgrWcqjdDNsT0Qg1kuHII'\
+ -H 'content-length: 396'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Key find practice box nation level.","maxScore":52,"minScore":7,"description":"Table language discuss agree teach office. Way impact southern score key then nature.\nTrial stand sister party star. These bar point school nation while lead article.","estimatedTime":"2 weeks","previewFileId":"d0cae209-e547-48f5-9110-a3cd5dd6251d","createdByUserId":"eb05b7df-0454-4ebc-bdc1-1ec7194550f2"}'
