@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA0VDExOjIwOjIyLjk0NDEyNyIsInVzZXJfaWQiOiJkNzQ5NjdmOC02ZjNlLTQ1MGQtOWE2OS04MTU2ZWY1YzI2ZmQifQ.gaxUG-RGU48dx6KRsBEL-IYMsEnWcQ11IVvE589s9A0'\
+ -H 'content-length: 393'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Ahead accept baby grow seem age arrive.","maxScore":86,"minScore":25,"description":"Beautiful will method individual part movie film mind. Success event later chair state nature.\nDifferent one learn. Really cause may. Something movement bill.","estimatedTime":"8 weeks","previewFileId":"be296d4f-1c97-4145-bd17-29e8af35a7a0","createdByUserId":"d74967f8-6f3e-450d-9a69-8156ef5c26fd"}'

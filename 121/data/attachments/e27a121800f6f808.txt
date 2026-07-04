@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA0VDExOjIwOjI0LjMyNDIwOSIsInVzZXJfaWQiOiI4NWQ5MDE5NC1iZjY0LTQ3ZTEtOGRlNS01MjU4YmI5ZTcxMDEifQ.IFcd1JOSPoKsV1-QFoePlSybT8_jE32zip3kex_Rebk'\
+ -H 'content-length: 408'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Guy central theory call for public.","maxScore":51,"minScore":14,"description":"Seek group word will. Stuff amount player probably arm. Majority leave find half.\nStatement amount with game ready down business cut. Particularly free bad challenge fire green.","estimatedTime":"7 weeks","previewFileId":"11e3f7b2-c934-4336-91b6-7c6cf1f4e583","createdByUserId":"85d90194-bf64-47e1-8de5-5258bb9e7101"}'

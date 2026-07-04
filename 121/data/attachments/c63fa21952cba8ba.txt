@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/exercises/48e10006-c2d0-445b-8d54-c559f3d44e23'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA0VDExOjIwOjIxLjg0MjUwMSIsInVzZXJfaWQiOiJmNDFmYWY5ZS03MmI4LTQ0ODktYmVhYS1hNDZmZTE0ZmQ2ZTQifQ.ik4BCq1zWB5Ex7WR12r7LGwit4h1tVnA_i5o2nroiPo'\
+ -H 'content-length: 270'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Whether class everybody beyond may next subject community.","maxScore":68,"minScore":19,"orderIndex":41,"description":"Professor keep staff actually thing fire economic player. Often onto place majority treat. Top know and consider.","estimatedTime":"2 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA0VDExOjIwOjIxLjUzNTA0NCIsInVzZXJfaWQiOiI3M2Q4MjdlNS04MTU4LTRmZDktYTUwNC1hOTVmNGE4ZDVjZDkifQ.EfVLJnU9DgUY_ZiNdrh8ppTj9JMIpQ8NKMt7lgcIAjs'\
+ -H 'content-length: 386'\
+ -H 'content-type: application/json'\
+ -d '{"title":"As picture teacher several lawyer work remain.","courseId":"28219987-0b1c-4a03-acee-d00ba214364b","maxScore":77,"minScore":20,"orderIndex":94,"description":"See authority already seek. Seem give method long. During imagine world easy general.\nPast from low choose chance. Bar scientist prevent large. Study church party offer prove fall attention.","estimatedTime":"5 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA0VDExOjIwOjE5Ljg0MTc3MiIsInVzZXJfaWQiOiJjMjI5NzllOC03MTE4LTRjODQtYWQ1YS1mY2NlODk5MjI2ZWEifQ.IHXjQK9WOd32f_b-fMc9AH4eLE_F9Gsjcnck_z-kCKo'\
+ -H 'content-length: 370'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Appear wide require discover describe number between enjoy.","maxScore":87,"minScore":13,"description":"Home onto their official themselves at. Benefit inside establish individual wall. Shoulder maybe leader any meeting.","estimatedTime":"3 weeks","previewFileId":"1bec3008-a2c4-42ce-a027-8c5f57690162","createdByUserId":"c22979e8-7118-4c84-ad5a-fcce899226ea"}'

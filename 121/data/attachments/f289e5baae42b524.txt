@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA0VDExOjIwOjIzLjI1MjgyNiIsInVzZXJfaWQiOiI0ZWVlNTQxNy03MDFkLTQwODgtYjBiYi1jMmM4Nzc2ZWZkMTIifQ.GNAXvt384XerNc7tYWmE2gZbEKXE-gz9zwHYBD1uJ4A'\
+ -H 'content-length: 372'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Crime past white though list figure.","maxScore":81,"minScore":20,"description":"Interesting over Mrs nation piece yourself name. Dream major laugh tend claim close. Carry recently American machine explain name sport wall.","estimatedTime":"9 weeks","previewFileId":"05534047-a7b4-4f94-8721-13a2fcf5ce53","createdByUserId":"4eee5417-701d-4088-b0bb-c2c8776efd12"}'

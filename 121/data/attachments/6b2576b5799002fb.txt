@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA0VDExOjIwOjE4Ljg0NTcxNSIsInVzZXJfaWQiOiJkNDdlYTYwZC04MzZkLTQ4OGQtYTViYy1mZjkwYWE5NTJjYTgifQ.l8rT4wonwpir5iN_8HGYdhEjOais2e8k0pixSPR3kfg'\
+ -H 'content-length: 414'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Join rest sister go citizen kind level.","maxScore":82,"minScore":27,"description":"Choice whom force we. Line else machine. Camera firm environment weight.\nUp air economy measure table. Reduce dream left total generation song. When son only house film determine.","estimatedTime":"6 weeks","previewFileId":"30a4cf44-898b-42d2-a93b-3c4dfeeeef5c","createdByUserId":"d47ea60d-836d-488d-a5bc-ff90aa952ca8"}'

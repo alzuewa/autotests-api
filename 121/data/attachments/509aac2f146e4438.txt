@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA0VDExOjIwOjIxLjUzNTA0NCIsInVzZXJfaWQiOiI3M2Q4MjdlNS04MTU4LTRmZDktYTUwNC1hOTVmNGE4ZDVjZDkifQ.EfVLJnU9DgUY_ZiNdrh8ppTj9JMIpQ8NKMt7lgcIAjs'\
+ -H 'content-length: 411'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Fear simply need term visit health.","maxScore":92,"minScore":29,"description":"Instead eye guy toward fast such five. Letter wall fly threat meeting word road.\nWide successful science Mr fight professor anything. Answer watch also apply. There garden partner.","estimatedTime":"3 weeks","previewFileId":"2ceaa46b-658d-424f-bf6e-c4969363a0d6","createdByUserId":"73d827e5-8158-4fd9-a504-a95f4a8d5cd9"}'
