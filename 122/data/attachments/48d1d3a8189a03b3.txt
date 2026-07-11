@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTExVDEwOjQwOjIxLjIxNzIzMyIsInVzZXJfaWQiOiI2NjNlMDQ0NC04NjRkLTQxNjYtOTI2YS1iYjljMGVjNjA3OTkifQ.krHhpwGZuBEq1ZmDl5NtsLuXxhuarVj9cFhUAGQrRL0'\
+ -H 'content-length: 412'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Action about society leader avoid garden simply particular.","maxScore":80,"minScore":6,"description":"Himself know end.\nTake have woman view grow. Institution rest with myself. Cell physical agree social.\nJob fish office score particularly attention identify.","estimatedTime":"9 weeks","previewFileId":"117c2a69-ead9-49ca-b17d-28b55bcd633d","createdByUserId":"663e0444-864d-4166-926a-bb9c0ec60799"}'

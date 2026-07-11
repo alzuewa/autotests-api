@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/exercises/a2f6b73f-aced-4474-8eed-7b374b4ea860'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTExVDEwOjQwOjI0LjIyMzA1MSIsInVzZXJfaWQiOiIyOTBmNWI0Ni0yZTIxLTQ0MWYtOGY3MC0yY2QyNTY2Nzg5OTIifQ.xHreZXg2jAgMyYPyss2IwgXBRwq7QZj5Fw1PprsJU3A'\
+ -H 'content-length: 325'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Drop property letter small of television especially.","maxScore":93,"minScore":8,"orderIndex":51,"description":"If day material live fact. Develop writer take cultural positive.\nNumber do short take industry because. Such camera then type physical head that. Cold sell quality oil poor.","estimatedTime":"8 weeks"}'

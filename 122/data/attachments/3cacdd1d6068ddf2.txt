@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTExVDEwOjQwOjI0LjIyMzA1MSIsInVzZXJfaWQiOiIyOTBmNWI0Ni0yZTIxLTQ0MWYtOGY3MC0yY2QyNTY2Nzg5OTIifQ.xHreZXg2jAgMyYPyss2IwgXBRwq7QZj5Fw1PprsJU3A'\
+ -H 'content-length: 433'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Build turn table career physical space their.","maxScore":84,"minScore":5,"description":"Nature beat power space. Others enter very.\nRight which capital. Fall church song last.\nCarry understand operation thing industry. Around individual forget send. Leader low research thousand.","estimatedTime":"10 weeks","previewFileId":"35bc8ace-649b-4396-ae37-15cc7b9c6b27","createdByUserId":"290f5b46-2e21-441f-8f70-2cd256678992"}'

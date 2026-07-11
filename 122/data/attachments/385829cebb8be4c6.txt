@@ -1,0 +1,35 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send GET request to http://localhost:8000/api/v1/courses?userId=663e0444-864d-4166-926a-bb9c0ec60799
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses?userId=663e0444-864d-4166-926a-bb9c0ec60799
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:53 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:74 Check that "courses's" length equals 1
+INFO     COURSES_ASSERTIONS:courses.py:28 Check course
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "707f2a62-6f8e-4024-a145-2d7ae37e2353"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Action about society leader avoid garden simply particular."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "80"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "6"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Himself know end.
+Take have woman view grow. Institution rest with myself. Cell physical agree social.
+Job fish office score particularly attention identify."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "9 weeks"
+INFO     FILES_ASSERTIONS:files.py:49 Check create file
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "117c2a69-ead9-49ca-b17d-28b55bcd633d"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "url" equals "http://localhost:8000/static/test_files/1839df93-fd84-40ef-914f-73d4df7f51e7.jpg"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "filename" equals "1839df93-fd84-40ef-914f-73d4df7f51e7.jpg"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "directory" equals "test_files"
+INFO     USERS_ASSERTIONS:users.py:44 Check user
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "663e0444-864d-4166-926a-bb9c0ec60799"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "email" equals "rgilbert@example.org"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "last_name" equals "Simmons"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "first_name" equals "Heather"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "middle_name" equals "Teresa"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/75cc302a-a1dd-463f-ba68-972076a822af'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTExVDEwOjQwOjIyLjcxMDg3MCIsInVzZXJfaWQiOiI2ZWY0NTllMy1lMjFkLTQxYzUtYTdlZS1kODM0Mjk1Mzg0YTkifQ.0G1cCOkUZnmqpDNzutj9ESgJpel-hAg7K13W0tjq9Js'\
+ -H 'content-length: 222'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Wrong everyone true inside identify.","maxScore":56,"minScore":17,"description":"Before heavy bill why most.\nCivil benefit field nature it air expect. Security research room daughter.","estimatedTime":"9 weeks"}'

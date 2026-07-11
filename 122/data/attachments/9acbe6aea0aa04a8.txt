@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTExVDEwOjQwOjIzLjI5MTcyMyIsInVzZXJfaWQiOiI0NThiMTJiZC1lZWU2LTQ4OWEtYjRlOC01NGYzODA3ZTU2ZGEifQ.3SnQQVDBWVGKdxh74XNcBrQBxZug1dLpH2wHELvr-LI'\
+ -H 'content-length: 389'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Special job at their nation central.","maxScore":73,"minScore":5,"description":"Find issue unit safe month Mr blood where. Go final yard debate join.\nCould discover reality glass. Sign environmental before specific cover floor alone than.","estimatedTime":"7 weeks","previewFileId":"39b399b5-4e46-4ecc-bd32-7c39ccf8c384","createdByUserId":"458b12bd-eee6-489a-b4e8-54f3807e56da"}'

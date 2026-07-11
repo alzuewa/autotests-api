@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:73 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Behavior hot federal surface throughout son store."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "75"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "20"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Office school speech many candidate someone find window. Me black idea generation kid wear however. When page career bank person general police."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "6 weeks"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "6 weeks"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "preview_file" equals "d77c3342-37f2-41b4-b1cb-30da9f9cef7b"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "created_by_user" equals "26d0d4a8-9def-48de-987c-59927f640825"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTExVDEwOjQwOjI1LjQ5MzI4NCIsInVzZXJfaWQiOiJmZmU0YmI3YS0wMzNlLTRiOGItOTkxZi1hYWUxNTRkZjZmNGMifQ.ksLUKentXXp0nOYqtYefOV8_LYOeLvNegLEzHne_DR0'\
+ -H 'content-length: 314'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Tend represent soldier.","maxScore":87,"minScore":24,"description":"Article article condition hair. Wind fear protect. Research method statement around could watch.","estimatedTime":"9 weeks","previewFileId":"39e491aa-c352-48af-ad4e-55c9ce8fa68f","createdByUserId":"ffe4bb7a-033e-4b8b-991f-aae154df6f4c"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTExVDEwOjQwOjI0LjQ5ODQ1NSIsInVzZXJfaWQiOiIwZTE1MmNhMi03OWQ3LTQ1MjgtYWFkMy03OTIxZGU2YjI2MmYifQ.oSAv4Kp5AeK7Bix6va-CNXXa-wxwm9XCdp4W3nGxPp8'\
+ -H 'content-length: 314'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Baby security kid know.","maxScore":61,"minScore":21,"description":"Plan spring expert.\nOn fish long all. Law recognize collection rise either raise analysis hard.","estimatedTime":"4 weeks","previewFileId":"f131db60-3d2c-430c-b95f-ff2608fc1bee","createdByUserId":"0e152ca2-79d7-4528-aad3-7921de6b262f"}'
