@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE4VDEwOjQzOjIyLjU0MDA0OCIsInVzZXJfaWQiOiI3ZjEzNjRlMS0xZTViLTRlN2MtYmYxYi0xNGQ3MGZhMTk2NGUifQ.rHr60USHn__7-JlT-HzHibo1rllTuQIQ2tt06b_8_NI'\
+ -H 'content-length: 347'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Single with face agreement option thank scientist.","courseId":"d97ba99a-f134-42b5-a615-4dad7a5b63ac","maxScore":72,"minScore":22,"orderIndex":40,"description":"Throw yes behind year. Operation dark season option they. Left discover cut boy specific that. Remember item these decade mission hand response or.","estimatedTime":"10 weeks"}'

@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:27 Send GET request to http://localhost:8000/api/v1/exercises?courseId=060d4162-5d02-4d36-becb-a3f05911c8f6
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/exercises?courseId=060d4162-5d02-4d36-becb-a3f05911c8f6
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:129 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:74 Check that "exercises's" length equals 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:29 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "9b0e33fd-0ee5-4050-91ff-a646f5a54ac6"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Test leader onto environmental chance assume."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals "060d4162-5d02-4d36-becb-a3f05911c8f6"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "72"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "17"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals "79"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Or allow condition chance finish rich a. Bring majority business computer. Identify third your event great space practice. Performance describe movement probably store ready."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "3 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE4VDEwOjQzOjE5LjM4NDc4NiIsInVzZXJfaWQiOiIxNTU1NDRhNC1hNDhkLTQyNDQtYWZhYS1jNzk0N2NiNTdlZDYifQ.mKsJ5NaAYTlgmCu8LsjyCCPb29ybntz0ywHPGPw5acY'\
+ -H 'content-length: 388'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Case ready ability need major specific.","maxScore":92,"minScore":17,"description":"Maybe design include whose.\nStrategy if suddenly different feel. Future necessary use result tend summer police. Shoulder close easy police usually ever.","estimatedTime":"6 weeks","previewFileId":"d903c374-6f94-4fd4-9788-45251687c762","createdByUserId":"155544a4-a48d-4244-afaa-c7947cb57ed6"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/64c01c86-977e-4a45-a199-a1d3a96f5239'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE4VDEwOjQzOjIwLjMxMDQyNCIsInVzZXJfaWQiOiI3MTM3NDJlZC1mY2JmLTQyYzItYjIzYS00ZmQzOWY3MTViMjQifQ.XbA748Uc8zEBQnf_syT5d_C4Xot5EvApr1bJQffvLzc'\
+ -H 'content-length: 169'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Admit why real.","maxScore":55,"minScore":20,"description":"Debate play organization watch issue Mr before. Degree conference road.","estimatedTime":"2 weeks"}'
