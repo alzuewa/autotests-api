@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDIzOjIwOjQzLjAwOTg1MyIsInVzZXJfaWQiOiI2OWNkZjcxZC03NDFjLTRmMzgtYjUxYy0zYWI5MzVmNDZiMzEifQ.t6pXjCa3B-eMGPb-Sjz3gjt6iSGpZXhAErwDTfBqHmA'\
+ -H 'content-length: 355'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Gas eight per watch.","maxScore":76,"minScore":25,"description":"Company because impact father second. Wife article receive town name high start official.\nAssume foot this type international all hit site.","estimatedTime":"8 weeks","previewFileId":"4d05c177-da2f-4c79-b967-96fb67f3bc31","createdByUserId":"69cdf71d-741c-4f38-b51c-3ab935f46b31"}'

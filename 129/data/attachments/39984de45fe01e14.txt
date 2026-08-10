@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDIzOjIwOjQzLjk3MjMxOSIsInVzZXJfaWQiOiJlNDNhZTk3OS0zOGQzLTQzOTctYWE1Ny02ZWNiMDZiODhlMTYifQ.6gM8tjdOGtFssTsmhCWGkAQA_fmy2jRlDc30tdYpJWU'\
+ -H 'content-length: 370'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Anything former concern begin future seat throughout.","courseId":"a4789c00-655f-4e57-aeab-ac7f16f2c576","maxScore":63,"minScore":28,"orderIndex":3,"description":"He him likely though beat base. Situation true floor what.\nMoment language executive event card. Better entire several pretty reveal. Less environmental feeling speech.","estimatedTime":"3 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDIzOjIwOjQzLjk3MjMxOSIsInVzZXJfaWQiOiJlNDNhZTk3OS0zOGQzLTQzOTctYWE1Ny02ZWNiMDZiODhlMTYifQ.6gM8tjdOGtFssTsmhCWGkAQA_fmy2jRlDc30tdYpJWU'\
+ -H 'content-length: 343'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Reality none box several.","maxScore":76,"minScore":11,"description":"About yes stop let.\nLaw especially knowledge. Doctor happy pick behind account. Clearly father increase career population.","estimatedTime":"9 weeks","previewFileId":"37b7b652-ec0b-4b0f-ba6b-ce44b0d4fec4","createdByUserId":"e43ae979-38d3-4397-aa57-6ecb06b88e16"}'

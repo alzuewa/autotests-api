@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDIzOjIwOjQxLjc4Njc1MiIsInVzZXJfaWQiOiIzYWMwZTdjMy0zZWUwLTQwYWEtOTgxYi1lZTU1N2M3ZmZmMjMifQ.fXwR8pc9NizKn8AAjC2qwtZuOH4OiVuBA24MHUsui8o'\
+ -H 'content-length: 317'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Conference then late large with six go area.","maxScore":82,"minScore":18,"description":"After range up teach debate. And box opportunity listen somebody daughter yet.","estimatedTime":"5 weeks","previewFileId":"bf1307f0-cb7d-4c3b-b280-23900b8235b5","createdByUserId":"3ac0e7c3-3ee0-40aa-981b-ee557c7fff23"}'

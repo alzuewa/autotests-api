@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDIzOjIwOjQ1LjI1NjY3OSIsInVzZXJfaWQiOiJmY2M4ZTc4MS0zMTAwLTQwMTUtOTcwNy1kMjVlNWEwOWJlNzYifQ.e5WLvNK5y7Dq8HU9XzssvQyT9wBz2hWjUFiOeuVfa8Q'\
+ -H 'content-length: 429'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Sport view artist truth claim foreign.","maxScore":97,"minScore":4,"description":"Address task often whatever onto exist heart. Reflect support purpose skin civil. Federal land thing if specific way.\nCoach maybe food reach wear series. Every professor Democrat position foreign.","estimatedTime":"9 weeks","previewFileId":"db742107-40c9-47ca-8e8e-076453d3da7f","createdByUserId":"fcc8e781-3100-4015-9707-d25e5a09be76"}'

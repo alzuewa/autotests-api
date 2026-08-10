@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDIzOjIwOjQyLjczNTYzOCIsInVzZXJfaWQiOiI5ODJiODgzZi1mNmYwLTQzMzktODdjZC0xNzgxMmYyNzg0N2YifQ.EYzvjyKvr5eMgZtC9IJj7E2MIMBF50xMN_55_3zyi1E'\
+ -H 'content-length: 370'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Or very bed doctor interest condition.","maxScore":96,"minScore":5,"description":"Campaign finish occur owner shoulder. Fire fund strategy material six student red. Discover information identify capital same rather save.","estimatedTime":"6 weeks","previewFileId":"b430d7b1-698a-40cd-ac9a-c62fc9974499","createdByUserId":"982b883f-f6f0-4339-87cd-17812f27847f"}'

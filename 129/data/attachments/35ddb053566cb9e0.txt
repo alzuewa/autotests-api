@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDIzOjIwOjQ0LjI0NTkwMiIsInVzZXJfaWQiOiI2YThmNDUxZi01MThkLTQ1ZjMtYmEzZS1kNmMwNmIyMWNkZjgifQ.sguxuQr_MaRjF71yJl9LyyCYVKoc2fgJdDfTCODBxBw'\
+ -H 'content-length: 417'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Fall president memory edge case.","maxScore":63,"minScore":19,"description":"Together six reality actually who. Analysis rate could television piece view.\nSame well central often central everything focus. Adult character scientist. Property carry this trip soon let.","estimatedTime":"8 weeks","previewFileId":"515fdd22-0396-47c4-b3cb-0028805b62e5","createdByUserId":"6a8f451f-518d-45f3-ba3e-d6c06b21cdf8"}'

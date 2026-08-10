@@ -1,0 +1,20 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:73 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Catch wonder film."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "70"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "2"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Onto peace special want. None what ago officer individual.
+General many hour item member short image else. Note section strong develop reason market position indicate."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "5 weeks"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "5 weeks"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "preview_file" equals "2f4da099-532d-473f-9c12-573d864503f6"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "created_by_user" equals "5de55f94-7db3-43db-9eed-84cb360ae3d2"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

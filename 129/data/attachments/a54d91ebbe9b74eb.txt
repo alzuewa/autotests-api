@@ -1,0 +1,33 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send GET request to http://localhost:8000/api/v1/courses?userId=25ef6891-bd7c-45f7-aa77-a4d3b525de6d
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses?userId=25ef6891-bd7c-45f7-aa77-a4d3b525de6d
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:53 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:74 Check that "courses's" length equals 1
+INFO     COURSES_ASSERTIONS:courses.py:28 Check course
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "9124382d-2d69-409f-8aa1-de28efb4e001"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Hit identify really six long."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "69"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "22"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Herself song officer able. From ready physical year skill reflect administration claim. All all early think college. Perhaps none join order."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "3 weeks"
+INFO     FILES_ASSERTIONS:files.py:49 Check create file
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "cfbaa394-bbab-4177-9b52-11a5e4fe96a7"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "url" equals "http://localhost:8000/static/test_files/534bd36b-4ff3-44d5-ac7e-7f1098918bb7.jpg"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "filename" equals "534bd36b-4ff3-44d5-ac7e-7f1098918bb7.jpg"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "directory" equals "test_files"
+INFO     USERS_ASSERTIONS:users.py:44 Check user
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals "25ef6891-bd7c-45f7-aa77-a4d3b525de6d"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "email" equals "shawnsanders@example.com"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "last_name" equals "Rodriguez"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "first_name" equals "Maria"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "middle_name" equals "April"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDIzOjIwOjQxLjUxNjExNiIsInVzZXJfaWQiOiI1ZGU1NWY5NC03ZGIzLTQzZGItOWVlZC04NGNiMzYwYWUzZDIifQ.e4eYsSW_K3MrxQu6xtC2Z9KgIRynIwvM3WNt1tVWGwQ'\
+ -H 'content-length: 380'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Catch wonder film.","maxScore":70,"minScore":2,"description":"Onto peace special want. None what ago officer individual.\nGeneral many hour item member short image else. Note section strong develop reason market position indicate.","estimatedTime":"5 weeks","previewFileId":"2f4da099-532d-473f-9c12-573d864503f6","createdByUserId":"5de55f94-7db3-43db-9eed-84cb360ae3d2"}'

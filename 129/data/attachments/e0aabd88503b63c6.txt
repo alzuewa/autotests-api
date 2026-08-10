@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/171718d5-1515-4290-bc5e-ed58e6a38cf8'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDIzOjIwOjQxLjc4Njc1MiIsInVzZXJfaWQiOiIzYWMwZTdjMy0zZWUwLTQwYWEtOTgxYi1lZTU1N2M3ZmZmMjMifQ.fXwR8pc9NizKn8AAjC2qwtZuOH4OiVuBA24MHUsui8o'\
+ -H 'content-length: 311'\
+ -H 'content-type: application/json'\
+ -d '{"title":"What star recent toward past term magazine.","maxScore":68,"minScore":13,"description":"Major boy pressure question yard imagine. Back reflect popular bar Republican view company remain.\nCountry sort relate young would best operation nor. Risk matter when win another age.","estimatedTime":"8 weeks"}'

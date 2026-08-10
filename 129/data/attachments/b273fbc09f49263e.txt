@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDIzOjIwOjQyLjczNTYzOCIsInVzZXJfaWQiOiI5ODJiODgzZi1mNmYwLTQzMzktODdjZC0xNzgxMmYyNzg0N2YifQ.EYzvjyKvr5eMgZtC9IJj7E2MIMBF50xMN_55_3zyi1E'\
+ -H 'content-length: 317'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Stop born side movement forget value.","courseId":"ffdff1ac-2250-4e78-ab68-dd9cfa3280fc","maxScore":58,"minScore":28,"orderIndex":22,"description":"Long today value your change. Shake mother medical able great person sport. Executive sometimes interesting against beat drop long.","estimatedTime":"7 weeks"}'
