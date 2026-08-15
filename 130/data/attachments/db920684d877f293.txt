@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE1VDA5OjQ5OjE5LjgxNjY5MyIsInVzZXJfaWQiOiJjNTEzMDZjZC03Mjc4LTQwMDQtOWMzZS05M2ZmNGY1YTBmNGQifQ.Ia62T6vFM-ONPw5ThJ4mSLddIYQkfBF92HdRKTRZ5n8'\
+ -H 'content-length: 315'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Total together television will key huge.","maxScore":58,"minScore":13,"description":"Interview deep late lay particular another. Various class particularly because.","estimatedTime":"10 weeks","previewFileId":"e5d90497-9877-4fd1-a507-c169f12b2899","createdByUserId":"c51306cd-7278-4004-9c3e-93ff4f5a0f4d"}'

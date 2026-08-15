@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/f39f997e-417c-443f-8253-5fc694bc15e3'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE1VDA5OjQ5OjE0LjQzOTI5MiIsInVzZXJfaWQiOiI2Y2ExYzEzNi1lMTI2LTQ1OGEtOGU5NS03OGI5MTg0N2JjZGIifQ.gSsxw8hjnofgY7ursxMb80elwnJMnLq5FCRdB7Qnx-0'\
+ -H 'content-length: 269'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Rule despite serious newspaper.","maxScore":69,"minScore":2,"description":"Challenge hand book pretty page defense. Example page today middle rather compare should wife.\nOwner move reality. Worker return relationship network yeah.","estimatedTime":"2 weeks"}'

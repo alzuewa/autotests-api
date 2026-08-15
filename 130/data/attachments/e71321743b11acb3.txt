@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE1VDA5OjQ5OjE2LjE5NDUwNSIsInVzZXJfaWQiOiI0YTljNzhjMi1lNjc4LTQ5OTItYjNlMy1jZTdlM2VkNjczY2UifQ.9bf5t1sqQoCNfD__L8MBkYE_Y5Y0-xWtx3JpsmdibpU'\
+ -H 'content-length: 368'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Notice behind me though too.","maxScore":83,"minScore":14,"description":"Assume beautiful care organization agent. Play than control improve.\nFear ago voice site thus these focus training. Morning card bag model term.","estimatedTime":"3 weeks","previewFileId":"e6bf12b8-7137-42bb-a7cf-a20c8d2eead3","createdByUserId":"4a9c78c2-e678-4992-b3e3-ce7e3ed673ce"}'

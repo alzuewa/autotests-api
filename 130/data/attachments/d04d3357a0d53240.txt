@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE1VDA5OjQ5OjE4LjkxOTQ0MCIsInVzZXJfaWQiOiJhNGUyMDI1Yi03ZjE0LTRhMGUtOWQ1OC0yYWZhZWQ0ODZlNmUifQ.iKUAw8Gq11suPBngSXqfkO7lRRL4fplgiddyR1kbdHY'\
+ -H 'content-length: 311'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Area account hard manager.","maxScore":85,"minScore":14,"description":"Loss money loss likely always. Those everybody behavior source believe make north similar.","estimatedTime":"3 weeks","previewFileId":"7cb59ce5-946f-4395-93ba-4b3ad651343a","createdByUserId":"a4e2025b-7f14-4a0e-9d58-2afaed486e6e"}'

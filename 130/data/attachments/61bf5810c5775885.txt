@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE1VDA5OjQ5OjE4LjY3OTY5MiIsInVzZXJfaWQiOiJkZWNkNGE3YS05MDQ2LTQ0ZWUtOGJlMS01MzE5NGI0ZmI0NzMifQ.gOgPeadoUlGt1EawJArvYGwjyWvdZB9ijUoFlwtVXT4'\
+ -H 'content-length: 337'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Have his live add together do consider.","maxScore":78,"minScore":2,"description":"Cold plan get. Run author at weight question. Step keep floor including enter factor.\nWhite goal month.","estimatedTime":"9 weeks","previewFileId":"3958f874-110f-4fb0-ab33-023876f217b8","createdByUserId":"decd4a7a-9046-44ee-8be1-53194b4fb473"}'
