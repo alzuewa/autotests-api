@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTIyVDA5OjQ5OjUwLjk4MjAyMSIsInVzZXJfaWQiOiI2MjdlZDA5Zi1kMjQzLTRmZWUtOTI5ZC0wZDE4ZDU4OTNiMjAifQ.-QMhHATz-i2q2y8m3aE6iVVn3a5H9N6FwnPzFknMmqM'\
+ -H 'content-length: 390'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Language court character box entire.","maxScore":74,"minScore":7,"description":"Forget beyond point buy. College water various candidate discuss.\nThrow performance thank foot picture. Eight everyone same amount majority. Fear just capital.","estimatedTime":"4 weeks","previewFileId":"a7b268b2-f6b9-42c2-b7cd-2692f28e2cb4","createdByUserId":"627ed09f-d243-4fee-929d-0d18d5893b20"}'

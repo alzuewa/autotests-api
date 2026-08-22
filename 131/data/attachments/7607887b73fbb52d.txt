@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTIyVDA5OjQ5OjUyLjA1NDUwNyIsInVzZXJfaWQiOiJlZWM4ZTVmNi0wZDA1LTRiMzMtOTNhNC0wMWM5MTEwMTE5YmMifQ.uM0FcTTvGXTRSImuIipAKfL-8dJNJ2ZZLeig0b8DG1c'\
+ -H 'content-length: 411'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Among chair sport a little floor alone.","maxScore":71,"minScore":25,"description":"Article hour establish perhaps. Eat sound but member full style upon.\nHappy Congress remain skin seek employee official. Least mind open response. Hand recognize reduce listen.","estimatedTime":"6 weeks","previewFileId":"a7a71d41-26f8-4dc6-9f25-1c37c24bfadc","createdByUserId":"eec8e5f6-0d05-4b33-93a4-01c9110119bc"}'

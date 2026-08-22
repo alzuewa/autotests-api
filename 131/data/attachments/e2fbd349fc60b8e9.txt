@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/ddb8796d-20f1-4c2d-a152-76c0a69635fd'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTIyVDA5OjQ5OjUwLjY3NDUyNSIsInVzZXJfaWQiOiIyMzFiMTYzYS1hYTk4LTQ5NDEtYTYzMi0yYjU4ODcyODBiNDgifQ.zYePYPzeyDZEAId771NvkfiXVPpz5LWZ49soGwdvO-k'\
+ -H 'content-length: 315'\
+ -H 'content-type: application/json'\
+ -d '{"title":"During few campaign light try former pattern herself.","maxScore":63,"minScore":19,"description":"Up begin threat speak happen security senior. Rise wish east address understand ability positive. Upon value cup but to else.\nNetwork democratic here rate any open church front.","estimatedTime":"10 weeks"}'

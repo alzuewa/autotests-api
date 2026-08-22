@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTIyVDA5OjQ5OjUyLjM2MjA3NSIsInVzZXJfaWQiOiI0ZTIzZmVhNi1kNjIyLTRmYTgtOWU2Ni1lMmZmNjRkNDcxZTkifQ.UJwgNVGHZKu8H07AwgTZ3yPnyYsnVjqeiGtbVxGUnPE'\
+ -H 'content-length: 349'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Then free my space.","maxScore":61,"minScore":20,"description":"Can TV wait lose attorney society available low. Large meet everything cover run international. Education control today left or people.","estimatedTime":"6 weeks","previewFileId":"89bf4da1-19ca-4363-b17e-e16000788aec","createdByUserId":"4e23fea6-d622-4fa8-9e66-e2ff64d471e9"}'

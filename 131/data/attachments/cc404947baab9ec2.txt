@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTIyVDA5OjQ5OjQ5LjY0NzAzNiIsInVzZXJfaWQiOiI4YTBjOWY5My0xZDhiLTQyOWQtOWZmYy05YzQwNGQxMWE2MWYifQ.c1ksDSOj5hoNmnhI1_fz9jVBTClIlzR3ZHbPOt8s67I'\
+ -H 'content-length: 283'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Feel whatever third office.","maxScore":53,"minScore":2,"description":"What effect leg expert show job. Be economic town surface tax.","estimatedTime":"8 weeks","previewFileId":"a916056a-4856-453b-9f92-ad7c7b5ef653","createdByUserId":"8a0c9f93-1d8b-429d-9ffc-9c404d11a61f"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTIyVDA5OjQ5OjUzLjQyNDA5NyIsInVzZXJfaWQiOiJmOGU1MTY3NS0zMDgwLTQ1MzItOGRlYS00NDM5OWJkMTE1ZmEifQ.4PG_sutTSsr0r1fPxxyEqm0ShB1ENlUiCgmGfXPZ1xU'\
+ -H 'content-length: 419'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Although bag yet choose teach above water.","maxScore":93,"minScore":9,"description":"Event this media since relate kind remember. Send arm debate service technology visit. Must data you sing.\nSingle everybody cut technology end year. Cell trade degree cell safe best.","estimatedTime":"2 weeks","previewFileId":"65ece737-950c-4b09-8c17-efb8a4e8122f","createdByUserId":"f8e51675-3080-4532-8dea-44399bd115fa"}'
