@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE0OjM2OjI4Ljk3MTAwOCIsInVzZXJfaWQiOiI3MmRkODhjZS0yNWM1LTRjNzAtODAxMi00NWQ3ZTliMjEzYjkifQ.HDU5YNeLC3M30D4_ruAc7DuctY_zis4pzkrx8tP6i9c'\
+ -H 'content-length: 428'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Relate apply pressure wrong degree news party.","maxScore":95,"minScore":5,"description":"On school thought smile seem. Personal employee get forget five model.\nSecurity story car use father modern easy. Different after know girl. Character have ahead example evidence partner.","estimatedTime":"7 weeks","previewFileId":"f673830c-a8c4-4af5-bf91-4c50a0f40a15","createdByUserId":"72dd88ce-25c5-4c70-8012-45d7e9b213b9"}'

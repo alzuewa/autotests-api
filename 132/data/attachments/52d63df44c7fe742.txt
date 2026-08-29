@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/b2e22959-4b8f-4113-822c-a676e332b048'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE0OjM2OjI2LjIxNTgwNiIsInVzZXJfaWQiOiIyNDlkYjFhYy01NTRjLTRhZjQtYWE5ZC1mNTU1MmFjMGE4MDEifQ.wB-i3NeBjjMLTdP8yTOPnJgAupC21oh41gTEPVAlDl4'\
+ -H 'content-length: 296'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Every after throughout.","maxScore":76,"minScore":30,"description":"Teacher why again purpose. Place including hair hold when no. Action should way.\nYes very laugh large. Want area place. City sister nor really commercial.\nA case life wife raise bed unit.","estimatedTime":"10 weeks"}'

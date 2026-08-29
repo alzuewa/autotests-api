@@ -1,0 +1,23 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:53 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Store leader lose cut low loss people."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals "ac79276a-678b-47f6-bea2-ab83e6540dcc"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "95"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "30"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals "78"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Yard live deal place play college care. Leave weight throw market keep rest.
+Close themselves despite eat by senior.
+Like issue theory.
+Field open mean. Someone ten necessary quickly."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "6 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

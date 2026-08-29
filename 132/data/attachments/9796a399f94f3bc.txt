@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE0OjM2OjI3LjczNDk5OCIsInVzZXJfaWQiOiJkMzJhOWIxYS0zNjdmLTQyNzgtYjBmNC02OWJjYmQ3NGQ2ODYifQ.2Y0zW7ZxTdKM1ztLMyifmowHiguc20S_o7v1dAglzGw'\
+ -H 'content-length: 364'\
+ -H 'content-type: application/json'\
+ -d '{"title":"South type anyone quite effect station.","maxScore":50,"minScore":22,"description":"It quickly simply take different mind provide far. Lay cut threat amount treat. Traditional carry style community shake watch far.","estimatedTime":"2 weeks","previewFileId":"11d7d2a3-02e8-401d-937e-31312e1b1d4d","createdByUserId":"d32a9b1a-367f-4278-b0f4-69bcbd74d686"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE0OjM2OjI2LjgwNTE0OSIsInVzZXJfaWQiOiJkOTY1YjYzZi0xMjVjLTRhM2ItOWUzMy1lNDc2ODIzMTZmZTQifQ.49XYqWPCqnijbLXiOCHprQeSJ7rH_zTwsMYp_34Ro3s'\
+ -H 'content-length: 436'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Quite against rest agreement morning executive thank can.","maxScore":77,"minScore":5,"description":"Purpose game conference economy. Also million American score her system.\nDespite person report Republican. Area form strong animal key arm bill. Hold player man six sure support town.","estimatedTime":"10 weeks","previewFileId":"8123afaa-a3b7-40a3-87e5-5ca271025350","createdByUserId":"d965b63f-125c-4a3b-9e33-e47682316fe4"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE0OjM2OjI4LjAwODY0MSIsInVzZXJfaWQiOiJmZjRkODc1Yi05ZmU3LTRlYWQtYTNmMy0yMDM3NTMyMjcyYmQifQ.PcQIFQ4Fze_FRvRGBmr8o1A6iQUv8S3zV2s_iIdu29g'\
+ -H 'content-length: 315'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Attack see piece.","maxScore":77,"minScore":10,"description":"Debate every that style. Forget fear defense number item news. Case return degree condition management.","estimatedTime":"4 weeks","previewFileId":"e6cda348-896b-43f6-b866-e100f171ebc9","createdByUserId":"ff4d875b-9fe7-4ead-a3f3-2037532272bd"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE0OjM2OjI0LjczODIwNiIsInVzZXJfaWQiOiI1OTMzZTVjYS04ZDE4LTRjODQtODkxZS1mMGU5ZGUzNmEwNmMifQ.jhy7D9Nchv0NZXwp9LQgpFOkk_lD8C38Xjn4Jeci8JE'\
+ -H 'content-length: 365'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Edge place place wear memory.","maxScore":72,"minScore":22,"description":"Safe movie population want win. Future smile ground information trade plant for establish.\nStudent pressure such notice young draw maintain.","estimatedTime":"5 weeks","previewFileId":"e2b1ed56-bd84-4579-821a-004269838ca1","createdByUserId":"5933e5ca-8d18-4c84-891e-f0e9de36a06c"}'

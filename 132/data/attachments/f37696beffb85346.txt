@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE0OjM2OjI1LjYyOTc4NSIsInVzZXJfaWQiOiI3ZTlmMDgxNS00NWVkLTQ2OWYtOWRiMS03NzU0ODdmNDM1ZjIifQ.IuKkJnc_QLJ35H-2UUDziUJP1mcay2B-Vs1pM39eVng'\
+ -H 'content-length: 412'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Market cup fund write else way fine.","maxScore":87,"minScore":2,"description":"Ability society position force. Care dinner long them today off.\nEdge write station could kid professor. Sport huge question plan. Response else into campaign recognize house where.","estimatedTime":"3 weeks","previewFileId":"563f452d-4356-4711-b071-048c00b3fd23","createdByUserId":"7e9f0815-45ed-469f-9db1-775487f435f2"}'
