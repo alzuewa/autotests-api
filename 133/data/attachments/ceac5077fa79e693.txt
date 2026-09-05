@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA1VDEyOjQ2OjIwLjAxNjU1OCIsInVzZXJfaWQiOiJiYTIyMjUzZS1iMGE0LTQxNTgtOWJiNC01MTZkZGU0ZGQ4NDEifQ.uHXJY8vHwWkeSlhd8Buf5aafVtKO4I1Xd268rBASIoE'\
+ -H 'content-length: 426'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Community ground free situation know.","maxScore":77,"minScore":12,"description":"Consumer hear themselves. Back fine tax minute character. Break record miss agreement.\nYou institution figure tree past main. Really suffer really sing record the. There yard daughter property.","estimatedTime":"8 weeks","previewFileId":"413880b1-c15f-4aff-a5d4-44babab04cb4","createdByUserId":"ba22253e-b0a4-4158-9bb4-516dde4dd841"}'

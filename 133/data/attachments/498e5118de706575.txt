@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/2dd259d0-a577-463b-b6a2-5b977ff5d7da'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA1VDEyOjQ2OjE4Ljc3NzQ2NCIsInVzZXJfaWQiOiI2Y2ExZjY0MC02MzVjLTQxYjMtODkyZi1lYzcyODQzM2I1NGYifQ.qA2_15JPldrpgQEhw3wxk4-yadJ64e-rziAB7cclENo'\
+ -H 'content-length: 322'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Then trouble nothing throughout hour she.","maxScore":64,"minScore":8,"description":"Again yeah successful interesting hair research wait leg. Fast she artist quite leg push will everything.\nAuthor agree task ever. Buy look off minute crime decision loss. Hold election family hotel.","estimatedTime":"4 weeks"}'

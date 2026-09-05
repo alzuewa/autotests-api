@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA1VDEyOjQ2OjE2LjkzOTczNSIsInVzZXJfaWQiOiJkN2Y2YjU1Ny02YjNjLTRjZWYtOGY5ZS1kNzI0MzI1MzAxYzUifQ.-a63iXoPvhqsOf7Rqvx6QGGYENGF8gd8ApIRTdsDW4g'\
+ -H 'content-length: 411'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Plant see speak trade data dog.","maxScore":86,"minScore":6,"description":"Degree education campaign hair. True local candidate never city approach.\nChallenge song chair nor bit stock majority. Rich stuff bank tend prove start. Determine create ten color nice.","estimatedTime":"3 weeks","previewFileId":"b8c6b672-8819-4747-9f3f-d1ea184f5d35","createdByUserId":"d7f6b557-6b3c-4cef-8f9e-d724325301c5"}'

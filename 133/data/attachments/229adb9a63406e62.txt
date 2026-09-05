@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA1VDEyOjQ2OjIxLjYxNjI3NSIsInVzZXJfaWQiOiI0OGVkZThiZS00NTJkLTQyMzktOTAzNi0xOTkxNjlmOTU1MDIifQ.CpSHPYFMuJhFlsqZ1FvmLP1klXf_yqGdvdEHvWWyktA'\
+ -H 'content-length: 365'\
+ -H 'content-type: application/json'\
+ -d '{"title":"International consumer central ago financial.","maxScore":60,"minScore":17,"description":"Build skin government partner most.\nBody home work magazine focus away cut. To machine poor customer traditional happy grow.","estimatedTime":"3 weeks","previewFileId":"7529601e-af88-460a-868c-c891c82e7452","createdByUserId":"48ede8be-452d-4239-9036-199169f95502"}'
