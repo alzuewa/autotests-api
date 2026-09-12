@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEyVDEzOjAzOjE4LjY5ODg2NCIsInVzZXJfaWQiOiJlYzFjZmQ5My1hYWFjLTRiOTAtYjE0Yy1kZWM2YmQ2OGRjNTgifQ.NslrLTNymzqvzqm5e4oTB_mwwsasgWDwcmrweOxKmMc'\
+ -H 'content-length: 411'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Worry personal work mission exactly.","maxScore":70,"minScore":14,"description":"Decide ahead national long. Tonight way decision pass. Media learn develop keep walk car.\nStock always care. Serious bank treat four work. Certainly compare exactly off over part.","estimatedTime":"9 weeks","previewFileId":"8814cf56-40ac-47ef-889a-fe6ecb6a0b2b","createdByUserId":"ec1cfd93-aaac-4b90-b14c-dec6bd68dc58"}'

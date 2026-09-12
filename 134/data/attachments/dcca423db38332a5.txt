@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEyVDEzOjAzOjIwLjk3Njg5NCIsInVzZXJfaWQiOiJhOTFkZDJkMS05NjJhLTRjZjctOTVmNC0zZjVlZTNjZWI0NGMifQ.8_GMZY7OrYoYCn7iv6VpHsaZpfetfQmO6T_nZp1d474'\
+ -H 'content-length: 352'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Authority participant benefit both.","maxScore":65,"minScore":3,"description":"Manage article seek blue heart. Despite charge even center moment. Effort statement question energy involve time suddenly.","estimatedTime":"10 weeks","previewFileId":"f23d7caa-9862-4b26-a0ff-2dd0215496e5","createdByUserId":"a91dd2d1-962a-4cf7-95f4-3f5ee3ceb44c"}'

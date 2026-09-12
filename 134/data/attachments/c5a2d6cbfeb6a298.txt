@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEyVDEzOjAzOjI0LjM1MTc2MCIsInVzZXJfaWQiOiI0ZDZjMzlmNi1lZjRhLTQyNWUtYWE5Yy1kM2QxODcxY2Y0ZjMifQ.n7_exjyVMGCkkwlbI_aBD077skbAz82EDMgwpwCzXsc'\
+ -H 'content-length: 406'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Enough choice make.","maxScore":56,"minScore":22,"description":"Buy lay statement grow doctor book. One lot to attention. Majority house enjoy scientist cut again. Call seem total require we.\nFar hear take base build. Then many affect less about maintain.","estimatedTime":"2 weeks","previewFileId":"acbacab1-3489-49eb-b42b-ae3ec9ef6b37","createdByUserId":"4d6c39f6-ef4a-425e-aa9c-d3d1871cf4f3"}'

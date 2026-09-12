@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEyVDEzOjAzOjIyLjE5ODk1NiIsInVzZXJfaWQiOiI4NjNiZmQxMi03YjNmLTQ4ODYtYTM1NS0wYjZlY2FkOGVkMmQifQ.lBScIdU1yjLXtgQpuvygUtCKxIAEy2OXTtPdFXosAjo'\
+ -H 'content-length: 420'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Wide TV article walk health dark point.","maxScore":93,"minScore":28,"description":"While from deal key play. Low speak political value. Purpose develop manager hair week.\nOffice not information international. Church else day quite. Although activity government effort.","estimatedTime":"4 weeks","previewFileId":"393701a8-41b5-4b34-a7a6-59cc60c8b052","createdByUserId":"863bfd12-7b3f-4886-a355-0b6ecad8ed2d"}'

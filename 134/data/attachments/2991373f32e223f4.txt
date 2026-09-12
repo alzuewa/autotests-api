@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEyVDEzOjAzOjI0LjM1MTc2MCIsInVzZXJfaWQiOiI0ZDZjMzlmNi1lZjRhLTQyNWUtYWE5Yy1kM2QxODcxY2Y0ZjMifQ.n7_exjyVMGCkkwlbI_aBD077skbAz82EDMgwpwCzXsc'\
+ -H 'content-length: 379'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Cultural child agree seek about.","courseId":"f6047d59-0562-4ee5-a860-cf3f04add11e","maxScore":90,"minScore":8,"orderIndex":94,"description":"Keep finally politics staff. Four affect interview bad claim reality tell.\nWhen thus station development. Identify staff hope realize young customer decision. Like generation field white task feel.","estimatedTime":"10 weeks"}'

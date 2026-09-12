@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEyVDEzOjAzOjIwLjk3Njg5NCIsInVzZXJfaWQiOiJhOTFkZDJkMS05NjJhLTRjZjctOTVmNC0zZjVlZTNjZWI0NGMifQ.8_GMZY7OrYoYCn7iv6VpHsaZpfetfQmO6T_nZp1d474'\
+ -H 'content-length: 352'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Star large require assume.","courseId":"2ef250e6-80c2-4b96-8aee-045a82ddb41b","maxScore":54,"minScore":25,"orderIndex":8,"description":"Remember operation agent deal ability. Reason television hundred hope bag.\nBegin watch feeling mind test. Air partner understand figure organization. Body medical easy yourself.","estimatedTime":"7 weeks"}'

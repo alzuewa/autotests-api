@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEyVDEzOjAzOjE5LjU3NzIwNyIsInVzZXJfaWQiOiI1ZjUyNmFhYS05YzZjLTRmZjQtOTM3MC1jZDMxZDg5OTU1M2MifQ.Vxo2o-BqgwZNDeqAhMpEnXhLb8GGCeFG72kV8D5YHP4'\
+ -H 'content-length: 380'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Challenge when discover by tough start fall.","maxScore":100,"minScore":25,"description":"Business customer event deep ability. Good then now house. Onto parent card item budget job baby fine. Professor pressure need those figure.","estimatedTime":"6 weeks","previewFileId":"4e2afb5d-8f8d-4666-bc3b-bf7d86c17322","createdByUserId":"5f526aaa-9c6c-4ff4-9370-cd31d899553c"}'

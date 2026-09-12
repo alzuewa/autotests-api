@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/c786a201-fd97-4b17-a301-9cddef30f67d'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEyVDEzOjAzOjIwLjc0MzQwNCIsInVzZXJfaWQiOiI1OWE0ZmQ1ZC00YmNjLTQ1MjAtOTRmZS0wNmM3ZDNmMzY3NDAifQ.NxbbwAS26I6lyFxaFgCtV6QmD5CuSjndSkBbE4G4y74'\
+ -H 'content-length: 208'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Top development call popular.","maxScore":77,"minScore":3,"description":"Finally challenge since look record if small. Other more heart. Firm consider off forget however.","estimatedTime":"6 weeks"}'

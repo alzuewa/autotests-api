@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEyVDEzOjAzOjIzLjM3MzgyNCIsInVzZXJfaWQiOiI1MzA0NjdmZS1iMzM1LTRiNTgtOTQxZS1jY2Y0YzFjYmQ4ODkifQ.KXLt67mAMvBMPaQzSBOZYOElDptD45pMaIYMhFUpPCk'\
+ -H 'content-length: 314'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Finally staff nothing finish.","maxScore":61,"minScore":19,"description":"Want state crime laugh both maintain. Boy wonder establish thought every. Meet heavy body.","estimatedTime":"8 weeks","previewFileId":"32d75832-1694-4b2f-975f-faeb7399ad0e","createdByUserId":"530467fe-b335-4b58-941e-ccf4c1cbd889"}'
