@@ -1,0 +1,20 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Send POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response: 200, reason: OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:73 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals "Entire brother sister soon into."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals "94"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals "7"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals "Degree recent story do soldier his. House seem begin walk major pull sense.
+Out product guy story. Rather stuff would sign pass base example."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "3 weeks"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals "3 weeks"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "preview_file" equals "ad7a3d3c-25e1-43cc-b33d-a55c380a7a68"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "created_by_user" equals "e2d806c3-8d18-4504-9f97-6dd0d95529d3"
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTE5VDEzOjE4OjI3LjIxMDk4MiIsInVzZXJfaWQiOiJhNmZkYjY2OC1iOTAxLTQ1N2MtYTljMC1mOTkxZmRlYjFjMTkifQ.bGeFNkhhwEp-2ltnUHkkgodw9cgTgJXA_dfXXe6tjAg'\
+ -H 'content-length: 385'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Agreement hope the college few western.","maxScore":74,"minScore":9,"description":"Provide out item lay. Start American great commercial off.\nProtect arm film character us. Cut about rich might appear heart risk. Method small contain.","estimatedTime":"8 weeks","previewFileId":"207dcb3c-a729-4142-8978-a2ca4696f825","createdByUserId":"a6fdb668-b901-457c-a9c0-f991fdeb1c19"}'

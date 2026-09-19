@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTE5VDEzOjE4OjI4LjIwOTQ5NiIsInVzZXJfaWQiOiJlZDBkYzM5NS02OGIyLTRiOTYtYmMzOC1kNjliZDY1NWFjYTIifQ.Ro-9lVpSTTVynEQq8xxnA5fVGae_s2QJ9jLloMtWHbk'\
+ -H 'content-length: 405'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Important mean above against minute.","maxScore":64,"minScore":15,"description":"Many receive good have better floor page nation. Research administration service modern to stand. Everything reveal five knowledge.\nCover than organization bar effect carry.","estimatedTime":"9 weeks","previewFileId":"49244166-683d-417a-a383-b1f60895b4d9","createdByUserId":"ed0dc395-68b2-4b96-bc38-d69bd655aca2"}'

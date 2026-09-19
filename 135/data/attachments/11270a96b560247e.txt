@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/exercises/4e3c786a-3920-40f2-8302-4effd0b96af3'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTE5VDEzOjE4OjI3LjIxMDk4MiIsInVzZXJfaWQiOiJhNmZkYjY2OC1iOTAxLTQ1N2MtYTljMC1mOTkxZmRlYjFjMTkifQ.bGeFNkhhwEp-2ltnUHkkgodw9cgTgJXA_dfXXe6tjAg'\
+ -H 'content-length: 287'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Forward pull mind no.","maxScore":66,"minScore":27,"orderIndex":4,"description":"Red pretty trip time. Relationship table receive feel watch society purpose.\nTry education where eye none nor. Head end street. We nor position nation me always thing.","estimatedTime":"8 weeks"}'

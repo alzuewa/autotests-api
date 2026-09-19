@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTE5VDEzOjE4OjI3LjQ4NTg3OCIsInVzZXJfaWQiOiJkMDk5OTY2NS00ZjcyLTQ0MGMtYmU3Zi05OGRkODVlZjFlYmYifQ.sNCR-N_49e40dZNSN45rCuwvZkS772Mli1wcb6ZjXX4'\
+ -H 'content-length: 329'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Establish collection for talk draw new teach need.","maxScore":61,"minScore":2,"description":"Too run buy wife listen size. Usually action also water. People fine subject mission.","estimatedTime":"2 weeks","previewFileId":"ad6264ed-e5a3-4e4a-8e08-989bac657035","createdByUserId":"d0999665-4f72-440c-be7f-98dd85ef1ebf"}'

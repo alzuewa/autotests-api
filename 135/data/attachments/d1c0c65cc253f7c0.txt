@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTE5VDEzOjE4OjI3LjQ4NTg3OCIsInVzZXJfaWQiOiJkMDk5OTY2NS00ZjcyLTQ0MGMtYmU3Zi05OGRkODVlZjFlYmYifQ.sNCR-N_49e40dZNSN45rCuwvZkS772Mli1wcb6ZjXX4'\
+ -H 'content-length: 353'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Score trip than might decision attack.","courseId":"57a28111-5738-4e59-b0fe-67ba4c2177f4","maxScore":99,"minScore":25,"orderIndex":61,"description":"Large ground try. Friend no range ever firm spring.\nProperty hair entire expert seem forget. Respond behind politics. Successful line media including reveal natural.","estimatedTime":"7 weeks"}'

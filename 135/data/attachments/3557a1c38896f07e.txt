@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTE5VDEzOjE4OjI1LjEwNjY4MyIsInVzZXJfaWQiOiJlMmQ4MDZjMy04ZDE4LTQ1MDQtOWY5Ny02ZGQwZDk1NTI5ZDMifQ.wLNjuVYtKQWySu_iJhzUSO73oKsD76KNXuQRlsV4A88'\
+ -H 'content-length: 368'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Entire brother sister soon into.","maxScore":94,"minScore":7,"description":"Degree recent story do soldier his. House seem begin walk major pull sense.\nOut product guy story. Rather stuff would sign pass base example.","estimatedTime":"3 weeks","previewFileId":"ad7a3d3c-25e1-43cc-b33d-a55c380a7a68","createdByUserId":"e2d806c3-8d18-4504-9f97-6dd0d95529d3"}'

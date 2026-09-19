@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTE5VDEzOjE4OjI1LjY5MzYzMiIsInVzZXJfaWQiOiJhZWRlNDMxZS04ZmU5LTRiZjAtYjNlMi1iY2JjNDIzMzBmZjYifQ.Id3hn_x-TDcD5psJDxoLjs26rz44gCOM3mEqptbdNaM'\
+ -H 'content-length: 334'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Across deal good computer teacher drug.","maxScore":99,"minScore":6,"description":"Situation me benefit generation my trip main. Enough when including door. Beautiful among defense ok.","estimatedTime":"3 weeks","previewFileId":"812d9633-09d6-458b-bdc4-3b20a173bc57","createdByUserId":"aede431e-8fe9-4bf0-b3e2-bcbc42330ff6"}'
