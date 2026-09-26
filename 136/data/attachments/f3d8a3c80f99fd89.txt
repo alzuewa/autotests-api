@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTI2VDE0OjAzOjIwLjM5MTYwMCIsInVzZXJfaWQiOiJiNGNiY2U3YS1mNmM0LTQzOTUtOTM4NS03ZTg1OWEyOWZlY2IifQ.uNsXuM5BCstJyn9prRAaecJAyDd87qmUPt5XjQ5TN2U'\
+ -H 'content-length: 368'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Nor born staff good next.","maxScore":70,"minScore":4,"description":"Young type six even debate. Recent week reduce instead. Front individual during so family laugh.\nRun figure beat store. Cut evening onto stop story.","estimatedTime":"8 weeks","previewFileId":"03077453-a34d-474a-bba1-21e01987d52e","createdByUserId":"b4cbce7a-f6c4-4395-9385-7e859a29fecb"}'

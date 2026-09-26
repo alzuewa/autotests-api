@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/90c04ebf-9613-4d06-82be-9b89904d7fd1'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTI2VDE0OjAzOjIxLjY2NjU1OSIsInVzZXJfaWQiOiJiNmE5MDFkZC0xNTZkLTQ0MGEtODYzMy1mOGUyZGI0MWJmOWEifQ.UwCgUP2RE9_7mybEht60fWMtnPn3Um7pHL2AJexV928'\
+ -H 'content-length: 310'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Letter protect woman whole between.","maxScore":76,"minScore":30,"description":"Size card assume up performance company since put. Same article fly amount.\nWhite crime country low analysis bank. None modern often behavior write current list. Daughter play by himself war.","estimatedTime":"8 weeks"}'

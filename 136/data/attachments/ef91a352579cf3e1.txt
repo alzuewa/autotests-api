@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTI2VDE0OjAzOjIzLjgzMjIwMyIsInVzZXJfaWQiOiI2OTEwNjlmZC05MGFlLTRiNGYtYTJhOC02NGM1OTdjNTdjZjMifQ.uxsVetuBYTSgyIn82OHl7zhfZAsjVl9feWgWk3N_uAI'\
+ -H 'content-length: 327'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Gas have because door leg.","maxScore":61,"minScore":17,"description":"Administration billion likely bed ago. Before computer whose able road. Certainly man six nor answer long.","estimatedTime":"4 weeks","previewFileId":"892f985b-2a8c-4346-ac33-1420ce6743b5","createdByUserId":"691069fd-90ae-4b4f-a2a8-64c597c57cf3"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTI2VDE0OjAzOjIzLjIyMzc5MiIsInVzZXJfaWQiOiI2M2VmZGNlMS01NDdhLTQzMWMtODhmNC01OTc4NjcwM2U2ODIifQ.LJFHG3RRQnLs12M_eYOtgW4VaiptLeCTJxt4PT-CcLY'\
+ -H 'content-length: 440'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Treatment major every song financial fine occur source.","maxScore":93,"minScore":8,"description":"Success very fire organization avoid. A simply major since phone community face. Nothing between reduce.\nTest culture box outside house. Several doctor them he. Often but good bring us unit.","estimatedTime":"4 weeks","previewFileId":"9c667bd7-3e67-4710-b498-3900ac35a7fd","createdByUserId":"63efdce1-547a-431c-88f4-59786703e682"}'

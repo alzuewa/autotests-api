@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTI2VDE0OjAzOjIyLjE2ODkxMyIsInVzZXJfaWQiOiIzYWJhZjZhZi1hZGRhLTQ2ZjctYjliNi01ZDQ4ZjA2YzdkYzEifQ.H-EJ56GpYTUuyp_T7QebZZtNsFPy3ZwVrS7fPOMV-7w'\
+ -H 'content-length: 358'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Toward reason skill article security serious will.","courseId":"fa0e1ea1-5a2f-4eb6-9959-b555c90a94aa","maxScore":82,"minScore":14,"orderIndex":6,"description":"Natural particular experience everyone south how lay tree. Early travel series about worker American loss. Check spend option picture imagine case several risk.","estimatedTime":"5 weeks"}'
